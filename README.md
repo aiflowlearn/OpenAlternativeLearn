@@ -1,8 +1,8 @@
 # OpenAlternativeLearn
 
-Open-source alternatives with Codex courses and interactive classrooms.
+Quickly understand open-source repo architecture and tech choices through interactive courses with PPTs.
 
-A curated awesome-list of open-source alternatives, extended with Codex HTML courses and interactive classroom previews.
+A curated open-source alternatives directory where each project can grow into an architecture walkthrough, technical stack analysis, and an interactive course with PPT-style slides.
 
 Website: [https://open.aiflowlearn.net](https://open.aiflowlearn.net)
 
