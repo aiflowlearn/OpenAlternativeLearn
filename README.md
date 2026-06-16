@@ -6,7 +6,105 @@ A curated awesome-list of open-source alternatives, extended with Codex HTML cou
 
 Website: [https://open.aiflowlearn.net](https://open.aiflowlearn.net)
 
-## Directory
+## Contents
+
+- [AI & Machine Learning](#ai-machine-learning)
+  - [AI Development Platforms](#ai-development-platforms)
+  - [Machine Learning Infrastructure](#machine-learning-infrastructure)
+  - [AI Security & Privacy](#ai-security-privacy)
+  - [AI Interaction & Interfaces](#ai-interaction-interfaces)
+- [Business Software](#business-software)
+  - [CRM & Sales](#crm-sales)
+  - [ERP & Operations](#erp-operations)
+  - [Finance & Accounting](#finance-accounting)
+  - [Human Resources (HR)](#human-resources-hr)
+  - [Marketing & Customer Engagement](#marketing-customer-engagement)
+  - [Customer Support & Success](#customer-support-success)
+  - [E-commerce Platforms](#e-commerce-platforms)
+  - [Project & Work Management](#project-work-management)
+  - [Collaboration & Communication](#collaboration-communication)
+  - [Scheduling & Event Management](#scheduling-event-management)
+  - [Document Management & E-Signatures](#document-management-e-signatures)
+  - [Forms & Surveys](#forms-surveys)
+  - [Compliance & Risk Management](#compliance-risk-management)
+  - [Legal](#legal)
+- [Community & Social](#community-social)
+  - [Social Networking](#social-networking)
+  - [Community Building Platforms](#community-building-platforms)
+  - [Collaboration & Feedback](#collaboration-feedback)
+- [Content & Publishing](#content-publishing)
+  - [Content Management Systems (CMS)](#content-management-systems-cms)
+  - [Community Platforms](#community-platforms)
+  - [Documentation & Knowledge Base](#documentation-knowledge-base)
+  - [Learning Management Systems (LMS)](#learning-management-systems-lms)
+  - [Digital Asset Management (DAM)](#digital-asset-management-dam)
+  - [Publishing](#publishing)
+  - [Blogging & Personal Sites](#blogging-personal-sites)
+- [Data & Analytics](#data-analytics)
+  - [Web & Product Analytics](#web-product-analytics)
+  - [Business Intelligence & Reporting](#business-intelligence-reporting)
+  - [Data Engineering & Integration](#data-engineering-integration)
+  - [Data Warehousing & Processing](#data-warehousing-processing)
+  - [Data Extraction & Web Scraping](#data-extraction-web-scraping)
+- [Developer Tools](#developer-tools)
+  - [Website Builders](#website-builders)
+  - [IDEs & Code Editors](#ides-code-editors)
+  - [Frameworks & Platforms](#frameworks-platforms)
+  - [API Development & Testing](#api-development-testing)
+  - [Testing & Quality Assurance](#testing-quality-assurance)
+  - [Version Control & Collaboration](#version-control-collaboration)
+  - [Code Analysis & Transformation](#code-analysis-transformation)
+  - [Build & Deployment](#build-deployment)
+  - [Integration Platforms](#integration-platforms)
+  - [AI Assisted Coding](#ai-assisted-coding)
+  - [Terminals](#terminals)
+- [Infrastructure & Operations](#infrastructure-operations)
+  - [Search Engines](#search-engines)
+  - [Cloud Infrastructure Management](#cloud-infrastructure-management)
+  - [Server & VM Management](#server-vm-management)
+  - [Monitoring & Observability](#monitoring-observability)
+  - [Databases](#databases)
+  - [Networking & Connectivity](#networking-connectivity)
+  - [Orchestration & Scheduling](#orchestration-scheduling)
+  - [Messaging & Event Streaming](#messaging-event-streaming)
+  - [Storage Solutions](#storage-solutions)
+  - [Backup & Recovery](#backup-recovery)
+- [Miscellaneous](#miscellaneous)
+  - [Finance & Fintech](#finance-fintech)
+  - [Design & Prototyping](#design-prototyping)
+  - [Cryptocurrency & Blockchain](#cryptocurrency-blockchain)
+  - [Gaming](#gaming)
+  - [Internet of Things (IoT)](#internet-of-things-iot)
+  - [Logistics & Supply Chain](#logistics-supply-chain)
+  - [Media & Streaming](#media-streaming)
+  - [Photo & Video Editors](#photo-video-editors)
+- [Productivity & Utilities](#productivity-utilities)
+  - [Note Taking & Knowledge Management](#note-taking-knowledge-management)
+  - [Password & Secret Management](#password-secret-management)
+  - [Screen Capture & Recording](#screen-capture-recording)
+  - [File Management & Sync](#file-management-sync)
+  - [Email & Communication](#email-communication)
+  - [Automation](#automation)
+  - [Time & Task Management](#time-task-management)
+  - [Personal Finance Management](#personal-finance-management)
+  - [Design & Visualization](#design-visualization)
+  - [Bookmark & Content Management](#bookmark-content-management)
+  - [Remote Desktop & Access](#remote-desktop-access)
+  - [Browsers & Extensions](#browsers-extensions)
+  - [Input & Dictation](#input-dictation)
+  - [Office Suites](#office-suites)
+- [Security & Privacy](#security-privacy)
+  - [Identity & Access Management (IAM)](#identity-access-management-iam)
+  - [Secrets Management](#secrets-management)
+  - [Threat Detection & Response](#threat-detection-response)
+  - [Network Security](#network-security)
+  - [Data Security & Privacy](#data-security-privacy)
+  - [Application Security](#application-security)
+  - [Fraud Prevention](#fraud-prevention)
+
+## AI & Machine Learning
+
+### AI Development Platforms
 
 | Project | License | Stars | Codex | Classroom |
 | --- | --- | ---: | --- | --- |
@@ -53,13 +151,49 @@ Website: [https://open.aiflowlearn.net](https://open.aiflowlearn.net)
 | [Suna](https://open.aiflowlearn.net/suna) - Open source AI assistant that executes complex tasks from market research to travel planning through natural conversation, with full transparency and community-driven development. [Repo](https://github.com/kortix-ai/suna) | Apache-2.0 | ⭐ 20K | Coming soon | Coming soon |
 | [Supermemory](https://open.aiflowlearn.net/supermemory) - Add persistent memory to LLM apps with millisecond recall times. Store, retrieve, and personalize user data across sessions with enterprise-grade security. Alternative to LangChain, Pinecone. [Repo](https://github.com/supermemoryai/supermemory) | MIT | ⭐ 27K | Coming soon | Coming soon |
 | [Trieve](https://open.aiflowlearn.net/trieve) - Trieve offers an all-in-one solution for search, recommendations, and RAG with automatic continuous improvement based on user feedback. Alternative to Pinecone, Algolia, ElasticSearch. [Repo](https://github.com/devflowinc/trieve) | MIT | ⭐ 2.7K | Coming soon | Coming soon |
+| [FauxPilot](https://open.aiflowlearn.net/fauxpilot) - FauxPilot - an open-source alternative to GitHub Copilot server Alternative to Github Copilot, Cursor. [Repo](https://github.com/fauxpilot/fauxpilot) | MIT | ⭐ 15K | Coming soon | Coming soon |
+| [YouCompleteMe](https://open.aiflowlearn.net/youcompleteme) - A code-completion & code-comprehension server Alternative to Github Copilot, Cursor. [Repo](https://github.com/ycm-core/ycmd) | GPL-3.0 | ⭐ 1.7K | Coming soon | Coming soon |
+| [ChatRWKV](https://open.aiflowlearn.net/chatrwkv) - ChatRWKV is like ChatGPT but powered by RWKV (100% RNN) language model, and open source. Alternative to ChatGPT, Claude. [Repo](https://github.com/BlinkDL/ChatRWKV) | Apache-2.0 | ⭐ 9.5K | Coming soon | Coming soon |
+| [OpenAssistant](https://open.aiflowlearn.net/openassistant) - OpenAssistant is a chat-based assistant that understands tasks, can interact with third-party systems, and retrieve information dynamically to do so. Alternative to ChatGPT, Claude. [Repo](https://github.com/LAION-AI/Open-Assistant) | Apache-2.0 | ⭐ 37K | Coming soon | Coming soon |
+| [DashPress](https://open.aiflowlearn.net/dashpress) - Generate powerful admin apps without writing a single line of code - Run `npx dashpress` to see some magic! Alternative to Retool, Appsmith. [Repo](https://github.com/dashpresshq/dashpress) | AGPL-3.0 | ⭐ 1.9K | Coming soon | Coming soon |
+| [ILLA](https://open.aiflowlearn.net/illa) - Low-code platform allows you to build business apps, enables you to quickly create internal tools such as dashboard, crud app, admin panel, crm, cms, etc. Supports PostgreSQL, MySQL, Supabase, GraphQL, MongoDB, MSSQL, Rest API, Hugging Face, Redis, etc. Automate workflows with schedule or webhook. Open source Retool. Alternative to Retool, Appsmith. [Repo](https://github.com/illacloud/illa-builder) | Apache-2.0 | ⭐ 12K | Coming soon | Coming soon |
+| [Openblocks](https://open.aiflowlearn.net/openblocks) - 🔥 🔥 🔥 The Open Source Retool Alternative Alternative to Retool, Appsmith. [Repo](https://github.com/openblocks-dev/openblocks) | AGPL-3.0 | ⭐ 6.2K | Coming soon | Coming soon |
+| [CozoDB](https://open.aiflowlearn.net/cozodb) - A transactional, relational-graph-vector database that uses Datalog for query. The hippocampus for AI! Alternative to Pinecone, Weaviate. [Repo](https://github.com/cozodb/cozo) | MPL-2.0 | ⭐ 4K | Coming soon | Coming soon |
+
+### Machine Learning Infrastructure
+
+| Project | License | Stars | Codex | Classroom |
+| --- | --- | ---: | --- | --- |
+| [Beam](https://open.aiflowlearn.net/beam) - Run AI workloads with sub-second cold starts, elastic GPU scaling, and secure sandboxed environments. Scale to zero when idle, burst to thousands instantly. Alternative to Together Sandbox, Vertex AI, Modal. [Repo](https://github.com/beam-cloud/beta9/) | AGPL-3.0 | ⭐ 1.7K | Coming soon | Coming soon |
+| [Daytona](https://open.aiflowlearn.net/daytona) - Elastic sandbox infrastructure for running AI-generated code with sub-90ms environment creation, stateful operations, and isolated execution across Python, TypeScript, Go, and more. Alternative to Together Sandbox, Modal, Sprites. [Repo](https://github.com/daytonaio/daytona/) | AGPL-3.0 | ⭐ 72K | [Codex](https://www.aiflowlearn.net/codex/daytonaio-daytona) | Coming soon |
+| [Laminar](https://open.aiflowlearn.net/laminar) - Laminar is an open-source platform that helps collect, understand, and utilize data for building high-quality LLM applications. Alternative to LangChain, Pinecone. [Repo](https://github.com/lmnr-ai/lmnr) | Apache-2.0 | ⭐ 3K | Coming soon | Coming soon |
+| [Letta](https://open.aiflowlearn.net/letta) - Letta is an open-source platform for creating AI agents with built-in memory, reasoning, and support for thousands of tools. Alternative to Perplexity, LangChain, Pinecone. [Repo](https://github.com/letta-ai/letta) | Apache-2.0 | ⭐ 23K | Coming soon | Coming soon |
+| [Mem0](https://open.aiflowlearn.net/mem0) - Adds persistent, searchable memory to AI agents and apps, so they remember user preferences and past interactions across sessions without pipeline changes. Alternative to LangChain, Pinecone, Vertex AI. [Repo](https://github.com/mem0ai/mem0) | Apache-2.0 | ⭐ 58K | [Codex](https://www.aiflowlearn.net/codex/mem0-ai-memory-layer) | [Classroom](https://www.aiflowlearn.net/classrooms/7bed9716-ba55-4442-b3f3-3cbb22343d0a) |
+| [OpenLIT](https://open.aiflowlearn.net/openlit) - Open-source observability platform for GenAI and LLM applications. Real-time monitoring, distributed tracing, prompt management, and AI model evaluation built on OpenTelemetry. Alternative to LangSmith, Humanloop, Weights. [Repo](https://github.com/openlit/openlit) | Apache-2.0 | ⭐ 2.5K | Coming soon | Coming soon |
+| [Supermemory](https://open.aiflowlearn.net/supermemory) - Add persistent memory to LLM apps with millisecond recall times. Store, retrieve, and personalize user data across sessions with enterprise-grade security. Alternative to LangChain, Pinecone. [Repo](https://github.com/supermemoryai/supermemory) | MIT | ⭐ 27K | Coming soon | Coming soon |
 | [Activeloop](https://open.aiflowlearn.net/activeloop) - Deep Lake is an open-source database for storing, querying and managing complex AI data like images, audio, and embeddings. Alternative to Snowflake, Pinecone, BigQuery. [Repo](https://github.com/activeloopai/deeplake) | Apache-2.0 | ⭐ 9.2K | Coming soon | Coming soon |
 | [Chroma](https://open.aiflowlearn.net/chroma) - Open-source vector database designed for AI applications. Store, search, and retrieve embeddings with semantic similarity matching and metadata filtering. Alternative to Supabase, Pinecone, ElasticSearch. [Repo](https://github.com/chroma-core/chroma) | Apache-2.0 | ⭐ 28K | Coming soon | Coming soon |
 | [Deepnote](https://open.aiflowlearn.net/deepnote) - Deepnote is an open-source collaborative notebook for data analysts and scientists, combining Python, SQL, AI assistance, and live sharing in one cloud platform. Alternative to Snowflake, Tableau, Hex. [Repo](https://github.com/deepnote/deepnote) | Apache-2.0 | ⭐ 2.9K | Coming soon | Coming soon |
 | [Helicone](https://open.aiflowlearn.net/helicone) - Open-source platform for logging, monitoring, and debugging LLM applications. Route, debug, and analyze AI apps with comprehensive observability tools. Alternative to DataDog, LangSmith, LangChain. [Repo](https://github.com/helicone/helicone) | Apache-2.0 | ⭐ 5.8K | [Codex](https://www.aiflowlearn.net/codex/helicone) | Coming soon |
 | [mlop](https://open.aiflowlearn.net/mlop) - Open source platform for ML engineers to track metrics, parameters, and gradients in real-time. Features Git integration, alerts, and seamless workflow integration. [Repo](https://github.com/mlop-ai/mlop) | Apache-2.0 | ⭐ 385 | Coming soon | Coming soon |
 | [Weaviate](https://open.aiflowlearn.net/weaviate) - Open-source vector database designed for building powerful, production-ready AI applications with hybrid search capabilities and flexible deployment options. Alternative to Supabase, Pinecone. [Repo](https://github.com/weaviate/weaviate) | BSD-3-Clause | ⭐ 16K | Coming soon | Coming soon |
+
+### AI Security & Privacy
+
+| Project | License | Stars | Codex | Classroom |
+| --- | --- | ---: | --- | --- |
+| [LiteLLM](https://open.aiflowlearn.net/litellm) - Acts as a unified proxy across 100+ LLMs, normalizing them to the OpenAI format while handling virtual keys, budgets, rate limits, fallbacks, and cost tracking. Alternative to LangChain, Eden AI, OpenRouter. [Repo](https://github.com/berriai/litellm) | Unknown | ⭐ 50K | [Codex](https://www.aiflowlearn.net/codex/berriai-litellm) | Coming soon |
 | [Proxed AI](https://open.aiflowlearn.net/proxed-ai) - A secure proxy service that protects AI API keys using Apple DeviceCheck, enabling safe integration of ChatGPT, Claude, and other AI models in iOS apps [Repo](https://github.com/nech-ai/proxed) | AGPL-3.0 | ⭐ 7 | Coming soon | Coming soon |
+
+### AI Interaction & Interfaces
+
+| Project | License | Stars | Codex | Classroom |
+| --- | --- | ---: | --- | --- |
+| [Parlant](https://open.aiflowlearn.net/parlant) - A conversational AI server that manages agent behavior through context-aware guidelines, keeping responses consistent, auditable, and aligned at scale. Alternative to Voiceflow, Chatbase, Uchat. [Repo](https://github.com/emcie-co/parlant) | Apache-2.0 | ⭐ 18K | Coming soon | Coming soon |
+| [CopilotKit](https://open.aiflowlearn.net/copilotkit) - Integrate production-ready AI copilots into any product quickly and easily with CopilotKit's open-source platform. [Repo](https://github.com/CopilotKit/CopilotKit) | MIT | ⭐ 35K | [Codex](https://www.aiflowlearn.net/codex/copilotkit-copilotkit) | Coming soon |
+| [LibreChat](https://open.aiflowlearn.net/librechat) - Chat with multiple AI providers through a single self-hostable interface, with support for custom agents, file uploads, plugins, and multi-user access control. Alternative to Claude, Grok, ChatGPT. [Repo](https://github.com/danny-avila/librechat) | MIT | ⭐ 39K | Coming soon | Coming soon |
+| [LobeChat](https://open.aiflowlearn.net/lobechat) - A collaborative platform to create, schedule, and operate AI agents that handle long-running tasks, team workflows, and automated jobs without constant oversight. Alternative to Claude, Grok, ChatGPT. [Repo](https://github.com/lobehub/lobe-chat) | Unknown | ⭐ 79K | [Codex](https://www.aiflowlearn.net/codex/lobe-chat-multi-agent) | Coming soon |
+| [Trieve](https://open.aiflowlearn.net/trieve) - Trieve offers an all-in-one solution for search, recommendations, and RAG with automatic continuous improvement based on user feedback. Alternative to Pinecone, Algolia, ElasticSearch. [Repo](https://github.com/devflowinc/trieve) | MIT | ⭐ 2.7K | Coming soon | Coming soon |
 | [5ire](https://open.aiflowlearn.net/5ire) - Cross-platform desktop AI assistant supporting multiple providers, local knowledge base, and custom prompts. Integrates MCP protocol for enhanced AI tool capabilities. Alternative to Claude, ChatGPT, TypingMind. [Repo](https://github.com/nanbingxyz/5ire) | Unknown | ⭐ 5.2K | Coming soon | Coming soon |
 | [Amical](https://open.aiflowlearn.net/amical) - Open source AI dictation app that transforms speech to text with context-aware formatting. Fast, accurate transcription for meetings, notes, and hands-free typing. Alternative to Wispr Flow, Superwhisper, Otter.ai. [Repo](https://github.com/amicalhq/amical) | MIT | ⭐ 1.4K | Coming soon | Coming soon |
 | [AnythingLLM](https://open.aiflowlearn.net/anythingllm) - A desktop and self-hostable AI app for chatting with documents, running local LLMs, and using AI agents without writing code or creating an account. Alternative to Claude, Grok, ChatGPT. [Repo](https://github.com/mintplex-labs/anything-llm) | MIT | ⭐ 62K | Coming soon | Coming soon |
@@ -96,6 +230,17 @@ Website: [https://open.aiflowlearn.net](https://open.aiflowlearn.net)
 | [VT Chat](https://open.aiflowlearn.net/vt-chat) - A production-ready, privacy-focused AI chat application delivering AI capabilities through a dual-tier subscription system. Built with modern web technologies and a privacy-first architecture. Alternative to Claude, Grok, ChatGPT. [Repo](https://github.com/vinhnx/vtchat) | MIT | ⭐ 51 | Coming soon | Coming soon |
 | [Zero](https://open.aiflowlearn.net/zero) - Self-hostable email client that connects to your existing accounts and gives you full control over your data, interface, and inbox experience. Alternative to Gmail, Apple Mail, Lindy. [Repo](https://github.com/mail-0/zero) | MIT | ⭐ 11K | Coming soon | Coming soon |
 | [Zola](https://open.aiflowlearn.net/zola) - Open-source chat application that lets you interact with multiple AI models in one interface, offering flexible conversations and diverse capabilities. Alternative to Claude, Grok, ChatGPT. [Repo](https://github.com/ibelick/zola) | Apache-2.0 | ⭐ 1.5K | Coming soon | Coming soon |
+| [ChatRWKV](https://open.aiflowlearn.net/chatrwkv) - ChatRWKV is like ChatGPT but powered by RWKV (100% RNN) language model, and open source. Alternative to ChatGPT, Claude. [Repo](https://github.com/BlinkDL/ChatRWKV) | Apache-2.0 | ⭐ 9.5K | Coming soon | Coming soon |
+| [OpenAssistant](https://open.aiflowlearn.net/openassistant) - OpenAssistant is a chat-based assistant that understands tasks, can interact with third-party systems, and retrieve information dynamically to do so. Alternative to ChatGPT, Claude. [Repo](https://github.com/LAION-AI/Open-Assistant) | Apache-2.0 | ⭐ 37K | Coming soon | Coming soon |
+
+
+## Business Software
+
+### CRM & Sales
+
+| Project | License | Stars | Codex | Classroom |
+| --- | --- | ---: | --- | --- |
+| [Open Mercato](https://open.aiflowlearn.net/open-mercato) - A modular CRM/ERP framework built on Next.js and TypeScript that encodes hundreds of architectural decisions so dev teams can ship production features in days, not months. Alternative to SAP, Retool. [Repo](https://github.com/open-mercato/open-mercato) | MIT | ⭐ 1.4K | Coming soon | Coming soon |
 | [Atomic CRM](https://open.aiflowlearn.net/atomic-crm) - Build a customizable CRM that matches your company's vision, designed for developers and loved by end users. Alternative to HubSpot, Salesforce, Attio. [Repo](https://github.com/marmelab/atomic-crm) | MIT | ⭐ 1.1K | Coming soon | Coming soon |
 | [Erxes](https://open.aiflowlearn.net/erxes) - All-in-one solution for marketing, sales, and customer service. Boost engagement, streamline workflows, and drive growth. Alternative to HubSpot, Zendesk, Salesforce. [Repo](https://github.com/erxes/erxes) | Unknown | ⭐ 4K | Coming soon | Coming soon |
 | [EspoCRM](https://open.aiflowlearn.net/espocrm) - Open-source CRM software for managing customers, companies, projects and opportunities. Intuitive interface with cloud and self-hosted options available. Alternative to HubSpot, Salesforce, Attio. [Repo](https://github.com/espocrm/espocrm) | AGPL-3.0 | ⭐ 3K | Coming soon | Coming soon |
@@ -106,9 +251,23 @@ Website: [https://open.aiflowlearn.net](https://open.aiflowlearn.net)
 | [Odoo](https://open.aiflowlearn.net/odoo) - Integrated suite of business apps covering accounting, CRM, inventory, eCommerce, HR, and project management, available free as Community or paid Enterprise edition. Alternative to HubSpot, SAP, Salesforce. [Repo](https://github.com/odoo/odoo) | Unknown | ⭐ 52K | Coming soon | Coming soon |
 | [Relaticle](https://open.aiflowlearn.net/relaticle) - Transform customer relationships with this intuitive open-source CRM. Features task management, sales pipeline tracking, and customizable data models. Alternative to HubSpot, Salesforce, Attio. [Repo](https://github.com/relaticle/relaticle) | AGPL-3.0 | ⭐ 1.3K | Coming soon | Coming soon |
 | [Twenty](https://open.aiflowlearn.net/twenty) - Self-hostable CRM built for technical teams who need a fully customizable, extensible platform without vendor lock-in or proprietary tooling. Alternative to HubSpot, Salesforce, Attio. [Repo](https://github.com/twentyhq/twenty) | AGPL-3.0 | ⭐ 50K | Coming soon | Coming soon |
+
+### ERP & Operations
+
+| Project | License | Stars | Codex | Classroom |
+| --- | --- | ---: | --- | --- |
+| [Open Mercato](https://open.aiflowlearn.net/open-mercato) - A modular CRM/ERP framework built on Next.js and TypeScript that encodes hundreds of architectural decisions so dev teams can ship production features in days, not months. Alternative to SAP, Retool. [Repo](https://github.com/open-mercato/open-mercato) | MIT | ⭐ 1.4K | Coming soon | Coming soon |
+| [Ever Gauzy](https://open.aiflowlearn.net/ever-gauzy) - All-in-one solution for ERP, CRM, HRM, ATS, and project management to streamline your business operations Alternative to HubSpot, SAP, Salesforce. [Repo](https://github.com/ever-co/ever-gauzy) | AGPL-3.0 | ⭐ 3.7K | Coming soon | Coming soon |
+| [Odoo](https://open.aiflowlearn.net/odoo) - Integrated suite of business apps covering accounting, CRM, inventory, eCommerce, HR, and project management, available free as Community or paid Enterprise edition. Alternative to HubSpot, SAP, Salesforce. [Repo](https://github.com/odoo/odoo) | Unknown | ⭐ 52K | Coming soon | Coming soon |
 | [ERPNext](https://open.aiflowlearn.net/erpnext) - Open-source ERP solution offering modules for accounting, inventory, HR, CRM, and more. Customizable and scalable for businesses of all sizes. Alternative to HubSpot, SAP, Salesforce. [Repo](https://github.com/frappe/erpnext) | GPL-3.0 | ⭐ 36K | Coming soon | Coming soon |
 | [FleetBase](https://open.aiflowlearn.net/fleetbase) - Fleetbase is a comprehensive open source logistics suite offering API, TMS, driver and customer apps for streamlined operations and development. [Repo](https://github.com/fleetbase/fleetbase) | AGPL-3.0 | ⭐ 1.9K | Coming soon | Coming soon |
 | [Shelf](https://open.aiflowlearn.net/shelf) - Simplify asset tracking, boost productivity, and gain real-time insights with our user-friendly, open-source inventory solution. [Repo](https://github.com/shelf-nu/shelf.nu) | AGPL-3.0 | ⭐ 2.6K | Coming soon | Coming soon |
+
+### Finance & Accounting
+
+| Project | License | Stars | Codex | Classroom |
+| --- | --- | ---: | --- | --- |
+| [ERPNext](https://open.aiflowlearn.net/erpnext) - Open-source ERP solution offering modules for accounting, inventory, HR, CRM, and more. Customizable and scalable for businesses of all sizes. Alternative to HubSpot, SAP, Salesforce. [Repo](https://github.com/frappe/erpnext) | GPL-3.0 | ⭐ 36K | Coming soon | Coming soon |
 | [Akaunting](https://open.aiflowlearn.net/akaunting) - Self-hostable accounting software covering invoicing, expense tracking, cash flow, and client portals. Free to use, available in 50+ languages. Alternative to Quickbooks, Xero, Bench. [Repo](https://github.com/akaunting/akaunting) | Unknown | ⭐ 9.9K | Coming soon | Coming soon |
 | [Autumn](https://open.aiflowlearn.net/autumn) - Simplify Stripe integration for AI startups with 3 functions, 0 webhooks. Build pricing plans in 30 minutes with usage tracking, credits, and feature controls. Alternative to Stripe Billing, Recurly, Zuora. [Repo](https://github.com/useautumn/autumn) | Apache-2.0 | ⭐ 2.6K | Coming soon | Coming soon |
 | [Bigcapital](https://open.aiflowlearn.net/bigcapital) - Cloud-based accounting software that streamlines bookkeeping, generates intelligent reports, and offers multi-currency support for efficient financial management. Alternative to Quickbooks, Dext, Insightly. [Repo](https://github.com/bigcapitalhq/bigcapital) | AGPL-3.0 | ⭐ 3.7K | Coming soon | Coming soon |
@@ -135,8 +294,22 @@ Website: [https://open.aiflowlearn.net](https://open.aiflowlearn.net)
 | [Spliit](https://open.aiflowlearn.net/spliit) - A user-friendly app for tracking shared expenses, settling debts, and managing group finances with ease and transparency. [Repo](https://github.com/spliit-app/spliit) | MIT | ⭐ 2.8K | Coming soon | Coming soon |
 | [Suprascribe](https://open.aiflowlearn.net/suprascribe) - Free subscription tracker that automatically scans your email to find recurring charges. Privacy-focused discovery with complete spending overview and management tools. Alternative to Rocket Money, Orbit, PocketGuard. [Repo](https://github.com/akomis/suprascribe) | Unknown | ⭐ 7 | Coming soon | Coming soon |
 | [UniBee](https://open.aiflowlearn.net/unibee) - Replace expensive billing solutions with open-source software. Automate subscriptions, accept multiple payments including crypto, and gain real-time revenue insights. Alternative to Stripe Billing, Recurly, Zuora. [Repo](https://github.com/unibee-billing/unibee) | AGPL-3.0 | ⭐ 201 | Coming soon | Coming soon |
+| [SolidInvoice](https://open.aiflowlearn.net/solidinvoice) - Simple and elegant invoicing solution. Alternative to Freshbooks, Quickbooks. [Repo](https://github.com/SolidInvoice/SolidInvoice) | MIT | ⭐ 894 | Coming soon | Coming soon |
+
+### Human Resources (HR)
+
+| Project | License | Stars | Codex | Classroom |
+| --- | --- | ---: | --- | --- |
+| [Ever Gauzy](https://open.aiflowlearn.net/ever-gauzy) - All-in-one solution for ERP, CRM, HRM, ATS, and project management to streamline your business operations Alternative to HubSpot, SAP, Salesforce. [Repo](https://github.com/ever-co/ever-gauzy) | AGPL-3.0 | ⭐ 3.7K | Coming soon | Coming soon |
 | [Horilla](https://open.aiflowlearn.net/horilla) - Horilla is a free, open-source HRMS that streamlines HR processes, from recruitment to offboarding, with customizable modules. Alternative to Workable, Greenhouse, Ashby. [Repo](https://github.com/horilla-opensource/horilla/) | LGPL-2.1 | ⭐ 1.2K | Coming soon | Coming soon |
 | [Reqcore](https://open.aiflowlearn.net/reqcore) - Self-hosted open-source ATS with no per-seat pricing. Full data ownership, modern tech stack, and complete control over your recruitment process. Alternative to Workable, Greenhouse, Ashby. [Repo](https://github.com/reqcore-inc/reqcore) | AGPL-3.0 | ⭐ 32 | Coming soon | Coming soon |
+
+### Marketing & Customer Engagement
+
+| Project | License | Stars | Codex | Classroom |
+| --- | --- | ---: | --- | --- |
+| [Erxes](https://open.aiflowlearn.net/erxes) - All-in-one solution for marketing, sales, and customer service. Boost engagement, streamline workflows, and drive growth. Alternative to HubSpot, Zendesk, Salesforce. [Repo](https://github.com/erxes/erxes) | Unknown | ⭐ 4K | Coming soon | Coming soon |
+| [Krayin](https://open.aiflowlearn.net/krayin) - Open source customer relationship management platform with sales tracking, marketing automation, and customizable workflows for businesses of all sizes. Alternative to HubSpot, Salesforce, Attio. [Repo](https://github.com/krayin/laravel-crm/) | MIT | ⭐ 23K | Coming soon | Coming soon |
 | [Dub Partners](https://open.aiflowlearn.net/dub-partners) - Run affiliate, influencer, and referral programs with flexible reward structures, real-time attribution, and automated global payouts. Alternative to Affonso, Tolt, PartnerStack. [Repo](https://github.com/dubinc/dub) | Unknown | ⭐ 24K | Coming soon | Coming soon |
 | [Novu](https://open.aiflowlearn.net/novu) - Open-source platform for building in-app, email, push, SMS, and chat notifications with a unified API, workflow engine, and embeddable inbox component. Alternative to Customer.io, NotificationAPI, Knock. [Repo](https://github.com/novuhq/novu) | Unknown | ⭐ 39K | Coming soon | Coming soon |
 | [Postiz](https://open.aiflowlearn.net/postiz) - Open-source social media scheduling tool that plans, generates, and publishes posts across 30+ networks with AI assistance, analytics, and team collaboration. Alternative to HootSuite, Buffer, Typefully. [Repo](https://github.com/gitroomhq/postiz-app) | AGPL-3.0 | ⭐ 32K | Coming soon | Coming soon |
@@ -177,6 +350,19 @@ Website: [https://open.aiflowlearn.net](https://open.aiflowlearn.net)
 | [WR.DO](https://open.aiflowlearn.net/wr-do) - WR.DO offers free domain name distribution and short URL generation, built on Cloudflare's infrastructure for reliability and speed. Alternative to TinyURL, Bitly, Short.io. [Repo](https://github.com/oiov/wr.do) | MIT | ⭐ 2.3K | Coming soon | Coming soon |
 | [Wraps](https://open.aiflowlearn.net/wraps) - Build email templates as React components and automations in TypeScript. Deploy to your AWS account with SES integration. Marketing teams edit content without code. Alternative to Resend, Customer.io, SendGrid. [Repo](https://github.com/wraps-team/wraps) | Unknown | ⭐ 46 | Coming soon | Coming soon |
 | [Zammad](https://open.aiflowlearn.net/zammad) - Zammad is an open-source helpdesk software that centralizes customer communications and helps deliver great service experiences efficiently. Alternative to Zendesk, FreshDesk, Open. [Repo](https://github.com/zammad/zammad) | AGPL-3.0 | ⭐ 5.7K | Coming soon | Coming soon |
+
+### Customer Support & Success
+
+| Project | License | Stars | Codex | Classroom |
+| --- | --- | ---: | --- | --- |
+| [Chaskiq](https://open.aiflowlearn.net/chaskiq) - Versatile messaging solution for businesses to engage customers through multiple channels, with AI-powered automation and analytics. Alternative to Manychat, Zendesk, Intercom. [Repo](https://github.com/chaskiq/chaskiq) | Unknown | ⭐ 3.5K | Coming soon | Coming soon |
+| [Chatwoot](https://open.aiflowlearn.net/chatwoot) - Manage customer conversations across live chat, email, WhatsApp, Instagram, and more from one inbox, with an AI assistant that suggests replies and automates common questions. Alternative to Manychat, Zendesk, Intercom. [Repo](https://github.com/chatwoot/chatwoot) | Unknown | ⭐ 31K | Coming soon | Coming soon |
+| [Cossistant](https://open.aiflowlearn.net/cossistant) - Open-source support platform combining AI and human agents. React components with shadcn/ui design philosophy, styled with Tailwind CSS for NextJS apps. Alternative to Zendesk, Intercom, Pylon. [Repo](https://github.com/cossistantcom/cossistant) | AGPL-3.0 | ⭐ 677 | Coming soon | Coming soon |
+| [Frappe Helpdesk](https://open.aiflowlearn.net/frappe-helpdesk) - Frappe Helpdesk consolidates customer issues, automates workflows, and empowers self-service to boost agent productivity and customer satisfaction. Alternative to Zendesk, FreshDesk, Hiver. [Repo](https://github.com/frappe/helpdesk) | AGPL-3.0 | ⭐ 3.2K | Coming soon | Coming soon |
+| [Freescout](https://open.aiflowlearn.net/freescout) - Self-hosted email management system with shared inboxes, automation, and powerful collaboration features for efficient customer support. Alternative to Zendesk, FreshDesk, Hiver. [Repo](https://github.com/freescout-helpdesk/freescout) | AGPL-3.0 | ⭐ 4.3K | Coming soon | Coming soon |
+| [Tiledesk](https://open.aiflowlearn.net/tiledesk) - AI-enhanced live chat platform for seamless customer engagement, featuring chatbots, multichannel support, and advanced analytics. Alternative to Manychat, Voiceflow, Chatbase. [Repo](https://github.com/tiledesk/tiledesk-dashboard) | MIT | ⭐ 321 | Coming soon | Coming soon |
+| [Usertour](https://open.aiflowlearn.net/usertour) - Open-source platform for building interactive product tours, tooltips, and in-app guides to improve user engagement and feature adoption without complex coding Alternative to Userflow, Appcues. [Repo](https://github.com/usertour/usertour) | AGPL-3.0 | ⭐ 2.1K | Coming soon | Coming soon |
+| [Zammad](https://open.aiflowlearn.net/zammad) - Zammad is an open-source helpdesk software that centralizes customer communications and helps deliver great service experiences efficiently. Alternative to Zendesk, FreshDesk, Open. [Repo](https://github.com/zammad/zammad) | AGPL-3.0 | ⭐ 5.7K | Coming soon | Coming soon |
 | [ClearFlask](https://open.aiflowlearn.net/clearflask) - ClearFlask is an open-source platform for collecting, analyzing, and acting on customer feedback to drive product development. Alternative to Featurebase, ProductBoard, Canny. [Repo](https://github.com/clearflask/clearflask) | Apache-2.0 | ⭐ 440 | Coming soon | Coming soon |
 | [Fider](https://open.aiflowlearn.net/fider) - A self-hosted community feedback tool that helps organizations gather, discuss, and prioritize user suggestions and feature requests. Alternative to Featurebase, ProductBoard, Canny. [Repo](https://github.com/getfider/fider) | AGPL-3.0 | ⭐ 4.4K | Coming soon | Coming soon |
 | [Formbricks](https://open.aiflowlearn.net/formbricks) - Collect feedback across websites, apps, and emails with targeted surveys, user segmentation, and GDPR-compliant data handling. Self-host or use the cloud. Alternative to Google Forms, Tally, Typeform. [Repo](https://github.com/formbricks/formbricks) | Unknown | ⭐ 12K | Coming soon | Coming soon |
@@ -184,6 +370,11 @@ Website: [https://open.aiflowlearn.net](https://open.aiflowlearn.net)
 | [Reflet](https://open.aiflowlearn.net/reflet) - Collect feedback, prioritize with AI-powered voting, and share transparent roadmaps. Build products users love with automated triage and seamless integration. Alternative to Featurebase, ProductBoard, Canny. [Repo](https://github.com/damien-schneider/reflet) | Unknown | ⭐ 25 | Coming soon | Coming soon |
 | [SAMA](https://open.aiflowlearn.net/sama) - Open source chat server with end-to-end encryption, clustering support, and comprehensive messaging features for building real-time communication apps Alternative to Discord, Microsoft Teams, Slack. [Repo](https://github.com/sama-communications/sama-server) | GPL-3.0 | ⭐ 156 | Coming soon | Coming soon |
 | [UserTourKit](https://open.aiflowlearn.net/usertourkit) - Headless React tour library with WCAG 2.1 AA accessibility, TypeScript support, and pre-styled components. Under 8KB gzipped with full customization control. Alternative to Userflow, Appcues. [Repo](https://github.com/domidex01/tour-kit) | MIT | ⭐ 47 | Coming soon | Coming soon |
+
+### E-commerce Platforms
+
+| Project | License | Stars | Codex | Classroom |
+| --- | --- | ---: | --- | --- |
 | [Alokai](https://open.aiflowlearn.net/alokai) - A comprehensive Frontend as a Service solution that helps developers create, deploy and manage enterprise ecommerce storefronts with ready integrations and cloud infrastructure. Alternative to Shopify, Adobe Commerce, Sellfy. [Repo](https://github.com/vuestorefront/vue-storefront) | MIT | ⭐ 11K | Coming soon | Coming soon |
 | [Bagisto](https://open.aiflowlearn.net/bagisto) - A flexible eCommerce platform built on Laravel that enables businesses to create marketplaces, mobile apps, and headless commerce solutions Alternative to Shopify, Magento, WooCommerce. [Repo](https://github.com/bagisto/bagisto) | MIT | ⭐ 27K | Coming soon | Coming soon |
 | [Medusa](https://open.aiflowlearn.net/medusa) - Flexible, customizable e-commerce platform with headless architecture, built-in features, and extensive plugin ecosystem for scalable online stores. Alternative to Shopify, Adobe Commerce, Sellfy. [Repo](https://github.com/medusajs/medusa) | MIT | ⭐ 34K | Coming soon | Coming soon |
@@ -193,6 +384,11 @@ Website: [https://open.aiflowlearn.net](https://open.aiflowlearn.net)
 | [Vendure](https://open.aiflowlearn.net/vendure) - A headless, API-first e-commerce framework built on Node.js with TypeScript, offering customization and scalability for online stores. Alternative to Adobe Commerce, Magento, WooCommerce. [Repo](https://github.com/vendure-ecommerce/vendure) | MIT | ⭐ 8.2K | Coming soon | Coming soon |
 | [WooCommerce](https://open.aiflowlearn.net/woocommerce) - Build and manage online stores with customizable features, extensions, and themes for businesses of all sizes. Alternative to Shopify, Adobe Commerce, Magento. [Repo](https://github.com/woocommerce/woocommerce) | Unknown | ⭐ 10K | Coming soon | Coming soon |
 | [Your Next Store (YNS)](https://open.aiflowlearn.net/yournextstore) - Fast, modern e-commerce with instant setup and full customization. Powered by Stripe for seamless transactions. Alternative to Shopify, WooCommerce, Magento. [Repo](https://github.com/yournextstore/yournextstore) | MIT | ⭐ 5.4K | Coming soon | Coming soon |
+
+### Project & Work Management
+
+| Project | License | Stars | Codex | Classroom |
+| --- | --- | ---: | --- | --- |
 | [AppFlowy](https://open.aiflowlearn.net/appflowy) - Open source collaborative workspace combining notes, databases, and AI with full data ownership, offline support, and self-hosting options. Alternative to Notion, Obsidian, OneNote. [Repo](https://github.com/appflowy-io/appflowy) | AGPL-3.0 | ⭐ 72K | Coming soon | Coming soon |
 | [Colanode](https://open.aiflowlearn.net/colanode) - Local-first collaboration platform combining real-time chat, rich text pages, databases, and file management in a single self-hostable workspace. Alternative to Notion, Microsoft Teams, Confluence. [Repo](https://github.com/colanode/colanode) | Apache-2.0 | ⭐ 4.9K | Coming soon | Coming soon |
 | [Donetick](https://open.aiflowlearn.net/donetick) - Organize tasks and chores with intelligent scheduling, fair assignment, and collaboration features. Perfect for families and teams with smart notifications. Alternative to Todoist, TickTick, Google Tasks. [Repo](https://github.com/donetick/donetick) | AGPL-3.0 | ⭐ 2.2K | Coming soon | Coming soon |
@@ -223,6 +419,16 @@ Website: [https://open.aiflowlearn.net](https://open.aiflowlearn.net)
 | [Wekan](https://open.aiflowlearn.net/wekan) - Open-source Kanban board solution offering visual task management, self-hosting capabilities, and robust security features for teams and individuals. Alternative to Monday, Jira, ClickUp. [Repo](https://github.com/wekan/wekan) | MIT | ⭐ 21K | Coming soon | Coming soon |
 | [Windshift](https://open.aiflowlearn.net/windshift) - Self-hosted, open-source project management tool with boards, milestones, portals, time tracking, and test management on your own infrastructure. Alternative to Linear, Jira, ClickUp. [Repo](https://github.com/Windshiftapp/core) | AGPL-3.0 | ⭐ 24 | Coming soon | Coming soon |
 | [Worklenz](https://open.aiflowlearn.net/worklenz) - Worklenz is a comprehensive project management platform that helps agencies organize tasks, track resources, and boost productivity. Alternative to Linear, Monday, Jira. [Repo](https://github.com/worklenz/worklenz) | AGPL-3.0 | ⭐ 3.1K | Coming soon | Coming soon |
+
+### Collaboration & Communication
+
+| Project | License | Stars | Codex | Classroom |
+| --- | --- | ---: | --- | --- |
+| [Colanode](https://open.aiflowlearn.net/colanode) - Local-first collaboration platform combining real-time chat, rich text pages, databases, and file management in a single self-hostable workspace. Alternative to Notion, Microsoft Teams, Confluence. [Repo](https://github.com/colanode/colanode) | Apache-2.0 | ⭐ 4.9K | Coming soon | Coming soon |
+| [Ever Teams](https://open.aiflowlearn.net/ever-teams) - Ever Teams offers an all-in-one solution for work management, time tracking, and team collaboration with integrations for popular tools. Alternative to Linear, Monday, Jira. [Repo](https://github.com/ever-co/ever-teams) | AGPL-3.0 | ⭐ 509 | Coming soon | Coming soon |
+| [Focalboard](https://open.aiflowlearn.net/focalboard) - Self-hostable project management tool with Kanban boards, calendars, and table views, built for teams using Mattermost or standalone. Alternative to Linear, Monday, Jira. [Repo](https://github.com/mattermost/focalboard) | Unknown | ⭐ 26K | Coming soon | Coming soon |
+| [Huly](https://open.aiflowlearn.net/huly) - Combines project management, team chat, virtual office, and collaborative docs into a single platform. A self-hostable alternative to Linear, Jira, Slack, and Notion. Alternative to Notion, Linear, Monday. [Repo](https://github.com/hcengineering/platform) | EPL-2.0 | ⭐ 26K | Coming soon | Coming soon |
+| [Plane](https://open.aiflowlearn.net/plane) - Open source project management platform combining issues, wikis, and AI agents in one workspace. Available on cloud, self-hosted, and air-gapped deployments. Alternative to Linear, Monday, Jira. [Repo](https://github.com/makeplane/plane/) | AGPL-3.0 | ⭐ 51K | Coming soon | Coming soon |
 | [Baserow](https://open.aiflowlearn.net/baserow) - Open-source platform for building databases, internal apps, and automated workflows without writing code. Available on cloud or self-hosted. Alternative to Airtable, Microsoft Excel, Google Sheets. [Repo](https://github.com/bram2w/baserow) | Unknown | ⭐ 5K | Coming soon | Coming soon |
 | [Affine](https://open.aiflowlearn.net/affine) - An open-source, local-first knowledge base that merges structured docs, infinite whiteboards, databases, and AI into a single workspace for teams and creators. Alternative to Notion, OneNote, Confluence. [Repo](https://github.com/toeverything/AFFiNE) | Unknown | ⭐ 69K | Coming soon | Coming soon |
 | [Campfire](https://open.aiflowlearn.net/campfire) - Install your own group chat system with @mentions, DMs, and mobile support. One-time purchase, no monthly fees. Includes full source code for customization. Alternative to Microsoft Teams, Slack, Twist. [Repo](https://github.com/basecamp/once-campfire) | MIT | ⭐ 4.4K | Coming soon | Coming soon |
@@ -251,11 +457,22 @@ Website: [https://open.aiflowlearn.net](https://open.aiflowlearn.net)
 | [Wire](https://open.aiflowlearn.net/wire) - A comprehensive collaboration platform offering end-to-end encrypted messaging, file sharing, and video calls with enterprise-grade security and compliance features. Alternative to Discord, Microsoft Teams, Slack. [Repo](https://github.com/wireapp/wire) | GPL-3.0 | ⭐ 2.5K | Coming soon | Coming soon |
 | [Workadventure](https://open.aiflowlearn.net/workadventure) - Create customizable virtual workspaces for remote teams to interact naturally, host events, and collaborate through spontaneous conversations and scheduled meetings. Alternative to Microsoft Teams, Zoom, Google Meet. [Repo](https://github.com/workadventure/workadventure/) | Unknown | ⭐ 5.5K | Coming soon | Coming soon |
 | [Zulip](https://open.aiflowlearn.net/zulip) - Zulip is an open-source team chat app that uses threaded conversations to keep communication organized and efficient for teams of all sizes. Alternative to Microsoft Teams, Slack, Twist. [Repo](https://github.com/zulip/zulip) | Apache-2.0 | ⭐ 25K | Coming soon | Coming soon |
+
+### Scheduling & Event Management
+
+| Project | License | Stars | Codex | Classroom |
+| --- | --- | ---: | --- | --- |
 | [Cal.com](https://open.aiflowlearn.net/cal-com) - Cal.diy is the community edition of Cal.com for personal self-hosting, with calendar sync, video conferencing, payment support, and a REST API. Alternative to Calendly, Doodle, Savvycal. [Repo](https://github.com/calcom/cal.diy) | MIT | ⭐ 45K | Coming soon | Coming soon |
 | [Chobble Tickets](https://open.aiflowlearn.net/chobble-tickets) - Event ticketing platform with flat £50/year fee, no commission or booking charges. Open source, encrypted, self-hostable with unlimited events and tickets. [Repo](https://github.com/chobbledotcom/tickets) | Unknown | ⭐ 11 | Coming soon | Coming soon |
 | [Easy!Appointments](https://open.aiflowlearn.net/easy-appointments) - Self-hosted appointment scheduling solution with Google Calendar sync, customizable workflows, and no monthly fees. Perfect for healthcare, salons, and service businesses. Alternative to Calendly, Doodle, Savvycal. [Repo](https://github.com/alextselegidis/easyappointments) | GPL-3.0 | ⭐ 4.2K | Coming soon | Coming soon |
 | [Hi.Events](https://open.aiflowlearn.net/hi-events) - Hi.Events is a comprehensive platform for event management and online ticket sales, offering features like QR code check-in, custom ticket types, and embeddable widgets. [Repo](https://github.com/HiEventsDev/hi.events) | Unknown | ⭐ 3.9K | Coming soon | Coming soon |
 | [Rallly](https://open.aiflowlearn.net/rallly) - A user-friendly, open-source tool for coordinating events and meetings without the hassle of back-and-forth emails or messages. Alternative to Calendly, Doodle, Savvycal. [Repo](https://github.com/lukevella/rallly) | AGPL-3.0 | ⭐ 5.1K | Coming soon | Coming soon |
+
+### Document Management & E-Signatures
+
+| Project | License | Stars | Codex | Classroom |
+| --- | --- | ---: | --- | --- |
+| [Sync-in](https://open.aiflowlearn.net/sync-in) - Secure, open-source platform for file storage, sharing, and collaboration. Host your data on your own infrastructure with full control and transparency. Alternative to Google Drive, Microsoft OneDrive, Dropbox. [Repo](https://github.com/sync-in/server) | AGPL-3.0 | ⭐ 1.4K | Coming soon | Coming soon |
 | [Documenso](https://open.aiflowlearn.net/documenso) - Streamline your document workflows with a powerful, privacy-focused e-signature platform that puts you in control of your data. Alternative to DocuSign, PandaDoc, DocSend. [Repo](https://github.com/documenso/documenso) | AGPL-3.0 | ⭐ 13K | Coming soon | Coming soon |
 | [Docuseal](https://open.aiflowlearn.net/docuseal) - DocuSeal is an open source e-signature platform that provides fast, easy document signing with developer-friendly API integration. Alternative to DocuSign, PandaDoc. [Repo](https://github.com/docusealco/docuseal) | AGPL-3.0 | ⭐ 17K | [Codex](https://www.aiflowlearn.net/codex/docusealco-docuseal) | Coming soon |
 | [OpenSign](https://open.aiflowlearn.net/opensign) - A powerful, open-source e-signature solution offering customization, integration, and enhanced security for businesses of all sizes. Alternative to DocuSign, PandaDoc. [Repo](https://github.com/OpenSignLabs/OpenSign) | AGPL-3.0 | ⭐ 6.5K | Coming soon | Coming soon |
@@ -264,6 +481,12 @@ Website: [https://open.aiflowlearn.net](https://open.aiflowlearn.net)
 | [Papra](https://open.aiflowlearn.net/papra) - A document management platform that helps you archive, organize, and search files with email ingestion, tagging capabilities, and powerful search functionality. Alternative to Microsoft 365, Google Drive, Microsoft OneDrive. [Repo](https://github.com/papra-hq/papra) | AGPL-3.0 | ⭐ 4.8K | Coming soon | Coming soon |
 | [Seafile](https://open.aiflowlearn.net/seafile) - Open source file sync and sharing platform with custom properties, AI automation, collaborative editing, and enterprise-grade security for teams. Alternative to Google Drive, Microsoft OneDrive, Dropbox. [Repo](https://github.com/haiwen/seafile) | Unknown | ⭐ 15K | Coming soon | Coming soon |
 | [Wraft](https://open.aiflowlearn.net/wraft) - Complete document lifecycle management with automated generation, approval workflows, e-signatures, and branded templates. Create professional documents at scale. Alternative to DocuSign, PandaDoc. [Repo](https://github.com/wraft/wraft) | AGPL-3.0 | ⭐ 146 | Coming soon | Coming soon |
+
+### Forms & Surveys
+
+| Project | License | Stars | Codex | Classroom |
+| --- | --- | ---: | --- | --- |
+| [Formbricks](https://open.aiflowlearn.net/formbricks) - Collect feedback across websites, apps, and emails with targeted surveys, user segmentation, and GDPR-compliant data handling. Self-host or use the cloud. Alternative to Google Forms, Tally, Typeform. [Repo](https://github.com/formbricks/formbricks) | Unknown | ⭐ 12K | Coming soon | Coming soon |
 | [Formizee](https://open.aiflowlearn.net/formizee) - Formizee is an open-source platform for designing, building, and analyzing forms, offering an affordable all-in-one solution Alternative to Google Forms, Tally, Typeform. [Repo](https://github.com/formizee/formizee) | Apache-2.0 | ⭐ 182 | Coming soon | Coming soon |
 | [HeyForm](https://open.aiflowlearn.net/heyform) - A versatile form builder for crafting custom surveys, quizzes, and data collection tools with advanced features and integrations. Alternative to Google Forms, Tally, Typeform. [Repo](https://github.com/heyform/heyform) | AGPL-3.0 | ⭐ 8.8K | Coming soon | Coming soon |
 | [Ikiform](https://open.aiflowlearn.net/ikiform) - Build beautiful, interactive forms with AI assistance. Open-source alternative to Google Forms with unlimited submissions, advanced analytics, and seamless integrations. Alternative to Google Forms, Tally, Typeform. [Repo](https://github.com/preetsuthar17/ikiform) | MIT | ⭐ 347 | Coming soon | Coming soon |
@@ -271,6 +494,11 @@ Website: [https://open.aiflowlearn.net](https://open.aiflowlearn.net)
 | [OpnForm](https://open.aiflowlearn.net/opnform) - A versatile open-source form builder for collecting data, managing submissions, and integrating with your favorite tools. Alternative to Google Forms, Tally, Typeform. [Repo](https://github.com/JhumanJ/opnform) | AGPL-3.0 | ⭐ 3.5K | Coming soon | Coming soon |
 | [Palform](https://open.aiflowlearn.net/palform) - Build end-to-end encrypted forms with enterprise-grade features, no coding required. Protect sensitive data and enhance user trust. Alternative to Google Forms, Typeform, Jotform. [Repo](https://github.com/palform/palform) | AGPL-3.0 | ⭐ 44 | Coming soon | Coming soon |
 | [Router.so](https://open.aiflowlearn.net/router-so) - Router.so simplifies form management and lead capture with custom endpoints, schema definition, and seamless integrations for marketing-focused developers. Alternative to Google Forms, Tally, Typeform. [Repo](https://github.com/routerso/router) | AGPL-3.0 | ⭐ 375 | Coming soon | Coming soon |
+
+### Compliance & Risk Management
+
+| Project | License | Stars | Codex | Classroom |
+| --- | --- | ---: | --- | --- |
 | [Openlane](https://open.aiflowlearn.net/openlane) - Automates evidence collection, control tracking, and audit reporting across SOC 2, ISO 27001, NIST 800-53, GDPR, and 12+ other frameworks in one platform. Alternative to Vanta, Drata, Scrut. [Repo](https://github.com/theopenlane/core) | Apache-2.0 | ⭐ 261 | Coming soon | Coming soon |
 | [Probo](https://open.aiflowlearn.net/probo) - Compliance management platform where dedicated compliance officers handle your entire program, from risk assessments to audit coordination, with automated evidence collection. Alternative to Vanta, Drata, Scrut. [Repo](https://github.com/getprobo/probo) | MIT | ⭐ 1.2K | Coming soon | Coming soon |
 | [Ballerine](https://open.aiflowlearn.net/ballerine) - Reduce fraud, accelerate underwriting, and maintain compliance with AI-driven merchant risk intelligence for PSPs, banks, and fintechs. Alternative to Seon, SumSub, Feedzai. [Repo](https://github.com/ballerine-io/ballerine) | Unknown | ⭐ 2.4K | Coming soon | Coming soon |
@@ -279,7 +507,21 @@ Website: [https://open.aiflowlearn.net](https://open.aiflowlearn.net)
 | [OpenPolicy](https://open.aiflowlearn.net/openpolicy) - Open-source policy-as-code framework that lets developers create privacy policies, terms of service, and legal agreements using TypeScript with built-in GDPR/CCPA compliance. Alternative to Termly, iubenda. [Repo](https://github.com/jamiedavenport/openpolicy) | Apache-2.0 | ⭐ 153 | Coming soon | Coming soon |
 | [Titan](https://open.aiflowlearn.net/titan) - Streamline role-based access control, enforce security policies, and ensure compliance for your Snowflake data warehouse Alternative to Snowflake, BigQuery, RedShift. [Repo](https://github.com/Titan-Systems/titan) | Apache-2.0 | ⭐ 482 | Coming soon | Coming soon |
 | [VerifyWise](https://open.aiflowlearn.net/verifywise) - Open-source AI governance platform helping teams meet regulatory standards like EU AI Act and ISO 42001. Monitor model performance, manage risks, and maintain compliance with enterprise-grade security. Alternative to Vanta, Drata, Scrut. [Repo](https://github.com/bluewave-labs/verifywise) | AGPL-3.0 | ⭐ 304 | Coming soon | Coming soon |
+
+### Legal
+
+| Project | License | Stars | Codex | Classroom |
+| --- | --- | ---: | --- | --- |
 | [Mike](https://open.aiflowlearn.net/mike) - Self-hostable alternative to Harvey and Legora with document analysis, contract drafting, tabular review, and reusable workflows. Zero licensing costs, full data control. Alternative to Harvey, Legora. [Repo](https://github.com/willchen96/mike) | AGPL-3.0 | ⭐ 3.7K | Coming soon | Coming soon |
+
+
+## Community & Social
+
+### Social Networking
+
+| Project | License | Stars | Codex | Classroom |
+| --- | --- | ---: | --- | --- |
+| [Cinny](https://open.aiflowlearn.net/cinny) - Cinny offers a simple, elegant, and secure interface for Matrix-based conversations, protected by end-to-end encryption. Alternative to Discord, Microsoft Teams, Slack. [Repo](https://github.com/cinnyapp/cinny) | AGPL-3.0 | ⭐ 3.7K | Coming soon | Coming soon |
 | [Bluesky](https://open.aiflowlearn.net/bluesky) - A decentralized social network focused on fostering meaningful interactions and giving users control over their data and experience. Alternative to Facebook, X (Twitter), Threads. [Repo](https://github.com/bluesky-social/social-app) | MIT | ⭐ 18K | Coming soon | Coming soon |
 | [Hey](https://open.aiflowlearn.net/hey) - A blockchain-powered social platform offering censorship-resistant content sharing, user-owned data, and innovative monetization options. Alternative to X (Twitter), Threads. [Repo](https://github.com/heyxyz/hey) | GPL-3.0 | ⭐ 29K | Coming soon | Coming soon |
 | [Lemmy](https://open.aiflowlearn.net/lemmy) - Open-source forum and link aggregator that connects communities across the fediverse. Self-hosted, ad-free, with powerful moderation tools and federation. Alternative to Reddit, Hacker News, Digg. [Repo](https://github.com/lemmynet/lemmy) | AGPL-3.0 | ⭐ 14K | Coming soon | Coming soon |
@@ -287,11 +529,35 @@ Website: [https://open.aiflowlearn.net](https://open.aiflowlearn.net)
 | [Mastodon](https://open.aiflowlearn.net/mastodon) - A free, open-source social media platform that puts users in charge of their data and connections Alternative to Facebook, X (Twitter), Threads. [Repo](https://github.com/mastodon/mastodon) | AGPL-3.0 | ⭐ 50K | Coming soon | Coming soon |
 | [PeerTube](https://open.aiflowlearn.net/peertube) - Create your own video hosting platform with PeerTube - a free, open-source alternative to YouTube. Join 600,000+ videos across 1,000+ interconnected platforms without ads or tracking. [Repo](https://github.com/chocobozzz/peertube) | AGPL-3.0 | ⭐ 15K | Coming soon | Coming soon |
 | [Pixelfed](https://open.aiflowlearn.net/pixelfed) - Decentralized photo sharing platform with chronological feeds, privacy controls, and ActivityPub federation. No ads, no algorithms, just authentic connections. Alternative to Instagram, Facebook, TikTok. [Repo](https://github.com/pixelfed/pixelfed) | AGPL-3.0 | ⭐ 7K | Coming soon | Coming soon |
+| [Elgg](https://open.aiflowlearn.net/elgg) - A social networking engine in PHP/MySQL Alternative to X, Facebook. [Repo](https://github.com/Elgg/Elgg) | NOASSERTION | ⭐ 1.7K | Coming soon | Coming soon |
+| [HumHub](https://open.aiflowlearn.net/humhub) - HumHub is an Open Source Enterprise Social Network. Easy to install, intuitive to use and extendable with countless freely available modules. Alternative to X, Facebook. [Repo](https://github.com/humhub/humhub) | NOASSERTION | ⭐ 6.7K | Coming soon | Coming soon |
+
+### Community Building Platforms
+
+| Project | License | Stars | Codex | Classroom |
+| --- | --- | ---: | --- | --- |
 | [Apache Answer](https://open.aiflowlearn.net/apache-answer) - A versatile, community-driven Q&A platform that fosters collaboration and knowledge exchange within organizations and communities. Alternative to Skool, Circle, vBulletin. [Repo](https://github.com/apache/incubator-answer) | Apache-2.0 | ⭐ 16K | Coming soon | Coming soon |
 | [Discourse](https://open.aiflowlearn.net/discourse) - A powerful, customizable platform for building and managing online forums, fostering engaging discussions and collaborative spaces. Alternative to Skool, Circle, Invision Community. [Repo](https://github.com/discourse/discourse) | GPL-2.0 | ⭐ 47K | Coming soon | Coming soon |
 | [Flarum](https://open.aiflowlearn.net/flarum) - Lightweight, extensible forum platform with a sleek interface, powerful moderation tools, and seamless integration capabilities. Alternative to Skool, Circle, Invision Community. [Repo](https://github.com/flarum/flarum) | MIT | ⭐ 16K | Coming soon | Coming soon |
 | [LearnHouse](https://open.aiflowlearn.net/learnhouse) - Open-source LMS for building and selling courses with a block-based editor, built-in payments, AI tools, analytics, and white-labeling. Self-host or use the cloud. Alternative to Miro, Udemy, Skool. [Repo](https://github.com/learnhouse/learnhouse) | AGPL-3.0 | ⭐ 1.7K | Coming soon | Coming soon |
 | [Storyden](https://open.aiflowlearn.net/storyden) - Create permanent, discoverable communities with modern forum features. Combines discussion, curation, and wiki functionality in one platform. Alternative to Skool, Circle, Invision Community. [Repo](https://github.com/southclaws/storyden) | MPL-2.0 | ⭐ 312 | Coming soon | Coming soon |
+
+### Collaboration & Feedback
+
+| Project | License | Stars | Codex | Classroom |
+| --- | --- | ---: | --- | --- |
+| [ClearFlask](https://open.aiflowlearn.net/clearflask) - ClearFlask is an open-source platform for collecting, analyzing, and acting on customer feedback to drive product development. Alternative to Featurebase, ProductBoard, Canny. [Repo](https://github.com/clearflask/clearflask) | Apache-2.0 | ⭐ 440 | Coming soon | Coming soon |
+| [Fider](https://open.aiflowlearn.net/fider) - A self-hosted community feedback tool that helps organizations gather, discuss, and prioritize user suggestions and feature requests. Alternative to Featurebase, ProductBoard, Canny. [Repo](https://github.com/getfider/fider) | AGPL-3.0 | ⭐ 4.4K | Coming soon | Coming soon |
+| [LogChimp](https://open.aiflowlearn.net/logchimp) - Collect, organize, and prioritize user feedback to build better products. Self-hosted solution for seamless feature request management. Alternative to Featurebase, ProductBoard, Canny. [Repo](https://github.com/logchimp/logchimp) | Apache-2.0 | ⭐ 1.1K | Coming soon | Coming soon |
+| [Sayr](https://open.aiflowlearn.net/sayr) - Source-available project management platform with dual views - internal team workspace and public portal for user feedback, voting, and progress tracking. Alternative to Linear, Monday, ClickUp. [Repo](https://github.com/dorasto/sayr) | Unknown | ⭐ 17 | Coming soon | Coming soon |
+
+
+## Content & Publishing
+
+### Content Management Systems (CMS)
+
+| Project | License | Stars | Codex | Classroom |
+| --- | --- | ---: | --- | --- |
 | [Builder](https://open.aiflowlearn.net/builder) - Drag-and-drop interface for creating and optimizing digital experiences, with headless CMS and powerful integrations. Alternative to WordPress, Webflow, Wix. [Repo](https://github.com/builderio/builder) | MIT | ⭐ 8.7K | Coming soon | Coming soon |
 | [Craft CMS](https://open.aiflowlearn.net/craft-cms) - Build custom websites with a user-friendly CMS that puts content first. Features flexible architecture, GraphQL API, and powerful ecommerce capabilities. Alternative to WordPress, Sanity, Contentful. [Repo](https://github.com/craftcms/cms) | Unknown | ⭐ 3.6K | Coming soon | Coming soon |
 | [Directus](https://open.aiflowlearn.net/directus) - A versatile headless CMS and API engine that simplifies data management, content creation, and application development. Alternative to WordPress, Sanity, Contentful. [Repo](https://github.com/directus/directus) | Unknown | ⭐ 36K | Coming soon | Coming soon |
@@ -309,7 +575,26 @@ Website: [https://open.aiflowlearn.net](https://open.aiflowlearn.net)
 | [Vvveb CMS](https://open.aiflowlearn.net/vvveb-cms) - Vvveb is a feature-rich open source CMS for building websites, blogs, and ecommerce stores with an intuitive drag-and-drop interface. Alternative to WordPress, Webflow, Elementor. [Repo](https://github.com/givanz/Vvveb) | AGPL-3.0 | ⭐ 1.1K | Coming soon | Coming soon |
 | [Webiny](https://open.aiflowlearn.net/webiny) - A powerful, scalable platform for building custom websites and apps with serverless architecture, offering flexibility and cost-efficiency. Alternative to WordPress, Webflow, Wix. [Repo](https://github.com/webiny/webiny-js) | Unknown | ⭐ 8K | Coming soon | Coming soon |
 | [WordPress](https://open.aiflowlearn.net/wordpress) - A versatile, user-friendly platform for building and managing websites, from simple blogs to complex e-commerce stores. Alternative to Substack, Framer, Squarespace. [Repo](https://github.com/WordPress/WordPress) | Unknown | ⭐ 21K | Coming soon | Coming soon |
+| [btw](https://open.aiflowlearn.net/btw) - Open source Medium alternative- set up your personal blog in minutes. Alternative to Medium, WordPress. [Repo](https://github.com/btw-so/btw) | GPL-3.0 | ⭐ 1.1K | Coming soon | Coming soon |
+| [WriteFreely](https://open.aiflowlearn.net/writefreely) - A clean, Markdown-based publishing platform made for writers. Write together and build a community. Alternative to Medium, WordPress. [Repo](https://github.com/writefreely/writefreely) | AGPL-3.0 | ⭐ 5.2K | Coming soon | Coming soon |
+
+### Community Platforms
+
+| Project | License | Stars | Codex | Classroom |
+| --- | --- | ---: | --- | --- |
+| [Apache Answer](https://open.aiflowlearn.net/apache-answer) - A versatile, community-driven Q&A platform that fosters collaboration and knowledge exchange within organizations and communities. Alternative to Skool, Circle, vBulletin. [Repo](https://github.com/apache/incubator-answer) | Apache-2.0 | ⭐ 16K | Coming soon | Coming soon |
+| [Discourse](https://open.aiflowlearn.net/discourse) - A powerful, customizable platform for building and managing online forums, fostering engaging discussions and collaborative spaces. Alternative to Skool, Circle, Invision Community. [Repo](https://github.com/discourse/discourse) | GPL-2.0 | ⭐ 47K | Coming soon | Coming soon |
+| [Flarum](https://open.aiflowlearn.net/flarum) - Lightweight, extensible forum platform with a sleek interface, powerful moderation tools, and seamless integration capabilities. Alternative to Skool, Circle, Invision Community. [Repo](https://github.com/flarum/flarum) | MIT | ⭐ 16K | Coming soon | Coming soon |
+| [Storyden](https://open.aiflowlearn.net/storyden) - Create permanent, discoverable communities with modern forum features. Combines discussion, curation, and wiki functionality in one platform. Alternative to Skool, Circle, Invision Community. [Repo](https://github.com/southclaws/storyden) | MPL-2.0 | ⭐ 312 | Coming soon | Coming soon |
 | [Valour](https://open.aiflowlearn.net/valour) - Open-source communication platform with multi-window chat, economy systems, and privacy-first approach. Built by communities for superior performance. Alternative to Discord, Slack, Guilded. [Repo](https://github.com/valour-software/valour) | AGPL-3.0 | ⭐ 386 | Coming soon | Coming soon |
+
+### Documentation & Knowledge Base
+
+| Project | License | Stars | Codex | Classroom |
+| --- | --- | ---: | --- | --- |
+| [Docs](https://open.aiflowlearn.net/docs) - Transform document collaboration with real-time editing, version control, and secure sharing features that enhance team productivity and communication. Alternative to Notion, Microsoft Word, Confluence. [Repo](https://github.com/suitenumerique/docs) | MIT | ⭐ 17K | Coming soon | Coming soon |
+| [Storyden](https://open.aiflowlearn.net/storyden) - Create permanent, discoverable communities with modern forum features. Combines discussion, curation, and wiki functionality in one platform. Alternative to Skool, Circle, Invision Community. [Repo](https://github.com/southclaws/storyden) | MPL-2.0 | ⭐ 312 | Coming soon | Coming soon |
+| [Typemill](https://open.aiflowlearn.net/typemill) - Create manuals, documentation, and websites with this markdown-based content management system, with options for ebook conversion. Alternative to Confluence, WordPress. [Repo](https://github.com/typemill/typemill) | MIT | ⭐ 599 | Coming soon | Coming soon |
 | [Changes.Page](https://open.aiflowlearn.net/changes-page) - Automate and simplify changelog generation from Git commits, ensuring clear and consistent project documentation. Alternative to ProductBoard, Canny, Nolt. [Repo](https://github.com/techulus/changes-page) | AGPL-3.0 | ⭐ 284 | Coming soon | Coming soon |
 | [Corpus](https://open.aiflowlearn.net/corpus) - Upload files, ask questions, and get AI‑backed answers with citations. Compare, synthesize, and export results for teams and polished outputs. [Repo](https://github.com/noetic-sys/corpus) | AGPL-3.0 | ⭐ 13 | Coming soon | Coming soon |
 | [Docmost](https://open.aiflowlearn.net/docmost) - Self-hosted wiki platform for enterprise teams with real-time collaboration, built-in AI, SSO, RBAC permissions, and compliance support for ITAR, FedRAMP, and GDPR. Alternative to Notion, Obsidian, Confluence. [Repo](https://github.com/docmost/docmost) | AGPL-3.0 | ⭐ 21K | Coming soon | Coming soon |
@@ -321,21 +606,57 @@ Website: [https://open.aiflowlearn.net](https://open.aiflowlearn.net)
 | [XWiki](https://open.aiflowlearn.net/xwiki) - XWiki is a flexible, feature-rich wiki software that helps organizations structure and share knowledge efficiently. Alternative to Notion, Obsidian, Confluence. [Repo](https://github.com/xwiki/xwiki-platform) | LGPL-2.1 | ⭐ 1.3K | Coming soon | Coming soon |
 | [xyd](https://open.aiflowlearn.net/xyd) - Create powerful, interactive documentation with hot reloading, TypeScript support, custom components, and built-in API docs generation. Alternative to Mintlify, Gitbook. [Repo](https://github.com/livesession/xyd) | MIT | ⭐ 109 | Coming soon | Coming soon |
 | [Zenblog](https://open.aiflowlearn.net/zenblog) - A minimalist, markdown-based blogging platform designed for developers, featuring syntax highlighting and seamless Git integration. Alternative to WordPress, Substack, Beehiiv. [Repo](https://github.com/jordienr/zenblog) | AGPL-3.0 | ⭐ 252 | Coming soon | Coming soon |
+
+### Learning Management Systems (LMS)
+
+| Project | License | Stars | Codex | Classroom |
+| --- | --- | ---: | --- | --- |
+| [Gumroad](https://open.aiflowlearn.net/gumroad) - A digital marketplace platform where creators can sell digital products, from courses to software, with built-in payment processing and content delivery. Alternative to Stripe, Dodo Payments, FastSpring. [Repo](https://github.com/antiwork/gumroad) | MIT | ⭐ 9.2K | Coming soon | Coming soon |
+| [LearnHouse](https://open.aiflowlearn.net/learnhouse) - Open-source LMS for building and selling courses with a block-based editor, built-in payments, AI tools, analytics, and white-labeling. Self-host or use the cloud. Alternative to Miro, Udemy, Skool. [Repo](https://github.com/learnhouse/learnhouse) | AGPL-3.0 | ⭐ 1.7K | Coming soon | Coming soon |
 | [ClassroomIO](https://open.aiflowlearn.net/classroomio) - Open source LMS designed for companies and training organizations. Create, manage, and deliver courses with AI support, customizable dashboards, and collaborative features. Alternative to Udemy, Skool, Coursera. [Repo](https://github.com/rotimi-best/classroomio) | AGPL-3.0 | ⭐ 1.6K | Coming soon | Coming soon |
 | [CourseLit](https://open.aiflowlearn.net/courselit) - An open-source platform for building and selling online courses, featuring customizable themes, integrated payments, and user management. Alternative to Udemy, Skool, Coursera. [Repo](https://github.com/codelitdev/courselit) | AGPL-3.0 | ⭐ 1.2K | Coming soon | Coming soon |
 | [TechBlitz](https://open.aiflowlearn.net/techblitz) - Learn to code through interactive challenges, personalized learning paths, and AI-powered assistance Alternative to Udemy, Coursera, LeetCode. [Repo](https://github.com/techblitzdev/techblitz/) | Apache-2.0 | ⭐ 432 | Coming soon | Coming soon |
+
+### Digital Asset Management (DAM)
+
+| Project | License | Stars | Codex | Classroom |
+| --- | --- | ---: | --- | --- |
 | [Ente](https://open.aiflowlearn.net/ente) - End-to-end encrypted cloud storage for photos and videos, offering privacy, security, and seamless cross-device syncing. Alternative to Google Drive, Microsoft OneDrive, Dropbox. [Repo](https://github.com/ente-io/ente) | AGPL-3.0 | ⭐ 27K | Coming soon | Coming soon |
 | [Immich](https://open.aiflowlearn.net/immich) - Back up, organize, search, and browse your personal photo and video library on your own server, with no third-party cloud access. Alternative to Google Photos, Apple Photos. [Repo](https://github.com/immich-app/immich) | AGPL-3.0 | ⭐ 103K | Coming soon | Coming soon |
 | [Lychee](https://open.aiflowlearn.net/lychee) - Free photo management tool that runs on your server. Upload, organize, and share photos with beautiful interface, EXIF support, and complete privacy control. Alternative to Google Photos, Apple Photos. [Repo](https://github.com/lycheeorg/lychee) | MIT | ⭐ 4.2K | Coming soon | Coming soon |
 | [Openinary](https://open.aiflowlearn.net/openinary) - Open-source alternative to Cloudinary offering self-hosted media transformation. Works with S3/R2/MinIO. Upload, transform, and deliver images/videos without vendor lock-in. Alternative to Cloudinary, ImageKit, Acquia DAM. [Repo](https://github.com/openinary/openinary) | AGPL-3.0 | ⭐ 334 | Coming soon | Coming soon |
 | [Piwigo](https://open.aiflowlearn.net/piwigo) - Open source photo management software for organizing, sharing and managing large photo libraries. Perfect for teams, organizations and individuals. Alternative to Google Photos, Apple Photos. [Repo](https://github.com/piwigo/piwigo) | GPL-2.0 | ⭐ 3.8K | Coming soon | Coming soon |
+
+### Publishing
+
+| Project | License | Stars | Codex | Classroom |
+| --- | --- | ---: | --- | --- |
+| [ShipShipShip](https://open.aiflowlearn.net/shipshipship) - Self-hostable changelog and roadmap platform with community voting, automated newsletters, and kanban boards. Deploy with Docker in minutes. Alternative to Featurebase, ProductBoard, Canny. [Repo](https://github.com/gauthiernelkinsky/shipshipship) | Apache-2.0 | ⭐ 291 | Coming soon | Coming soon |
+| [Changes.Page](https://open.aiflowlearn.net/changes-page) - Automate and simplify changelog generation from Git commits, ensuring clear and consistent project documentation. Alternative to ProductBoard, Canny, Nolt. [Repo](https://github.com/techulus/changes-page) | AGPL-3.0 | ⭐ 284 | Coming soon | Coming soon |
 | [Tolgee](https://open.aiflowlearn.net/tolgee) - Manage app translations with in-context editing, AI translation, and collaborative tools. Self-hostable and free to start. Alternative to Crowdin, Lokalise, Weglot. [Repo](https://github.com/tolgee/tolgee-platform) | Unknown | ⭐ 4K | Coming soon | Coming soon |
 | [Languine](https://open.aiflowlearn.net/languine) - A developer-focused localization platform that automates translation workflows within your existing development pipeline and CI/CD processes. Alternative to Crowdin, Lokalise, Weglot. [Repo](https://github.com/languine-ai/languine) | MIT | ⭐ 2K | Coming soon | Coming soon |
 | [LibreTranslate](https://open.aiflowlearn.net/libretranslate) - Self-hosted machine translation API that works offline. Download, setup, and run your own translation server in minutes with complete privacy control. [Repo](https://github.com/libretranslate/libretranslate) | AGPL-3.0 | ⭐ 15K | Coming soon | Coming soon |
 | [Lingo.dev](https://open.aiflowlearn.net/lingo) - Transform your app into a global product with AI-powered localization that integrates directly into your development workflow. Supports 83+ languages with Git-native automation. Alternative to Crowdin, Lokalise, Weglot. [Repo](https://github.com/lingodotdev/lingo.dev) | Apache-2.0 | ⭐ 5.4K | Coming soon | Coming soon |
 | [Weblate](https://open.aiflowlearn.net/weblate) - Web-based continuous localization platform with version control integration, quality checks, and clean interface. Used by 2,500+ projects in 165+ countries. Alternative to Crowdin, Lokalise, Weglot. [Repo](https://github.com/weblateorg/weblate) | GPL-3.0 | ⭐ 5.9K | Coming soon | Coming soon |
+
+### Blogging & Personal Sites
+
+| Project | License | Stars | Codex | Classroom |
+| --- | --- | ---: | --- | --- |
+| [Ghost](https://open.aiflowlearn.net/ghost) - Publish content, send email newsletters, and sell paid subscriptions from one platform. Used by independent journalists, creators, and businesses like YCombinator and Kickstarter. Alternative to WordPress, Substack, Sanity. [Repo](https://github.com/tryghost/ghost) | MIT | ⭐ 54K | Coming soon | Coming soon |
+| [WordPress](https://open.aiflowlearn.net/wordpress) - A versatile, user-friendly platform for building and managing websites, from simple blogs to complex e-commerce stores. Alternative to Substack, Framer, Squarespace. [Repo](https://github.com/WordPress/WordPress) | Unknown | ⭐ 21K | Coming soon | Coming soon |
+| [Zenblog](https://open.aiflowlearn.net/zenblog) - A minimalist, markdown-based blogging platform designed for developers, featuring syntax highlighting and seamless Git integration. Alternative to WordPress, Substack, Beehiiv. [Repo](https://github.com/jordienr/zenblog) | AGPL-3.0 | ⭐ 252 | Coming soon | Coming soon |
 | [Pagecord](https://open.aiflowlearn.net/pagecord) - Share your thoughts and ideas with an independent platform that combines microblogging, journaling, and newsletter features with email-based publishing. Alternative to WordPress, Substack, Medium. [Repo](https://github.com/lylo/pagecord) | MIT | ⭐ 175 | Coming soon | Coming soon |
 | [Sigle](https://open.aiflowlearn.net/sigle) - Sigle is a secure, open-source platform for Web3 writers to create, publish, and monetize content on the Bitcoin blockchain. Alternative to Substack, Beehiiv, Medium. [Repo](https://github.com/sigle/sigle) | MIT | ⭐ 486 | Coming soon | Coming soon |
+
+
+## Data & Analytics
+
+### Web & Product Analytics
+
+| Project | License | Stars | Codex | Classroom |
+| --- | --- | ---: | --- | --- |
+| [Lua.sh](https://open.aiflowlearn.net/lua-sh) - Open-source platform for creating shortened URLs with advanced analytics, custom domains, and API integration for marketing and development teams. Alternative to TinyURL, Bitly, Short.io. [Repo](https://github.com/luadotsh/lua) | AGPL-3.0 | ⭐ 333 | Coming soon | Coming soon |
 | [OpenPanel](https://open.aiflowlearn.net/openpanel) - Open-source analytics platform covering web traffic, custom events, funnels, retention, session replay, and revenue tracking. GDPR-compliant with optional self-hosting. Alternative to Google Analytics, Cloudflare Analytics, Mixpanel. [Repo](https://github.com/openpanel-dev/openpanel) | AGPL-3.0 | ⭐ 5.9K | Coming soon | Coming soon |
 | [Aptabase](https://open.aiflowlearn.net/aptabase) - Open-source, self-hostable analytics platform for mobile and desktop apps, prioritizing user privacy and data control. Alternative to Google Analytics, Mixpanel, Amplitude. [Repo](https://github.com/aptabase/aptabase) | AGPL-3.0 | ⭐ 1.7K | Coming soon | Coming soon |
 | [Betterlytics](https://open.aiflowlearn.net/betterlytics) - GDPR-compliant web analytics with real-time insights, session replay, and funnel tracking. No cookies, no tracking, no consent banners required. Alternative to Google Analytics, Cloudflare Analytics, Mixpanel. [Repo](https://github.com/betterlytics/betterlytics) | AGPL-3.0 | ⭐ 162 | Coming soon | Coming soon |
@@ -356,6 +677,13 @@ Website: [https://open.aiflowlearn.net](https://open.aiflowlearn.net)
 | [Trench](https://open.aiflowlearn.net/trench) - Open source analytics platform built on ClickHouse and Kafka, offering high-speed event tracking and real-time querying capabilities. Alternative to Mixpanel, Amplitude, June. [Repo](https://github.com/FrigadeHQ/trench) | MIT | ⭐ 1.6K | Coming soon | Coming soon |
 | [Umami](https://open.aiflowlearn.net/umami) - A lightweight, open-source alternative to Google Analytics that respects user privacy and provides valuable insights. Alternative to Google Analytics, Cloudflare Analytics, Mixpanel. [Repo](https://github.com/umami-software/umami) | MIT | ⭐ 37K | Coming soon | Coming soon |
 | [Vemetric](https://open.aiflowlearn.net/vemetric) - Privacy-focused analytics platform combining web and product insights. Track user journeys, create funnels, and understand behavior with GDPR compliance and no cookies by default. Alternative to Google Analytics, Cloudflare Analytics, Mixpanel. [Repo](https://github.com/vemetric/vemetric) | AGPL-3.0 | ⭐ 352 | Coming soon | Coming soon |
+
+### Business Intelligence & Reporting
+
+| Project | License | Stars | Codex | Classroom |
+| --- | --- | ---: | --- | --- |
+| [Deepnote](https://open.aiflowlearn.net/deepnote) - Deepnote is an open-source collaborative notebook for data analysts and scientists, combining Python, SQL, AI assistance, and live sharing in one cloud platform. Alternative to Snowflake, Tableau, Hex. [Repo](https://github.com/deepnote/deepnote) | Apache-2.0 | ⭐ 2.9K | Coming soon | Coming soon |
+| [OpenBB](https://open.aiflowlearn.net/openbb) - Connects proprietary, licensed, and public financial data with AI agents in a self-hostable workspace for asset managers, hedge funds, and banks. Alternative to Power BI, Bloomberg Terminal, Tableau. [Repo](https://github.com/OpenBB-finance/OpenBB) | Unknown | ⭐ 69K | Coming soon | Coming soon |
 | [Apache Superset](https://open.aiflowlearn.net/apache-superset) - Connect any SQL database, build charts with drag-and-drop or raw SQL, and publish interactive dashboards without writing application code. Alternative to Power BI, Splunk, Tableau. [Repo](https://github.com/apache/superset) | Apache-2.0 | ⭐ 73K | [Codex](https://www.aiflowlearn.net/codex/superset-sh-superset) | Coming soon |
 | [Azimutt](https://open.aiflowlearn.net/azimutt) - Azimutt is a powerful tool for seamlessly exploring, documenting, and optimizing large and complex databases. [Repo](https://github.com/azimuttapp/azimutt) | MIT | ⭐ 2.1K | Coming soon | Coming soon |
 | [Chartbrew](https://open.aiflowlearn.net/chartbrew) - A powerful, open-source platform for building interactive dashboards and charts from multiple data sources without coding. Alternative to Power BI, Tableau, Databox. [Repo](https://github.com/chartbrew/chartbrew) | MIT | ⭐ 3.9K | Coming soon | Coming soon |
@@ -370,6 +698,13 @@ Website: [https://open.aiflowlearn.net](https://open.aiflowlearn.net)
 | [Mermaid](https://open.aiflowlearn.net/mermaid) - Generate flowcharts, sequence diagrams, and visualizations using intuitive markdown-like syntax without design skills. Alternative to Microsoft Visio, LucidChart. [Repo](https://github.com/mermaid-js/mermaid) | MIT | ⭐ 89K | Coming soon | Coming soon |
 | [Metabase](https://open.aiflowlearn.net/metabase) - Open-source business intelligence platform for data exploration, visualization, and sharing. Empowers teams to make data-driven decisions effortlessly. Alternative to Power BI, Tableau, Databox. [Repo](https://github.com/metabase/metabase) | Unknown | ⭐ 48K | Coming soon | Coming soon |
 | [Redash](https://open.aiflowlearn.net/redash) - Redash is an open-source data visualization and analytics platform that helps teams make sense of their data through SQL queries and interactive dashboards. Alternative to Power BI, Splunk, Tableau. [Repo](https://github.com/getredash/redash) | BSD-2-Clause | ⭐ 29K | Coming soon | Coming soon |
+| [Luckysheet](https://open.aiflowlearn.net/luckysheet) - Luckysheet upgraded to Univer Alternative to Google Sheets, Airtable. [Repo](https://github.com/dream-num/Luckysheet) | MIT | ⭐ 17K | Coming soon | Coming soon |
+
+### Data Engineering & Integration
+
+| Project | License | Stars | Codex | Classroom |
+| --- | --- | ---: | --- | --- |
+| [Lightdash](https://open.aiflowlearn.net/lightdash) - Self-serve analytics platform that transforms dbt models into interactive dashboards, enabling data-driven decisions across organizations. Alternative to Power BI, Tableau, Databox. [Repo](https://github.com/lightdash/lightdash) | MIT | ⭐ 5.9K | Coming soon | Coming soon |
 | [Airbyte](https://open.aiflowlearn.net/airbyte) - Seamlessly sync data from any source to any destination with a flexible, extensible platform that grows with your data needs. Alternative to Supermetrics, Fivetran, Matillion. [Repo](https://github.com/airbytehq/airbyte) | Unknown | ⭐ 21K | Coming soon | Coming soon |
 | [CloudQuery](https://open.aiflowlearn.net/cloudquery) - CloudQuery is an open-source ELT platform that enables easy data integration from hundreds of cloud and security tools to any destination. Alternative to Snowflake, BigQuery, Supermetrics. [Repo](https://github.com/cloudquery/cloudquery) | MPL-2.0 | ⭐ 6.4K | Coming soon | Coming soon |
 | [CocoIndex](https://open.aiflowlearn.net/cocoindex) - Open-source ETL framework built in Rust for AI workloads. Features incremental processing, data lineage, and observability tools for semantic search and RAG applications. Alternative to Pipedream, Amazon API Gateway, Segment. [Repo](https://github.com/cocoindex-io/cocoindex) | Apache-2.0 | ⭐ 10K | [Codex](https://www.aiflowlearn.net/codex/cocoindex-io-cocoindex) | Coming soon |
@@ -384,23 +719,84 @@ Website: [https://open.aiflowlearn.net](https://open.aiflowlearn.net)
 | [Open Wearables](https://open.aiflowlearn.net/open-wearables) - Self-hosted health intelligence platform with open algorithms, AI reasoning engine, and zero per-user fees. Connect Apple Health, Whoop, Garmin, Oura, and more. Alternative to Terra API, Spike API, Junction. [Repo](https://github.com/the-momentum/open-wearables) | MIT | ⭐ 1.9K | Coming soon | Coming soon |
 | [Orbital](https://open.aiflowlearn.net/orbital) - Automated data integration platform that connects APIs, databases, and event streams using semantic schemas. Deploy secure integrations in minutes with Git-based workflows. Alternative to Kong, Apollo GraphQL. [Repo](https://github.com/orbitalapi/orbital) | Unknown | ⭐ 359 | Coming soon | Coming soon |
 | [Timeplus](https://open.aiflowlearn.net/timeplus) - Timeplus is a lightweight, powerful, and cost-efficient stream processing platform for real-time analytics, deployed as a single binary. [Repo](https://github.com/timeplus-io/proton) | Apache-2.0 | ⭐ 2.2K | Coming soon | Coming soon |
+
+### Data Warehousing & Processing
+
+| Project | License | Stars | Codex | Classroom |
+| --- | --- | ---: | --- | --- |
+| [Trench](https://open.aiflowlearn.net/trench) - Open source analytics platform built on ClickHouse and Kafka, offering high-speed event tracking and real-time querying capabilities. Alternative to Mixpanel, Amplitude, June. [Repo](https://github.com/FrigadeHQ/trench) | MIT | ⭐ 1.6K | Coming soon | Coming soon |
+| [Logstash](https://open.aiflowlearn.net/logstash) - Logstash is a free and open server-side data processing pipeline that ingests data from multiple sources, transforms it, and sends it to your desired destination. Alternative to DataDog, Splunk, Tableau. [Repo](https://github.com/elastic/logstash) | Unknown | ⭐ 15K | Coming soon | Coming soon |
+| [Timeplus](https://open.aiflowlearn.net/timeplus) - Timeplus is a lightweight, powerful, and cost-efficient stream processing platform for real-time analytics, deployed as a single binary. [Repo](https://github.com/timeplus-io/proton) | Apache-2.0 | ⭐ 2.2K | Coming soon | Coming soon |
 | [Apache Cloudberry](https://open.aiflowlearn.net/cloudberry) - Leverage advanced analytics with a modern PostgreSQL kernel. 100% open source for robust data solutions. [Repo](https://github.com/cloudberrydb/cloudberrydb) | Apache-2.0 | ⭐ 1.2K | Coming soon | Coming soon |
 | [ClickHouse](https://open.aiflowlearn.net/clickhouse) - High-performance columnar OLAP database system for real-time analytics on big data, with SQL support and linear scalability. Alternative to Snowflake, BigQuery, RedShift. [Repo](https://github.com/ClickHouse/ClickHouse) | Apache-2.0 | ⭐ 48K | Coming soon | Coming soon |
 | [Databend](https://open.aiflowlearn.net/databend) - Databend is an open-source, elastic cloud data warehouse built for high-performance analytics and seamless integration with popular data tools. Alternative to Snowflake, BigQuery, RedShift. [Repo](https://github.com/datafuselabs/databend) | Unknown | ⭐ 9.3K | Coming soon | Coming soon |
 | [Hydra](https://open.aiflowlearn.net/hydra) - Hydra embeds DuckDB's state-of-the-art analytics engine into standard Postgres, offering millisecond response times for complex queries. Alternative to Supabase, Firebase, Snowflake. [Repo](https://github.com/hydradatabase/hydra) | Apache-2.0 | ⭐ 3K | Coming soon | Coming soon |
+
+### Data Extraction & Web Scraping
+
+| Project | License | Stars | Codex | Classroom |
+| --- | --- | ---: | --- | --- |
+| [Lightpanda](https://open.aiflowlearn.net/lightpanda) - Purpose-built headless browser that delivers 10x faster performance and 10x lower memory usage compared to Chrome headless for web automation and AI workflows. Alternative to Browserbase, Anchor Browser. [Repo](https://github.com/lightpanda-io/browser) | AGPL-3.0 | ⭐ 31K | Coming soon | Coming soon |
 | [Crawl4AI](https://open.aiflowlearn.net/crawl4ai) - Open-source web crawler and scraper that produces clean, structured output optimized for LLMs, RAG pipelines, and AI agents. Supports async crawling, CSS/XPath/LLM extraction, and stealth browser control. Alternative to Browserbase, Apify, Jina AI. [Repo](https://github.com/unclecode/crawl4ai) | Apache-2.0 | ⭐ 68K | Coming soon | Coming soon |
 | [Documind](https://open.aiflowlearn.net/documind) - Documind uses advanced AI and LLMs to extract structured data from PDFs, images, and other documents, streamlining document processing and automation. [Repo](https://github.com/documindhq/documind) | Unknown | ⭐ 1.5K | Coming soon | Coming soon |
 | [Firecrawl](https://open.aiflowlearn.net/firecrawl) - API for AI agents to search, scrape, crawl, and interact with the live web, returning clean Markdown, structured JSON, or screenshots from any page. Alternative to Browserbase, Apify, Jina AI. [Repo](https://github.com/mendableai/firecrawl) | AGPL-3.0 | ⭐ 132K | Coming soon | Coming soon |
 | [Maxun](https://open.aiflowlearn.net/maxun) - Train robots in 2 minutes to scrape web data automatically. No coding required. Handles pagination, CAPTCHAs, and layout changes with AI. [Repo](https://github.com/getmaxun/maxun) | AGPL-3.0 | ⭐ 16K | Coming soon | Coming soon |
+
+
+## Developer Tools
+
+### Website Builders
+
+| Project | License | Stars | Codex | Classroom |
+| --- | --- | ---: | --- | --- |
+| [Linky](https://open.aiflowlearn.net/linky) - Build a dynamic link-in-bio page with a drag-and-drop editor. Integrate platforms to showcase live content and connect with your audience. Alternative to LinkTree, Bento.me, Bio.fm. [Repo](https://github.com/trylinky/linky) | MIT | ⭐ 791 | Coming soon | Coming soon |
+| [Builder](https://open.aiflowlearn.net/builder) - Drag-and-drop interface for creating and optimizing digital experiences, with headless CMS and powerful integrations. Alternative to WordPress, Webflow, Wix. [Repo](https://github.com/builderio/builder) | MIT | ⭐ 8.7K | Coming soon | Coming soon |
+| [Vvveb CMS](https://open.aiflowlearn.net/vvveb-cms) - Vvveb is a feature-rich open source CMS for building websites, blogs, and ecommerce stores with an intuitive drag-and-drop interface. Alternative to WordPress, Webflow, Elementor. [Repo](https://github.com/givanz/Vvveb) | AGPL-3.0 | ⭐ 1.1K | Coming soon | Coming soon |
+| [WordPress](https://open.aiflowlearn.net/wordpress) - A versatile, user-friendly platform for building and managing websites, from simple blogs to complex e-commerce stores. Alternative to Substack, Framer, Squarespace. [Repo](https://github.com/WordPress/WordPress) | Unknown | ⭐ 21K | Coming soon | Coming soon |
 | [Frappe Builder](https://open.aiflowlearn.net/frappe-builder) - Frappe Builder is an open-source, low-code website builder that enables users to create beautiful, responsive websites with an intuitive visual interface. Alternative to WordPress, Framer, Webflow. [Repo](https://github.com/frappe/builder) | AGPL-3.0 | ⭐ 2K | Coming soon | Coming soon |
 | [Nordcraft](https://open.aiflowlearn.net/nordcraft) - Visual web development engine combining design and development tools. Build immersive, interactive web experiences with component-based framework, real-time collaboration, and powerful visual editor. Alternative to Framer, Webflow, Elementor. [Repo](https://github.com/nordcraftengine/nordcraft) | Apache-2.0 | ⭐ 477 | Coming soon | Coming soon |
 | [Silex](https://open.aiflowlearn.net/silex) - An online tool for visually creating static sites with dynamic data. With the free/libre spirit of internet, together. Alternative to Framer, Webflow, Wix. [Repo](https://github.com/silexlabs/silex) | AGPL-3.0 | ⭐ 2.8K | Coming soon | Coming soon |
 | [WebStudio](https://open.aiflowlearn.net/webstudio) - Powerful no-code platform for building responsive websites. Combines visual editing with full HTML/CSS customization. Alternative to Framer, Webflow, Wix. [Repo](https://github.com/webstudio-is/webstudio) | AGPL-3.0 | ⭐ 8.6K | Coming soon | Coming soon |
 | [Ycode](https://open.aiflowlearn.net/ycode) - Build, manage, and host custom websites with a visual drag-and-drop builder and CMS. Self-host free or use managed cloud hosting. Alternative to Framer, Webflow, Wix. [Repo](https://github.com/ycode/ycode) | MIT | ⭐ 190 | Coming soon | Coming soon |
+
+### IDEs & Code Editors
+
+| Project | License | Stars | Codex | Classroom |
+| --- | --- | ---: | --- | --- |
 | [CodeEdit](https://open.aiflowlearn.net/codeedit) - A lightweight, natively built editor. Open source and free forever. Develop any project using any language at speeds like never before. Alternative to Cursor, Kiro, Windsurf. [Repo](https://github.com/codeeditapp/codeedit) | MIT | ⭐ 23K | Coming soon | Coming soon |
 | [Kilo](https://open.aiflowlearn.net/kilocode) - Open source AI coding agent with 500+ models, bring-your-own-key support, and specialized modes for writing, debugging, and planning code across IDEs and CLI. Alternative to Claude Code, Cursor, Kiro. [Repo](https://github.com/kilo-org/kilocode) | MIT | ⭐ 20K | Coming soon | Coming soon |
 | [PearAI](https://open.aiflowlearn.net/pearai) - PearAI integrates cutting-edge AI tools into a powerful code editor, accelerating your coding process with features like AI chat and inline prompts. Alternative to Claude Code, Cursor, Kiro. [Repo](https://github.com/trypear/pearai-master) | Unknown | ⭐ 749 | Coming soon | Coming soon |
 | [Zed](https://open.aiflowlearn.net/zed) - A Rust-built code editor from the creators of Atom and Tree-sitter, combining native performance with multiplayer collaboration and deep AI integration. Alternative to Claude Code, Cursor, Kiro. [Repo](https://github.com/zed-industries/zed) | Unknown | ⭐ 85K | Coming soon | Coming soon |
+
+### Frameworks & Platforms
+
+| Project | License | Stars | Codex | Classroom |
+| --- | --- | ---: | --- | --- |
+| [CodeZero](https://open.aiflowlearn.net/codezero) - Open-source no-code automation platform for logistics, chatbots, and AI agents. Deploy on cloud, self-host, or hybrid with complete data sovereignty and modular workflow design. Alternative to Zoho Flow, Azure Logic Apps. [Repo](https://github.com/code0-tech/codezero) | Unknown | ⭐ 35 | Coming soon | Coming soon |
+| [Giselle](https://open.aiflowlearn.net/giselle) - Create powerful AI agents using an intuitive node-based interface that connects multiple LLMs and data sources for automated documentation and development workflows. [Repo](https://github.com/giselles-ai/giselle) | Apache-2.0 | ⭐ 534 | Coming soon | Coming soon |
+| [Langflow](https://open.aiflowlearn.net/langflow) - Build, deploy, and iterate on AI agents, RAG applications, and MCP servers using a drag-and-drop visual interface backed by Python. [Repo](https://github.com/langflow-ai/langflow) | MIT | ⭐ 150K | Coming soon | Coming soon |
+| [Proxed AI](https://open.aiflowlearn.net/proxed-ai) - A secure proxy service that protects AI API keys using Apple DeviceCheck, enabling safe integration of ChatGPT, Claude, and other AI models in iOS apps [Repo](https://github.com/nech-ai/proxed) | AGPL-3.0 | ⭐ 7 | Coming soon | Coming soon |
+| [Typebot](https://open.aiflowlearn.net/typebot) - Design, build, and deploy interactive chatbots with a visual editor. Integrate easily and collect data effortlessly. Alternative to Manychat, Voiceflow, DocsBot. [Repo](https://github.com/baptistearno/typebot.io) | Unknown | ⭐ 10K | Coming soon | Coming soon |
+| [Fonoster](https://open.aiflowlearn.net/fonoster) - Build and deploy powerful voice and messaging applications with ease using Fonoster's flexible, scalable, and developer-friendly platform. [Repo](https://github.com/fonoster/fonoster) | MIT | ⭐ 8K | Coming soon | Coming soon |
+| [Alokai](https://open.aiflowlearn.net/alokai) - A comprehensive Frontend as a Service solution that helps developers create, deploy and manage enterprise ecommerce storefronts with ready integrations and cloud infrastructure. Alternative to Shopify, Adobe Commerce, Sellfy. [Repo](https://github.com/vuestorefront/vue-storefront) | MIT | ⭐ 11K | Coming soon | Coming soon |
+| [Vendure](https://open.aiflowlearn.net/vendure) - A headless, API-first e-commerce framework built on Node.js with TypeScript, offering customization and scalability for online stores. Alternative to Adobe Commerce, Magento, WooCommerce. [Repo](https://github.com/vendure-ecommerce/vendure) | MIT | ⭐ 8.2K | Coming soon | Coming soon |
+| [Baserow](https://open.aiflowlearn.net/baserow) - Open-source platform for building databases, internal apps, and automated workflows without writing code. Available on cloud or self-hosted. Alternative to Airtable, Microsoft Excel, Google Sheets. [Repo](https://github.com/bram2w/baserow) | Unknown | ⭐ 5K | Coming soon | Coming soon |
+| [Teable](https://open.aiflowlearn.net/teable) - Open-source platform combining powerful database capabilities with a user-friendly spreadsheet interface for efficient data management and collaboration. Alternative to Airtable, Microsoft Excel, Google Sheets. [Repo](https://github.com/teableio/teable) | AGPL-3.0 | ⭐ 21K | Coming soon | Coming soon |
+| [HeyForm](https://open.aiflowlearn.net/heyform) - A versatile form builder for crafting custom surveys, quizzes, and data collection tools with advanced features and integrations. Alternative to Google Forms, Tally, Typeform. [Repo](https://github.com/heyform/heyform) | AGPL-3.0 | ⭐ 8.8K | Coming soon | Coming soon |
+| [OpnForm](https://open.aiflowlearn.net/opnform) - A versatile open-source form builder for collecting data, managing submissions, and integrating with your favorite tools. Alternative to Google Forms, Tally, Typeform. [Repo](https://github.com/JhumanJ/opnform) | AGPL-3.0 | ⭐ 3.5K | Coming soon | Coming soon |
+| [Palform](https://open.aiflowlearn.net/palform) - Build end-to-end encrypted forms with enterprise-grade features, no coding required. Protect sensitive data and enhance user trust. Alternative to Google Forms, Typeform, Jotform. [Repo](https://github.com/palform/palform) | AGPL-3.0 | ⭐ 44 | Coming soon | Coming soon |
+| [Builder](https://open.aiflowlearn.net/builder) - Drag-and-drop interface for creating and optimizing digital experiences, with headless CMS and powerful integrations. Alternative to WordPress, Webflow, Wix. [Repo](https://github.com/builderio/builder) | MIT | ⭐ 8.7K | Coming soon | Coming soon |
+| [Directus](https://open.aiflowlearn.net/directus) - A versatile headless CMS and API engine that simplifies data management, content creation, and application development. Alternative to WordPress, Sanity, Contentful. [Repo](https://github.com/directus/directus) | Unknown | ⭐ 36K | Coming soon | Coming soon |
+| [KeystoneJS](https://open.aiflowlearn.net/keystonejs) - A powerful, customizable content management system and application framework built on Node.js, GraphQL, and React Alternative to WordPress, Sanity, Contentful. [Repo](https://github.com/keystonejs/keystone) | MIT | ⭐ 9.9K | Coming soon | Coming soon |
+| [ProcessWire](https://open.aiflowlearn.net/processwire) - A versatile, open-source content management system with a powerful API, modular architecture, and intuitive interface for seamless web development. Alternative to WordPress, Sanity. [Repo](https://github.com/processwire/processwire/) | Unknown | ⭐ 1.1K | Coming soon | Coming soon |
+| [Vvveb CMS](https://open.aiflowlearn.net/vvveb-cms) - Vvveb is a feature-rich open source CMS for building websites, blogs, and ecommerce stores with an intuitive drag-and-drop interface. Alternative to WordPress, Webflow, Elementor. [Repo](https://github.com/givanz/Vvveb) | AGPL-3.0 | ⭐ 1.1K | Coming soon | Coming soon |
+| [Webiny](https://open.aiflowlearn.net/webiny) - A powerful, scalable platform for building custom websites and apps with serverless architecture, offering flexibility and cost-efficiency. Alternative to WordPress, Webflow, Wix. [Repo](https://github.com/webiny/webiny-js) | Unknown | ⭐ 8K | Coming soon | Coming soon |
+| [Chartbrew](https://open.aiflowlearn.net/chartbrew) - A powerful, open-source platform for building interactive dashboards and charts from multiple data sources without coding. Alternative to Power BI, Tableau, Databox. [Repo](https://github.com/chartbrew/chartbrew) | MIT | ⭐ 3.9K | Coming soon | Coming soon |
+| [Grist](https://open.aiflowlearn.net/grist) - A versatile data management platform combining spreadsheet simplicity with relational database capabilities for efficient data organization and analysis. Alternative to Airtable, Microsoft Excel, Google Sheets. [Repo](https://github.com/gristlabs/grist-core) | Apache-2.0 | ⭐ 11K | Coming soon | Coming soon |
+| [Frappe Builder](https://open.aiflowlearn.net/frappe-builder) - Frappe Builder is an open-source, low-code website builder that enables users to create beautiful, responsive websites with an intuitive visual interface. Alternative to WordPress, Framer, Webflow. [Repo](https://github.com/frappe/builder) | AGPL-3.0 | ⭐ 2K | Coming soon | Coming soon |
+| [Nordcraft](https://open.aiflowlearn.net/nordcraft) - Visual web development engine combining design and development tools. Build immersive, interactive web experiences with component-based framework, real-time collaboration, and powerful visual editor. Alternative to Framer, Webflow, Elementor. [Repo](https://github.com/nordcraftengine/nordcraft) | Apache-2.0 | ⭐ 477 | Coming soon | Coming soon |
+| [Silex](https://open.aiflowlearn.net/silex) - An online tool for visually creating static sites with dynamic data. With the free/libre spirit of internet, together. Alternative to Framer, Webflow, Wix. [Repo](https://github.com/silexlabs/silex) | AGPL-3.0 | ⭐ 2.8K | Coming soon | Coming soon |
+| [WebStudio](https://open.aiflowlearn.net/webstudio) - Powerful no-code platform for building responsive websites. Combines visual editing with full HTML/CSS customization. Alternative to Framer, Webflow, Wix. [Repo](https://github.com/webstudio-is/webstudio) | AGPL-3.0 | ⭐ 8.6K | Coming soon | Coming soon |
 | [ActivePieces](https://open.aiflowlearn.net/activepieces) - Open-source integration platform for seamless workflow automation. Connect apps, automate tasks, and boost productivity effortlessly. Alternative to n8n, Make, Zapier. [Repo](https://github.com/activepieces/activepieces) | Unknown | ⭐ 23K | Coming soon | Coming soon |
 | [AITable](https://open.aiflowlearn.net/apitable) - AITable.ai offers a visual database platform that simplifies workflow automation and connects to over 6,000 apps through integrations like Zapier and Make. Alternative to Airtable, Glide, Coda. [Repo](https://github.com/apitable/apitable) | AGPL-3.0 | ⭐ 15K | Coming soon | Coming soon |
 | [AppSmith](https://open.aiflowlearn.net/appsmith) - Low-code platform for creating powerful internal tools and dashboards with drag-and-drop ease, robust integrations, and customizable workflows. Alternative to Make, Retool, Power Apps. [Repo](https://github.com/appsmithorg/appsmith) | Apache-2.0 | ⭐ 40K | Coming soon | Coming soon |
@@ -440,6 +836,18 @@ Website: [https://open.aiflowlearn.net](https://open.aiflowlearn.net)
 | [Trigger](https://open.aiflowlearn.net/trigger) - Open source TypeScript platform for building and deploying AI agents and background workflows with retries, queues, observability, and elastic scaling. Alternative to Make, Zapier, Pipedream. [Repo](https://github.com/triggerdotdev/trigger.dev) | Apache-2.0 | ⭐ 15K | Coming soon | Coming soon |
 | [undb](https://open.aiflowlearn.net/undb) - Build and manage custom databases with ease, create type-safe APIs, and develop applications quickly Alternative to Supabase, Airtable, Firebase. [Repo](https://github.com/undb-io/undb) | AGPL-3.0 | ⭐ 2.9K | Coming soon | Coming soon |
 | [WunderGraph](https://open.aiflowlearn.net/wundergraph) - A powerful backend framework that simplifies API integration, enhances security, and boosts developer productivity for modern web applications. Alternative to Hasura, Apollo GraphQL, Stepzen. [Repo](https://github.com/wundergraph/cosmo) | Apache-2.0 | ⭐ 1.2K | Coming soon | Coming soon |
+
+### API Development & Testing
+
+| Project | License | Stars | Codex | Classroom |
+| --- | --- | ---: | --- | --- |
+| [Trieve](https://open.aiflowlearn.net/trieve) - Trieve offers an all-in-one solution for search, recommendations, and RAG with automatic continuous improvement based on user feedback. Alternative to Pinecone, Algolia, ElasticSearch. [Repo](https://github.com/devflowinc/trieve) | MIT | ⭐ 2.7K | Coming soon | Coming soon |
+| [Firecamp](https://open.aiflowlearn.net/firecamp) - All-in-one platform for API testing, documentation, and collaboration, simplifying the entire API development lifecycle. Alternative to Postman, Testfully. [Repo](https://github.com/firecamp-dev/firecamp) | AGPL-3.0 | ⭐ 2.6K | Coming soon | Coming soon |
+| [Scalar](https://open.aiflowlearn.net/scalar) - Scalar is an open-source tool for building, customizing, and hosting interactive API documentation with OpenAPI support. Alternative to Mintlify, Postman, Testfully. [Repo](https://github.com/scalar/scalar) | MIT | ⭐ 15K | Coming soon | Coming soon |
+| [LiveKit](https://open.aiflowlearn.net/livekit) - Scalable, customizable WebRTC SFU and server SDK for building real-time audio, video, and data applications with ease. [Repo](https://github.com/livekit/livekit) | Apache-2.0 | ⭐ 19K | Coming soon | Coming soon |
+| [Mockoon](https://open.aiflowlearn.net/mockoon) - Create, run, and share mock REST APIs without coding. Boost productivity with an intuitive interface and powerful features. Alternative to Postman, Testfully. [Repo](https://github.com/mockoon/mockoon) | MIT | ⭐ 8.3K | Coming soon | Coming soon |
+| [Tailcall](https://open.aiflowlearn.net/tailcall) - Swiftly design and ship best-practice GraphQL backends atop existing data sources and APIs. Alternative to Hasura, Apollo GraphQL. [Repo](https://github.com/tailcallhq/tailcall) | Apache-2.0 | ⭐ 1.4K | Coming soon | Coming soon |
+| [WunderGraph](https://open.aiflowlearn.net/wundergraph) - A powerful backend framework that simplifies API integration, enhances security, and boosts developer productivity for modern web applications. Alternative to Hasura, Apollo GraphQL, Stepzen. [Repo](https://github.com/wundergraph/cosmo) | Apache-2.0 | ⭐ 1.2K | Coming soon | Coming soon |
 | [Bruno](https://open.aiflowlearn.net/bruno) - A modern, user-friendly API client that simplifies API testing and development with a clean interface and powerful features. Alternative to Postman, Testfully. [Repo](https://github.com/usebruno/bruno) | MIT | ⭐ 45K | Coming soon | Coming soon |
 | [Gravitee](https://open.aiflowlearn.net/gravitee) - Full-lifecycle API management platform that unifies synchronous and asynchronous ecosystems. Manage APIs, event streams, and AI agents with enterprise security and 4x faster gateway performance. Alternative to Postman, Kong, Amazon API Gateway. [Repo](https://github.com/gravitee-io/gravitee-api-management) | Apache-2.0 | ⭐ 421 | Coming soon | Coming soon |
 | [Hive](https://open.aiflowlearn.net/hive) - A fully open-source schema registry, analytics, and gateway for GraphQL federation and APIs Alternative to Hasura, Apollo GraphQL, Stepzen. [Repo](https://github.com/graphql-hive/console) | MIT | ⭐ 481 | Coming soon | Coming soon |
@@ -452,9 +860,25 @@ Website: [https://open.aiflowlearn.net](https://open.aiflowlearn.net)
 | [UnKey](https://open.aiflowlearn.net/unkey) - Streamline API authentication with UnKey's powerful, developer-friendly platform for creating, revoking, and monitoring API keys. Alternative to Kong, Amazon API Gateway, Zuplo. [Repo](https://github.com/unkeyed/unkey) | AGPL-3.0 | ⭐ 5.3K | Coming soon | Coming soon |
 | [Voiden](https://open.aiflowlearn.net/voiden) - Offline-first API workspace that unifies specs, docs, tests, and mocks in programmable Markdown blocks. Version control everything in plain text files. Alternative to Postman, Testfully. [Repo](https://github.com/voidenhq/voiden) | Apache-2.0 | ⭐ 1.2K | Coming soon | Coming soon |
 | [Yaak](https://open.aiflowlearn.net/yaak) - A modern API client offering local-only data storage, Git integration, plugin extensibility, and multi-protocol support for developers. Alternative to Postman, Testfully. [Repo](https://github.com/yaakapp/app) | MIT | ⭐ 19K | Coming soon | Coming soon |
+
+### Testing & Quality Assurance
+
+| Project | License | Stars | Codex | Classroom |
+| --- | --- | ---: | --- | --- |
+| [Hercules](https://open.aiflowlearn.net/hercules) - Hercules is an AI-powered testing agent that enables zero-code, zero-maintenance automated testing for web and API scenarios. [Repo](https://github.com/test-zeus-ai/testzeus-hercules) | AGPL-3.0 | ⭐ 1K | Coming soon | Coming soon |
 | [Argos](https://open.aiflowlearn.net/argos) - Automate visual testing, catch UI bugs early, and collaborate effortlessly with your team to maintain pixel-perfect interfaces. Alternative to Applitools, Chromatic, Percy. [Repo](https://github.com/argos-ci/argos) | MIT | ⭐ 589 | Coming soon | Coming soon |
 | [Quant-UX](https://open.aiflowlearn.net/quant-ux) - Quant-UX is an open-source tool for creating interactive prototypes, conducting user tests, and analyzing results to improve UX design. Alternative to Figma, Miro, Paper. [Repo](https://github.com/KlausSchaefers/quant-ux) | GPL-3.0 | ⭐ 2.6K | Coming soon | Coming soon |
 | [Unleash](https://open.aiflowlearn.net/unleash) - A powerful feature management platform enabling gradual rollouts, A/B testing, and seamless integration for continuous delivery. Alternative to LaunchDarkly, Hypertune, Statsig. [Repo](https://github.com/unleash/unleash) | AGPL-3.0 | ⭐ 14K | Coming soon | Coming soon |
+
+### Version Control & Collaboration
+
+| Project | License | Stars | Codex | Classroom |
+| --- | --- | ---: | --- | --- |
+| [Daytona](https://open.aiflowlearn.net/daytona) - Elastic sandbox infrastructure for running AI-generated code with sub-90ms environment creation, stateful operations, and isolated execution across Python, TypeScript, Go, and more. Alternative to Together Sandbox, Modal, Sprites. [Repo](https://github.com/daytonaio/daytona/) | AGPL-3.0 | ⭐ 72K | [Codex](https://www.aiflowlearn.net/codex/daytonaio-daytona) | Coming soon |
+| [GitLab](https://open.aiflowlearn.net/gitlab) - A comprehensive AI-powered DevSecOps platform that integrates development, security, and operations, streamlining software delivery and enhancing productivity. Alternative to GitHub, GitHub Actions, BitBucket. [Repo](https://github.com/gitlabhq/gitlabhq) | Unknown | ⭐ 24K | Coming soon | Coming soon |
+| [Shelve](https://open.aiflowlearn.net/shelve) - Shelve is a comprehensive project management tool designed to streamline workflows and enhance collaboration for developers and teams. Alternative to Doppler, Keeper. [Repo](https://github.com/hugorcd/shelve) | Apache-2.0 | ⭐ 425 | Coming soon | Coming soon |
+| [Encore](https://open.aiflowlearn.net/encore) - A powerful platform for building cloud backends, automating infrastructure, and simplifying development workflows for faster, more efficient coding. Alternative to Supabase, Firebase, AppWrite. [Repo](https://github.com/encoredev/encore) | MPL-2.0 | ⭐ 12K | Coming soon | Coming soon |
+| [Reflex](https://open.aiflowlearn.net/reflex) - Build, iterate, and deploy full-stack web apps entirely in Python. Reflex combines an AI app builder, a full-stack framework, and one-click deployment in one platform. Alternative to Lovable, Base44, Replit. [Repo](https://github.com/reflex-dev/reflex) | Apache-2.0 | ⭐ 28K | Coming soon | Coming soon |
 | [Coder](https://open.aiflowlearn.net/coder) - Self-hosted development platform that enables secure, scalable remote coding with automated provisioning, reduced cloud costs, and enterprise-grade security. Alternative to Microsoft Dev Box, GitHub Codespaces, Amazon CodeCatalyst. [Repo](https://github.com/coder/coder) | AGPL-3.0 | ⭐ 13K | Coming soon | Coming soon |
 | [CodinIT.dev](https://open.aiflowlearn.net/codinit-dev) - Build, deploy, and own full-stack web apps using AI prompts. Supports 19+ AI providers, Postgres, auth, storage, and serverless functions out of the box. Alternative to Lovable, Base44, Replit. [Repo](https://github.com/gerome-elassaad/codingit) | Apache-2.0 | ⭐ 171 | Coming soon | Coming soon |
 | [Forgejo](https://open.aiflowlearn.net/forgejo) - Self-hosted software forge offering GitHub-like features with minimal resources. Easy installation, low maintenance, and 100% free software for secure project management. Alternative to GitHub, BitBucket. [Repo](https://openalternative.co/forgejo) | Unknown | ⭐ 4.9K | Coming soon | Coming soon |
@@ -462,8 +886,27 @@ Website: [https://open.aiflowlearn.net](https://open.aiflowlearn.net)
 | [Gitea](https://open.aiflowlearn.net/gitea) - A lightweight, fast, and customizable Git service that simplifies code hosting and collaboration for teams of all sizes. Alternative to GitHub, BitBucket, Upsource. [Repo](https://github.com/go-gitea/gitea) | MIT | ⭐ 56K | Coming soon | Coming soon |
 | [Gitpod](https://open.aiflowlearn.net/gitpod) - Standardized, automated dev environments in the cloud. Self-host or use managed service. Integrate with existing tools and workflows. Alternative to Microsoft Dev Box, GitHub Codespaces, BitBucket. [Repo](https://github.com/gitpod-io/gitpod) | AGPL-3.0 | ⭐ 14K | Coming soon | Coming soon |
 | [Gogs](https://open.aiflowlearn.net/gogs) - Lightweight, cross-platform Git service for self-hosting. Easy installation, minimal requirements, runs on Raspberry Pi. 100% open source and free. Alternative to GitHub, BitBucket. [Repo](https://github.com/gogs/gogs) | MIT | ⭐ 48K | Coming soon | Coming soon |
+
+### Code Analysis & Transformation
+
+| Project | License | Stars | Codex | Classroom |
+| --- | --- | ---: | --- | --- |
 | [Grit](https://open.aiflowlearn.net/grit) - Grit uses machine learning and static analysis to automatically generate pull requests that clean up code and migrate to the latest frameworks. [Repo](https://github.com/getgrit/gritql) | MIT | ⭐ 4.5K | Coming soon | Coming soon |
 | [Opengrep](https://open.aiflowlearn.net/opengrep) - Opengrep is a community-driven fork of SemgrepCE, providing accessible static code analysis and security scanning for developers. [Repo](https://github.com/opengrep/opengrep) | LGPL-2.1 | ⭐ 2.7K | Coming soon | Coming soon |
+
+### Build & Deployment
+
+| Project | License | Stars | Codex | Classroom |
+| --- | --- | ---: | --- | --- |
+| [Rivet](https://open.aiflowlearn.net/rivet) - Open-source infrastructure for long-lived, in-memory processes called Actors. Combines state and compute with sub-millisecond latency, realtime capabilities, and horizontal scaling. [Repo](https://github.com/rivet-dev/rivet) | Apache-2.0 | ⭐ 5.6K | Coming soon | Coming soon |
+| [GitLab](https://open.aiflowlearn.net/gitlab) - A comprehensive AI-powered DevSecOps platform that integrates development, security, and operations, streamlining software delivery and enhancing productivity. Alternative to GitHub, GitHub Actions, BitBucket. [Repo](https://github.com/gitlabhq/gitlabhq) | Unknown | ⭐ 24K | Coming soon | Coming soon |
+| [Appwrite](https://open.aiflowlearn.net/appwrite) - Open-source development platform with built-in backend infrastructure, web hosting, and security features. Scale applications using your preferred programming languages. Alternative to Supabase, Vercel, Netlify. [Repo](https://github.com/appwrite/appwrite) | BSD-3-Clause | ⭐ 56K | Coming soon | Coming soon |
+| [Capgo](https://open.aiflowlearn.net/capgo) - Over-the-air update solution for Capacitor apps that enables instant deployment of bug fixes and features without going through app store review processes. [Repo](https://github.com/cap-go/capgo) | AGPL-3.0 | ⭐ 198 | Coming soon | Coming soon |
+| [Encore](https://open.aiflowlearn.net/encore) - A powerful platform for building cloud backends, automating infrastructure, and simplifying development workflows for faster, more efficient coding. Alternative to Supabase, Firebase, AppWrite. [Repo](https://github.com/encoredev/encore) | MPL-2.0 | ⭐ 12K | Coming soon | Coming soon |
+| [Hatchet](https://open.aiflowlearn.net/hatchet) - Durable orchestration platform for managing AI agents, scheduling background tasks, and running mission-critical workflows. Alternative to Make, Zapier, IFTTT. [Repo](https://github.com/hatchet-dev/hatchet) | MIT | ⭐ 7.3K | Coming soon | Coming soon |
+| [NHost](https://open.aiflowlearn.net/nhost) - Fully managed backend infrastructure with built-in authentication, database, storage, and serverless functions for rapid application development. Alternative to Supabase, Firebase. [Repo](https://github.com/nhost/nhost) | MIT | ⭐ 9.2K | Coming soon | Coming soon |
+| [NocoBase](https://open.aiflowlearn.net/nocobase) - Open-source no-code platform for creating tailored business applications quickly, with full customization and easy deployment options. Alternative to Airtable, Retool, Power Apps. [Repo](https://github.com/nocobase/nocobase) | Unknown | ⭐ 23K | Coming soon | Coming soon |
+| [Unleash](https://open.aiflowlearn.net/unleash) - A powerful feature management platform enabling gradual rollouts, A/B testing, and seamless integration for continuous delivery. Alternative to LaunchDarkly, Hypertune, Statsig. [Repo](https://github.com/unleash/unleash) | AGPL-3.0 | ⭐ 14K | Coming soon | Coming soon |
 | [/dev/push](https://open.aiflowlearn.net/dev-push) - Open source deployment platform that deploys apps directly from GitHub with zero-downtime, real-time logs, preview URLs, and support for Python, Node.js frameworks. Alternative to Vercel, Netlify, Heroku. [Repo](https://github.com/hunvreus/devpush) | MIT | ⭐ 4.7K | Coming soon | Coming soon |
 | [Bytebase](https://open.aiflowlearn.net/bytebase) - Comprehensive platform for database schema migrations, security controls, and data masking with built-in review workflows and GitOps integration. [Repo](https://github.com/bytebase/bytebase) | Unknown | ⭐ 14K | Coming soon | Coming soon |
 | [Coolify](https://open.aiflowlearn.net/coolify) - Self-hostable deployment platform that lets you deploy apps, databases, and 280+ one-click services to any server via SSH, with Git integration and automatic SSL. Alternative to Vercel, Netlify, Heroku. [Repo](https://github.com/coollabsio/coolify) | Apache-2.0 | ⭐ 57K | Coming soon | Coming soon |
@@ -481,8 +924,34 @@ Website: [https://open.aiflowlearn.net](https://open.aiflowlearn.net)
 | [Terrateam](https://open.aiflowlearn.net/terrateam) - Automate infrastructure changes with secure GitOps workflows. Plan, validate, and deploy Terraform, OpenTofu, and Pulumi directly from pull requests. Alternative to Red Hat Ansible, Terraform, Puppet. [Repo](https://github.com/terrateamio/terrateam) | MPL-2.0 | ⭐ 1.2K | Coming soon | Coming soon |
 | [Windmill](https://open.aiflowlearn.net/windmill) - Powerful, self-hosted platform for building and running workflows, scripts, and apps with code-first approach and collaborative features. Alternative to Make, Zapier, IFTTT. [Repo](https://github.com/windmill-labs/windmill) | Unknown | ⭐ 17K | Coming soon | Coming soon |
 | [Woodpecker CI](https://open.aiflowlearn.net/woodpecker-ci) - Open-source CI/CD platform using Docker containers for pipeline execution. Create multiple workflows, extend with plugins, and enjoy free lifetime access. Alternative to GitHub Actions, Jenkins, CircleCI. [Repo](https://github.com/woodpecker-ci/woodpecker) | Apache-2.0 | ⭐ 7.3K | Coming soon | Coming soon |
+| [Flagr](https://open.aiflowlearn.net/flagr) - Flagr is a feature flagging, A/B testing and dynamic configuration microservice Alternative to LaunchDarkly, Statsig. [Repo](https://github.com/openflagr/flagr) | Apache-2.0 | ⭐ 2.6K | Coming soon | Coming soon |
+| [CapRover](https://open.aiflowlearn.net/caprover) - Scalable PaaS (automated Docker+nginx) - aka Heroku on Steroids Alternative to Heroku, Vercel. [Repo](https://github.com/caprover/caprover) | NOASSERTION | ⭐ 15K | Coming soon | Coming soon |
+| [Kubero](https://open.aiflowlearn.net/kubero) - A free and self-hosted PaaS alternative to Heroku / Netlify / Coolify / Vercel / Dokku / Portainer running on Kubernetes Alternative to Heroku, Vercel. [Repo](https://github.com/kubero-dev/kubero) | GPL-3.0 | ⭐ 4.3K | Coming soon | Coming soon |
+
+### Integration Platforms
+
+| Project | License | Stars | Codex | Classroom |
+| --- | --- | ---: | --- | --- |
+| [ACI.dev](https://open.aiflowlearn.net/aci-dev) - Platform for connecting AI agents to 500+ tools with built-in multi-tenant auth management and granular permissions using either function calling or a unified MCP server Alternative to Pipedream, Eden AI, Rube. [Repo](https://github.com/aipotheosis-labs/aci) | Apache-2.0 | ⭐ 4.8K | Coming soon | Coming soon |
+| [Nango](https://open.aiflowlearn.net/nango) - Complete integrations platform with 500+ pre-built APIs, code-first approach, unified data models, and enterprise-grade security. Free tier available. Alternative to Pipedream, Rube, Apideck. [Repo](https://github.com/nangohq/nango) | Unknown | ⭐ 10K | Coming soon | Coming soon |
+| [Jitsu](https://open.aiflowlearn.net/jitsu) - Collect, transform, and sync data across your entire infrastructure with a flexible, code-based approach to data integration. Alternative to Supermetrics, Segment, Fivetran. [Repo](https://github.com/jitsucom/jitsu) | MIT | ⭐ 4.8K | Coming soon | Coming soon |
+| [Orbital](https://open.aiflowlearn.net/orbital) - Automated data integration platform that connects APIs, databases, and event streams using semantic schemas. Deploy secure integrations in minutes with Git-based workflows. Alternative to Kong, Apollo GraphQL. [Repo](https://github.com/orbitalapi/orbital) | Unknown | ⭐ 359 | Coming soon | Coming soon |
+| [ActivePieces](https://open.aiflowlearn.net/activepieces) - Open-source integration platform for seamless workflow automation. Connect apps, automate tasks, and boost productivity effortlessly. Alternative to n8n, Make, Zapier. [Repo](https://github.com/activepieces/activepieces) | Unknown | ⭐ 23K | Coming soon | Coming soon |
+| [WunderGraph](https://open.aiflowlearn.net/wundergraph) - A powerful backend framework that simplifies API integration, enhances security, and boosts developer productivity for modern web applications. Alternative to Hasura, Apollo GraphQL, Stepzen. [Repo](https://github.com/wundergraph/cosmo) | Apache-2.0 | ⭐ 1.2K | Coming soon | Coming soon |
+| [Krakend](https://open.aiflowlearn.net/krakend) - High-performance, stateless API gateway built for microservices. Handle 80K+ requests/second with transparent pricing and enterprise-grade reliability. Alternative to Kong, Zuplo, Apigee. [Repo](https://github.com/krakend/krakend-ce) | Apache-2.0 | ⭐ 2.6K | Coming soon | Coming soon |
 | [Automatisch](https://open.aiflowlearn.net/automatisch) - Self-hosted automation tool that connects your apps and services, enabling powerful integrations and efficient data flow across your ecosystem. Alternative to n8n, Make, Zapier. [Repo](https://github.com/automatisch/automatisch/) | Unknown | ⭐ 14K | Coming soon | Coming soon |
 | [Hook0](https://open.aiflowlearn.net/hook0) - Self-hosted webhook solution for effortless event-driven communication between applications, enhancing system interoperability and automation. Alternative to Zapier, IFTTT, Pipedream. [Repo](https://github.com/hook0/hook0) | Unknown | ⭐ 1.4K | Coming soon | Coming soon |
+| [Revert](https://open.aiflowlearn.net/revert) - Revert makes it incredibly easy to build integrations with any third party API Alternative to Merge, Tray IO. [Repo](https://github.com/revertinc/revert) | AGPL-3.0 | ⭐ 1K | Coming soon | Coming soon |
+
+### AI Assisted Coding
+
+| Project | License | Stars | Codex | Classroom |
+| --- | --- | ---: | --- | --- |
+| [TechBlitz](https://open.aiflowlearn.net/techblitz) - Learn to code through interactive challenges, personalized learning paths, and AI-powered assistance Alternative to Udemy, Coursera, LeetCode. [Repo](https://github.com/techblitzdev/techblitz/) | Apache-2.0 | ⭐ 432 | Coming soon | Coming soon |
+| [Kilo](https://open.aiflowlearn.net/kilocode) - Open source AI coding agent with 500+ models, bring-your-own-key support, and specialized modes for writing, debugging, and planning code across IDEs and CLI. Alternative to Claude Code, Cursor, Kiro. [Repo](https://github.com/kilo-org/kilocode) | MIT | ⭐ 20K | Coming soon | Coming soon |
+| [PearAI](https://open.aiflowlearn.net/pearai) - PearAI integrates cutting-edge AI tools into a powerful code editor, accelerating your coding process with features like AI chat and inline prompts. Alternative to Claude Code, Cursor, Kiro. [Repo](https://github.com/trypear/pearai-master) | Unknown | ⭐ 749 | Coming soon | Coming soon |
+| [Reflex](https://open.aiflowlearn.net/reflex) - Build, iterate, and deploy full-stack web apps entirely in Python. Reflex combines an AI app builder, a full-stack framework, and one-click deployment in one platform. Alternative to Lovable, Base44, Replit. [Repo](https://github.com/reflex-dev/reflex) | Apache-2.0 | ⭐ 28K | Coming soon | Coming soon |
+| [CodinIT.dev](https://open.aiflowlearn.net/codinit-dev) - Build, deploy, and own full-stack web apps using AI prompts. Supports 19+ AI providers, Postgres, auth, storage, and serverless functions out of the box. Alternative to Lovable, Base44, Replit. [Repo](https://github.com/gerome-elassaad/codingit) | Apache-2.0 | ⭐ 171 | Coming soon | Coming soon |
 | [Aider](https://open.aiflowlearn.net/aider) - Terminal-based AI coding tool that lets you edit existing codebases or start new projects using LLMs like Claude, GPT, and DeepSeek. Alternative to Claude Code, Cursor, Kiro. [Repo](https://github.com/aider-ai/aider) | Apache-2.0 | ⭐ 46K | Coming soon | Coming soon |
 | [Cline](https://open.aiflowlearn.net/cline) - AI coding agent that runs inside VS Code and the terminal, supporting multi-file edits, bash execution, and any LLM provider via bring-your-own-key. Alternative to Claude Code, Cursor, Codex. [Repo](https://github.com/cline/cline) | Apache-2.0 | ⭐ 63K | Coming soon | Coming soon |
 | [Cody](https://open.aiflowlearn.net/cody) - Advanced AI coding assistant that helps enterprise teams write, fix, and maintain code with enhanced accuracy and consistency across large codebases Alternative to Claude Code, Cursor, Kiro. [Repo](https://github.com/sourcegraph/cody-vs) | Apache-2.0 | ⭐ 86 | Coming soon | Coming soon |
@@ -502,6 +971,11 @@ Website: [https://open.aiflowlearn.net](https://open.aiflowlearn.net)
 | [SWE-agent](https://open.aiflowlearn.net/swe-agent) - State-of-the-art AI agent that uses language models like GPT-4o to autonomously solve GitHub issues, fix bugs, and implement features with configurable YAML setup. Alternative to Devin, Zencoder, Bugbot. [Repo](https://github.com/swe-agent/swe-agent) | MIT | ⭐ 19K | Coming soon | Coming soon |
 | [T3 Code](https://open.aiflowlearn.net/t3-code) - Advanced AI coding assistant that enhances development workflow with intelligent code suggestions, automated debugging, and seamless integration. Alternative to Claude Code, Kiro, Codex. [Repo](https://github.com/pingdotgg/t3code) | MIT | ⭐ 13K | Coming soon | Coming soon |
 | [Tabby](https://open.aiflowlearn.net/tabby) - Self-hosted AI coding assistant that enhances productivity with context-aware suggestions and privacy-focused implementation. Alternative to Claude Code, Cursor, Kiro. [Repo](https://github.com/tabbyml/tabby) | Unknown | ⭐ 34K | Coming soon | Coming soon |
+
+### Terminals
+
+| Project | License | Stars | Codex | Classroom |
+| --- | --- | ---: | --- | --- |
 | [Alacritty](https://open.aiflowlearn.net/alacritty) - Modern cross-platform terminal emulator with OpenGL acceleration, extensive configuration options, and vi mode support for enhanced productivity. Alternative to Warp, Terminal. [Repo](https://github.com/alacritty/alacritty) | Apache-2.0 | ⭐ 65K | Coming soon | Coming soon |
 | [Ghostty](https://open.aiflowlearn.net/ghostty) - Experience blazing-fast terminal performance with GPU acceleration and platform-native UI. Cross-platform compatibility meets modern design. Alternative to Warp, Terminal. [Repo](https://github.com/ghostty-org/ghostty) | MIT | ⭐ 56K | Coming soon | Coming soon |
 | [iTerm 2](https://open.aiflowlearn.net/iterm-2) - Feature-rich terminal replacement for macOS with split panes, search, autocomplete, and extensive customization options for enhanced productivity. Alternative to Warp, Terminal. [Repo](https://github.com/gnachman/iterm2) | GPL-2.0 | ⭐ 18K | Coming soon | Coming soon |
@@ -510,23 +984,65 @@ Website: [https://open.aiflowlearn.net](https://open.aiflowlearn.net)
 | [WaveTerm](https://open.aiflowlearn.net/waveterm) - Enhance your terminal with AI, file previews, and web browsing. Available on MacOS, Linux, and Windows. Alternative to Warp, Terminal. [Repo](https://github.com/wavetermdev/waveterm) | Apache-2.0 | ⭐ 21K | Coming soon | Coming soon |
 | [WezTerm](https://open.aiflowlearn.net/wezterm) - Cross-platform terminal emulator and multiplexer with GPU acceleration, true color support, and Lua configuration. Runs on Linux, macOS, Windows, FreeBSD, and NetBSD. Alternative to Warp, Terminal. [Repo](https://github.com/wezterm/wezterm) | Unknown | ⭐ 27K | Coming soon | Coming soon |
 | [Zellij](https://open.aiflowlearn.net/zellij) - A terminal multiplexer that organizes your workflow with intuitive layouts, tabs, and panes. Includes batteries for seamless terminal workspace management. Alternative to Warp, Terminal. [Repo](https://github.com/zellij-org/zellij) | MIT | ⭐ 34K | Coming soon | Coming soon |
+
+
+## Infrastructure & Operations
+
+### Search Engines
+
+| Project | License | Stars | Codex | Classroom |
+| --- | --- | ---: | --- | --- |
+| [Onyx](https://open.aiflowlearn.net/onyx) - An open-source platform that connects to 40+ apps to provide intelligent search and AI assistance across all company information Alternative to Algolia, ElasticSearch, Glean. [Repo](https://github.com/onyx-dot-app/onyx) | Unknown | ⭐ 30K | Coming soon | Coming soon |
+| [Swirl Search](https://open.aiflowlearn.net/swirl) - AI-powered search and RAG platform that connects to 100+ enterprise tools without data migration. Deploy securely on-premises with any LLM. Alternative to Algolia, ElasticSearch, AWS Kendra. [Repo](https://github.com/swirlai/swirl-search) | Apache-2.0 | ⭐ 3K | Coming soon | Coming soon |
 | [Elasticsearch](https://open.aiflowlearn.net/elasticsearch) - Elasticsearch is an open-source, RESTful search engine designed for scalability, reliability, and easy management. Alternative to Algolia, AWS Kendra, Coveo. [Repo](https://github.com/elastic/elasticsearch) | Unknown | ⭐ 77K | Coming soon | Coming soon |
 | [Manticore Search](https://open.aiflowlearn.net/manticore) - Open source search database delivering 2.83x faster performance than Elasticsearch. Features vector search, SQL interface, and full-text capabilities. Alternative to Algolia, ElasticSearch, AWS Kendra. [Repo](https://github.com/manticoresoftware/manticoresearch) | GPL-3.0 | ⭐ 12K | Coming soon | Coming soon |
 | [Meilisearch](https://open.aiflowlearn.net/meilisearch) - A powerful, fast, and easy-to-use search engine that delivers instant and relevant results for your websites and applications. Alternative to Algolia, ElasticSearch, AWS Kendra. [Repo](https://github.com/meilisearch/meilisearch) | MIT | ⭐ 58K | Coming soon | Coming soon |
 | [OpenSearch](https://open.aiflowlearn.net/opensearch) - Community-driven, Apache 2.0-licensed search and analytics suite for ingesting, searching, visualizing, and analyzing data at scale with AI/ML capabilities. Alternative to Algolia, ElasticSearch, AWS Kendra. [Repo](https://github.com/opensearch-project/opensearch) | Apache-2.0 | ⭐ 13K | Coming soon | Coming soon |
 | [Quickwit](https://open.aiflowlearn.net/quickwit) - High-performance search engine designed for big data, offering scalability, real-time indexing, and cost-effective operations. Alternative to Algolia, ElasticSearch, Coveo. [Repo](https://github.com/quickwit-oss/quickwit) | Apache-2.0 | ⭐ 11K | Coming soon | Coming soon |
 | [Typesense](https://open.aiflowlearn.net/typesense) - Open-source search solution offering blazing speed, typo tolerance, and effortless scalability for developers and businesses. Alternative to Pinecone, Algolia, ElasticSearch. [Repo](https://github.com/typesense/typesense) | GPL-3.0 | ⭐ 26K | Coming soon | Coming soon |
+
+### Cloud Infrastructure Management
+
+| Project | License | Stars | Codex | Classroom |
+| --- | --- | ---: | --- | --- |
+| [Flexprice](https://open.aiflowlearn.net/flexprice) - A flexible billing platform that handles usage-based metering, credit management, and subscription billing, giving developers full control over pricing models. Alternative to Stripe Billing, Orb. [Repo](https://github.com/flexprice/flexprice) | AGPL-3.0 | ⭐ 3.6K | Coming soon | Coming soon |
+| [OpenMeter](https://open.aiflowlearn.net/openmeter) - Open source billing platform that turns events into revenue with real-time metering, usage limits, and flexible pricing. Integrates with Stripe, CRMs, and payment providers. Alternative to Stripe Billing, Recurly, Zuora. [Repo](https://github.com/openmeterio/openmeter) | Apache-2.0 | ⭐ 2K | Coming soon | Coming soon |
+| [Coolify](https://open.aiflowlearn.net/coolify) - Self-hostable deployment platform that lets you deploy apps, databases, and 280+ one-click services to any server via SSH, with Git integration and automatic SSL. Alternative to Vercel, Netlify, Heroku. [Repo](https://github.com/coollabsio/coolify) | Apache-2.0 | ⭐ 57K | Coming soon | Coming soon |
+| [Digger](https://open.aiflowlearn.net/digger) - Open-source CI/CD orchestrator for Terraform with pull request automation, drift detection, and enterprise-grade security. Self-hostable with private runners. Alternative to Red Hat Ansible, Terraform, Puppet. [Repo](https://github.com/diggerhq/digger) | MIT | ⭐ 5K | Coming soon | Coming soon |
+| [Nitric](https://open.aiflowlearn.net/nitric) - Nitric automates cloud infrastructure provisioning from your application code for AWS, GCP and Azure Alternative to Supabase, Firebase, Hasura. [Repo](https://github.com/nitrictech/nitric) | Apache-2.0 | ⭐ 2K | Coming soon | Coming soon |
+| [Terrateam](https://open.aiflowlearn.net/terrateam) - Automate infrastructure changes with secure GitOps workflows. Plan, validate, and deploy Terraform, OpenTofu, and Pulumi directly from pull requests. Alternative to Red Hat Ansible, Terraform, Puppet. [Repo](https://github.com/terrateamio/terrateam) | MPL-2.0 | ⭐ 1.2K | Coming soon | Coming soon |
 | [AutoMQ](https://open.aiflowlearn.net/automq) - AutoMQ is a serverless Kafka alternative built on S3 that offers 10x cost savings, easy scalability, and full Kafka compatibility. [Repo](https://github.com/automq/automq) | Apache-2.0 | ⭐ 10K | Coming soon | Coming soon |
 | [Cozystack](https://open.aiflowlearn.net/cozystack) - Transform bare metal servers into a complete cloud platform with REST API for Kubernetes clusters, databases, VMs, and load balancers. Build your own cloud. Alternative to Microsoft Azure, VMware, Google Cloud. [Repo](https://github.com/cozystack/cozystack) | Apache-2.0 | ⭐ 2.1K | Coming soon | Coming soon |
 | [OpenStack](https://open.aiflowlearn.net/openstack) - OpenStack manages compute, storage, and networking across VMs, bare metal, and containers via APIs or a dashboard. Trusted by Walmart, China Mobile, and more. Alternative to Microsoft Azure, Google Cloud. [Repo](https://github.com/openstack/openstack) | Apache-2.0 | ⭐ 5.9K | Coming soon | Coming soon |
 | [OpenTofu](https://open.aiflowlearn.net/opentofu) - A community-driven, truly open-source fork of Terraform for managing cloud infrastructure through code. Alternative to Red Hat Ansible, Terraform, Puppet. [Repo](https://github.com/opentofu/opentofu) | MPL-2.0 | ⭐ 29K | Coming soon | Coming soon |
 | [Pulumi](https://open.aiflowlearn.net/pulumi) - Pulumi enables developers to define and manage cloud infrastructure using familiar programming languages instead of domain-specific languages. Alternative to Red Hat Ansible, Terraform, Puppet. [Repo](https://github.com/pulumi/pulumi) | Apache-2.0 | ⭐ 25K | Coming soon | Coming soon |
+
+### Server & VM Management
+
+| Project | License | Stars | Codex | Classroom |
+| --- | --- | ---: | --- | --- |
+| [Refine](https://open.aiflowlearn.net/refine) - A React-based framework for rapid development of internal tools, admin panels, and dashboards with powerful data handling capabilities. Alternative to Retool, Airplane, OutSystems. [Repo](https://github.com/refinedev/refine) | MIT | ⭐ 35K | Coming soon | Coming soon |
+| [Coolify](https://open.aiflowlearn.net/coolify) - Self-hostable deployment platform that lets you deploy apps, databases, and 280+ one-click services to any server via SSH, with Git integration and automatic SSL. Alternative to Vercel, Netlify, Heroku. [Repo](https://github.com/coollabsio/coolify) | Apache-2.0 | ⭐ 57K | Coming soon | Coming soon |
+| [Dokploy](https://open.aiflowlearn.net/dokploy) - Streamline your deployment process with Dokploy. Manage applications and databases on any VPS using Docker and Traefik for improved performance and security. Alternative to Vercel, Netlify, Heroku. [Repo](https://github.com/dokploy/dokploy) | Unknown | ⭐ 35K | Coming soon | Coming soon |
+| [Temps](https://open.aiflowlearn.net/temps) - Self-hosted platform for small dev teams combining deployments, error tracking, analytics, session replay, uptime monitoring, and managed databases in one dashboard. Alternative to Vercel, Netlify, Heroku. [Repo](https://github.com/gotempsh/temps) | Apache-2.0 | ⭐ 476 | Coming soon | Coming soon |
 | [1Panel](https://open.aiflowlearn.net/1panel) - Comprehensive web-based tool for Linux server administration with integrated website, database, container, and LLM management capabilities. Alternative to cPanel, Plesk. [Repo](https://github.com/1panel-dev/1panel) | GPL-3.0 | ⭐ 36K | Coming soon | Coming soon |
 | [aaPanel](https://open.aiflowlearn.net/aapanel) - aaPanel simplifies Linux server management with one-click installations, intuitive interface, and comprehensive tools for websites, databases, and more. Alternative to cPanel, Plesk. [Repo](https://github.com/aaPanel/aaPanel) | Unknown | ⭐ 3K | Coming soon | Coming soon |
 | [CasaOS](https://open.aiflowlearn.net/casaos) - CasaOS is an open-source personal cloud system that makes it easy to set up and manage your own home server Alternative to Umbrel, HomeKit. [Repo](https://github.com/icewhaletech/casaos) | Apache-2.0 | ⭐ 34K | Coming soon | Coming soon |
 | [Cosmos Server](https://open.aiflowlearn.net/cosmos-server) - Complete self-hosting solution with automated maintenance, Smart-Shield protection, anti-DDoS, SSO authentication, and VPN access for secure private cloud management. [Repo](https://github.com/azukaar/cosmos-server) | Unknown | ⭐ 6K | Coming soon | Coming soon |
 | [OpenPanel](https://open.aiflowlearn.net/openpanel-co) - A user-friendly, open-source control panel for effortless server administration, designed for both beginners and experts. Alternative to cPanel, Plesk. [Repo](https://github.com/stefanpejcic/openpanel) | MIT | ⭐ 685 | Coming soon | Coming soon |
 | [YunoHost](https://open.aiflowlearn.net/yunohost) - Install and maintain your own server with minimal technical knowledge. Host websites, email, cloud storage, social networks, and more for complete digital independence. Alternative to Umbrel, HomeKit. [Repo](https://github.com/yunohost/yunohost) | AGPL-3.0 | ⭐ 2.9K | Coming soon | Coming soon |
+
+### Monitoring & Observability
+
+| Project | License | Stars | Codex | Classroom |
+| --- | --- | ---: | --- | --- |
+| [OpenLLMetry](https://open.aiflowlearn.net/openllmetry) - Open-source observability platform for LLMs using OpenTelemetry. Monitor performance, track costs, and debug AI applications with just 2 lines of code. Alternative to DataDog, LangSmith, Splunk. [Repo](https://github.com/traceloop/openllmetry) | Apache-2.0 | ⭐ 7.2K | Coming soon | Coming soon |
+| [Helicone](https://open.aiflowlearn.net/helicone) - Open-source platform for logging, monitoring, and debugging LLM applications. Route, debug, and analyze AI apps with comprehensive observability tools. Alternative to DataDog, LangSmith, LangChain. [Repo](https://github.com/helicone/helicone) | Apache-2.0 | ⭐ 5.8K | [Codex](https://www.aiflowlearn.net/codex/helicone) | Coming soon |
+| [OpenReplay](https://open.aiflowlearn.net/openreplay) - Open-source session replay and product analytics platform you can self-host for complete control over data security, privacy, and compliance. Alternative to Mixpanel, Hotjar, Amplitude. [Repo](https://github.com/openreplay/openreplay) | Unknown | ⭐ 12K | Coming soon | Coming soon |
+| [Grafana](https://open.aiflowlearn.net/grafana) - Grafana is a multi-platform open source analytics and interactive visualization web application that provides charts, graphs, and alerts for the web. Alternative to Power BI, Paessler PRTG, Splunk. [Repo](https://github.com/grafana/grafana) | AGPL-3.0 | ⭐ 74K | Coming soon | Coming soon |
+| [Gigapipe](https://open.aiflowlearn.net/gigapipe) - Unified platform for logs, metrics, traces and profiles with native compatibility for popular tools like OpenTelemetry, Prometheus, and Loki. No data silos, no usage limits. Alternative to DataDog, Splunk, ElasticSearch. [Repo](https://github.com/metrico/gigapipe) | AGPL-3.0 | ⭐ 1.7K | Coming soon | Coming soon |
+| [Logstash](https://open.aiflowlearn.net/logstash) - Logstash is a free and open server-side data processing pipeline that ingests data from multiple sources, transforms it, and sends it to your desired destination. Alternative to DataDog, Splunk, Tableau. [Repo](https://github.com/elastic/logstash) | Unknown | ⭐ 15K | Coming soon | Coming soon |
+| [Elasticsearch](https://open.aiflowlearn.net/elasticsearch) - Elasticsearch is an open-source, RESTful search engine designed for scalability, reliability, and easy management. Alternative to Algolia, AWS Kendra, Coveo. [Repo](https://github.com/elastic/elasticsearch) | Unknown | ⭐ 77K | Coming soon | Coming soon |
 | [Bugsink](https://open.aiflowlearn.net/bugsink) - Bugsink offers real-time error tracking with self-hosting capabilities, allowing easy installation and connection to any app using Sentry-compatible SDKs. Alternative to DataDog, Bugsnag, New Relic. [Repo](https://github.com/bugsink/bugsink/) | Unknown | ⭐ 1.9K | Coming soon | Coming soon |
 | [Cachet](https://open.aiflowlearn.net/cachet) - Open-source status page platform that helps organizations communicate system status and incidents effectively with customizable components and metrics tracking Alternative to BetterStack, Rootly, UptimeRobot. [Repo](https://github.com/cachethq/cachet) | Unknown | ⭐ 15K | Coming soon | Coming soon |
 | [Checkmate](https://open.aiflowlearn.net/checkmate) - Monitor servers, websites, Docker containers, and infrastructure with real-time insights, instant alerts, and powerful analytics. Self-hosted solution. Alternative to BetterStack, UptimeRobot, Rootly. [Repo](https://github.com/bluewave-labs/checkmate) | AGPL-3.0 | ⭐ 10K | Coming soon | Coming soon |
@@ -556,6 +1072,38 @@ Website: [https://open.aiflowlearn.net](https://open.aiflowlearn.net)
 | [Uptime Kuma](https://open.aiflowlearn.net/uptime-kuma) - Monitors websites, APIs, and services with real-time alerts, a status page, and support for dozens of notification channels. Self-hosted and Docker-friendly. Alternative to Opsgenie, BetterStack, Pagerduty. [Repo](https://github.com/louislam/uptime-kuma) | MIT | ⭐ 88K | Coming soon | Coming soon |
 | [Uptrace](https://open.aiflowlearn.net/uptrace) - Uptrace is an OpenTelemetry-based platform that integrates traces, metrics, and logs to help monitor and optimize complex distributed systems. Alternative to DataDog, Splunk, BetterStack. [Repo](https://github.com/uptrace/uptrace) | AGPL-3.0 | ⭐ 4.2K | Coming soon | Coming soon |
 | [Wachd](https://open.aiflowlearn.net/wachd) - Receive alerts from Grafana, Datadog, and Prometheus with AI-generated root cause analysis. Self-hosted on Kubernetes, fully air-gapped capable, Apache 2.0 licensed. Alternative to Opsgenie, DataDog, Pagerduty. [Repo](https://github.com/wachd/wachd) | Unknown | ⭐ 30 | Coming soon | Coming soon |
+| [Bugzilla](https://open.aiflowlearn.net/bugzilla) - Official repository for the Bugzilla bug tracking system. Report bugs to https://bugzilla.mozilla.org/enter_bug.cgi?product=Bugzilla&format=__default__ . Main website: Alternative to Jira, Sentry. [Repo](https://github.com/bugzilla/bugzilla) | MPL-2.0 | ⭐ 830 | Coming soon | Coming soon |
+| [Graylog](https://open.aiflowlearn.net/graylog) - Free and open log management Alternative to DataDog, Splunk. [Repo](https://github.com/Graylog2/graylog2-server) | NOASSERTION | ⭐ 8.1K | Coming soon | Coming soon |
+| [KairosDB](https://open.aiflowlearn.net/kairosdb) - Fast scalable time series database Alternative to Influxdb, DataDog. [Repo](https://github.com/kairosdb/kairosdb) | Apache-2.0 | ⭐ 1.8K | Coming soon | Coming soon |
+| [OpenTSDB](https://open.aiflowlearn.net/opentsdb) - A scalable, distributed Time Series Database. Alternative to Influxdb, DataDog. [Repo](https://github.com/OpenTSDB/opentsdb) | LGPL-2.1 | ⭐ 5.1K | Coming soon | Coming soon |
+| [Prometheus](https://open.aiflowlearn.net/prometheus) - The Prometheus monitoring system and time series database. Alternative to Influxdb, DataDog. [Repo](https://github.com/prometheus/prometheus) | Apache-2.0 | ⭐ 65K | Coming soon | Coming soon |
+| [QuestDB](https://open.aiflowlearn.net/questdb) - QuestDB is a high performance, open-source, time-series database Alternative to Influxdb, DataDog. [Repo](https://github.com/questdb/questdb) | Apache-2.0 | ⭐ 17K | Coming soon | Coming soon |
+
+### Databases
+
+| Project | License | Stars | Codex | Classroom |
+| --- | --- | ---: | --- | --- |
+| [Milvus](https://open.aiflowlearn.net/milvus) - Open-source vector database optimized for similarity search, scaling to billions of vectors with minimal performance loss Alternative to Supabase, Pinecone, ElasticSearch. [Repo](https://github.com/milvus-io/milvus) | Apache-2.0 | ⭐ 45K | [Codex](https://www.aiflowlearn.net/codex/milvus-io-milvus) | Coming soon |
+| [Qdrant](https://open.aiflowlearn.net/qdrant) - Qdrant is an open-source vector database that provides high-performance similarity search for AI and machine learning applications. Alternative to Supabase, Pinecone, Algolia. [Repo](https://github.com/qdrant/qdrant) | Apache-2.0 | ⭐ 32K | Coming soon | Coming soon |
+| [Activeloop](https://open.aiflowlearn.net/activeloop) - Deep Lake is an open-source database for storing, querying and managing complex AI data like images, audio, and embeddings. Alternative to Snowflake, Pinecone, BigQuery. [Repo](https://github.com/activeloopai/deeplake) | Apache-2.0 | ⭐ 9.2K | Coming soon | Coming soon |
+| [Chroma](https://open.aiflowlearn.net/chroma) - Open-source vector database designed for AI applications. Store, search, and retrieve embeddings with semantic similarity matching and metadata filtering. Alternative to Supabase, Pinecone, ElasticSearch. [Repo](https://github.com/chroma-core/chroma) | Apache-2.0 | ⭐ 28K | Coming soon | Coming soon |
+| [Weaviate](https://open.aiflowlearn.net/weaviate) - Open-source vector database designed for building powerful, production-ready AI applications with hybrid search capabilities and flexible deployment options. Alternative to Supabase, Pinecone. [Repo](https://github.com/weaviate/weaviate) | BSD-3-Clause | ⭐ 16K | Coming soon | Coming soon |
+| [Orama](https://open.aiflowlearn.net/orama) - Blend full-text and semantic search for unlimited queries across 300 global locations. Get precise answers and matches at a flat rate, no matter your search volume. Alternative to Algolia, ElasticSearch, Coveo. [Repo](https://github.com/askorama/orama) | Unknown | ⭐ 10K | Coming soon | Coming soon |
+| [Baserow](https://open.aiflowlearn.net/baserow) - Open-source platform for building databases, internal apps, and automated workflows without writing code. Available on cloud or self-hosted. Alternative to Airtable, Microsoft Excel, Google Sheets. [Repo](https://github.com/bram2w/baserow) | Unknown | ⭐ 5K | Coming soon | Coming soon |
+| [Azimutt](https://open.aiflowlearn.net/azimutt) - Azimutt is a powerful tool for seamlessly exploring, documenting, and optimizing large and complex databases. [Repo](https://github.com/azimuttapp/azimutt) | MIT | ⭐ 2.1K | Coming soon | Coming soon |
+| [drawDB](https://open.aiflowlearn.net/drawdb) - Free online database diagram editor with SQL generation. Create ER diagrams, visualize relationships, export scripts, and reverse engineer schemas - no signup required. Alternative to Microsoft Visio, LucidChart, Valentina Studio. [Repo](https://github.com/drawdb-io/drawdb) | AGPL-3.0 | ⭐ 37K | Coming soon | Coming soon |
+| [Grist](https://open.aiflowlearn.net/grist) - A versatile data management platform combining spreadsheet simplicity with relational database capabilities for efficient data organization and analysis. Alternative to Airtable, Microsoft Excel, Google Sheets. [Repo](https://github.com/gristlabs/grist-core) | Apache-2.0 | ⭐ 11K | Coming soon | Coming soon |
+| [Apache Cloudberry](https://open.aiflowlearn.net/cloudberry) - Leverage advanced analytics with a modern PostgreSQL kernel. 100% open source for robust data solutions. [Repo](https://github.com/cloudberrydb/cloudberrydb) | Apache-2.0 | ⭐ 1.2K | Coming soon | Coming soon |
+| [Databend](https://open.aiflowlearn.net/databend) - Databend is an open-source, elastic cloud data warehouse built for high-performance analytics and seamless integration with popular data tools. Alternative to Snowflake, BigQuery, RedShift. [Repo](https://github.com/datafuselabs/databend) | Unknown | ⭐ 9.3K | Coming soon | Coming soon |
+| [Hydra](https://open.aiflowlearn.net/hydra) - Hydra embeds DuckDB's state-of-the-art analytics engine into standard Postgres, offering millisecond response times for complex queries. Alternative to Supabase, Firebase, Snowflake. [Repo](https://github.com/hydradatabase/hydra) | Apache-2.0 | ⭐ 3K | Coming soon | Coming soon |
+| [AITable](https://open.aiflowlearn.net/apitable) - AITable.ai offers a visual database platform that simplifies workflow automation and connects to over 6,000 apps through integrations like Zapier and Make. Alternative to Airtable, Glide, Coda. [Repo](https://github.com/apitable/apitable) | AGPL-3.0 | ⭐ 15K | Coming soon | Coming soon |
+| [Instant](https://open.aiflowlearn.net/instant) - Instant is a database solution for building real-time and offline-enabled applications, simplifying the development of collaborative products. Alternative to Supabase, Firebase, Fauna. [Repo](https://github.com/instantdb/instant) | Apache-2.0 | ⭐ 10K | Coming soon | Coming soon |
+| [Mathesar](https://open.aiflowlearn.net/mathesar) - A self-hosted tool that provides an intuitive, spreadsheet-style interface for viewing, editing, and querying PostgreSQL databases without technical expertise. Alternative to Airtable, Google Sheets, Glide. [Repo](https://github.com/mathesar-foundation/mathesar) | GPL-3.0 | ⭐ 5K | Coming soon | Coming soon |
+| [NocoDB](https://open.aiflowlearn.net/nocodb) - Convert any database into a no-code platform with spreadsheet interface. Connect PostgreSQL/MySQL or use hosted database. Scale to millions of rows effortlessly. Alternative to Airtable, Google Sheets, Glide. [Repo](https://github.com/nocodb/nocodb) | AGPL-3.0 | ⭐ 63K | Coming soon | Coming soon |
+| [undb](https://open.aiflowlearn.net/undb) - Build and manage custom databases with ease, create type-safe APIs, and develop applications quickly Alternative to Supabase, Airtable, Firebase. [Repo](https://github.com/undb-io/undb) | AGPL-3.0 | ⭐ 2.9K | Coming soon | Coming soon |
+| [Bytebase](https://open.aiflowlearn.net/bytebase) - Comprehensive platform for database schema migrations, security controls, and data masking with built-in review workflows and GitOps integration. [Repo](https://github.com/bytebase/bytebase) | Unknown | ⭐ 14K | Coming soon | Coming soon |
+| [Elasticsearch](https://open.aiflowlearn.net/elasticsearch) - Elasticsearch is an open-source, RESTful search engine designed for scalability, reliability, and easy management. Alternative to Algolia, AWS Kendra, Coveo. [Repo](https://github.com/elastic/elasticsearch) | Unknown | ⭐ 77K | Coming soon | Coming soon |
+| [GreptimeDB](https://open.aiflowlearn.net/greptimedb) - Cloud-native observability database unifying metrics, logs, and traces with sub-second queries, 50x cost reduction, and seamless OpenTelemetry integration. [Repo](https://github.com/greptimeteam/greptimedb) | Apache-2.0 | ⭐ 6.4K | Coming soon | Coming soon |
 | [Beekeeper Studio](https://open.aiflowlearn.net/beekeeper-studio) - A user-friendly SQL editor and database manager supporting MySQL, PostgreSQL, SQLite, SQL Server and more with full feature parity across operating systems. Alternative to DataGrip, Navicat, TablePlus. [Repo](https://github.com/beekeeper-studio/beekeeper-studio) | Unknown | ⭐ 23K | Coming soon | Coming soon |
 | [Ceph](https://open.aiflowlearn.net/ceph) - Ceph provides unified object, block, and file storage from a single cluster built on commodity hardware. Alternative to Amazon S3, Azure Blob Storage, Google Cloud Storage. [Repo](https://github.com/ceph/ceph) | Unknown | ⭐ 17K | Coming soon | Coming soon |
 | [Chat2DB](https://open.aiflowlearn.net/chat2db) - AI-powered SQL client that converts natural language to SQL queries. Supports MySQL, Redis, MongoDB with Text2SQL, BI dashboards, and secure database management. Alternative to DataGrip, Navicat, TablePlus. [Repo](https://github.com/codephiliax/chat2db) | Apache-2.0 | ⭐ 26K | Coming soon | Coming soon |
@@ -575,6 +1123,19 @@ Website: [https://open.aiflowlearn.net](https://open.aiflowlearn.net)
 | [TiDB](https://open.aiflowlearn.net/tidb) - Distributed SQL database combining OLTP and OLAP capabilities, offering horizontal scalability, high availability, and real-time analytics. Alternative to Fauna, AWS Aurora, PlanetScale. [Repo](https://github.com/pingcap/tidb) | Apache-2.0 | ⭐ 40K | Coming soon | Coming soon |
 | [Timescale](https://open.aiflowlearn.net/timescale) - Extend PostgreSQL for time-series data with automatic partitioning, scalable ingestion, and advanced analytics for mission-critical applications. Alternative to Snowflake, MongoDB, Kdb+. [Repo](https://github.com/timescale/timescaledb) | Unknown | ⭐ 23K | Coming soon | Coming soon |
 | [Turso](https://open.aiflowlearn.net/turso) - Turso provides a simple developer experience with SQLite compatibility, allowing you to build and scale multi-tenant applications with unlimited databases. Alternative to Supabase, Firebase, Hasura. [Repo](https://github.com/tursodatabase/libsql) | MIT | ⭐ 17K | Coming soon | Coming soon |
+| [JanusGraph](https://open.aiflowlearn.net/janusgraph) - JanusGraph: an open-source, distributed graph database Alternative to Neo4j. [Repo](https://github.com/JanusGraph/janusgraph) | NOASSERTION | ⭐ 5.8K | Coming soon | Coming soon |
+| [KairosDB](https://open.aiflowlearn.net/kairosdb) - Fast scalable time series database Alternative to Influxdb, DataDog. [Repo](https://github.com/kairosdb/kairosdb) | Apache-2.0 | ⭐ 1.8K | Coming soon | Coming soon |
+| [OpenTSDB](https://open.aiflowlearn.net/opentsdb) - A scalable, distributed Time Series Database. Alternative to Influxdb, DataDog. [Repo](https://github.com/OpenTSDB/opentsdb) | LGPL-2.1 | ⭐ 5.1K | Coming soon | Coming soon |
+| [Prometheus](https://open.aiflowlearn.net/prometheus) - The Prometheus monitoring system and time series database. Alternative to Influxdb, DataDog. [Repo](https://github.com/prometheus/prometheus) | Apache-2.0 | ⭐ 65K | Coming soon | Coming soon |
+| [QuestDB](https://open.aiflowlearn.net/questdb) - QuestDB is a high performance, open-source, time-series database Alternative to Influxdb, DataDog. [Repo](https://github.com/questdb/questdb) | Apache-2.0 | ⭐ 17K | Coming soon | Coming soon |
+| [CozoDB](https://open.aiflowlearn.net/cozodb) - A transactional, relational-graph-vector database that uses Datalog for query. The hippocampus for AI! Alternative to Pinecone, Weaviate. [Repo](https://github.com/cozodb/cozo) | MPL-2.0 | ⭐ 4K | Coming soon | Coming soon |
+
+### Networking & Connectivity
+
+| Project | License | Stars | Codex | Classroom |
+| --- | --- | ---: | --- | --- |
+| [WR.DO](https://open.aiflowlearn.net/wr-do) - WR.DO offers free domain name distribution and short URL generation, built on Cloudflare's infrastructure for reliability and speed. Alternative to TinyURL, Bitly, Short.io. [Repo](https://github.com/oiov/wr.do) | MIT | ⭐ 2.3K | Coming soon | Coming soon |
+| [SAMA](https://open.aiflowlearn.net/sama) - Open source chat server with end-to-end encryption, clustering support, and comprehensive messaging features for building real-time communication apps Alternative to Discord, Microsoft Teams, Slack. [Repo](https://github.com/sama-communications/sama-server) | GPL-3.0 | ⭐ 156 | Coming soon | Coming soon |
 | [Defguard](https://open.aiflowlearn.net/defguard) - Enterprise-grade open source VPN solution combining WireGuard with mandatory 2FA/MFA and integrated OpenID Connect SSO for secure remote access Alternative to NordVPN, Zerotier, Okta. [Repo](https://github.com/defguard/defguard) | Unknown | ⭐ 2.7K | Coming soon | Coming soon |
 | [FireZone](https://open.aiflowlearn.net/firezone) - Replace your VPN with zero-trust access built on WireGuard. Fast, scalable network security with simple policies and identity provider integration. Alternative to Zerotier, Teleport, Twingate. [Repo](https://github.com/firezone/firezone) | Apache-2.0 | ⭐ 8.7K | Coming soon | Coming soon |
 | [Netbird](https://open.aiflowlearn.net/netbird) - Open source platform combining WireGuard overlay networks with Zero Trust access controls. Features SSO, MFA, device posture checks, and granular policies for secure remote connectivity. Alternative to Zerotier, Cloudflare Tunnel, Twingate. [Repo](https://github.com/netbirdio/netbird) | Unknown | ⭐ 26K | Coming soon | Coming soon |
@@ -582,41 +1143,148 @@ Website: [https://open.aiflowlearn.net](https://open.aiflowlearn.net)
 | [Pangolin](https://open.aiflowlearn.net/pangolin) - Deploy zero trust access to infrastructure, self-hosted apps, and SaaS tools in days. Identity-aware security with seamless user experience. Alternative to Zerotier, Cloudflare Tunnel, Twingate. [Repo](https://github.com/fosrl/pangolin) | Unknown | ⭐ 21K | Coming soon | Coming soon |
 | [Soketi](https://open.aiflowlearn.net/soketi) - Open-source, Pusher-compatible WebSockets server that's simple, fast, and resilient for building real-time applications. [Repo](https://github.com/soketi/soketi) | AGPL-3.0 | ⭐ 5.6K | Coming soon | Coming soon |
 | [Tailscale](https://open.aiflowlearn.net/tailscale) - Deploy a modern WireGuard-based VPN with zero configuration. Connect devices securely across clouds, VPCs, and on-premises networks without firewall rules. Alternative to Zerotier, Cloudflare Tunnel, Twingate. [Repo](https://github.com/tailscale/tailscale) | BSD-3-Clause | ⭐ 33K | Coming soon | Coming soon |
+
+### Orchestration & Scheduling
+
+| Project | License | Stars | Codex | Classroom |
+| --- | --- | ---: | --- | --- |
+| [Giselle](https://open.aiflowlearn.net/giselle) - Create powerful AI agents using an intuitive node-based interface that connects multiple LLMs and data sources for automated documentation and development workflows. [Repo](https://github.com/giselles-ai/giselle) | Apache-2.0 | ⭐ 534 | Coming soon | Coming soon |
+| [Kestra](https://open.aiflowlearn.net/kestra) - YAML-based orchestration platform with 1400+ plugins for running data pipelines, AI workflows, and infrastructure automation across teams at scale. Alternative to n8n, Make, Zapier. [Repo](https://github.com/kestra-io/kestra) | Apache-2.0 | ⭐ 27K | Coming soon | Coming soon |
+| [Mage](https://open.aiflowlearn.net/mage) - Open-source data pipeline platform for effortless data integration, transformation, and orchestration using Python, SQL, and R. Alternative to Pipedream, Supermetrics, Amazon API Gateway. [Repo](https://github.com/mage-ai/mage-ai) | Apache-2.0 | ⭐ 8.8K | Coming soon | Coming soon |
+| [Hatchet](https://open.aiflowlearn.net/hatchet) - Durable orchestration platform for managing AI agents, scheduling background tasks, and running mission-critical workflows. Alternative to Make, Zapier, IFTTT. [Repo](https://github.com/hatchet-dev/hatchet) | MIT | ⭐ 7.3K | Coming soon | Coming soon |
+| [Inngest](https://open.aiflowlearn.net/inngest) - Simplify backend processes with event-driven functions, seamless integrations, and powerful debugging tools for developers. [Repo](https://github.com/inngest/inngest) | Unknown | ⭐ 5.5K | Coming soon | Coming soon |
+| [n8n](https://open.aiflowlearn.net/n8n) - Build automated workflows connecting 500+ apps, write custom code, and deploy AI agents with full visibility into every decision. Self-hostable or cloud. Alternative to Make, Zapier, IFTTT. [Repo](https://github.com/n8n-io/n8n) | Unknown | ⭐ 192K | [Codex](https://www.aiflowlearn.net/codex/n8n-io-n8n) | Coming soon |
+| [Trigger](https://open.aiflowlearn.net/trigger) - Open source TypeScript platform for building and deploying AI agents and background workflows with retries, queues, observability, and elastic scaling. Alternative to Make, Zapier, Pipedream. [Repo](https://github.com/triggerdotdev/trigger.dev) | Apache-2.0 | ⭐ 15K | Coming soon | Coming soon |
+| [Digger](https://open.aiflowlearn.net/digger) - Open-source CI/CD orchestrator for Terraform with pull request automation, drift detection, and enterprise-grade security. Self-hostable with private runners. Alternative to Red Hat Ansible, Terraform, Puppet. [Repo](https://github.com/diggerhq/digger) | MIT | ⭐ 5K | Coming soon | Coming soon |
+| [Dyrector](https://open.aiflowlearn.net/dyrector) - Effortless container orchestration platform for seamless deployment, management, and monitoring of applications across multiple environments. [Repo](https://github.com/dyrector-io/dyrectorio) | Apache-2.0 | ⭐ 1.8K | Coming soon | Coming soon |
+| [Terrateam](https://open.aiflowlearn.net/terrateam) - Automate infrastructure changes with secure GitOps workflows. Plan, validate, and deploy Terraform, OpenTofu, and Pulumi directly from pull requests. Alternative to Red Hat Ansible, Terraform, Puppet. [Repo](https://github.com/terrateamio/terrateam) | MPL-2.0 | ⭐ 1.2K | Coming soon | Coming soon |
+| [Windmill](https://open.aiflowlearn.net/windmill) - Powerful, self-hosted platform for building and running workflows, scripts, and apps with code-first approach and collaborative features. Alternative to Make, Zapier, IFTTT. [Repo](https://github.com/windmill-labs/windmill) | Unknown | ⭐ 17K | Coming soon | Coming soon |
+| [Automatisch](https://open.aiflowlearn.net/automatisch) - Self-hosted automation tool that connects your apps and services, enabling powerful integrations and efficient data flow across your ecosystem. Alternative to n8n, Make, Zapier. [Repo](https://github.com/automatisch/automatisch/) | Unknown | ⭐ 14K | Coming soon | Coming soon |
+| [1Panel](https://open.aiflowlearn.net/1panel) - Comprehensive web-based tool for Linux server administration with integrated website, database, container, and LLM management capabilities. Alternative to cPanel, Plesk. [Repo](https://github.com/1panel-dev/1panel) | GPL-3.0 | ⭐ 36K | Coming soon | Coming soon |
 | [Bacalhau](https://open.aiflowlearn.net/bacalhau) - Bacalhau is an open-source platform for fast, cost-effective, and secure distributed computing, seamlessly integrating with Docker and WebAssembly workflows. [Repo](https://github.com/bacalhau-project/bacalhau) | Apache-2.0 | ⭐ 862 | Coming soon | Coming soon |
 | [dstack](https://open.aiflowlearn.net/dstack) - Open-source container orchestrator designed for AI teams. Manage GPU workloads, dev environments, and model deployments across any cloud or on-prem cluster. Alternative to Docker Swarm, Kubernetes. [Repo](https://github.com/dstackai/dstack) | MPL-2.0 | ⭐ 2.2K | Coming soon | Coming soon |
 | [Prefect](https://open.aiflowlearn.net/prefect) - Prefect offers modern tools to build, monitor, and react to data workflows efficiently and reliably. Alternative to Supermetrics, Fivetran, Matillion. [Repo](https://github.com/PrefectHQ/prefect) | Apache-2.0 | ⭐ 23K | Coming soon | Coming soon |
 | [Temporal](https://open.aiflowlearn.net/temporal) - Open source platform that eliminates infrastructure complexity by handling failures, network issues, and long-running processes to ensure reliable workflow execution [Repo](https://github.com/temporalio/temporal) | MIT | ⭐ 21K | Coming soon | Coming soon |
 | [Tracecat](https://open.aiflowlearn.net/tracecat) - Tracecat is a scalable, self-hostable platform for automating security workflows and playbooks without limits. Alternative to Jira, Splunk. [Repo](https://github.com/TracecatHQ/tracecat) | AGPL-3.0 | ⭐ 3.7K | Coming soon | Coming soon |
+
+### Messaging & Event Streaming
+
+| Project | License | Stars | Codex | Classroom |
+| --- | --- | ---: | --- | --- |
+| [Trench](https://open.aiflowlearn.net/trench) - Open source analytics platform built on ClickHouse and Kafka, offering high-speed event tracking and real-time querying capabilities. Alternative to Mixpanel, Amplitude, June. [Repo](https://github.com/FrigadeHQ/trench) | MIT | ⭐ 1.6K | Coming soon | Coming soon |
+| [Timeplus](https://open.aiflowlearn.net/timeplus) - Timeplus is a lightweight, powerful, and cost-efficient stream processing platform for real-time analytics, deployed as a single binary. [Repo](https://github.com/timeplus-io/proton) | Apache-2.0 | ⭐ 2.2K | Coming soon | Coming soon |
+| [Hook0](https://open.aiflowlearn.net/hook0) - Self-hosted webhook solution for effortless event-driven communication between applications, enhancing system interoperability and automation. Alternative to Zapier, IFTTT, Pipedream. [Repo](https://github.com/hook0/hook0) | Unknown | ⭐ 1.4K | Coming soon | Coming soon |
+| [AutoMQ](https://open.aiflowlearn.net/automq) - AutoMQ is a serverless Kafka alternative built on S3 that offers 10x cost savings, easy scalability, and full Kafka compatibility. [Repo](https://github.com/automq/automq) | Apache-2.0 | ⭐ 10K | Coming soon | Coming soon |
+| [Operational](https://open.aiflowlearn.net/operational) - Track critical events, receive instant notifications, and respond to product activities with customizable webhooks and action buttons Alternative to Opsgenie, LogSnag. [Repo](https://github.com/operational-co/operational.co) | AGPL-3.0 | ⭐ 465 | Coming soon | Coming soon |
+| [Soketi](https://open.aiflowlearn.net/soketi) - Open-source, Pusher-compatible WebSockets server that's simple, fast, and resilient for building real-time applications. [Repo](https://github.com/soketi/soketi) | AGPL-3.0 | ⭐ 5.6K | Coming soon | Coming soon |
 | [Ntfy](https://open.aiflowlearn.net/ntfy) - A lightweight, open-source solution for sending real-time notifications to your devices, with end-to-end encryption and no sign-up required. [Repo](https://github.com/binwiederhier/ntfy) | Apache-2.0 | ⭐ 31K | Coming soon | Coming soon |
 | [Sequin](https://open.aiflowlearn.net/sequin) - Sequin offers a feature-rich messaging system with a simple HTTP API, providing RabbitMQ-like functionality without adding complexity to your stack. [Repo](https://github.com/sequinstream/sequin) | MIT | ⭐ 2.1K | Coming soon | Coming soon |
+
+### Storage Solutions
+
+| Project | License | Stars | Codex | Classroom |
+| --- | --- | ---: | --- | --- |
+| [Nextcloud](https://open.aiflowlearn.net/nextcloud) - Nextcloud offers on-premises file sync, sharing and collaboration platform with advanced security and privacy features. Alternative to Google Drive, Microsoft Teams, Slack. [Repo](https://github.com/nextcloud/server) | AGPL-3.0 | ⭐ 36K | Coming soon | Coming soon |
+| [Paperless-home](https://open.aiflowlearn.net/paperless-home) - A powerful open-source solution for managing, organizing, and searching your digital documents with ease and efficiency. Alternative to Google Workspace, DocSend, Docuware. [Repo](https://github.com/paperless-ngx/paperless-ngx) | GPL-3.0 | ⭐ 42K | Coming soon | Coming soon |
+| [Ente](https://open.aiflowlearn.net/ente) - End-to-end encrypted cloud storage for photos and videos, offering privacy, security, and seamless cross-device syncing. Alternative to Google Drive, Microsoft OneDrive, Dropbox. [Repo](https://github.com/ente-io/ente) | AGPL-3.0 | ⭐ 27K | Coming soon | Coming soon |
+| [Immich](https://open.aiflowlearn.net/immich) - Back up, organize, search, and browse your personal photo and video library on your own server, with no third-party cloud access. Alternative to Google Photos, Apple Photos. [Repo](https://github.com/immich-app/immich) | AGPL-3.0 | ⭐ 103K | Coming soon | Coming soon |
+| [Ceph](https://open.aiflowlearn.net/ceph) - Ceph provides unified object, block, and file storage from a single cluster built on commodity hardware. Alternative to Amazon S3, Azure Blob Storage, Google Cloud Storage. [Repo](https://github.com/ceph/ceph) | Unknown | ⭐ 17K | Coming soon | Coming soon |
+| [Garage](https://open.aiflowlearn.net/garage) - Self-contained distributed object storage with S3 API compatibility. Runs on minimal hardware, replicates data across 3 zones for maximum resilience. Alternative to Amazon S3, Azure Blob Storage, Google Cloud Storage. [Repo](https://github.com/deuxfleurs-org/garage) | AGPL-3.0 | ⭐ 4K | Coming soon | Coming soon |
+| [Spacedrive](https://open.aiflowlearn.net/spacedrive) - A cross-platform file manager that unifies your devices into a seamless, organized digital workspace. Alternative to Google Drive, Microsoft OneDrive, Dropbox. [Repo](https://github.com/spacedriveapp/spacedrive) | AGPL-3.0 | ⭐ 38K | Coming soon | Coming soon |
+| [Storj](https://open.aiflowlearn.net/storj) - Storj offers a distributed cloud storage platform with enhanced security, global performance, and significant cost savings compared to traditional providers. Alternative to Amazon S3, Azure Blob Storage, Google Cloud Storage. [Repo](https://github.com/storj/storj) | AGPL-3.0 | ⭐ 3.3K | Coming soon | Coming soon |
 | [Cozy](https://open.aiflowlearn.net/cozy) - Open-source personal cloud that automatically gathers all your data from third-party services. French-hosted with privacy-first design, no ads, and seamless device sync. Alternative to 1Password, ownCloud, Keeper. [Repo](https://github.com/cozy/cozy-stack) | AGPL-3.0 | ⭐ 1.3K | Coming soon | Coming soon |
 | [Filestash](https://open.aiflowlearn.net/filestash) - Filestash is an open-source file manager that integrates with multiple storage backends, authentication systems, and offers customization options. Alternative to Google Drive, Microsoft OneDrive, Dropbox. [Repo](https://github.com/mickael-kerjean/filestash) | AGPL-3.0 | ⭐ 14K | Coming soon | Coming soon |
 | [Firefiles](https://open.aiflowlearn.net/firefiles) - Firefiles is an open-source alternative to Dropbox that lets you manage files across multiple cloud storage providers through a single interface. Alternative to Google Drive, Microsoft OneDrive, Dropbox. [Repo](https://github.com/faisalsayed10/firefiles) | AGPL-3.0 | ⭐ 371 | Coming soon | Coming soon |
 | [Hoodik](https://open.aiflowlearn.net/hoodik) - Lightweight, self-hosted cloud storage built with Rust and Vue.js. Features end-to-end encryption, file sharing, search capabilities, and Docker deployment. Alternative to Dropbox, WeTransfer, Mega. [Repo](https://github.com/hudikhq/hoodik) | Unknown | ⭐ 1.3K | Coming soon | Coming soon |
 | [Puter](https://open.aiflowlearn.net/puter) - Puter is a cloud-based desktop OS you run in the browser, with built-in apps, file storage, and support for hosting web apps and sites. Alternative to Google Drive, Microsoft OneDrive, Dropbox. [Repo](https://github.com/heyputer/puter/) | AGPL-3.0 | ⭐ 42K | Coming soon | Coming soon |
 | [Twake Drive](https://open.aiflowlearn.net/twake-drive) - Open source encrypted data storage solution offering secure file sharing, collaboration tools, and on-premises deployment for professional teams. Alternative to Google Drive, Microsoft OneDrive, Dropbox. [Repo](https://github.com/linagora/twake-drive) | AGPL-3.0 | ⭐ 943 | Coming soon | Coming soon |
+
+### Backup & Recovery
+
+| Project | License | Stars | Codex | Classroom |
+| --- | --- | ---: | --- | --- |
 | [Plakar](https://open.aiflowlearn.net/plakar) - Backup solution with CLI, API and UI interfaces. Clean defaults, easy deployment. Encrypted, queryable backups with deduplication and compression. Alternative to Comet Backup, Veeam, Duplicacy. [Repo](https://github.com/plakarkorp/plakar) | ISC | ⭐ 1.8K | Coming soon | Coming soon |
 | [Pluton](https://open.aiflowlearn.net/pluton) - Free, open-source backup solution with end-to-end encryption. Self-hosted control, supports 70+ cloud providers, automated incremental backups, and zero vendor lock-in. Alternative to Comet Backup, Veeam, Duplicacy. [Repo](https://github.com/plutonhq/pluton) | Apache-2.0 | ⭐ 482 | Coming soon | Coming soon |
+
+
+## Miscellaneous
+
+### Finance & Fintech
+
+| Project | License | Stars | Codex | Classroom |
+| --- | --- | ---: | --- | --- |
+| [Crater](https://open.aiflowlearn.net/crater) - Crater offers AI-driven invoicing workflows, payments, and working capital tools to enhance your platform with minimal technical effort. Alternative to Quickbooks, Stripe Billing, Xero. [Repo](https://github.com/crater-invoice/crater) | AGPL-3.0 | ⭐ 8.3K | Coming soon | Coming soon |
+| [Formance](https://open.aiflowlearn.net/formance) - Build custom financial flows and integrate with any provider using Formance's agnostic platform Alternative to Stripe Billing, PayPal Braintree. [Repo](https://github.com/formancehq/stack) | Unknown | ⭐ 514 | Coming soon | Coming soon |
+| [Hyperswitch](https://open.aiflowlearn.net/hyperswitch) - A unified payment infrastructure that connects multiple payment processors through a single API integration, enabling global payment processing Alternative to Stripe Billing, PayPal Braintree. [Repo](https://github.com/juspay/hyperswitch) | Apache-2.0 | ⭐ 43K | Coming soon | Coming soon |
+| [OpenBB](https://open.aiflowlearn.net/openbb) - Connects proprietary, licensed, and public financial data with AI agents in a self-hostable workspace for asset managers, hedge funds, and banks. Alternative to Power BI, Bloomberg Terminal, Tableau. [Repo](https://github.com/OpenBB-finance/OpenBB) | Unknown | ⭐ 69K | Coming soon | Coming soon |
+| [Ballerine](https://open.aiflowlearn.net/ballerine) - Reduce fraud, accelerate underwriting, and maintain compliance with AI-driven merchant risk intelligence for PSPs, banks, and fintechs. Alternative to Seon, SumSub, Feedzai. [Repo](https://github.com/ballerine-io/ballerine) | Unknown | ⭐ 2.4K | Coming soon | Coming soon |
 | [0 Finance](https://open.aiflowlearn.net/0-finance) - High-yield treasury management for startups earning 8% APY with insurance coverage up to $1M. Open US/EU accounts instantly with full liquidity and no minimums. [Repo](https://github.com/different-ai/zero-finance) | MIT | ⭐ 230 | Coming soon | Coming soon |
 | [Fincept Terminal](https://open.aiflowlearn.net/fincept-terminal) - Comprehensive financial data platform offering economic insights, market analysis, and portfolio management tools [Repo](https://github.com/fincept-corporation/finceptterminal) | Unknown | ⭐ 27K | [Codex](https://www.aiflowlearn.net/codex/fincept-corporation-finceptterminal) | Coming soon |
 | [Ghostfolio](https://open.aiflowlearn.net/ghostfolio) - Open-source wealth management software for tracking stocks, ETFs, and cryptocurrencies across multiple portfolios Alternative to YNAB, Mint. [Repo](https://github.com/ghostfolio/ghostfolio) | AGPL-3.0 | ⭐ 8.7K | Coming soon | Coming soon |
 | [Hummingbot](https://open.aiflowlearn.net/hummingbot) - Automate crypto trading strategies with a powerful, customizable platform. Connect to multiple exchanges and optimize your market making. [Repo](https://github.com/hummingbot/hummingbot) | Apache-2.0 | ⭐ 19K | Coming soon | Coming soon |
 | [Wealthfolio](https://open.aiflowlearn.net/wealthfolio) - Wealthfolio is a simple, secure desktop app for tracking investments and managing your wealth without compromising data privacy. Alternative to Quickbooks, YNAB, Mint. [Repo](https://github.com/afadil/wealthfolio) | AGPL-3.0 | ⭐ 7.6K | Coming soon | Coming soon |
+
+### Design & Prototyping
+
+| Project | License | Stars | Codex | Classroom |
+| --- | --- | ---: | --- | --- |
+| [draw.io](https://open.aiflowlearn.net/draw-io) - Create professional diagrams online or offline with security-first approach. No registration needed. Works with Google Drive, SharePoint, Atlassian, and more. Alternative to Microsoft Visio, Miro, LucidChart. [Repo](https://github.com/jgraph/drawio) | Apache-2.0 | ⭐ 6.1K | Coming soon | Coming soon |
+| [Grida](https://open.aiflowlearn.net/grida) - Design and build web applications on an open canvas with AI-powered tools, Figma integration, pixel drawing, and a modular SDK built for extensibility. Alternative to Figma, Paper, Framer. [Repo](https://github.com/gridaco/grida) | Apache-2.0 | ⭐ 2.5K | Coming soon | Coming soon |
+| [Plasmic](https://open.aiflowlearn.net/plasmic) - Open-source visual editor for building websites and web apps. Connect to any data source, design custom UIs, and ship production React code without leaving your stack. Alternative to Framer, Webflow, Wix. [Repo](https://github.com/plasmicapp/plasmic) | MIT | ⭐ 6.9K | Coming soon | Coming soon |
+| [Quant-UX](https://open.aiflowlearn.net/quant-ux) - Quant-UX is an open-source tool for creating interactive prototypes, conducting user tests, and analyzing results to improve UX design. Alternative to Figma, Miro, Paper. [Repo](https://github.com/KlausSchaefers/quant-ux) | GPL-3.0 | ⭐ 2.6K | Coming soon | Coming soon |
 | [GIMP](https://open.aiflowlearn.net/gimp) - Free, open-source image editor with professional tools for photo manipulation, digital art creation, and graphic design. Cross-platform support. Alternative to Photoshop, Affinity Photo. [Repo](https://github.com/gnome/gimp) | Unknown | ⭐ 6.2K | Coming soon | Coming soon |
 | [Krita](https://open.aiflowlearn.net/krita) - Free and open source painting program built by artists for artists. Features professional brushes, layers, animation tools, and drawing assistants for all skill levels. [Repo](https://github.com/kde/krita) | GPL-3.0 | ⭐ 9.9K | Coming soon | Coming soon |
 | [OpenPencil](https://open.aiflowlearn.net/openpencil) - A Figma-compatible design editor with built-in AI chat, headless CLI, real-time P2P collaboration, and a Vue SDK for building custom editors. No account needed. Alternative to Figma, Paper, Adobe XD. [Repo](https://github.com/open-pencil/open-pencil) | MIT | ⭐ 5.6K | Coming soon | Coming soon |
 | [Penpot](https://open.aiflowlearn.net/penpot) - Design, prototype, and hand off to developers in one platform. Supports design systems, tokens, flexible layouts, and AI workflows with real CSS/HTML output. Alternative to Canva, Figma, Miro. [Repo](https://github.com/penpot/penpot) | MPL-2.0 | ⭐ 50K | Coming soon | Coming soon |
+
+### Cryptocurrency & Blockchain
+
+| Project | License | Stars | Codex | Classroom |
+| --- | --- | ---: | --- | --- |
+| [Hey](https://open.aiflowlearn.net/hey) - A blockchain-powered social platform offering censorship-resistant content sharing, user-owned data, and innovative monetization options. Alternative to X (Twitter), Threads. [Repo](https://github.com/heyxyz/hey) | GPL-3.0 | ⭐ 29K | Coming soon | Coming soon |
+| [Sigle](https://open.aiflowlearn.net/sigle) - Sigle is a secure, open-source platform for Web3 writers to create, publish, and monetize content on the Bitcoin blockchain. Alternative to Substack, Beehiiv, Medium. [Repo](https://github.com/sigle/sigle) | MIT | ⭐ 486 | Coming soon | Coming soon |
+| [0 Finance](https://open.aiflowlearn.net/0-finance) - High-yield treasury management for startups earning 8% APY with insurance coverage up to $1M. Open US/EU accounts instantly with full liquidity and no minimums. [Repo](https://github.com/different-ai/zero-finance) | MIT | ⭐ 230 | Coming soon | Coming soon |
+| [Hummingbot](https://open.aiflowlearn.net/hummingbot) - Automate crypto trading strategies with a powerful, customizable platform. Connect to multiple exchanges and optimize your market making. [Repo](https://github.com/hummingbot/hummingbot) | Apache-2.0 | ⭐ 19K | Coming soon | Coming soon |
 | [OctoBot](https://open.aiflowlearn.net/octobot) - OctoBot is an open-source platform for automated cryptocurrency trading, offering customizable strategies and easy integration with exchanges. [Repo](https://github.com/drakkar-software/octobot) | GPL-3.0 | ⭐ 6.1K | Coming soon | Coming soon |
+
+### Gaming
+
+| Project | License | Stars | Codex | Classroom |
+| --- | --- | ---: | --- | --- |
 | [GDevelop](https://open.aiflowlearn.net/gdevelop) - Free, open-source game engine with visual event system, AI tutor, and one-click publishing to Steam, iOS, Android, and web platforms. Alternative to Unreal Engine, Unity. [Repo](https://github.com/4ian/gdevelop) | Unknown | ⭐ 24K | Coming soon | Coming soon |
 | [Godot](https://open.aiflowlearn.net/godot) - Build 2D, 3D, and XR games with a full-featured engine that includes its own scripting language, scene editor, and export tools for multiple platforms. Alternative to Unreal Engine, Unity. [Repo](https://github.com/godotengine/godot) | MIT | ⭐ 112K | Coming soon | Coming soon |
 | [s&box](https://open.aiflowlearn.net/sbox) - A game creation platform built on Valve's Source 2 engine, letting you build, share, and play games without leaving the environment. Alternative to Unreal Engine, Unity. [Repo](https://github.com/facepunch/sbox-public) | Unknown | ⭐ 6.3K | Coming soon | Coming soon |
+
+### Internet of Things (IoT)
+
+| Project | License | Stars | Codex | Classroom |
+| --- | --- | ---: | --- | --- |
+| [CrateDB](https://open.aiflowlearn.net/cratedb) - Distributed SQL database designed for high-speed ingestion and complex queries on massive datasets, ideal for IoT and time-series data. Alternative to Snowflake, BigQuery, RedShift. [Repo](https://github.com/crate/crate) | Apache-2.0 | ⭐ 4.4K | Coming soon | Coming soon |
 | [Home Assistant](https://open.aiflowlearn.net/home-assistant) - Open source home automation platform supporting 1000+ devices with local control, powerful automations, custom dashboards, and voice assistant. No cloud required. Alternative to Amazon Alexa, HomeKit, Google Assistant. [Repo](https://github.com/home-assistant/core) | Apache-2.0 | ⭐ 88K | Coming soon | Coming soon |
+
+### Logistics & Supply Chain
+
+| Project | License | Stars | Codex | Classroom |
+| --- | --- | ---: | --- | --- |
+| [FleetBase](https://open.aiflowlearn.net/fleetbase) - Fleetbase is a comprehensive open source logistics suite offering API, TMS, driver and customer apps for streamlined operations and development. [Repo](https://github.com/fleetbase/fleetbase) | AGPL-3.0 | ⭐ 1.9K | Coming soon | Coming soon |
+
+### Media & Streaming
+
+| Project | License | Stars | Codex | Classroom |
+| --- | --- | ---: | --- | --- |
+| [PeerTube](https://open.aiflowlearn.net/peertube) - Create your own video hosting platform with PeerTube - a free, open-source alternative to YouTube. Join 600,000+ videos across 1,000+ interconnected platforms without ads or tracking. [Repo](https://github.com/chocobozzz/peertube) | AGPL-3.0 | ⭐ 15K | Coming soon | Coming soon |
+| [Openinary](https://open.aiflowlearn.net/openinary) - Open-source alternative to Cloudinary offering self-hosted media transformation. Works with S3/R2/MinIO. Upload, transform, and deliver images/videos without vendor lock-in. Alternative to Cloudinary, ImageKit, Acquia DAM. [Repo](https://github.com/openinary/openinary) | AGPL-3.0 | ⭐ 334 | Coming soon | Coming soon |
 | [Anthias](https://open.aiflowlearn.net/anthias) - Free open-source digital signage software that turns Raspberry Pi or old PCs into powerful display solutions. Manage images, videos, and web content easily. Alternative to Screenly, Yodeck, OptiSigns. [Repo](https://github.com/screenly/anthias) | Unknown | ⭐ 3.6K | Coming soon | Coming soon |
 | [BookWyrm](https://open.aiflowlearn.net/bookwyrm) - Join a federated social reading platform where you can track books, write reviews, discover recommendations from friends, and connect with trusted reading communities. Alternative to Goodreads, Literal. [Repo](https://github.com/bookwyrm-social/bookwyrm) | Unknown | ⭐ 2.7K | Coming soon | Coming soon |
 | [Invidious](https://open.aiflowlearn.net/invidious) - Open source front-end for YouTube that strips out ads, tracking, and algorithmic distractions while letting you subscribe to channels and manage playlists. [Repo](https://github.com/iv-org/invidious) | AGPL-3.0 | ⭐ 20K | Coming soon | Coming soon |
 | [Jellyfin](https://open.aiflowlearn.net/jellyfin) - Free, open source media server that lets you collect, manage, and stream your personal library to any device, with no fees, tracking, or vendor lock-in. Alternative to Netflix, Plex, Streamio. [Repo](https://github.com/jellyfin/jellyfin) | GPL-2.0 | ⭐ 53K | Coming soon | Coming soon |
 | [Navidrome](https://open.aiflowlearn.net/navidrome) - Open source music server that streams your personal library via a web player or any Subsonic-compatible mobile app on iOS and Android. Alternative to Spotify, YouTube, SoundCloud. [Repo](https://github.com/navidrome/navidrome) | GPL-3.0 | ⭐ 22K | Coming soon | Coming soon |
 | [Nuclear](https://open.aiflowlearn.net/nuclear) - Open-source desktop music player for Windows, macOS, and Linux. Search artists and tracks across multiple sources, build playlists, and listen without ads or tracking. Alternative to Spotify, YouTube, SoundCloud. [Repo](https://github.com/nukeop/nuclear) | AGPL-3.0 | ⭐ 18K | Coming soon | Coming soon |
+
+### Photo & Video Editors
+
+| Project | License | Stars | Codex | Classroom |
+| --- | --- | ---: | --- | --- |
 | [Audacity](https://open.aiflowlearn.net/audacity) - Free, open-source audio editor and recorder for all platforms. Record, edit, mix and enhance audio with professional tools. Perfect for music, podcasts, and more. Alternative to Ableton Live, Logic Pro, Adobe Audition. [Repo](https://github.com/audacity/audacity) | Unknown | ⭐ 17K | Coming soon | Coming soon |
 | [Darktable](https://open.aiflowlearn.net/darktable) - Open source photography workflow application for RAW development. Non-destructive editing, professional color management, and GPU acceleration for photographers. Alternative to Adobe Lightroom, Affinity Photo. [Repo](https://github.com/darktable-org/darktable) | GPL-3.0 | ⭐ 13K | Coming soon | Coming soon |
 | [Kdenlive](https://open.aiflowlearn.net/kdenlive) - Cross-platform non-linear video editor offering professional features for free. Edit videos on Linux, Windows, macOS, and BSD with advanced tools and effects. Alternative to CapCut, Adobe Premiere Pro, DaVinci Resolve. [Repo](https://github.com/kde/kdenlive) | GPL-3.0 | ⭐ 5.2K | Coming soon | Coming soon |
@@ -625,6 +1293,23 @@ Website: [https://open.aiflowlearn.net](https://open.aiflowlearn.net)
 | [OpenShot](https://open.aiflowlearn.net/openshot) - A free, open-source video editor for Linux, Mac, and Windows with animation, effects, multi-track editing, and 3D title rendering. Alternative to CapCut, Adobe Premiere Pro, DaVinci Resolve. [Repo](https://github.com/OpenShot/openshot-qt) | Unknown | ⭐ 5.9K | Coming soon | Coming soon |
 | [RawTherapee](https://open.aiflowlearn.net/rawtherapee) - Free, cross-platform raw image processor with 32-bit floating point engine, advanced demosaicing algorithms, and professional-grade editing tools for photographers. Alternative to Adobe Lightroom, Affinity Photo. [Repo](https://github.com/rawtherapee/rawtherapee) | GPL-3.0 | ⭐ 4K | Coming soon | Coming soon |
 | [Shotcut](https://open.aiflowlearn.net/shotcut) - Free, open-source video editor supporting 4K resolution, hundreds of formats, and professional features like Blackmagic Design integration across Windows, Mac, and Linux. Alternative to CapCut, Adobe Premiere Pro, DaVinci Resolve. [Repo](https://github.com/mltframework/shotcut) | GPL-3.0 | ⭐ 14K | Coming soon | Coming soon |
+
+
+## Productivity & Utilities
+
+### Note Taking & Knowledge Management
+
+| Project | License | Stars | Codex | Classroom |
+| --- | --- | ---: | --- | --- |
+| [Khoj](https://open.aiflowlearn.net/khoj) - Self-hostable AI assistant that connects to your docs and the web, lets you build agents, schedule automations, and run research with verifiable citations. Alternative to Claude, ChatGPT, Perplexity. [Repo](https://github.com/khoj-ai/khoj) | AGPL-3.0 | ⭐ 35K | Coming soon | Coming soon |
+| [Meetily](https://open.aiflowlearn.net/meetily) - Records, transcribes, and summarizes meetings entirely on your device using local AI. No bots, no cloud uploads, GDPR and HIPAA compliant by design. Alternative to Otter.ai, Granola, Jamie AI. [Repo](https://github.com/Zackriya-Solutions/meetily) | MIT | ⭐ 13K | Coming soon | Coming soon |
+| [SurfSense](https://open.aiflowlearn.net/surfsense) - Self-hostable NotebookLM alternative that lets teams build searchable knowledge bases from diverse sources, with support for any LLM and no data limits. Alternative to NotebookLM, Perplexity. [Repo](https://github.com/modsetter/surfsense) | Apache-2.0 | ⭐ 14K | Coming soon | Coming soon |
+| [AppFlowy](https://open.aiflowlearn.net/appflowy) - Open source collaborative workspace combining notes, databases, and AI with full data ownership, offline support, and self-hosting options. Alternative to Notion, Obsidian, OneNote. [Repo](https://github.com/appflowy-io/appflowy) | AGPL-3.0 | ⭐ 72K | Coming soon | Coming soon |
+| [Affine](https://open.aiflowlearn.net/affine) - An open-source, local-first knowledge base that merges structured docs, infinite whiteboards, databases, and AI into a single workspace for teams and creators. Alternative to Notion, OneNote, Confluence. [Repo](https://github.com/toeverything/AFFiNE) | Unknown | ⭐ 69K | Coming soon | Coming soon |
+| [Docmost](https://open.aiflowlearn.net/docmost) - Self-hosted wiki platform for enterprise teams with real-time collaboration, built-in AI, SSO, RBAC permissions, and compliance support for ITAR, FedRAMP, and GDPR. Alternative to Notion, Obsidian, Confluence. [Repo](https://github.com/docmost/docmost) | AGPL-3.0 | ⭐ 21K | Coming soon | Coming soon |
+| [Outline](https://open.aiflowlearn.net/outline) - Team knowledge base with real-time collaboration, AI-powered search, Slack integration, and self-hosting support for internal docs and wikis. Alternative to Notion, Confluence, Craft. [Repo](https://github.com/outline/outline) | Unknown | ⭐ 39K | Coming soon | Coming soon |
+| [Vrite](https://open.aiflowlearn.net/vrite) - A powerful platform for technical writing, offering real-time collaboration, version control, and seamless integrations. Alternative to Mintlify, Gitbook. [Repo](https://github.com/vriteio/vrite) | Unknown | ⭐ 2K | Coming soon | Coming soon |
+| [XWiki](https://open.aiflowlearn.net/xwiki) - XWiki is a flexible, feature-rich wiki software that helps organizations structure and share knowledge efficiently. Alternative to Notion, Obsidian, Confluence. [Repo](https://github.com/xwiki/xwiki-platform) | LGPL-2.1 | ⭐ 1.3K | Coming soon | Coming soon |
 | [Anarlog](https://open.aiflowlearn.net/anarlog) - Records system audio without joining your call, then turns rough notes into editable summaries. Audio, transcripts, and notes stay as local files. Alternative to Otter.ai, Granola, Jamie AI. [Repo](https://github.com/fastrepl/anarlog) | MIT | ⭐ 8.6K | Coming soon | Coming soon |
 | [AnyType](https://open.aiflowlearn.net/anytype) - A local-first, encrypted workspace for notes, tasks, databases, and chats. Your data stays on your device, syncs peer-to-peer, and never passes through a central server. Alternative to Notion, Obsidian, Google Keep. [Repo](https://github.com/anyproto/anytype-ts) | Unknown | ⭐ 8.1K | Coming soon | Coming soon |
 | [Beaver Notes](https://open.aiflowlearn.net/beaver-notes) - A privacy-focused, offline-first note-taking app that stores everything on your device, with Markdown, note linking, file attachments, LaTeX math, and bring-your-own sync. Alternative to Notion, Obsidian, OneNote. [Repo](https://github.com/beaver-notes/beaver-notes) | MIT | ⭐ 1.3K | Coming soon | Coming soon |
@@ -643,28 +1328,111 @@ Website: [https://open.aiflowlearn.net](https://open.aiflowlearn.net)
 | [Standard Notes](https://open.aiflowlearn.net/standard-notes) - Cross-platform note-taking app with end-to-end encryption, offline access, and powerful organization features for privacy-conscious users. Alternative to Obsidian, OneNote, Google Keep. [Repo](https://github.com/standardnotes/app) | AGPL-3.0 | ⭐ 6.5K | Coming soon | Coming soon |
 | [Tolaria](https://open.aiflowlearn.net/tolaria) - A free, open source note-taking app built on plain Markdown files, Git version control, and direct AI model integration. No account required. Alternative to Obsidian, OneNote, Google Keep. [Repo](https://github.com/refactoringhq/tolaria) | AGPL-3.0 | ⭐ 16K | Coming soon | Coming soon |
 | [Zen](https://open.aiflowlearn.net/zen) - Minimal note-taking app storing Markdown notes in local SQLite database. Features instant search, flexible tagging, keyboard shortcuts, and offline access. Alternative to OneNote, Google Keep, Apple Notes. [Repo](https://github.com/sheshbabu/zen) | AGPL-3.0 | ⭐ 1.1K | Coming soon | Coming soon |
+
+### Password & Secret Management
+
+| Project | License | Stars | Codex | Classroom |
+| --- | --- | ---: | --- | --- |
+| [KeePassXC](https://open.aiflowlearn.net/keepassxc) - KeePassXC is an open-source password manager that securely stores and manages sensitive information across Windows, macOS, and Linux. Alternative to 1Password, Proton Pass, Keeper. [Repo](https://github.com/keepassxreboot/keepassxc) | Unknown | ⭐ 28K | Coming soon | Coming soon |
 | [Bitwarden](https://open.aiflowlearn.net/bitwarden) - Bitwarden is an open source password manager that securely stores, shares, and autofills passwords across unlimited devices. Alternative to 1Password, Doppler, Proton Pass. [Repo](https://github.com/bitwarden/server) | Unknown | ⭐ 19K | Coming soon | Coming soon |
 | [Keyshade](https://open.aiflowlearn.net/keyshade) - Secure secret management platform with public key encryption, automated rotation, versioning, and real-time collaboration tools for development teams. Alternative to 1Password, Doppler, Keeper. [Repo](https://github.com/keyshade-xyz/keyshade) | MPL-2.0 | ⭐ 754 | Coming soon | Coming soon |
 | [Padloc](https://open.aiflowlearn.net/padloc) - Open-source password manager with end-to-end encryption for passwords, credit cards, notes, and documents. Cross-platform sync with secure sharing capabilities. Alternative to 1Password, Proton Pass, Keeper. [Repo](https://github.com/padloc/padloc) | AGPL-3.0 | ⭐ 2.9K | Coming soon | Coming soon |
 | [Passbolt](https://open.aiflowlearn.net/passbolt) - Open source password manager focused on security, collaboration and privacy for organizations Alternative to 1Password, Proton Pass, Keeper. [Repo](https://github.com/passbolt/passbolt_api) | AGPL-3.0 | ⭐ 6K | Coming soon | Coming soon |
 | [PearPass](https://open.aiflowlearn.net/pearpass) - Open-source password manager with peer-to-peer syncing, local storage, and end-to-end encryption. No cloud servers, complete privacy control across devices. Alternative to 1Password, Proton Pass, Keeper. [Repo](https://github.com/tetherto/pearpass-app-desktop) | Apache-2.0 | ⭐ 474 | Coming soon | Coming soon |
+
+### Screen Capture & Recording
+
+| Project | License | Stars | Codex | Classroom |
+| --- | --- | ---: | --- | --- |
 | [Cap](https://open.aiflowlearn.net/cap) - Record your screen or webcam, edit with backgrounds and effects, then share via link. Built on Rust and Tauri for native performance on macOS and Windows. Alternative to Screen Studio, Loom, CleanShot. [Repo](https://github.com/capsoftware/cap) | AGPL-3.0 | ⭐ 20K | Coming soon | Coming soon |
 | [Kap](https://open.aiflowlearn.net/kap) - Capture, edit, and share your screen with ease. Create stunning GIFs and videos for tutorials, demos, and bug reports. Alternative to Screen Studio, Loom, CleanShot. [Repo](https://github.com/wulkano/kap) | MIT | ⭐ 19K | Coming soon | Coming soon |
 | [OBS Studio](https://open.aiflowlearn.net/obs-studio) - OBS Studio offers high-quality video recording and live streaming capabilities, supporting multiple platforms and providers. Alternative to Screen Studio, Loom, CleanShot. [Repo](https://github.com/obsproject/obs-studio) | GPL-2.0 | ⭐ 73K | Coming soon | Coming soon |
 | [Screenity](https://open.aiflowlearn.net/screenity) - Capture, annotate, and edit screen recordings with no limits or sign-up required. Completely private and open source. Alternative to Screen Studio, Loom, CleanShot. [Repo](https://github.com/alyssaxuu/screenity) | GPL-3.0 | ⭐ 18K | Coming soon | Coming soon |
 | [ShareX](https://open.aiflowlearn.net/sharex) - ShareX is a free, open-source program that captures or records any area of your screen and shares it with a single keypress, supporting various file types and destinations. Alternative to Screen Studio, Loom, CleanShot. [Repo](https://github.com/ShareX/ShareX) | GPL-3.0 | ⭐ 38K | Coming soon | Coming soon |
 | [Snapify](https://open.aiflowlearn.net/snapify) - Effortlessly create, share, and collaborate with screen recordings. Control your data with self-hosting or our secure cloud option. Alternative to Screen Studio, Loom, CleanShot. [Repo](https://github.com/MarconLP/snapify) | AGPL-3.0 | ⭐ 1K | Coming soon | Coming soon |
+
+### File Management & Sync
+
+| Project | License | Stars | Codex | Classroom |
+| --- | --- | ---: | --- | --- |
+| [Nextcloud](https://open.aiflowlearn.net/nextcloud) - Nextcloud offers on-premises file sync, sharing and collaboration platform with advanced security and privacy features. Alternative to Google Drive, Microsoft Teams, Slack. [Repo](https://github.com/nextcloud/server) | AGPL-3.0 | ⭐ 36K | Coming soon | Coming soon |
+| [Sync-in](https://open.aiflowlearn.net/sync-in) - Secure, open-source platform for file storage, sharing, and collaboration. Host your data on your own infrastructure with full control and transparency. Alternative to Google Drive, Microsoft OneDrive, Dropbox. [Repo](https://github.com/sync-in/server) | AGPL-3.0 | ⭐ 1.4K | Coming soon | Coming soon |
+| [Seafile](https://open.aiflowlearn.net/seafile) - Open source file sync and sharing platform with custom properties, AI automation, collaborative editing, and enterprise-grade security for teams. Alternative to Google Drive, Microsoft OneDrive, Dropbox. [Repo](https://github.com/haiwen/seafile) | Unknown | ⭐ 15K | Coming soon | Coming soon |
+| [Peergos](https://open.aiflowlearn.net/peergos) - A peer-to-peer encrypted filesystem for secure file storage, sharing, and collaboration with end-to-end encryption and user-controlled data. Alternative to Dropbox, Mega, ownCloud. [Repo](https://github.com/Peergos/Peergos) | AGPL-3.0 | ⭐ 2.4K | Coming soon | Coming soon |
+| [Spacedrive](https://open.aiflowlearn.net/spacedrive) - A cross-platform file manager that unifies your devices into a seamless, organized digital workspace. Alternative to Google Drive, Microsoft OneDrive, Dropbox. [Repo](https://github.com/spacedriveapp/spacedrive) | AGPL-3.0 | ⭐ 38K | Coming soon | Coming soon |
+| [Cozy](https://open.aiflowlearn.net/cozy) - Open-source personal cloud that automatically gathers all your data from third-party services. French-hosted with privacy-first design, no ads, and seamless device sync. Alternative to 1Password, ownCloud, Keeper. [Repo](https://github.com/cozy/cozy-stack) | AGPL-3.0 | ⭐ 1.3K | Coming soon | Coming soon |
+| [Firefiles](https://open.aiflowlearn.net/firefiles) - Firefiles is an open-source alternative to Dropbox that lets you manage files across multiple cloud storage providers through a single interface. Alternative to Google Drive, Microsoft OneDrive, Dropbox. [Repo](https://github.com/faisalsayed10/firefiles) | AGPL-3.0 | ⭐ 371 | Coming soon | Coming soon |
+| [Hoodik](https://open.aiflowlearn.net/hoodik) - Lightweight, self-hosted cloud storage built with Rust and Vue.js. Features end-to-end encryption, file sharing, search capabilities, and Docker deployment. Alternative to Dropbox, WeTransfer, Mega. [Repo](https://github.com/hudikhq/hoodik) | Unknown | ⭐ 1.3K | Coming soon | Coming soon |
+| [Puter](https://open.aiflowlearn.net/puter) - Puter is a cloud-based desktop OS you run in the browser, with built-in apps, file storage, and support for hosting web apps and sites. Alternative to Google Drive, Microsoft OneDrive, Dropbox. [Repo](https://github.com/heyputer/puter/) | AGPL-3.0 | ⭐ 42K | Coming soon | Coming soon |
+| [Twake Drive](https://open.aiflowlearn.net/twake-drive) - Open source encrypted data storage solution offering secure file sharing, collaboration tools, and on-premises deployment for professional teams. Alternative to Google Drive, Microsoft OneDrive, Dropbox. [Repo](https://github.com/linagora/twake-drive) | AGPL-3.0 | ⭐ 943 | Coming soon | Coming soon |
 | [LocalSend](https://open.aiflowlearn.net/localsend) - Free, open-source file sharing tool for nearby devices. Cross-platform support with end-to-end encryption, no registration required, automatic device discovery. [Repo](https://github.com/localsend/localsend) | Apache-2.0 | ⭐ 83K | Coming soon | Coming soon |
 | [OpenCloud](https://open.aiflowlearn.net/opencloud) - Self-hostable cloud file management and collaboration platform with an integrated office suite, zero-trust security, and GDPR compliance for teams and organizations. Alternative to Google Drive, Microsoft OneDrive, Dropbox. [Repo](https://github.com/opencloud-eu/opencloud) | Apache-2.0 | ⭐ 5.6K | Coming soon | Coming soon |
 | [PairDrop](https://open.aiflowlearn.net/pairdrop) - Share files instantly between devices using peer-to-peer technology. No registration, installation, or configuration required. Works cross-platform. Alternative to WeTransfer, Apple AirDrop. [Repo](https://github.com/schlagmichdoch/pairdrop) | GPL-3.0 | ⭐ 11K | Coming soon | Coming soon |
+
+### Email & Communication
+
+| Project | License | Stars | Codex | Classroom |
+| --- | --- | ---: | --- | --- |
+| [Inbox Zero](https://open.aiflowlearn.net/inboxzero) - Automates Gmail and Outlook with AI-drafted replies, bulk unsubscribe, cold email blocking, attachment filing, and inbox analytics for individuals and teams. Alternative to Lindy, Cora, Fyxer. [Repo](https://github.com/elie222/inbox-zero) | AGPL-3.0 | ⭐ 11K | Coming soon | Coming soon |
+| [Zero](https://open.aiflowlearn.net/zero) - Self-hostable email client that connects to your existing accounts and gives you full control over your data, interface, and inbox experience. Alternative to Gmail, Apple Mail, Lindy. [Repo](https://github.com/mail-0/zero) | MIT | ⭐ 11K | Coming soon | Coming soon |
+| [Novu](https://open.aiflowlearn.net/novu) - Open-source platform for building in-app, email, push, SMS, and chat notifications with a unified API, workflow engine, and embeddable inbox component. Alternative to Customer.io, NotificationAPI, Knock. [Repo](https://github.com/novuhq/novu) | Unknown | ⭐ 39K | Coming soon | Coming soon |
+| [Freescout](https://open.aiflowlearn.net/freescout) - Self-hosted email management system with shared inboxes, automation, and powerful collaboration features for efficient customer support. Alternative to Zendesk, FreshDesk, Hiver. [Repo](https://github.com/freescout-helpdesk/freescout) | AGPL-3.0 | ⭐ 4.3K | Coming soon | Coming soon |
+| [Keila](https://open.aiflowlearn.net/keila) - Self-hosted newsletter platform with powerful features, data protection, and full control over your mailing lists and campaigns. Alternative to Substack, Mailchimp, SendGrid. [Repo](https://github.com/pentacent/keila) | AGPL-3.0 | ⭐ 2.1K | Coming soon | Coming soon |
+| [Plunk](https://open.aiflowlearn.net/plunk) - Plunk unifies marketing, transactional, and broadcast emails into a single, complete solution for businesses of all sizes. Alternative to Resend, Mailchimp, SendGrid. [Repo](https://github.com/useplunk/plunk) | AGPL-3.0 | ⭐ 5.2K | Coming soon | Coming soon |
+| [Postal](https://open.aiflowlearn.net/postal) - Self-hosted email delivery platform with powerful features for transactional and bulk emails, offering full control and customization. Alternative to Resend, Mailchimp, SendGrid. [Repo](https://github.com/postalserver/postal) | MIT | ⭐ 17K | Coming soon | Coming soon |
+| [Sendportal](https://open.aiflowlearn.net/sendportal) - Open-source email marketing platform offering unlimited subscribers, campaigns, and workspaces. Self-hosted solution with powerful API and beautiful interface. Alternative to Resend, Mailchimp, SendGrid. [Repo](https://github.com/mettle/sendportal) | MIT | ⭐ 2.1K | Coming soon | Coming soon |
+| [useSend](https://open.aiflowlearn.net/usesend) - Open source email platform for transactional and marketing emails. Self-host or use cloud service with transparent pricing - pay only for emails sent. Alternative to Resend, Mailchimp, SendGrid. [Repo](https://github.com/usesend/usesend) | AGPL-3.0 | ⭐ 4.4K | Coming soon | Coming soon |
+| [UnInbox](https://open.aiflowlearn.net/uninbox) - Streamline team communication with shared inboxes, unlimited email addresses, and customizable workflows. Perfect for modern businesses seeking organized email management. Alternative to Microsoft Teams, Gmail, Front. [Repo](https://github.com/un/inbox) | Unknown | ⭐ 1.7K | Coming soon | Coming soon |
+| [Ntfy](https://open.aiflowlearn.net/ntfy) - A lightweight, open-source solution for sending real-time notifications to your devices, with end-to-end encryption and no sign-up required. [Repo](https://github.com/binwiederhier/ntfy) | Apache-2.0 | ⭐ 31K | Coming soon | Coming soon |
 | [AgentMail](https://open.aiflowlearn.net/agentmail) - Provides AI agents with real email inboxes via REST API. Create inboxes instantly, send and receive messages, search threads, and handle attachments programmatically. [Repo](https://github.com/agentmail-to/agentmail-node) | Unknown | ⭐ 34 | Coming soon | Coming soon |
 | [DoubleZero](https://open.aiflowlearn.net/doublezero) - 00 is an open-source email API and infrastructure solution that allows developers to own and control their email stack. Alternative to Resend, SendGrid, Mailgun. [Repo](https://github.com/technomancy-dev/00) | AGPL-3.0 | ⭐ 1.2K | Coming soon | Coming soon |
 | [Hyvor Relay](https://open.aiflowlearn.net/hyvor-relay) - Self-hosted email API alternative to AWS SES & Mailgun. Open-source AGPL-3.0 with enterprise features, automated deliverability, and cloud version coming 2026. Alternative to Resend, SendGrid, Mailgun. [Repo](https://github.com/hyvor/relay) | AGPL-3.0 | ⭐ 627 | Coming soon | Coming soon |
 | [Sessy](https://open.aiflowlearn.net/sessy) - Track SES deliveries, bounces, opens and clicks in a self-hosted dashboard with real-time search, analytics and reputation monitoring. Alternative to Resend, SendGrid, Mailgun. [Repo](https://github.com/marckohlbrugge/sessy) | Unknown | ⭐ 887 | Coming soon | Coming soon |
 | [Tuta](https://open.aiflowlearn.net/tuta) - Tuta offers encrypted email, calendar and contacts with quantum-resistant security, protecting your privacy without ads or tracking. Alternative to Microsoft 365, Gmail, Google Workspace. [Repo](https://github.com/tutao/tutanota) | GPL-3.0 | ⭐ 7.7K | Coming soon | Coming soon |
 | [Twake Mail](https://open.aiflowlearn.net/twake-mail) - Open source professional email solution with PGP encryption, JMAP protocol, AI-powered responses, and advanced antispam protection. Control your data privately. Alternative to Gmail, Apple Mail. [Repo](https://github.com/linagora/tmail-flutter) | AGPL-3.0 | ⭐ 621 | Coming soon | Coming soon |
+
+### Automation
+
+| Project | License | Stars | Codex | Classroom |
+| --- | --- | ---: | --- | --- |
+| [Parlant](https://open.aiflowlearn.net/parlant) - A conversational AI server that manages agent behavior through context-aware guidelines, keeping responses consistent, auditable, and aligned at scale. Alternative to Voiceflow, Chatbase, Uchat. [Repo](https://github.com/emcie-co/parlant) | Apache-2.0 | ⭐ 18K | Coming soon | Coming soon |
+| [Botpress](https://open.aiflowlearn.net/botpress) - A comprehensive platform for creating AI agents with intuitive tools, extensive integrations, and enterprise-grade features powered by the latest language models. Alternative to Manychat, Voiceflow, Uchat. [Repo](https://github.com/botpress/botpress) | MIT | ⭐ 15K | Coming soon | Coming soon |
+| [ByteChef](https://open.aiflowlearn.net/bytechef) - Create intelligent automation workflows combining AI agents with your favorite apps and services. Connect, automate, and scale your operations without complex coding. Alternative to n8n, Make, Zapier. [Repo](https://github.com/bytechefhq/bytechef) | Unknown | ⭐ 773 | Coming soon | Coming soon |
+| [CodeZero](https://open.aiflowlearn.net/codezero) - Open-source no-code automation platform for logistics, chatbots, and AI agents. Deploy on cloud, self-host, or hybrid with complete data sovereignty and modular workflow design. Alternative to Zoho Flow, Azure Logic Apps. [Repo](https://github.com/code0-tech/codezero) | Unknown | ⭐ 35 | Coming soon | Coming soon |
+| [Pipeshub](https://open.aiflowlearn.net/pipeshub) - Self-hostable enterprise AI platform that unifies business data across apps, powers a knowledge graph for cited answers, and lets teams build AI agents across their stack. [Repo](https://github.com/pipeshub-ai/pipeshub-ai/) | Apache-2.0 | ⭐ 3K | Coming soon | Coming soon |
+| [Browser Use](https://open.aiflowlearn.net/browser-use) - Python library that lets AI agents browse the web by giving them real browser control, DOM access, and the ability to interact with any website. Alternative to Browserbase, Anchor Browser. [Repo](https://github.com/browser-use/browser-use) | MIT | ⭐ 99K | [Codex](https://www.aiflowlearn.net/codex/browser-use-source-walkthrough) | Coming soon |
+| [Leon](https://open.aiflowlearn.net/leon) - Leon is an AI-powered virtual assistant that lives on your server, automating tasks and managing your digital life with privacy and customization. [Repo](https://github.com/leon-ai/leon) | MIT | ⭐ 17K | Coming soon | Coming soon |
+| [Lightpanda](https://open.aiflowlearn.net/lightpanda) - Purpose-built headless browser that delivers 10x faster performance and 10x lower memory usage compared to Chrome headless for web automation and AI workflows. Alternative to Browserbase, Anchor Browser. [Repo](https://github.com/lightpanda-io/browser) | AGPL-3.0 | ⭐ 31K | Coming soon | Coming soon |
+| [MaxKB](https://open.aiflowlearn.net/maxkb) - Open-source AI solution combining RAG pipelines, workflow automation, and multi-model support for intelligent enterprise knowledge management and customer service. [Repo](https://github.com/1panel-dev/maxkb/) | GPL-3.0 | ⭐ 21K | Coming soon | Coming soon |
+| [Skyvern](https://open.aiflowlearn.net/skyvern) - Transform manual browser tasks into automated workflows using AI. Handle complex forms, CAPTCHAs, 2FA, and data extraction across any website at scale. Alternative to Browserbase, Anchor Browser. [Repo](https://github.com/skyvern-ai/skyvern) | AGPL-3.0 | ⭐ 22K | Coming soon | Coming soon |
+| [Steel](https://open.aiflowlearn.net/steel) - Open-source browser API designed for AI agents. Run headless browsers with built-in CAPTCHA solving, proxy support, and session management. Quick setup in under 1s. Alternative to Browserbase, Anchor Browser. [Repo](https://github.com/steel-dev/steel-browser) | Apache-2.0 | ⭐ 7.2K | Coming soon | Coming soon |
+| [Typebot](https://open.aiflowlearn.net/typebot) - Design, build, and deploy interactive chatbots with a visual editor. Integrate easily and collect data effortlessly. Alternative to Manychat, Voiceflow, DocsBot. [Repo](https://github.com/baptistearno/typebot.io) | Unknown | ⭐ 10K | Coming soon | Coming soon |
+| [Tiledesk](https://open.aiflowlearn.net/tiledesk) - AI-enhanced live chat platform for seamless customer engagement, featuring chatbots, multichannel support, and advanced analytics. Alternative to Manychat, Voiceflow, Chatbase. [Repo](https://github.com/tiledesk/tiledesk-dashboard) | MIT | ⭐ 321 | Coming soon | Coming soon |
+| [Orgnise](https://open.aiflowlearn.net/orgnise) - A versatile project management platform that combines task organization, team collaboration, and workflow automation in one intuitive interface. Alternative to Notion, Obsidian, Linear. [Repo](https://github.com/orgnise/webapp) | AGPL-3.0 | ⭐ 241 | Coming soon | Coming soon |
+| [Ethora](https://open.aiflowlearn.net/ethora) - Build branded chat apps with AI agents, group messaging, document exchange, and digital wallets using React and React Native components. Alternative to Stream, Sendbird. [Repo](https://github.com/dappros/ethora/) | Apache-2.0 | ⭐ 536 | Coming soon | Coming soon |
+| [ActivePieces](https://open.aiflowlearn.net/activepieces) - Open-source integration platform for seamless workflow automation. Connect apps, automate tasks, and boost productivity effortlessly. Alternative to n8n, Make, Zapier. [Repo](https://github.com/activepieces/activepieces) | Unknown | ⭐ 23K | Coming soon | Coming soon |
+| [AITable](https://open.aiflowlearn.net/apitable) - AITable.ai offers a visual database platform that simplifies workflow automation and connects to over 6,000 apps through integrations like Zapier and Make. Alternative to Airtable, Glide, Coda. [Repo](https://github.com/apitable/apitable) | AGPL-3.0 | ⭐ 15K | Coming soon | Coming soon |
+| [Automa](https://open.aiflowlearn.net/automa) - No-code platform for building AI agents and RPA workflows that automate repetitive business tasks across finance, HR, sales, and operations. Alternative to n8n, Make, Zapier. [Repo](https://github.com/automaapp/automa) | Unknown | ⭐ 21K | Coming soon | Coming soon |
+| [Hatchet](https://open.aiflowlearn.net/hatchet) - Durable orchestration platform for managing AI agents, scheduling background tasks, and running mission-critical workflows. Alternative to Make, Zapier, IFTTT. [Repo](https://github.com/hatchet-dev/hatchet) | MIT | ⭐ 7.3K | Coming soon | Coming soon |
+| [Hexabot](https://open.aiflowlearn.net/hexabot) - Hexabot is an open-source platform for creating intelligent, multilingual chatbots without coding complexity. Alternative to Manychat, Voiceflow, Chatbase. [Repo](https://github.com/hexastack/hexabot) | AGPL-3.0 | ⭐ 974 | Coming soon | Coming soon |
+| [n8n](https://open.aiflowlearn.net/n8n) - Build automated workflows connecting 500+ apps, write custom code, and deploy AI agents with full visibility into every decision. Self-hostable or cloud. Alternative to Make, Zapier, IFTTT. [Repo](https://github.com/n8n-io/n8n) | Unknown | ⭐ 192K | [Codex](https://www.aiflowlearn.net/codex/n8n-io-n8n) | Coming soon |
+| [Windmill](https://open.aiflowlearn.net/windmill) - Powerful, self-hosted platform for building and running workflows, scripts, and apps with code-first approach and collaborative features. Alternative to Make, Zapier, IFTTT. [Repo](https://github.com/windmill-labs/windmill) | Unknown | ⭐ 17K | Coming soon | Coming soon |
+| [Automatisch](https://open.aiflowlearn.net/automatisch) - Self-hosted automation tool that connects your apps and services, enabling powerful integrations and efficient data flow across your ecosystem. Alternative to n8n, Make, Zapier. [Repo](https://github.com/automatisch/automatisch/) | Unknown | ⭐ 14K | Coming soon | Coming soon |
+| [Keep](https://open.aiflowlearn.net/keep) - Open-source platform for centralizing alerts, automating responses, and enhancing incident management across your tech stack. Alternative to Opsgenie, BetterStack, Pagerduty. [Repo](https://github.com/keephq/keep) | MIT | ⭐ 12K | Coming soon | Coming soon |
+| [Home Assistant](https://open.aiflowlearn.net/home-assistant) - Open source home automation platform supporting 1000+ devices with local control, powerful automations, custom dashboards, and voice assistant. No cloud required. Alternative to Amazon Alexa, HomeKit, Google Assistant. [Repo](https://github.com/home-assistant/core) | Apache-2.0 | ⭐ 88K | Coming soon | Coming soon |
 | [MDMA](https://open.aiflowlearn.net/mdma) - Convert multi-step forms into conversational AI experiences. Users ask questions, get clarifications, and complete complex processes effortlessly with 98% reliability. [Repo](https://github.com/MobileReality/mdma) | MIT | ⭐ 18 | Coming soon | Coming soon |
 | [OpenWork](https://open.aiflowlearn.net/openwork) - Desktop app supporting 50+ LLMs with custom keys, team sharing, and browser automation. Build reusable AI agents with built-in guardrails for enterprise use. [Repo](https://github.com/different-ai/openwork) | MIT | ⭐ 16K | Coming soon | Coming soon |
+| [Revert](https://open.aiflowlearn.net/revert) - Revert makes it incredibly easy to build integrations with any third party API Alternative to Merge, Tray IO. [Repo](https://github.com/revertinc/revert) | AGPL-3.0 | ⭐ 1K | Coming soon | Coming soon |
+
+### Time & Task Management
+
+| Project | License | Stars | Codex | Classroom |
+| --- | --- | ---: | --- | --- |
+| [Kimai](https://open.aiflowlearn.net/kimai) - Open-source time tracking solution for businesses of all sizes. Manage projects, track billable hours, and generate insightful reports. Alternative to Clockify, Toggl, TimeCamp. [Repo](https://github.com/kimai/kimai) | AGPL-3.0 | ⭐ 4.7K | Coming soon | Coming soon |
+| [Ever Teams](https://open.aiflowlearn.net/ever-teams) - Ever Teams offers an all-in-one solution for work management, time tracking, and team collaboration with integrations for popular tools. Alternative to Linear, Monday, Jira. [Repo](https://github.com/ever-co/ever-teams) | AGPL-3.0 | ⭐ 509 | Coming soon | Coming soon |
+| [Freeter](https://open.aiflowlearn.net/freeter) - Organize projects, tasks, and resources in customizable workspaces. Boost productivity with a unified interface for all your work. Alternative to Monday, ClickUp, Todoist. [Repo](https://github.com/freeterapp/freeter) | GPL-3.0 | ⭐ 1K | Coming soon | Coming soon |
+| [Kanri](https://open.aiflowlearn.net/kanri) - Kanri is a free, open-source personal Kanban app that works offline, offering a modern and simple experience while respecting your privacy. Alternative to Monday, Jira, ClickUp. [Repo](https://github.com/kanriapp/kanri) | GPL-3.0 | ⭐ 1.9K | Coming soon | Coming soon |
+| [Super Productivity](https://open.aiflowlearn.net/super-productivity) - Combines task management, time tracking, Pomodoro focus sessions, and GitHub/Jira integration in a local-first app for Windows, macOS, Linux, Android, and iOS. Alternative to Monday, ClickUp, Todoist. [Repo](https://github.com/johannesjo/super-productivity) | MIT | ⭐ 20K | Coming soon | Coming soon |
 | [ActivityWatch](https://open.aiflowlearn.net/activitywatch) - Free open-source time tracker that automatically monitors your device usage. Cross-platform support with local data storage for complete privacy. Alternative to RescueTime, WakaTime, Code Time. [Repo](https://github.com/activitywatch/activitywatch) | MPL-2.0 | ⭐ 18K | Coming soon | Coming soon |
 | [Hackatime](https://open.aiflowlearn.net/hackatime) - Free, open-source coding time tracker compatible with VS Code, JetBrains IDEs, vim, emacs and more. No limits, no paywalls - your data stays yours forever. Alternative to WakaTime, Code Time. [Repo](https://github.com/hackclub/hackatime) | MIT | ⭐ 141 | Coming soon | Coming soon |
 | [Sol](https://open.aiflowlearn.net/sol) - A modern macOS launcher that provides instant access to applications, utilities, and system functions through an elegant and efficient interface. Alternative to Raycast, Alfred. [Repo](https://github.com/ospfranco/sol) | MIT | ⭐ 3K | Coming soon | Coming soon |
@@ -673,6 +1441,16 @@ Website: [https://open.aiflowlearn.net](https://open.aiflowlearn.net)
 | [Ueli](https://open.aiflowlearn.net/ueli) - A keyboard-driven launcher that helps you quickly find and open applications, files, and bookmarks across Windows, macOS, and Linux Alternative to Raycast, Alfred. [Repo](https://github.com/oliverschwendener/ueli) | MIT | ⭐ 4.5K | Coming soon | Coming soon |
 | [Wakapi](https://open.aiflowlearn.net/wakapi) - Open-source, self-hosted time tracking solution for developers. Analyze coding habits, improve productivity, and visualize progress. Alternative to Clockify, Toggl, TimeCamp. [Repo](https://github.com/muety/wakapi) | MIT | ⭐ 4.3K | Coming soon | Coming soon |
 | [Ziit](https://open.aiflowlearn.net/ziit) - Monitor your coding sessions, analyze productivity patterns, and gain insights into your development workflow with comprehensive time tracking statistics. Alternative to RescueTime, WakaTime, Code Time. [Repo](https://github.com/0pandadev/ziit) | AGPL-3.0 | ⭐ 238 | Coming soon | Coming soon |
+
+### Personal Finance Management
+
+| Project | License | Stars | Codex | Classroom |
+| --- | --- | ---: | --- | --- |
+| [ezBookkeeping](https://open.aiflowlearn.net/ezbookkeeping) - A privacy-first personal finance app with two-level accounts, multi-currency support, AI receipt recognition, and broad data import from formats like GnuCash and Firefly III. Alternative to YNAB, Mint. [Repo](https://github.com/mayswind/ezbookkeeping) | MIT | ⭐ 5.1K | Coming soon | Coming soon |
+| [Spliit](https://open.aiflowlearn.net/spliit) - A user-friendly app for tracking shared expenses, settling debts, and managing group finances with ease and transparency. [Repo](https://github.com/spliit-app/spliit) | MIT | ⭐ 2.8K | Coming soon | Coming soon |
+| [Fincept Terminal](https://open.aiflowlearn.net/fincept-terminal) - Comprehensive financial data platform offering economic insights, market analysis, and portfolio management tools [Repo](https://github.com/fincept-corporation/finceptterminal) | Unknown | ⭐ 27K | [Codex](https://www.aiflowlearn.net/codex/fincept-corporation-finceptterminal) | Coming soon |
+| [Ghostfolio](https://open.aiflowlearn.net/ghostfolio) - Open-source wealth management software for tracking stocks, ETFs, and cryptocurrencies across multiple portfolios Alternative to YNAB, Mint. [Repo](https://github.com/ghostfolio/ghostfolio) | AGPL-3.0 | ⭐ 8.7K | Coming soon | Coming soon |
+| [Wealthfolio](https://open.aiflowlearn.net/wealthfolio) - Wealthfolio is a simple, secure desktop app for tracking investments and managing your wealth without compromising data privacy. Alternative to Quickbooks, YNAB, Mint. [Repo](https://github.com/afadil/wealthfolio) | AGPL-3.0 | ⭐ 7.6K | Coming soon | Coming soon |
 | [Actual](https://open.aiflowlearn.net/actual) - Privacy-focused personal finance app using envelope budgeting, multi-device sync, optional end-to-end encryption, and bank sync for US, EU, and UK users. Alternative to YNAB, Mint, Rocket Money. [Repo](https://github.com/actualbudget/actual) | MIT | ⭐ 27K | Coming soon | Coming soon |
 | [Financial Freedom](https://open.aiflowlearn.net/financial-freedom) - Self-hosted alternative to Mint and YNAB for budgeting and building wealth while maintaining full control of your financial data. Alternative to YNAB, Mint, PocketGuard. [Repo](https://github.com/serversideup/financial-freedom) | GPL-3.0 | ⭐ 2.9K | Coming soon | Coming soon |
 | [Firefly III](https://open.aiflowlearn.net/firefly-iii) - Track transactions, budgets, and accounts with a double-entry system, multi-currency support, rule engine, and REST API. Fully self-hostable. Alternative to YNAB, PocketGuard. [Repo](https://github.com/firefly-iii/firefly-iii) | AGPL-3.0 | ⭐ 24K | Coming soon | Coming soon |
@@ -680,9 +1458,24 @@ Website: [https://open.aiflowlearn.net](https://open.aiflowlearn.net)
 | [Splitpro](https://open.aiflowlearn.net/splitpro) - Free, open-source expense sharing app with multi-currency support, unequal splits, and receipt uploads. Import from Splitwise and enjoy PWA functionality. [Repo](https://github.com/oss-apps/split-pro) | MIT | ⭐ 1.3K | Coming soon | Coming soon |
 | [Sure.am](https://open.aiflowlearn.net/sure-am) - An all-in-one personal finance platform. Track, optimize, grow, and manage your money through every stage of life. Alternative to YNAB, Mint, Rocket Money. [Repo](https://github.com/we-promise/sure) | AGPL-3.0 | ⭐ 8.7K | Coming soon | Coming soon |
 | [YAFFA](https://open.aiflowlearn.net/yaffa) - YAFFA is a powerful, open-source budget app for managing expenses, budgets, and investments with secure self-hosting. Alternative to Quickbooks, YNAB, Mint. [Repo](https://github.com/kantorge/yaffa) | MIT | ⭐ 104 | Coming soon | Coming soon |
+
+### Design & Visualization
+
+| Project | License | Stars | Codex | Classroom |
+| --- | --- | ---: | --- | --- |
+| [Affine](https://open.aiflowlearn.net/affine) - An open-source, local-first knowledge base that merges structured docs, infinite whiteboards, databases, and AI into a single workspace for teams and creators. Alternative to Notion, OneNote, Confluence. [Repo](https://github.com/toeverything/AFFiNE) | Unknown | ⭐ 69K | Coming soon | Coming soon |
+| [Excalidraw](https://open.aiflowlearn.net/excalidraw) - Virtual whiteboard for sketching diagrams, flowcharts, and wireframes with a distinctive hand-drawn look. Real-time collaboration built in. Alternative to Microsoft Visio, Miro, LucidChart. [Repo](https://github.com/excalidraw/excalidraw) | MIT | ⭐ 125K | Coming soon | Coming soon |
+| [Tldraw](https://open.aiflowlearn.net/tldraw) - Virtual whiteboard that works instantly on any device, no signup required, with real-time multiplayer collaboration built in. Alternative to Microsoft Visio, Miro, LucidChart. [Repo](https://github.com/tldraw/tldraw) | Unknown | ⭐ 48K | Coming soon | Coming soon |
+| [Penpot](https://open.aiflowlearn.net/penpot) - Design, prototype, and hand off to developers in one platform. Supports design systems, tokens, flexible layouts, and AI workflows with real CSS/HTML output. Alternative to Canva, Figma, Miro. [Repo](https://github.com/penpot/penpot) | MPL-2.0 | ⭐ 50K | Coming soon | Coming soon |
 | [Chalk.ist](https://open.aiflowlearn.net/chalkist) - Create beautiful, customizable images of your source code with ease, perfect for presentations, documentation, and social media sharing. [Repo](https://github.com/idered/chalk.ist) | MIT | ⭐ 1.8K | Coming soon | Coming soon |
 | [Graphite](https://open.aiflowlearn.net/graphite) - A free, open source vector graphics editor built around nondestructive, node-based design. Runs locally in the browser, exports SVG, PNG, and JPG. Alternative to Canva, Photoshop, Figma. [Repo](https://github.com/graphiteeditor/graphite) | Apache-2.0 | ⭐ 26K | Coming soon | Coming soon |
 | [Ray.so](https://open.aiflowlearn.net/ray-so) - Turn your code into beautiful images. Choose from a range of syntax colors, hide or show the background, and toggle between a dark and light window. [Repo](https://github.com/raycast/ray-so) | MIT | ⭐ 2.3K | Coming soon | Coming soon |
+
+### Bookmark & Content Management
+
+| Project | License | Stars | Codex | Classroom |
+| --- | --- | ---: | --- | --- |
+| [Brace.to](https://open.aiflowlearn.net/brace-to) - A privacy-focused bookmark manager that encrypts your saved links, allowing you to access them anytime, anywhere, on any device with complete control. Alternative to Pocket, Raindrop, Omnivore. [Repo](https://github.com/stxapps/brace-client) | MIT | ⭐ 103 | Coming soon | Coming soon |
 | [Bookmark It](https://open.aiflowlearn.net/bookmark-it) - Open-source bookmark manager with timeline view, one-click saving, categorization, and sharing features. Free plan available with pro upgrades. Alternative to Pocket, Raindrop, Omnivore. [Repo](https://github.com/gokulkrishh/bmrk.cc) | AGPL-3.0 | ⭐ 323 | Coming soon | Coming soon |
 | [Cloudmark](https://open.aiflowlearn.net/cloudmark) - Cloud-based bookmark manager that lets you save, categorize, and access your web favorites from any device with smart organization features Alternative to Pocket, Raindrop, Evernote. [Repo](https://github.com/wesleyel/cloudmark) | AGPL-3.0 | ⭐ 73 | Coming soon | Coming soon |
 | [Faved](https://open.aiflowlearn.net/faved) - Free, open-source bookmark manager that's superfast and secure. Organize with customizable nested tags, save from any browser via bookmarklet. Alternative to Pocket, Raindrop, Omnivore. [Repo](https://github.com/denho/faved) | MIT | ⭐ 1.1K | Coming soon | Coming soon |
@@ -692,7 +1485,22 @@ Website: [https://open.aiflowlearn.net](https://open.aiflowlearn.net)
 | [Readeck](https://open.aiflowlearn.net/readeck) - Personal content hub for saving articles, videos, and images. Features highlighting, transcripts, e-book export, and smart organization tools. Alternative to Pocket, Raindrop, Omnivore. [Repo](https://openalternative.co/readeck) | Unknown | ⭐ 993 | Coming soon | Coming soon |
 | [Ryot](https://open.aiflowlearn.net/ryot) - Ryot is a versatile platform for effortlessly tracking media, fitness, and more, replacing manual methods like spreadsheets. Alternative to Notion, Google Keep. [Repo](https://github.com/ignisda/ryot) | GPL-3.0 | ⭐ 3.3K | Coming soon | Coming soon |
 | [Wallabag](https://open.aiflowlearn.net/wallabag) - Self-hosted web article archiving tool that extracts content for comfortable reading. Import from Pocket, Instapaper. Open source with API access. Alternative to Pocket, Raindrop, Omnivore. [Repo](https://github.com/wallabag/wallabag) | MIT | ⭐ 13K | Coming soon | Coming soon |
+
+### Remote Desktop & Access
+
+| Project | License | Stars | Codex | Classroom |
+| --- | --- | ---: | --- | --- |
 | [RustDesk](https://open.aiflowlearn.net/rustdesk) - Cross-platform remote desktop software that runs on your own servers, giving you full data control as a direct alternative to TeamViewer and AnyDesk. Alternative to AnyDesk, TeamViewer, Splashtop. [Repo](https://github.com/rustdesk/rustdesk) | AGPL-3.0 | ⭐ 116K | Coming soon | Coming soon |
+
+### Browsers & Extensions
+
+| Project | License | Stars | Codex | Classroom |
+| --- | --- | ---: | --- | --- |
+| [Browser Operator](https://open.aiflowlearn.net/browser-operator) - Privacy-focused AI browser with intelligent agents for research, analysis, and workflow automation. Features unified memory, compliance guardrails, and seamless integrations. Alternative to Comet Browser, Browserbase, Atlas Browser. [Repo](https://github.com/browseroperator/browser-operator-core) | BSD-3-Clause | ⭐ 487 | Coming soon | Coming soon |
+| [Requestly](https://open.aiflowlearn.net/requestly) - A powerful browser extension and desktop app for developers to manipulate network requests, debug APIs, and improve web app testing Alternative to Postman, Testfully. [Repo](https://github.com/requestly/requestly) | Unknown | ⭐ 6.7K | Coming soon | Coming soon |
+| [Deta Surf](https://open.aiflowlearn.net/deta-surf) - A browser that doubles as a personal notebook, letting you research, summarize, and take notes on web pages, PDFs, and videos without switching apps. Alternative to NotebookLM, Comet Browser, Roam Research. [Repo](https://github.com/deta/surf) | Apache-2.0 | ⭐ 3.4K | Coming soon | Coming soon |
+| [Screenity](https://open.aiflowlearn.net/screenity) - Capture, annotate, and edit screen recordings with no limits or sign-up required. Completely private and open source. Alternative to Screen Studio, Loom, CleanShot. [Repo](https://github.com/alyssaxuu/screenity) | GPL-3.0 | ⭐ 18K | Coming soon | Coming soon |
+| [Cloudmark](https://open.aiflowlearn.net/cloudmark) - Cloud-based bookmark manager that lets you save, categorize, and access your web favorites from any device with smart organization features Alternative to Pocket, Raindrop, Evernote. [Repo](https://github.com/wesleyel/cloudmark) | AGPL-3.0 | ⭐ 73 | Coming soon | Coming soon |
 | [Brave](https://open.aiflowlearn.net/brave) - A secure web browser that blocks ads and trackers, protects privacy, and loads pages faster while saving data and battery life. Alternative to Firefox, Google Chrome, Arc. [Repo](https://github.com/brave/brave-browser) | MPL-2.0 | ⭐ 23K | Coming soon | Coming soon |
 | [Flow](https://open.aiflowlearn.net/flow) - A modern browser combining minimalist design with smart features like profiles, spaces, and command palette. Full Chrome extension support and privacy-focused browsing. Alternative to Firefox, Comet Browser, Google Chrome. [Repo](https://github.com/multiboxlabs/flow-browser) | GPL-3.0 | ⭐ 998 | Coming soon | Coming soon |
 | [Harper](https://open.aiflowlearn.net/harper) - Open source grammar checker that analyzes your writing quickly while keeping your data completely private and secure on your device. [Repo](https://github.com/automattic/harper) | Apache-2.0 | ⭐ 11K | Coming soon | Coming soon |
@@ -703,8 +1511,33 @@ Website: [https://open.aiflowlearn.net](https://open.aiflowlearn.net)
 | [Midori Browser](https://open.aiflowlearn.net/midori-browser) - Midori Browser is a lightweight, fast, and secure browser that protects users' privacy, available for Windows, Linux, and Android. Alternative to Firefox, Comet Browser, Google Chrome. [Repo](https://github.com/goastian/midori-desktop/) | MPL-2.0 | ⭐ 335 | Coming soon | Coming soon |
 | [Zen](https://open.aiflowlearn.net/zen-privacy) - Free, open-source desktop app that blocks ads, trackers, and surveillance scripts across all browsers and apps on Windows, macOS, and Linux. Alternative to AdGuard, NextDNS. [Repo](https://github.com/irbis-sh/zen-desktop) | MIT | ⭐ 4K | Coming soon | Coming soon |
 | [Zen Browser](https://open.aiflowlearn.net/zen-browser) - A Firefox-based browser offering enhanced privacy, split views, and extensive customization options for a personalized browsing experience. Alternative to Firefox, Comet Browser, Google Chrome. [Repo](https://github.com/zen-browser/desktop) | MPL-2.0 | ⭐ 43K | Coming soon | Coming soon |
+
+### Input & Dictation
+
+| Project | License | Stars | Codex | Classroom |
+| --- | --- | ---: | --- | --- |
+| [Amical](https://open.aiflowlearn.net/amical) - Open source AI dictation app that transforms speech to text with context-aware formatting. Fast, accurate transcription for meetings, notes, and hands-free typing. Alternative to Wispr Flow, Superwhisper, Otter.ai. [Repo](https://github.com/amicalhq/amical) | MIT | ⭐ 1.4K | Coming soon | Coming soon |
+| [Jarvis](https://open.aiflowlearn.net/jarvis) - Free, open-source macOS voice assistant that transcribes speech, applies AI transformations, and controls apps hands-free. No subscription, no training required. Alternative to Wispr Flow, Superwhisper, Voiceflow. [Repo](https://github.com/akshayaggarwal99/jarvis-ai-assistant) | MIT | ⭐ 558 | Coming soon | Coming soon |
+| [OpenWispr](https://open.aiflowlearn.net/openwispr) - Dictation app powered by OpenAI Whisper and NVIDIA Parakeet. Runs locally on macOS, Windows, and Linux with zero data retention and 100+ language support. Alternative to Wispr Flow, Superwhisper, Aqua Voice. [Repo](https://github.com/herotools/open-wispr) | MIT | ⭐ 3.7K | Coming soon | Coming soon |
+| [VoiceInk](https://open.aiflowlearn.net/voiceink) - Convert speech to text instantly with advanced AI voice recognition. 100% private, offline capable, supports 100+ languages. Works across all Mac applications. Alternative to Wispr Flow, Superwhisper, Aqua Voice. [Repo](https://github.com/beingpax/voiceink) | Unknown | ⭐ 5.3K | Coming soon | Coming soon |
+| [VoiceTypr](https://open.aiflowlearn.net/voicetypr) - AI-powered voice dictation tool for busy founders and developers. Works everywhere with 99% accuracy, 100+ languages, and complete privacy. One-time purchase. Alternative to Wispr Flow, Superwhisper, Aqua Voice. [Repo](https://github.com/moinulmoin/voicetypr) | Unknown | ⭐ 384 | Coming soon | Coming soon |
 | [Handy](https://open.aiflowlearn.net/handy) - Cross-platform desktop app that transcribes your voice into any text field using a keyboard shortcut, with all processing done locally on your machine. Alternative to Wispr Flow, Superwhisper, Aqua Voice. [Repo](https://github.com/cjpais/handy) | MIT | ⭐ 24K | Coming soon | Coming soon |
+
+### Office Suites
+
+| Project | License | Stars | Codex | Classroom |
+| --- | --- | ---: | --- | --- |
 | [IronCalc](https://open.aiflowlearn.net/ironcalc) - IronCalc is an open-source, Rust-powered spreadsheet engine with .xlsx support, 300+ functions, and bindings for JavaScript and Python. Alternative to Microsoft Excel, Google Sheets. [Repo](https://github.com/ironcalc/ironcalc) | Apache-2.0 | ⭐ 4K | Coming soon | Coming soon |
+
+
+## Security & Privacy
+
+### Identity & Access Management (IAM)
+
+| Project | License | Stars | Codex | Classroom |
+| --- | --- | ---: | --- | --- |
+| [Titan](https://open.aiflowlearn.net/titan) - Streamline role-based access control, enforce security policies, and ensure compliance for your Snowflake data warehouse Alternative to Snowflake, BigQuery, RedShift. [Repo](https://github.com/Titan-Systems/titan) | Apache-2.0 | ⭐ 482 | Coming soon | Coming soon |
+| [Defguard](https://open.aiflowlearn.net/defguard) - Enterprise-grade open source VPN solution combining WireGuard with mandatory 2FA/MFA and integrated OpenID Connect SSO for secure remote access Alternative to NordVPN, Zerotier, Okta. [Repo](https://github.com/defguard/defguard) | Unknown | ⭐ 2.7K | Coming soon | Coming soon |
 | [Hanko](https://open.aiflowlearn.net/hanko) - Open source authentication platform supporting passkeys, 2FA, SSO, and social login. Self-host or use Hanko Cloud, with full control over your data and no lock-in. Alternative to Clerk, WorkOS, Auth0. [Repo](https://github.com/teamhanko/hanko) | Unknown | ⭐ 8.9K | Coming soon | Coming soon |
 | [Authentik](https://open.aiflowlearn.net/authentik) - authentik is an open-source identity provider that offers self-hosted authentication, authorization, and user management for businesses of all sizes. Alternative to Clerk, WorkOS, Auth0. [Repo](https://github.com/goauthentik/authentik) | Unknown | ⭐ 22K | Coming soon | Coming soon |
 | [Authgear](https://open.aiflowlearn.net/authgear) - Authgear is a managed IAM platform handling authentication, SSO, and user management for B2C and B2B apps, with biometrics, MFA, and zero-trust support. Alternative to Clerk, WorkOS, Auth0. [Repo](https://github.com/authgear/authgear-server) | Apache-2.0 | ⭐ 1.8K | Coming soon | Coming soon |
@@ -721,10 +1554,75 @@ Website: [https://open.aiflowlearn.net](https://open.aiflowlearn.net)
 | [Tesseral](https://open.aiflowlearn.net/tesseral) - Complete B2B authentication solution with SSO, role management, API security, and pre-built UI components. Ship enterprise-grade auth in just a few lines of code. Alternative to Clerk, WorkOS, Auth0. [Repo](https://github.com/tesseral-labs/tesseral) | MIT | ⭐ 1.1K | Coming soon | Coming soon |
 | [Werbot](https://open.aiflowlearn.net/werbot) - Centralized platform for managing SSH access, enhancing security, and streamlining server administration for DevOps teams. [Repo](https://github.com/werbot/werbot) | Unknown | ⭐ 169 | Coming soon | Coming soon |
 | [Zitadel](https://open.aiflowlearn.net/zitadel) - ZITADEL provides a comprehensive identity management solution with easy APIs, customizable workflows, and serverless deployment options. Alternative to Supabase, Clerk, Firebase. [Repo](https://github.com/zitadel/zitadel) | AGPL-3.0 | ⭐ 14K | Coming soon | Coming soon |
+
+### Secrets Management
+
+| Project | License | Stars | Codex | Classroom |
+| --- | --- | ---: | --- | --- |
+| [UnKey](https://open.aiflowlearn.net/unkey) - Streamline API authentication with UnKey's powerful, developer-friendly platform for creating, revoking, and monitoring API keys. Alternative to Kong, Amazon API Gateway, Zuplo. [Repo](https://github.com/unkeyed/unkey) | AGPL-3.0 | ⭐ 5.3K | Coming soon | Coming soon |
+| [Keyshade](https://open.aiflowlearn.net/keyshade) - Secure secret management platform with public key encryption, automated rotation, versioning, and real-time collaboration tools for development teams. Alternative to 1Password, Doppler, Keeper. [Repo](https://github.com/keyshade-xyz/keyshade) | MPL-2.0 | ⭐ 754 | Coming soon | Coming soon |
+| [HashiCorp Vault](https://open.aiflowlearn.net/vault) - HashiCorp Vault is a powerful tool for managing secrets, protecting sensitive data, and controlling access using identity-based security. Alternative to 1Password, Doppler, Keeper. [Repo](https://github.com/hashicorp/vault) | Unknown | ⭐ 36K | Coming soon | Coming soon |
+| [Werbot](https://open.aiflowlearn.net/werbot) - Centralized platform for managing SSH access, enhancing security, and streamlining server administration for DevOps teams. [Repo](https://github.com/werbot/werbot) | Unknown | ⭐ 169 | Coming soon | Coming soon |
 | [Infisical](https://open.aiflowlearn.net/infisical) - End-to-end encrypted secret management platform for seamless integration and enhanced security in development workflows. Alternative to Doppler, Keeper. [Repo](https://github.com/infisical/infisical) | Unknown | ⭐ 27K | Coming soon | Coming soon |
 | [Phase](https://open.aiflowlearn.net/phase) - Open source platform for engineering teams to manage secrets and environment variables from development to production, with powerful integrations. Alternative to 1Password, Doppler, Keeper. [Repo](https://github.com/phasehq/console) | Unknown | ⭐ 868 | Coming soon | Coming soon |
+| [Bitwarden](https://open.aiflowlearn.net/bitwarden-clients) - Bitwarden client apps (web, browser extension, desktop, and cli). Alternative to 1Password, Lastpass. [Repo](https://github.com/bitwarden/clients) | NOASSERTION | ⭐ 13K | Coming soon | Coming soon |
+
+### Threat Detection & Response
+
+| Project | License | Stars | Codex | Classroom |
+| --- | --- | ---: | --- | --- |
+| [Opengrep](https://open.aiflowlearn.net/opengrep) - Opengrep is a community-driven fork of SemgrepCE, providing accessible static code analysis and security scanning for developers. [Repo](https://github.com/opengrep/opengrep) | LGPL-2.1 | ⭐ 2.7K | Coming soon | Coming soon |
+| [Temps](https://open.aiflowlearn.net/temps) - Self-hosted platform for small dev teams combining deployments, error tracking, analytics, session replay, uptime monitoring, and managed databases in one dashboard. Alternative to Vercel, Netlify, Heroku. [Repo](https://github.com/gotempsh/temps) | Apache-2.0 | ⭐ 476 | Coming soon | Coming soon |
+| [Bugsink](https://open.aiflowlearn.net/bugsink) - Bugsink offers real-time error tracking with self-hosting capabilities, allowing easy installation and connection to any app using Sentry-compatible SDKs. Alternative to DataDog, Bugsnag, New Relic. [Repo](https://github.com/bugsink/bugsink/) | Unknown | ⭐ 1.9K | Coming soon | Coming soon |
+| [Highlight](https://open.aiflowlearn.net/highlight) - Comprehensive monitoring solution offering error tracking, session replay, and performance insights for seamless debugging and optimization. Alternative to DataDog, BetterStack, Bugsnag. [Repo](https://github.com/highlight/highlight) | Unknown | ⭐ 9.3K | Coming soon | Coming soon |
+| [HyperDX](https://open.aiflowlearn.net/hyperdx) - Open source observability platform unifying session replays, logs, traces, metrics and errors. Fast search, automatic clustering, $0.40/GB pricing. Alternative to DataDog, Splunk, BetterStack. [Repo](https://github.com/hyperdxio/hyperdx) | MIT | ⭐ 9.6K | Coming soon | Coming soon |
+| [ProjectDiscovery](https://open.aiflowlearn.net/projectdiscovery) - Monitor infrastructure for exploitable vulnerabilities with real-time detection, automated workflows, and zero false positives. Alternative to DataDog, Splunk, New Relic. [Repo](https://github.com/projectdiscovery/nuclei) | MIT | ⭐ 29K | Coming soon | Coming soon |
+| [Sentry](https://open.aiflowlearn.net/sentry) - Detect, diagnose, and resolve software issues quickly with powerful error tracking, performance monitoring, and release management. Alternative to DataDog, BetterStack, Bugsnag. [Repo](https://github.com/getsentry/sentry) | Unknown | ⭐ 44K | Coming soon | Coming soon |
+| [Tracecat](https://open.aiflowlearn.net/tracecat) - Tracecat is a scalable, self-hostable platform for automating security workflows and playbooks without limits. Alternative to Jira, Splunk. [Repo](https://github.com/TracecatHQ/tracecat) | AGPL-3.0 | ⭐ 3.7K | Coming soon | Coming soon |
 | [Tirreno](https://open.aiflowlearn.net/tirreno) - Open-source security framework for threat detection, fraud prevention, and abuse monitoring. Self-hosted solution with built-in dashboard and risk scoring. [Repo](https://github.com/tirrenotechnologies/tirreno) | AGPL-3.0 | ⭐ 1.4K | Coming soon | Coming soon |
+
+### Network Security
+
+| Project | License | Stars | Codex | Classroom |
+| --- | --- | ---: | --- | --- |
+| [Defguard](https://open.aiflowlearn.net/defguard) - Enterprise-grade open source VPN solution combining WireGuard with mandatory 2FA/MFA and integrated OpenID Connect SSO for secure remote access Alternative to NordVPN, Zerotier, Okta. [Repo](https://github.com/defguard/defguard) | Unknown | ⭐ 2.7K | Coming soon | Coming soon |
+| [FireZone](https://open.aiflowlearn.net/firezone) - Replace your VPN with zero-trust access built on WireGuard. Fast, scalable network security with simple policies and identity provider integration. Alternative to Zerotier, Teleport, Twingate. [Repo](https://github.com/firezone/firezone) | Apache-2.0 | ⭐ 8.7K | Coming soon | Coming soon |
+| [Netbird](https://open.aiflowlearn.net/netbird) - Open source platform combining WireGuard overlay networks with Zero Trust access controls. Features SSO, MFA, device posture checks, and granular policies for secure remote connectivity. Alternative to Zerotier, Cloudflare Tunnel, Twingate. [Repo](https://github.com/netbirdio/netbird) | Unknown | ⭐ 26K | Coming soon | Coming soon |
+| [Pangolin](https://open.aiflowlearn.net/pangolin) - Deploy zero trust access to infrastructure, self-hosted apps, and SaaS tools in days. Identity-aware security with seamless user experience. Alternative to Zerotier, Cloudflare Tunnel, Twingate. [Repo](https://github.com/fosrl/pangolin) | Unknown | ⭐ 21K | Coming soon | Coming soon |
+| [Tailscale](https://open.aiflowlearn.net/tailscale) - Deploy a modern WireGuard-based VPN with zero configuration. Connect devices securely across clouds, VPCs, and on-premises networks without firewall rules. Alternative to Zerotier, Cloudflare Tunnel, Twingate. [Repo](https://github.com/tailscale/tailscale) | BSD-3-Clause | ⭐ 33K | Coming soon | Coming soon |
+| [Werbot](https://open.aiflowlearn.net/werbot) - Centralized platform for managing SSH access, enhancing security, and streamlining server administration for DevOps teams. [Repo](https://github.com/werbot/werbot) | Unknown | ⭐ 169 | Coming soon | Coming soon |
+
+### Data Security & Privacy
+
+| Project | License | Stars | Codex | Classroom |
+| --- | --- | ---: | --- | --- |
+| [SAMA](https://open.aiflowlearn.net/sama) - Open source chat server with end-to-end encryption, clustering support, and comprehensive messaging features for building real-time communication apps Alternative to Discord, Microsoft Teams, Slack. [Repo](https://github.com/sama-communications/sama-server) | GPL-3.0 | ⭐ 156 | Coming soon | Coming soon |
+| [Cinny](https://open.aiflowlearn.net/cinny) - Cinny offers a simple, elegant, and secure interface for Matrix-based conversations, protected by end-to-end encryption. Alternative to Discord, Microsoft Teams, Slack. [Repo](https://github.com/cinnyapp/cinny) | AGPL-3.0 | ⭐ 3.7K | Coming soon | Coming soon |
+| [Element](https://open.aiflowlearn.net/element) - Open-source platform for encrypted communication, file sharing, and collaboration based on the Matrix protocol. Alternative to Discord, Microsoft Teams, Slack. [Repo](https://github.com/element-hq/element-web) | AGPL-3.0 | ⭐ 13K | Coming soon | Coming soon |
+| [Fluxer](https://open.aiflowlearn.net/fluxer) - Free, open-source instant messaging and VoIP platform with full Markdown support, voice/video calls, moderation tools, and self-hosting options for communities. Alternative to Discord, Slack, Guilded. [Repo](https://github.com/fluxerapp/fluxer) | AGPL-3.0 | ⭐ 9K | Coming soon | Coming soon |
+| [Mattermost](https://open.aiflowlearn.net/mattermost) - Mattermost provides a flexible, open-source platform for secure team collaboration, designed for organizations with strict security and privacy requirements. Alternative to Microsoft Teams, Slack, Guilded. [Repo](https://github.com/mattermost/mattermost) | Unknown | ⭐ 38K | Coming soon | Coming soon |
+| [Quiet](https://open.aiflowlearn.net/quiet) - Quiet is a peer-to-peer messaging app that syncs messages directly between devices over Tor, with no central server, no phone number required, and no metadata leaks. Alternative to Discord, Slack, Telegram. [Repo](https://github.com/tryquiet/quiet) | GPL-3.0 | ⭐ 2.6K | Coming soon | Coming soon |
+| [Stoat](https://open.aiflowlearn.net/stoat) - Self-hostable group chat with servers, channels, voice, and moderation tools. No ads, no data mining, built under EU privacy law. Alternative to Discord, Slack, Telegram. [Repo](https://github.com/stoatchat/stoatchat) | Unknown | ⭐ 3.1K | Coming soon | Coming soon |
+| [Wire](https://open.aiflowlearn.net/wire) - A comprehensive collaboration platform offering end-to-end encrypted messaging, file sharing, and video calls with enterprise-grade security and compliance features. Alternative to Discord, Microsoft Teams, Slack. [Repo](https://github.com/wireapp/wire) | GPL-3.0 | ⭐ 2.5K | Coming soon | Coming soon |
+| [Ente](https://open.aiflowlearn.net/ente) - End-to-end encrypted cloud storage for photos and videos, offering privacy, security, and seamless cross-device syncing. Alternative to Google Drive, Microsoft OneDrive, Dropbox. [Repo](https://github.com/ente-io/ente) | AGPL-3.0 | ⭐ 27K | Coming soon | Coming soon |
+| [Peergos](https://open.aiflowlearn.net/peergos) - A peer-to-peer encrypted filesystem for secure file storage, sharing, and collaboration with end-to-end encryption and user-controlled data. Alternative to Dropbox, Mega, ownCloud. [Repo](https://github.com/Peergos/Peergos) | AGPL-3.0 | ⭐ 2.4K | Coming soon | Coming soon |
+| [Puter](https://open.aiflowlearn.net/puter) - Puter is a cloud-based desktop OS you run in the browser, with built-in apps, file storage, and support for hosting web apps and sites. Alternative to Google Drive, Microsoft OneDrive, Dropbox. [Repo](https://github.com/heyputer/puter/) | AGPL-3.0 | ⭐ 42K | Coming soon | Coming soon |
+| [Tuta](https://open.aiflowlearn.net/tuta) - Tuta offers encrypted email, calendar and contacts with quantum-resistant security, protecting your privacy without ads or tracking. Alternative to Microsoft 365, Gmail, Google Workspace. [Repo](https://github.com/tutao/tutanota) | GPL-3.0 | ⭐ 7.7K | Coming soon | Coming soon |
+| [Zen](https://open.aiflowlearn.net/zen-privacy) - Free, open-source desktop app that blocks ads, trackers, and surveillance scripts across all browsers and apps on Windows, macOS, and Linux. Alternative to AdGuard, NextDNS. [Repo](https://github.com/irbis-sh/zen-desktop) | MIT | ⭐ 4K | Coming soon | Coming soon |
 | [Signal](https://open.aiflowlearn.net/signal) - Secure messaging app with state-of-the-art encryption, voice/video calls, group chats, and file sharing. No ads, trackers, or data collection. Alternative to WhatsApp, Telegram, Session. [Repo](https://github.com/signalapp/Signal-Android) | AGPL-3.0 | ⭐ 29K | Coming soon | Coming soon |
+| [Bitwarden](https://open.aiflowlearn.net/bitwarden-clients) - Bitwarden client apps (web, browser extension, desktop, and cli). Alternative to 1Password, Lastpass. [Repo](https://github.com/bitwarden/clients) | NOASSERTION | ⭐ 13K | Coming soon | Coming soon |
+
+### Application Security
+
+| Project | License | Stars | Codex | Classroom |
+| --- | --- | ---: | --- | --- |
+| [GrowthBook](https://open.aiflowlearn.net/growthbook) - Powerful, developer-friendly experimentation tool for data-driven product decisions. Seamless integration, real-time insights, and flexible deployment. Alternative to LaunchDarkly, Hypertune, Statsig. [Repo](https://github.com/growthbook/growthbook) | Unknown | ⭐ 7.9K | Coming soon | Coming soon |
+| [Unleash](https://open.aiflowlearn.net/unleash) - A powerful feature management platform enabling gradual rollouts, A/B testing, and seamless integration for continuous delivery. Alternative to LaunchDarkly, Hypertune, Statsig. [Repo](https://github.com/unleash/unleash) | AGPL-3.0 | ⭐ 14K | Coming soon | Coming soon |
+| [Opengrep](https://open.aiflowlearn.net/opengrep) - Opengrep is a community-driven fork of SemgrepCE, providing accessible static code analysis and security scanning for developers. [Repo](https://github.com/opengrep/opengrep) | LGPL-2.1 | ⭐ 2.7K | Coming soon | Coming soon |
+| [FeatBit](https://open.aiflowlearn.net/featbit) - FeatBit is a fast, scalable feature flag service that enables risk mitigation and fosters business growth through controlled feature releases. Alternative to LaunchDarkly, Hypertune, Statsig. [Repo](https://github.com/featbit/featbit) | MIT | ⭐ 1.8K | Coming soon | Coming soon |
+| [Flagsmith](https://open.aiflowlearn.net/flagsmith) - Powerful feature management platform for seamless software releases, A/B testing, and personalized user experiences. Alternative to LaunchDarkly, Hypertune, Statsig. [Repo](https://github.com/flagsmith/flagsmith) | BSD-3-Clause | ⭐ 6.4K | Coming soon | Coming soon |
+| [Cerbos](https://open.aiflowlearn.net/cerbos) - A scalable authorization layer that provides fine-grained access control through externalized policies, enabling secure and flexible permissions management. Alternative to WorkOS, Auth0, Okta. [Repo](https://github.com/cerbos/cerbos) | Apache-2.0 | ⭐ 4.5K | Coming soon | Coming soon |
+| [Infisical](https://open.aiflowlearn.net/infisical) - End-to-end encrypted secret management platform for seamless integration and enhanced security in development workflows. Alternative to Doppler, Keeper. [Repo](https://github.com/infisical/infisical) | Unknown | ⭐ 27K | Coming soon | Coming soon |
 | [Abby](https://open.aiflowlearn.net/abby) - Abby offers open-source, fully typed feature flagging and remote configuration for React and Next.js, with multi-environment testing and debugging tools. Alternative to LaunchDarkly, Hypertune, Statsig. [Repo](https://github.com/tryabby/abby) | AGPL-3.0 | ⭐ 167 | Coming soon | Coming soon |
 | [ALTCHA](https://open.aiflowlearn.net/altcha) - ALTCHA offers cutting-edge spam and abuse protection for websites and apps, with privacy-friendly CAPTCHA alternatives designed for GDPR compliance. Alternative to hCaptcha, reCAPTCHA, Cloudflare Turnstile. [Repo](https://github.com/altcha-org/altcha) | MIT | ⭐ 2.4K | Coming soon | Coming soon |
 | [BleachBit](https://open.aiflowlearn.net/bleachbit) - BleachBit frees disk space & protects privacy by deleting cache, cookies, history & temp files from Firefox, Chrome & more. Open source for Linux/Windows. Alternative to CCleaner, MacKeeper. [Repo](https://github.com/bleachbit/bleachbit) | GPL-3.0 | ⭐ 5.9K | Coming soon | Coming soon |
@@ -735,7 +1633,24 @@ Website: [https://open.aiflowlearn.net](https://open.aiflowlearn.net)
 | [mCaptcha](https://open.aiflowlearn.net/mcaptcha) - Privacy-focused proof-of-work CAPTCHA system that silently protects websites without tracking users or requiring image solving. Drop-in replacement for reCAPTCHA. Alternative to hCaptcha, reCAPTCHA, Cloudflare Turnstile. [Repo](https://github.com/mcaptcha/mcaptcha) | AGPL-3.0 | ⭐ 2.5K | Coming soon | Coming soon |
 | [Private Captcha](https://open.aiflowlearn.net/private-captcha) - Privacy-first CAPTCHA service that blocks bots while keeping forms accessible. No puzzles, no tracking, no cookies - just invisible cryptographic protection. Alternative to hCaptcha, reCAPTCHA, Cloudflare Turnstile. [Repo](https://github.com/privatecaptcha/privatecaptcha) | Unknown | ⭐ 177 | Coming soon | Coming soon |
 | [Procaptcha](https://open.aiflowlearn.net/procaptcha) - A blockchain-based CAPTCHA solution offering improved security, user experience, and resistance to bot attacks for web applications. Alternative to hCaptcha, reCAPTCHA, Cloudflare Turnstile. [Repo](https://github.com/prosopo/captcha) | Apache-2.0 | ⭐ 295 | Coming soon | Coming soon |
+| [Flagr](https://open.aiflowlearn.net/flagr) - Flagr is a feature flagging, A/B testing and dynamic configuration microservice Alternative to LaunchDarkly, Statsig. [Repo](https://github.com/openflagr/flagr) | Apache-2.0 | ⭐ 2.6K | Coming soon | Coming soon |
+
+### Fraud Prevention
+
+| Project | License | Stars | Codex | Classroom |
+| --- | --- | ---: | --- | --- |
+| [Tirreno](https://open.aiflowlearn.net/tirreno) - Open-source security framework for threat detection, fraud prevention, and abuse monitoring. Self-hosted solution with built-in dashboard and risk scoring. [Repo](https://github.com/tirrenotechnologies/tirreno) | AGPL-3.0 | ⭐ 1.4K | Coming soon | Coming soon |
 | [Marble](https://open.aiflowlearn.net/marble) - An open-source platform that enables fintech companies to monitor transactions and user activity, detect suspicious behaviors, and automate fraud prevention in real-time. Alternative to Seon, SumSub, Feedzai. [Repo](https://github.com/checkmarble/marble) | Unknown | ⭐ 534 | Coming soon | Coming soon |
+
+
+## Added from btw-so/open-source-alternatives
+
+Source: [btw-so/open-source-alternatives](https://github.com/btw-so/open-source-alternatives)
+
+These entries are included in the directory table above and default to coming-soon learning assets until their Codex courses and classrooms are produced.
+
+| Project | License | Stars | Codex | Classroom |
+| --- | --- | ---: | --- | --- |
 | [FauxPilot](https://open.aiflowlearn.net/fauxpilot) - FauxPilot - an open-source alternative to GitHub Copilot server Alternative to Github Copilot, Cursor. [Repo](https://github.com/fauxpilot/fauxpilot) | MIT | ⭐ 15K | Coming soon | Coming soon |
 | [YouCompleteMe](https://open.aiflowlearn.net/youcompleteme) - A code-completion & code-comprehension server Alternative to Github Copilot, Cursor. [Repo](https://github.com/ycm-core/ycmd) | GPL-3.0 | ⭐ 1.7K | Coming soon | Coming soon |
 | [doccano](https://open.aiflowlearn.net/doccano) - Open source annotation tool for machine learning practitioners. Alternative to Label Studio. [Repo](https://github.com/doccano/doccano) | MIT | ⭐ 11K | Coming soon | Coming soon |
@@ -785,13 +1700,6 @@ Website: [https://open.aiflowlearn.net](https://open.aiflowlearn.net)
 | [CozoDB](https://open.aiflowlearn.net/cozodb) - A transactional, relational-graph-vector database that uses Datalog for query. The hippocampus for AI! Alternative to Pinecone, Weaviate. [Repo](https://github.com/cozodb/cozo) | MPL-2.0 | ⭐ 4K | Coming soon | Coming soon |
 | [Element Call](https://open.aiflowlearn.net/element-call) - Group calls powered by Matrix Alternative to Zoom, Google Meet. [Repo](https://github.com/vector-im/element-call) | AGPL-3.0 | ⭐ 964 | Coming soon | Coming soon |
 | [DoTenX](https://open.aiflowlearn.net/dotenx) - No-code and Low-code all-in-one platform to build landing pages, websites, web applications, APIs, automations. An alternative for Wix, Webflow, Zapier, and more Alternative to Webflow, Wix. [Repo](https://github.com/dotenx/dotenx) | NOASSERTION | ⭐ 646 | Coming soon | Coming soon |
-
-## Added from btw-so/open-source-alternatives
-
-Source: [btw-so/open-source-alternatives](https://github.com/btw-so/open-source-alternatives)
-
-These entries are included in the directory table above and default to coming-soon learning assets until their Codex courses and classrooms are produced.
-
 
 ## Built with AIFlowLearn
 
