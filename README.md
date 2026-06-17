@@ -1,5 +1,7 @@
 # OpenAlternativeLearn
 
+[![AIFlowLearn Codex](https://www.aiflowlearn.net/api/badges/codex.svg?repo=aiflowlearn%2FOpenAlternativeLearn)](https://www.aiflowlearn.net/codex/openalternativelearn)
+
 Quickly understand open-source repo architecture and tech choices through interactive courses with PPTs.
 
 A curated open-source alternatives directory where each project can grow into an architecture walkthrough, technical stack analysis, and an interactive course with PPT-style slides.
