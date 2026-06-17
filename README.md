@@ -1,6 +1,6 @@
 # OpenAlternativeLearn
 
-[![AIFlowLearn Codex](https://www.aiflowlearn.net/api/badges/codex.svg?repo=aiflowlearn%2FOpenAlternativeLearn)](https://www.aiflowlearn.net/codex/openalternativelearn)
+[![Sagerbuddy code guide](https://img.shields.io/badge/Sagerbuddy-code%20guide-00B8A9?style=flat&logo=readthedocs&logoColor=white)](https://www.aiflowlearn.net/codex/openalternativelearn)
 
 Quickly understand open-source repo architecture and tech choices through interactive courses with PPTs.
 
