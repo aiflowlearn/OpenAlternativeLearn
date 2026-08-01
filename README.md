@@ -1373,7 +1373,7 @@ Website: [https://open.aiflowlearn.net](https://open.aiflowlearn.net)
 | Project | Github Info | Alternative To | Codex | Classroom |
 | --- | --- | --- | --- | --- |
 | [Penpot](https://open.aiflowlearn.net/penpot) - Design, prototype, and hand off to developers in one platform. | license: MPL-2.0<br>⭐ Star: 50K | Canva, Figma, Miro | [Codex](https://aiflowlearn.net/en/codex/penpot-penpot) | Coming soon |
-| [Krita](https://open.aiflowlearn.net/krita) - Free and open source painting program built by artists for artists. | license: GPL-3.0<br>⭐ Star: 9.9K | - | Coming soon | Coming soon |
+| [Krita](https://open.aiflowlearn.net/krita) - Free and open source painting program built by artists for artists. | license: GPL-3.0<br>⭐ Star: 9.9K | - | [Codex](https://aiflowlearn.net/en/codex/kde-krita) | Coming soon |
 | [Plasmic](https://open.aiflowlearn.net/plasmic) - Open-source visual editor for building websites and web apps. | license: MIT<br>⭐ Star: 6.9K | Framer, Webflow, Wix | [Codex](https://aiflowlearn.net/en/codex/plasmicapp-plasmic) | Coming soon |
 | [GIMP](https://open.aiflowlearn.net/gimp) - Free, open-source image editor with professional tools for photo manipulation, digital art creation, and... | license: Unknown<br>⭐ Star: 6.2K | Photoshop, Affinity Photo | Coming soon | Coming soon |
 | [draw.io](https://open.aiflowlearn.net/draw-io) - Create professional diagrams online or offline with security-first approach. | license: Apache-2.0<br>⭐ Star: 6.1K | Microsoft Visio, Miro, LucidChart | Coming soon | Coming soon |
