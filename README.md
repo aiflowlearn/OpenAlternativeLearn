@@ -1,7 +1,5 @@
 # OpenAlternativeLearn
 
-[![Sagerbuddy code guide](https://img.shields.io/badge/Sagerbuddy-code%20guide-00B8A9?style=flat&logo=readthedocs&logoColor=white)](https://www.aiflowlearn.net/codex/openalternativelearn)
-
 Quickly understand open-source repo architecture and tech choices through interactive courses with PPTs.
 
 A curated open-source alternatives directory where each project can grow into an architecture walkthrough, technical stack analysis, and an interactive course with PPT-style slides.
@@ -10,166 +8,128 @@ Website: [https://open.aiflowlearn.net](https://open.aiflowlearn.net)
 
 ## Contents
 
-- [Additional Open-Source Projects with Codex Courses](#additional-open-source-projects-with-codex-courses)
-- [AI & Machine Learning](#ai-machine-learning)
+- [AI & Machine Learning](#ai--machine-learning)
   - [AI Development Platforms](#ai-development-platforms)
   - [Machine Learning Infrastructure](#machine-learning-infrastructure)
-  - [AI Security & Privacy](#ai-security-privacy)
-  - [AI Interaction & Interfaces](#ai-interaction-interfaces)
+  - [AI Security & Privacy](#ai-security--privacy)
+  - [AI Interaction & Interfaces](#ai-interaction--interfaces)
+  - [AI Assistants / Agent Platforms](#ai-assistants--agent-platforms)
+  - [AI Chat Interfaces](#ai-chat-interfaces)
+  - [Browser Automation / AI Agents](#browser-automation--ai-agents)
+  - [AI Knowledge Base / Chat](#ai-knowledge-base--chat)
+  - [AI Memory Infrastructure](#ai-memory-infrastructure)
+  - [AI Workflow Builders](#ai-workflow-builders)
+  - [AI Gateway](#ai-gateway)
+  - [Local AI Chat](#local-ai-chat)
+  - [AI Agent Frameworks](#ai-agent-frameworks)
+  - [In-app AI Copilots](#in-app-ai-copilots)
+  - [AI Search / Second Brain](#ai-search--second-brain)
+  - [Enterprise AI Search](#enterprise-ai-search)
+  - [RAG Knowledge Base](#rag-knowledge-base)
+  - [AI Gateway / Observability](#ai-gateway--observability)
+  - [LLM Observability](#llm-observability)
+  - [AI Tool Integration](#ai-tool-integration)
+  - [LLMOps / Evaluation](#llmops--evaluation)
+  - [LLM Observability / Evaluation](#llm-observability--evaluation)
 - [Business Software](#business-software)
-  - [CRM & Sales](#crm-sales)
-  - [ERP & Operations](#erp-operations)
-  - [Finance & Accounting](#finance-accounting)
+  - [CRM & Sales](#crm--sales)
+  - [ERP & Operations](#erp--operations)
+  - [Finance & Accounting](#finance--accounting)
   - [Human Resources (HR)](#human-resources-hr)
-  - [Marketing & Customer Engagement](#marketing-customer-engagement)
-  - [Customer Support & Success](#customer-support-success)
+  - [Marketing & Customer Engagement](#marketing--customer-engagement)
+  - [Customer Support & Success](#customer-support--success)
   - [E-commerce Platforms](#e-commerce-platforms)
-  - [Project & Work Management](#project-work-management)
-  - [Collaboration & Communication](#collaboration-communication)
-  - [Scheduling & Event Management](#scheduling-event-management)
-  - [Document Management & E-Signatures](#document-management-e-signatures)
-  - [Forms & Surveys](#forms-surveys)
-  - [Compliance & Risk Management](#compliance-risk-management)
+  - [Project & Work Management](#project--work-management)
+  - [Collaboration & Communication](#collaboration--communication)
+  - [Scheduling & Event Management](#scheduling--event-management)
+  - [Document Management & E-Signatures](#document-management--e-signatures)
+  - [Forms & Surveys](#forms--surveys)
+  - [Compliance & Risk Management](#compliance--risk-management)
   - [Legal](#legal)
-- [Community & Social](#community-social)
+  - [E-signature / Document Workflow](#e-signature--document-workflow)
+- [Community & Social](#community--social)
   - [Social Networking](#social-networking)
   - [Community Building Platforms](#community-building-platforms)
-  - [Collaboration & Feedback](#collaboration-feedback)
-- [Content & Publishing](#content-publishing)
+  - [Collaboration & Feedback](#collaboration--feedback)
+- [Content & Publishing](#content--publishing)
   - [Content Management Systems (CMS)](#content-management-systems-cms)
   - [Community Platforms](#community-platforms)
-  - [Documentation & Knowledge Base](#documentation-knowledge-base)
+  - [Documentation & Knowledge Base](#documentation--knowledge-base)
   - [Learning Management Systems (LMS)](#learning-management-systems-lms)
   - [Digital Asset Management (DAM)](#digital-asset-management-dam)
   - [Publishing](#publishing)
-  - [Blogging & Personal Sites](#blogging-personal-sites)
-- [Data & Analytics](#data-analytics)
-  - [Web & Product Analytics](#web-product-analytics)
-  - [Business Intelligence & Reporting](#business-intelligence-reporting)
-  - [Data Engineering & Integration](#data-engineering-integration)
-  - [Data Warehousing & Processing](#data-warehousing-processing)
-  - [Data Extraction & Web Scraping](#data-extraction-web-scraping)
+  - [Blogging & Personal Sites](#blogging--personal-sites)
+- [Data & Analytics](#data--analytics)
+  - [Web & Product Analytics](#web--product-analytics)
+  - [Business Intelligence & Reporting](#business-intelligence--reporting)
+  - [Data Engineering & Integration](#data-engineering--integration)
+  - [Data Warehousing & Processing](#data-warehousing--processing)
+  - [Data Extraction & Web Scraping](#data-extraction--web-scraping)
+  - [Vector Databases](#vector-databases)
+  - [Data Engineering / RAG Pipelines](#data-engineering--rag-pipelines)
+  - [Business Intelligence](#business-intelligence)
 - [Developer Tools](#developer-tools)
   - [Website Builders](#website-builders)
-  - [IDEs & Code Editors](#ides-code-editors)
-  - [Frameworks & Platforms](#frameworks-platforms)
-  - [API Development & Testing](#api-development-testing)
-  - [Testing & Quality Assurance](#testing-quality-assurance)
-  - [Version Control & Collaboration](#version-control-collaboration)
-  - [Code Analysis & Transformation](#code-analysis-transformation)
-  - [Build & Deployment](#build-deployment)
+  - [IDEs & Code Editors](#ides--code-editors)
+  - [Frameworks & Platforms](#frameworks--platforms)
+  - [API Development & Testing](#api-development--testing)
+  - [Testing & Quality Assurance](#testing--quality-assurance)
+  - [Version Control & Collaboration](#version-control--collaboration)
+  - [Code Analysis & Transformation](#code-analysis--transformation)
+  - [Build & Deployment](#build--deployment)
   - [Integration Platforms](#integration-platforms)
   - [AI Assisted Coding](#ai-assisted-coding)
   - [Terminals](#terminals)
-- [Infrastructure & Operations](#infrastructure-operations)
+  - [Cloud Dev Environments / Sandboxes](#cloud-dev-environments--sandboxes)
+  - [AI Coding Agents](#ai-coding-agents)
+  - [Integrations / API Connectivity](#integrations--api-connectivity)
+  - [AI Terminal / Developer Tools](#ai-terminal--developer-tools)
+- [Infrastructure & Operations](#infrastructure--operations)
   - [Search Engines](#search-engines)
   - [Cloud Infrastructure Management](#cloud-infrastructure-management)
-  - [Server & VM Management](#server-vm-management)
-  - [Monitoring & Observability](#monitoring-observability)
+  - [Server & VM Management](#server--vm-management)
+  - [Monitoring & Observability](#monitoring--observability)
   - [Databases](#databases)
-  - [Networking & Connectivity](#networking-connectivity)
-  - [Orchestration & Scheduling](#orchestration-scheduling)
-  - [Messaging & Event Streaming](#messaging-event-streaming)
+  - [Networking & Connectivity](#networking--connectivity)
+  - [Orchestration & Scheduling](#orchestration--scheduling)
+  - [Messaging & Event Streaming](#messaging--event-streaming)
   - [Storage Solutions](#storage-solutions)
-  - [Backup & Recovery](#backup-recovery)
+  - [Backup & Recovery](#backup--recovery)
+  - [Actor Runtime / Realtime Infra](#actor-runtime--realtime-infra)
 - [Miscellaneous](#miscellaneous)
-  - [Finance & Fintech](#finance-fintech)
-  - [Design & Prototyping](#design-prototyping)
-  - [Cryptocurrency & Blockchain](#cryptocurrency-blockchain)
+  - [Finance & Fintech](#finance--fintech)
+  - [Design & Prototyping](#design--prototyping)
+  - [Cryptocurrency & Blockchain](#cryptocurrency--blockchain)
   - [Gaming](#gaming)
   - [Internet of Things (IoT)](#internet-of-things-iot)
-  - [Logistics & Supply Chain](#logistics-supply-chain)
-  - [Media & Streaming](#media-streaming)
-  - [Photo & Video Editors](#photo-video-editors)
-- [Productivity & Utilities](#productivity-utilities)
-  - [Note Taking & Knowledge Management](#note-taking-knowledge-management)
-  - [Password & Secret Management](#password-secret-management)
-  - [Screen Capture & Recording](#screen-capture-recording)
-  - [File Management & Sync](#file-management-sync)
-  - [Email & Communication](#email-communication)
+  - [Logistics & Supply Chain](#logistics--supply-chain)
+  - [Media & Streaming](#media--streaming)
+  - [Photo & Video Editors](#photo--video-editors)
+  - [Financial Terminal](#financial-terminal)
+- [Productivity & Utilities](#productivity--utilities)
+  - [Note Taking & Knowledge Management](#note-taking--knowledge-management)
+  - [Password & Secret Management](#password--secret-management)
+  - [Screen Capture & Recording](#screen-capture--recording)
+  - [File Management & Sync](#file-management--sync)
+  - [Email & Communication](#email--communication)
   - [Automation](#automation)
-  - [Time & Task Management](#time-task-management)
+  - [Time & Task Management](#time--task-management)
   - [Personal Finance Management](#personal-finance-management)
-  - [Design & Visualization](#design-visualization)
-  - [Bookmark & Content Management](#bookmark-content-management)
-  - [Remote Desktop & Access](#remote-desktop-access)
-  - [Browsers & Extensions](#browsers-extensions)
-  - [Input & Dictation](#input-dictation)
+  - [Design & Visualization](#design--visualization)
+  - [Bookmark & Content Management](#bookmark--content-management)
+  - [Remote Desktop & Access](#remote-desktop--access)
+  - [Browsers & Extensions](#browsers--extensions)
+  - [Input & Dictation](#input--dictation)
   - [Office Suites](#office-suites)
-- [Security & Privacy](#security-privacy)
-  - [Identity & Access Management (IAM)](#identity-access-management-iam)
+  - [Workflow Automation](#workflow-automation)
+- [Security & Privacy](#security--privacy)
+  - [Identity & Access Management (IAM)](#identity--access-management-iam)
   - [Secrets Management](#secrets-management)
-  - [Threat Detection & Response](#threat-detection-response)
+  - [Threat Detection & Response](#threat-detection--response)
   - [Network Security](#network-security)
-  - [Data Security & Privacy](#data-security-privacy)
+  - [Data Security & Privacy](#data-security--privacy)
   - [Application Security](#application-security)
   - [Fraud Prevention](#fraud-prevention)
-
-<!-- ADDITIONAL_CODEX_PROJECTS -->
-## OpenAlternativeLearn Projects with Codex Courses
-
-These projects already have OpenAlternativeLearn detail pages and Codex architecture courses. Entries without a directory detail page are kept out of the official catalog until their project metadata is complete.
-
-### AI Platforms, Agents & Interfaces
-
-| Project | Github Info | Alternative To | Codex | Classroom |
-| --- | --- | --- | --- | --- |
-| [OpenClaw](https://open.aiflowlearn.net/openclaw) - OpenClaw: Multi-Channel Personal AI Assistant | license: MIT<br>⭐ Star: 377.4K | Zo Computer, Personal Computer | [Codex](https://www.aiflowlearn.net/en/codex/openclaw-personal-ai-platform) | Coming soon |
-| [Langflow](https://open.aiflowlearn.net/langflow) - Langflow: A Code-Level Tour of the Visual AI App Builder | license: MIT<br>⭐ Star: 149.8K | Retool, Relevance AI, OpenAI Assistants API | [Codex](https://www.aiflowlearn.net/en/codex/langflow-ai-langflow) | Coming soon |
-| [Dify](https://open.aiflowlearn.net/dify) - Dify: A Complete Guide to the Production-Grade LLM Workflow Platform Architecture | license: Unknown<br>⭐ Star: 145K | Glide, Retool, Humanloop | [Codex](https://www.aiflowlearn.net/en/codex/dify-llm-workflow-platform) | Coming soon |
-| [Open WebUI](https://open.aiflowlearn.net/open-webui) - Open WebUI Source Code Interpretation — Building a Self-Hosted AI Platform | license: BSD-3-Clause<br>⭐ Star: 141K | Claude, Grok, ChatGPT | [Codex](https://www.aiflowlearn.net/en/codex/open-webui-open-webui) | Coming soon |
-| [Browser Use](https://open.aiflowlearn.net/browser-use) - Browser-Use Source Code Analysis: How AI Controls the Browser | license: MIT<br>⭐ Star: 99K | Browserbase, Anchor Browser | [Codex](https://www.aiflowlearn.net/en/codex/browser-use-source-walkthrough) | Coming soon |
-| [LobeChat](https://open.aiflowlearn.net/lobechat) - LobeChat: Multi-Agent Collaborative Chat Platform Architecture | license: Unknown<br>⭐ Star: 79K | Claude, Grok, ChatGPT | [Codex](https://www.aiflowlearn.net/en/codex/lobe-chat-multi-agent) | Coming soon |
-| [Daytona](https://open.aiflowlearn.net/daytona) - Architecture walkthrough for an AI agent or application framework: Daytona. | license: AGPL-3.0<br>⭐ Star: 72K | Together Sandbox, Modal, Sprites | [Codex](https://www.aiflowlearn.net/en/codex/daytonaio-daytona) | Coming soon |
-| [AnythingLLM](https://open.aiflowlearn.net/anythingllm) - AnythingLLM: An Interactive Source-Code Walkthrough | license: MIT<br>⭐ Star: 61.7K | Claude, Grok, ChatGPT | [Codex](https://www.aiflowlearn.net/en/codex/mintplex-labs-anythingllm) | Coming soon |
-| [Mem0](https://open.aiflowlearn.net/mem0) - Mem0: Persistent Memory Layer Architecture Analysis for AI Applications | license: Apache-2.0<br>⭐ Star: 58K | LangChain, Pinecone, Vertex AI | [Codex](https://www.aiflowlearn.net/en/codex/mem0-ai-memory-layer) | [Classroom](https://www.aiflowlearn.net/classrooms/7bed9716-ba55-4442-b3f3-3cbb22343d0a) |
-| [Flowise AI](https://open.aiflowlearn.net/flowise-ai) - Flowise: A Visual Platform for Building AI Agents and RAG Workflows | license: Apache-2.0<br>⭐ Star: 54K | n8n, Make, Power Apps | [Codex](https://www.aiflowlearn.net/en/codex/flowiseai-flowise) | Coming soon |
-| [LiteLLM](https://open.aiflowlearn.net/litellm) - LiteLLM: An AI Gateway for Unified Access to 100+ Model APIs | license: Unknown<br>⭐ Star: 50K | LangChain, Eden AI, OpenRouter | [Codex](https://www.aiflowlearn.net/en/codex/berriai-litellm) | Coming soon |
-| [Milvus](https://open.aiflowlearn.net/milvus) - Milvus: Cloud-Native Vector Database for RAG | license: Apache-2.0<br>⭐ Star: 45K | Supabase, Pinecone, ElasticSearch | [Codex](https://www.aiflowlearn.net/en/codex/milvus-io-milvus) | Coming soon |
-| [Jan](https://open.aiflowlearn.net/jan) - Jan: Open-Source Offline ChatGPT Alternative | license: Apache-2.0<br>⭐ Star: 43K | Claude, Grok, ChatGPT | [Codex](https://www.aiflowlearn.net/en/codex/janhq-jan) | Coming soon |
-| [Agno](https://open.aiflowlearn.net/agno) - Architecture walkthrough for an AI agent or application framework: Agno. | license: Apache-2.0<br>⭐ Star: 41K | Kiro, LangChain, Humanloop | [Codex](https://www.aiflowlearn.net/en/codex/agno-agi-agno) | Coming soon |
-| [LibreChat](https://open.aiflowlearn.net/librechat) - LibreChat: A Code-Level Tour of a Multi-Provider AI Chat Platform | license: MIT<br>⭐ Star: 39.3K | Claude, Grok, ChatGPT | [Codex](https://www.aiflowlearn.net/en/codex/librechat) | Coming soon |
-| [CopilotKit](https://open.aiflowlearn.net/copilotkit) - CopilotKit: Frontend infrastructure for in-app AI copilots | license: MIT<br>⭐ Star: 35K | Intercom Fin, Salesforce Einstein, Zendesk AI | [Codex](https://www.aiflowlearn.net/en/codex/copilotkit-copilotkit) | Coming soon |
-| [Khoj](https://open.aiflowlearn.net/khoj) - Khoj: Open-Source AI Second Brain Source Code Analysis | license: AGPL-3.0<br>⭐ Star: 35K | Claude, ChatGPT, Perplexity | [Codex](https://www.aiflowlearn.net/en/codex/khoj-ai-khoj) | Coming soon |
-| [Onyx](https://open.aiflowlearn.net/onyx) - Onyx: Open Source AI Knowledge Assistant Source Code Analysis | license: Unknown<br>⭐ Star: 30K | Algolia, ElasticSearch, Glean | [Codex](https://www.aiflowlearn.net/en/codex/onyx-dot-app-onyx) | Coming soon |
-| [MaxKB](https://open.aiflowlearn.net/maxkb) - MaxKB: How an Open-Source RAG Knowledge Base Works | license: GPL-3.0<br>⭐ Star: 21.3K | Glean, NotebookLM, Pinecone | [Codex](https://www.aiflowlearn.net/en/codex/maxkb) | Coming soon |
-| [SWE-agent](https://open.aiflowlearn.net/swe-agent) - SWE-agent: Software Engineering Agent Source Code Analysis | license: MIT<br>⭐ Star: 19K | Devin, Zencoder, Bugbot | [Codex](https://www.aiflowlearn.net/en/codex/swe-agent-swe-agent) | Coming soon |
-| [Portkey AI Gateway](https://open.aiflowlearn.net/portkey-ai-gateway) - Portkey AI Gateway: A Code-Level Tour of a Production AI Gateway | license: MIT<br>⭐ Star: 12.1K | Eden AI, Vercel AI Gateway, Cloudflare AI Gateway | [Codex](https://www.aiflowlearn.net/en/codex/portkey-ai-gateway) | Coming soon |
-| [Nango](https://open.aiflowlearn.net/nango) - Nango: How One Platform Connects Your Product to 800+ APIs | license: ELv2<br>⭐ Star: 10.6K | Pipedream, Rube, Apideck | [Codex](https://www.aiflowlearn.net/en/codex/nango) | Coming soon |
-| [OpenLLMetry](https://open.aiflowlearn.net/openllmetry) - OpenLLMetry: How Auto-Instrumentation Peers Inside Your LLM Calls | license: Apache-2.0<br>⭐ Star: 7.2K | DataDog, LangSmith, Splunk | [Codex](https://www.aiflowlearn.net/en/codex/openllmetry) | Coming soon |
-| [Bifrost](https://open.aiflowlearn.net/bifrost) - Bifrost AI Gateway: A Code-Level Tour of a Go-Native AI Gateway | license: Apache-2.0<br>⭐ Star: 5.8K | Eden AI, OpenRouter, Vercel AI Gateway | [Codex](https://www.aiflowlearn.net/en/codex/bifrost) | Coming soon |
-| [Helicone](https://open.aiflowlearn.net/helicone) - Helicone: A Code-Level Tour of an Open-Source LLM Observability Platform | license: Apache-2.0<br>⭐ Star: 5.8K | DataDog, LangSmith, LangChain | [Codex](https://www.aiflowlearn.net/en/codex/helicone) | Coming soon |
-| [Rivet](https://open.aiflowlearn.net/rivet) - Rivet: How Stateful Actors Give AI Agents Memory | license: Apache-2.0<br>⭐ Star: 5.6K | Cloudflare Durable Objects, Temporal Cloud, Modal | [Codex](https://www.aiflowlearn.net/en/codex/rivet) | Coming soon |
-| [ACI.dev](https://open.aiflowlearn.net/aci-dev) - ACI.dev: How One Tool-Calling Gateway Safely Runs 600+ Apps Behind Your AI Agent | license: Apache-2.0<br>⭐ Star: 4.8K | Pipedream, Eden AI, Rube | [Codex](https://www.aiflowlearn.net/en/codex/aci-dev) | Coming soon |
-| [Agenta](https://open.aiflowlearn.net/agenta) - Agenta: How an Open-Source LLMOps Platform Versions, Judges, and Watches Your Prompts | license: MIT<br>⭐ Star: 4.2K | LangSmith, Humanloop | [Codex](https://www.aiflowlearn.net/en/codex/agenta) | Coming soon |
-| [Laminar](https://open.aiflowlearn.net/laminar) - Laminar: How a Rust Engine Watches Every Move Your AI Agent Makes | license: Apache-2.0<br>⭐ Star: 3K | LangChain, Pinecone | [Codex](https://www.aiflowlearn.net/en/codex/laminar) | Coming soon |
-| [OpenLIT](https://open.aiflowlearn.net/openlit) - OpenLIT: How One Line of Auto-Instrumentation Lights Up Your AI Stack | license: Apache-2.0<br>⭐ Star: 2.5K | LangSmith, Humanloop, Weights, Biases | [Codex](https://www.aiflowlearn.net/en/codex/openlit) | Coming soon |
-| [LLM Gateway](https://open.aiflowlearn.net/llm-gateway) - LLM Gateway: How a TypeScript AI Gateway Routes, Falls Back, and Bills | license: AGPLv3 (core) / Commercial (ee/)<br>⭐ Star: 1.3K | Eden AI, Vercel AI Gateway, Cloudflare AI Gateway | [Codex](https://www.aiflowlearn.net/en/codex/llm-gateway) | Coming soon |
-
-### Developer Tools & AI Coding
-
-| Project | Github Info | Alternative To | Codex | Classroom |
-| --- | --- | --- | --- | --- |
-| [n8n](https://open.aiflowlearn.net/n8n) - n8n: A Self-Hostable AI Workflow Automation Platform | license: Unknown<br>⭐ Star: 192K | Make, Zapier, IFTTT | [Codex](https://www.aiflowlearn.net/en/codex/n8n-io-n8n) | Coming soon |
-| [Cline](https://open.aiflowlearn.net/cline) - Cline: A Code-Level Tour of the Autonomous Coding Agent in Your IDE | license: Apache-2.0<br>⭐ Star: 63.4K | Claude Code, Cursor, Codex | [Codex](https://www.aiflowlearn.net/en/codex/cline) | Coming soon |
-| [Warp](https://open.aiflowlearn.net/warp) - Warp: An In-Depth Look at the Next-Gen Agentic Development Terminal | license: AGPL-3.0<br>⭐ Star: 62K | Cursor, GitHub Copilot, Claude Code | [Codex](https://www.aiflowlearn.net/en/codex/warp-agentic-terminal) | Coming soon |
-| [Aider](https://open.aiflowlearn.net/aider) - Aider: How AI Pair Programming in Your Terminal Works | license: Apache-2.0<br>⭐ Star: 46.3K | Claude Code, Cursor, Kiro | [Codex](https://www.aiflowlearn.net/en/codex/aider) | Coming soon |
-| [Docuseal](https://open.aiflowlearn.net/docuseal) - DocuSeal Document Signing Platform in Practice | license: AGPL-3.0<br>⭐ Star: 17K | DocuSign, PandaDoc | [Codex](https://www.aiflowlearn.net/en/codex/docusealco-docuseal) | Coming soon |
-
-### Data, RAG, Search & Analytics
-
-| Project | Github Info | Alternative To | Codex | Classroom |
-| --- | --- | --- | --- | --- |
-| [CocoIndex](https://open.aiflowlearn.net/cocoindex) - Architecture walkthrough for a data, RAG, search, or analytics project: CocoIndex. | license: Apache-2.0<br>⭐ Star: 10K | Pipedream, Amazon API Gateway, Segment | [Codex](https://www.aiflowlearn.net/en/codex/cocoindex-io-cocoindex) | Coming soon |
-
-### Business Software & Productivity
-
-| Project | Github Info | Alternative To | Codex | Classroom |
-| --- | --- | --- | --- | --- |
-| [Apache Superset](https://open.aiflowlearn.net/apache-superset) - Architecture walkthrough for an open-source technical project: Apache Superset. | license: Apache-2.0<br>⭐ Star: 73K | Power BI, Splunk, Tableau | [Codex](https://www.aiflowlearn.net/en/codex/superset-sh-superset) | Coming soon |
-| [Fincept Terminal](https://open.aiflowlearn.net/fincept-terminal) - FinceptTerminal AI Financial Terminal in Practice | license: Unknown<br>⭐ Star: 27K | Bloomberg Terminal, AlphaSense, FactSet | [Codex](https://www.aiflowlearn.net/en/codex/fincept-corporation-finceptterminal) | Coming soon |
-
-<!-- /ADDITIONAL_CODEX_PROJECTS -->
 
 ## AI & Machine Learning
 
@@ -177,20 +137,11 @@ These projects already have OpenAlternativeLearn detail pages and Codex architec
 
 | Project | Github Info | Alternative To | Codex | Classroom |
 | --- | --- | --- | --- | --- |
-| [Langflow](https://open.aiflowlearn.net/langflow) - Build, deploy, and iterate on AI agents, RAG applications, and MCP servers using a drag-and-drop visual... | license: MIT<br>⭐ Star: 150K | - | [Codex](https://www.aiflowlearn.net/en/codex/langflow-ai-langflow) | [Codex](https://www.aiflowlearn.net/en/codex/langflow-ai-langflow) |
-| [Dify](https://open.aiflowlearn.net/dify) - Visual platform for building agentic workflows, RAG pipelines, and LLM-powered apps. | license: Unknown<br>⭐ Star: 145K | Glide, Retool, Humanloop | [Codex](https://www.aiflowlearn.net/en/codex/dify-llm-workflow-platform) | [Codex](https://www.aiflowlearn.net/en/codex/dify-llm-workflow-platform) |
-| [LobeChat](https://open.aiflowlearn.net/lobechat) - A collaborative platform to create, schedule, and operate AI agents that handle long-running tasks, team... | license: Unknown<br>⭐ Star: 79K | Claude, Grok, ChatGPT | [Codex](https://www.aiflowlearn.net/en/codex/lobe-chat-multi-agent) | [Codex](https://www.aiflowlearn.net/en/codex/lobe-chat-multi-agent) |
-| [Daytona](https://open.aiflowlearn.net/daytona) - Elastic sandbox infrastructure for running AI-generated code with sub-90ms environment creation, stateful... | license: AGPL-3.0<br>⭐ Star: 72K | Together Sandbox, Modal, Sprites | [Codex](https://www.aiflowlearn.net/en/codex/daytonaio-daytona) | [Codex](https://www.aiflowlearn.net/en/codex/daytonaio-daytona) |
-| [Mem0](https://open.aiflowlearn.net/mem0) - Adds persistent, searchable memory to AI agents and apps, so they remember user preferences and past... | license: Apache-2.0<br>⭐ Star: 58K | LangChain, Pinecone, Vertex AI | [Codex](https://www.aiflowlearn.net/en/codex/mem0-ai-memory-layer) | [Classroom](https://www.aiflowlearn.net/classrooms/7bed9716-ba55-4442-b3f3-3cbb22343d0a) |
-| [Flowise AI](https://open.aiflowlearn.net/flowise-ai) - Open source platform for building AI agents, chatbots, and multi-agent systems using a drag-and-drop... | license: Apache-2.0<br>⭐ Star: 54K | n8n, Make, Power Apps | [Codex](https://www.aiflowlearn.net/en/codex/flowiseai-flowise) | [Codex](https://www.aiflowlearn.net/en/codex/flowiseai-flowise) |
-| [LiteLLM](https://open.aiflowlearn.net/litellm) - Acts as a unified proxy across 100+ LLMs, normalizing them to the OpenAI format while handling virtual... | license: Unknown<br>⭐ Star: 50K | LangChain, Eden AI, OpenRouter | [Codex](https://www.aiflowlearn.net/en/codex/berriai-litellm) | [Codex](https://www.aiflowlearn.net/en/codex/berriai-litellm) |
-| [Milvus](https://open.aiflowlearn.net/milvus) - Open-source vector database optimized for similarity search, scaling to billions of vectors with minimal... | license: Apache-2.0<br>⭐ Star: 45K | Supabase, Pinecone, ElasticSearch | [Codex](https://www.aiflowlearn.net/en/codex/milvus-io-milvus) | [Codex](https://www.aiflowlearn.net/en/codex/milvus-io-milvus) |
-| [Agno](https://open.aiflowlearn.net/agno) - Open-source platform that enables developers to create, deploy and monitor AI agents with built-in memory,... | license: Apache-2.0<br>⭐ Star: 41K | Kiro, LangChain, Humanloop | [Codex](https://www.aiflowlearn.net/en/codex/agno-agi-agno) | [Codex](https://www.aiflowlearn.net/en/codex/agno-agi-agno) |
-| [LibreChat](https://open.aiflowlearn.net/librechat) - Chat with multiple AI providers through a single self-hostable interface, with support for custom agents,... | license: MIT<br>⭐ Star: 39K | Claude, Grok, ChatGPT | [Codex](https://www.aiflowlearn.net/en/codex/librechat) | [Codex](https://www.aiflowlearn.net/en/codex/librechat) |
+| [Langflow](https://open.aiflowlearn.net/langflow) - Build, deploy, and iterate on AI agents, RAG applications, and MCP servers using a drag-and-drop visual... | license: MIT<br>⭐ Star: 150K | Relevance AI, Flowise Cloud, Vertex AI Agent Builder | [Codex](https://aiflowlearn.net/en/codex/langflow) | Coming soon |
+| [Dify](https://open.aiflowlearn.net/dify) - Visual platform for building agentic workflows, RAG pipelines, and LLM-powered apps. | license: Unknown<br>⭐ Star: 145K | Retool, Humanloop, Vertex AI Agent Builder | [Codex](https://aiflowlearn.net/en/codex/dify) | Coming soon |
 | [OpenAssistant](https://open.aiflowlearn.net/openassistant) - OpenAssistant is a chat-based assistant that understands tasks, can interact with third-party systems, and... | license: Apache-2.0<br>⭐ Star: 37K | ChatGPT, Claude | Coming soon | Coming soon |
 | [Multica](https://open.aiflowlearn.net/multica) - Open-source platform that manages coding agents as team members, with task queues, skill libraries,... | license: Unknown<br>⭐ Star: 36K | - | Coming soon | Coming soon |
-| [CopilotKit](https://open.aiflowlearn.net/copilotkit) - Integrate production-ready AI copilots into any product quickly and easily with CopilotKit's open-source... | license: MIT<br>⭐ Star: 35K | - | [Codex](https://www.aiflowlearn.net/en/codex/copilotkit-copilotkit) | [Codex](https://www.aiflowlearn.net/en/codex/copilotkit-copilotkit) |
-| [Qdrant](https://open.aiflowlearn.net/qdrant) - Qdrant is an open-source vector database that provides high-performance similarity search for AI and... | license: Apache-2.0<br>⭐ Star: 32K | Supabase, Pinecone, Algolia | Coming soon | Coming soon |
+| [Qdrant](https://open.aiflowlearn.net/qdrant) - Qdrant is an open-source vector database that provides high-performance similarity search for AI and... | license: Apache-2.0<br>⭐ Star: 32K | Supabase, Pinecone, Algolia | [Codex](https://aiflowlearn.net/en/codex/qdrant-qdrant) | Coming soon |
 | [Langfuse](https://open.aiflowlearn.net/langfuse) - Langfuse provides tracing, evaluations, prompt management, and analytics to debug and improve LLM... | license: Unknown<br>⭐ Star: 29K | LangSmith, LangChain, Humanloop | Coming soon | Coming soon |
 | [FastGPT](https://open.aiflowlearn.net/fastgpt) - FastGPT is a free, open-source platform for creating AI-powered knowledge bases with data processing,... | license: Unknown<br>⭐ Star: 28K | - | Coming soon | Coming soon |
 | [Supermemory](https://open.aiflowlearn.net/supermemory) - Add persistent memory to LLM apps with millisecond recall times. | license: MIT<br>⭐ Star: 27K | LangChain, Pinecone | Coming soon | Coming soon |
@@ -198,31 +149,21 @@ These projects already have OpenAlternativeLearn detail pages and Codex architec
 | [Suna](https://open.aiflowlearn.net/suna) - Open source AI assistant that executes complex tasks from market research to travel planning through... | license: Apache-2.0<br>⭐ Star: 20K | - | Coming soon | Coming soon |
 | [Parlant](https://open.aiflowlearn.net/parlant) - A conversational AI server that manages agent behavior through context-aware guidelines, keeping responses... | license: Apache-2.0<br>⭐ Star: 18K | Voiceflow, Chatbase, Uchat | Coming soon | Coming soon |
 | [Botpress](https://open.aiflowlearn.net/botpress) - A comprehensive platform for creating AI agents with intuitive tools, extensive integrations, and... | license: MIT<br>⭐ Star: 15K | Manychat, Voiceflow, Uchat | Coming soon | Coming soon |
-| [FauxPilot](https://open.aiflowlearn.net/fauxpilot) - FauxPilot - an open-source alternative to GitHub Copilot server | license: MIT<br>⭐ Star: 15K | Github Copilot, Cursor | Coming soon | Coming soon |
+| [FauxPilot](https://open.aiflowlearn.net/fauxpilot) - FauxPilot - an open-source alternative to GitHub Copilot server | license: MIT<br>⭐ Star: 15K | GitHub Copilot, Cursor | Coming soon | Coming soon |
 | [E2B](https://open.aiflowlearn.net/e2b) - Provide AI agents with secure, isolated sandboxes featuring real-world tools, code execution, and... | license: Apache-2.0<br>⭐ Star: 13K | Together Sandbox, Modal, Sprites | Coming soon | Coming soon |
 | [ILLA](https://open.aiflowlearn.net/illa) - Low-code platform allows you to build business apps, enables you to quickly create internal tools such as... | license: Apache-2.0<br>⭐ Star: 12K | Retool, Appsmith | Coming soon | Coming soon |
-| [Portkey AI Gateway](https://open.aiflowlearn.net/portkey-ai-gateway) - Comprehensive AI platform with gateway, observability, guardrails, and prompt management. | license: MIT<br>⭐ Star: 12K | Eden AI, Vercel AI Gateway, Cloudflare AI Gateway | [Codex](https://www.aiflowlearn.net/zh/codex/portkey-ai-gateway) | [Codex](https://www.aiflowlearn.net/en/codex/portkey-ai-gateway) |
 | [Arize Phoenix](https://open.aiflowlearn.net/arize-phoenix) - Open-source platform for LLM tracing, evaluation, and optimization. | license: Unknown<br>⭐ Star: 10K | LangSmith, LangChain, Humanloop | Coming soon | Coming soon |
-| [Nango](https://open.aiflowlearn.net/nango) - Complete integrations platform with 500+ pre-built APIs, code-first approach, unified data models, and... | license: ELv2 (source-available)<br>⭐ Star: 10K | Pipedream, Rube, Apideck | [Codex](https://www.aiflowlearn.net/zh/codex/nango) | [Codex](https://www.aiflowlearn.net/en/codex/nango) |
 | [ChatRWKV](https://open.aiflowlearn.net/chatrwkv) - ChatRWKV is like ChatGPT but powered by RWKV (100% RNN) language model, and open source. | license: Apache-2.0<br>⭐ Star: 9.5K | ChatGPT, Claude | Coming soon | Coming soon |
-| [OpenLLMetry](https://open.aiflowlearn.net/openllmetry) - Open-source observability platform for LLMs using OpenTelemetry. | license: Apache-2.0<br>⭐ Star: 7.2K | DataDog, LangSmith, Splunk | [Codex](https://www.aiflowlearn.net/zh/codex/openllmetry) | [Codex](https://www.aiflowlearn.net/en/codex/openllmetry) |
 | [Openblocks](https://open.aiflowlearn.net/openblocks) - 🔥 🔥 🔥 The Open Source Retool Alternative | license: AGPL-3.0<br>⭐ Star: 6.2K | Retool, Appsmith | Coming soon | Coming soon |
-| [Bifrost](https://open.aiflowlearn.net/bifrost) - Open-source AI gateway delivering 50x faster performance than alternatives. | license: Apache-2.0<br>⭐ Star: 5.7K | Eden AI, OpenRouter, Vercel AI Gateway | [Codex](https://www.aiflowlearn.net/zh/codex/bifrost) | [Codex](https://www.aiflowlearn.net/en/codex/bifrost) |
-| [Rivet](https://open.aiflowlearn.net/rivet) - Open-source infrastructure for long-lived, in-memory processes called Actors. | license: Apache-2.0<br>⭐ Star: 5.6K | - | [Codex](https://www.aiflowlearn.net/zh/codex/rivet) | [Codex](https://www.aiflowlearn.net/en/codex/rivet) |
-| [ACI.dev](https://open.aiflowlearn.net/aci-dev) - Platform for connecting AI agents to 500+ tools with built-in multi-tenant auth management and granular... | license: Apache-2.0<br>⭐ Star: 4.8K | Pipedream, Eden AI, Rube | [Codex](https://www.aiflowlearn.net/zh/codex/aci-dev) | [Codex](https://www.aiflowlearn.net/en/codex/aci-dev) |
-| [Agenta](https://open.aiflowlearn.net/agenta) - Open-source LLMOps platform providing prompt management, evaluation, and observability tools for building... | license: MIT<br>⭐ Star: 4.2K | LangSmith, Humanloop | [Codex](https://www.aiflowlearn.net/zh/codex/agenta) | [Codex](https://www.aiflowlearn.net/en/codex/agenta) |
 | [Latitude](https://open.aiflowlearn.net/latitude) - Traces AI agents in production, automatically clusters failures into issues, generates evals from real... | license: MIT<br>⭐ Star: 4.1K | LangSmith, Humanloop, Weights | Coming soon | Coming soon |
 | [CozoDB](https://open.aiflowlearn.net/cozodb) - A transactional, relational-graph-vector database that uses Datalog for query. | license: MPL-2.0<br>⭐ Star: 4K | Pinecone, Weaviate | Coming soon | Coming soon |
-| [Laminar](https://open.aiflowlearn.net/laminar) - Laminar is an open-source platform that helps collect, understand, and utilize data for building... | license: Apache-2.0<br>⭐ Star: 3K | LangChain, Pinecone | [Codex](https://www.aiflowlearn.net/zh/codex/laminar) | [Codex](https://www.aiflowlearn.net/en/codex/laminar) |
 | [Pipeshub](https://open.aiflowlearn.net/pipeshub) - Self-hostable enterprise AI platform that unifies business data across apps, powers a knowledge graph for... | license: Apache-2.0<br>⭐ Star: 3K | - | Coming soon | Coming soon |
 | [Trieve](https://open.aiflowlearn.net/trieve) - Trieve offers an all-in-one solution for search, recommendations, and RAG with automatic continuous... | license: MIT<br>⭐ Star: 2.7K | Pinecone, Algolia, ElasticSearch | Coming soon | Coming soon |
-| [OpenLIT](https://open.aiflowlearn.net/openlit) - Open-source observability platform for GenAI and LLM applications. | license: Apache-2.0<br>⭐ Star: 2.5K | LangSmith, Humanloop, Weights | [Codex](https://www.aiflowlearn.net/zh/codex/openlit) | [Codex](https://www.aiflowlearn.net/en/codex/openlit) |
 | [DashPress](https://open.aiflowlearn.net/dashpress) - Generate powerful admin apps without writing a single line of code - Run `npx dashpress` to see some magic! | license: AGPL-3.0<br>⭐ Star: 1.9K | Retool, Appsmith | Coming soon | Coming soon |
-| [YouCompleteMe](https://open.aiflowlearn.net/youcompleteme) - A code-completion & code-comprehension server | license: GPL-3.0<br>⭐ Star: 1.7K | Github Copilot, Cursor | Coming soon | Coming soon |
+| [YouCompleteMe](https://open.aiflowlearn.net/youcompleteme) - A code-completion & code-comprehension server | license: GPL-3.0<br>⭐ Star: 1.7K | GitHub Copilot, Cursor | Coming soon | Coming soon |
 | [Beam](https://open.aiflowlearn.net/beam) - Run AI workloads with sub-second cold starts, elastic GPU scaling, and secure sandboxed environments. | license: AGPL-3.0<br>⭐ Star: 1.7K | Together Sandbox, Vertex AI, Modal | Coming soon | Coming soon |
 | [Envoy AI Gateway](https://open.aiflowlearn.net/envoy-ai-gateway) - Open source gateway built on Envoy for routing application traffic to GenAI services. | license: Apache-2.0<br>⭐ Star: 1.7K | Eden AI, Vercel AI Gateway, Cloudflare AI Gateway | Coming soon | Coming soon |
 | [Open Mercato](https://open.aiflowlearn.net/open-mercato) - A modular CRM/ERP framework built on Next.js and TypeScript that encodes hundreds of architectural... | license: MIT<br>⭐ Star: 1.4K | SAP, Retool | Coming soon | Coming soon |
-| [LLM Gateway](https://open.aiflowlearn.net/llm-gateway) - Route, manage, and analyze LLM requests across multiple providers with one API. | license: AGPL-3.0<br>⭐ Star: 1.3K | Eden AI, Vercel AI Gateway, Cloudflare AI Gateway | [Codex](https://www.aiflowlearn.net/zh/codex/llm-gateway) | [Codex](https://www.aiflowlearn.net/en/codex/llm-gateway) |
 | [ByteChef](https://open.aiflowlearn.net/bytechef) - Create intelligent automation workflows combining AI agents with your favorite apps and services. | license: Unknown<br>⭐ Star: 773 | n8n, Make, Zapier | Coming soon | Coming soon |
 | [AgentOS](https://open.aiflowlearn.net/agentos) - Open-source TypeScript runtime for autonomous AI agents with cognitive memory, multi-agent orchestration,... | license: Apache-2.0<br>⭐ Star: 576 | - | Coming soon | Coming soon |
 | [Giselle](https://open.aiflowlearn.net/giselle) - Create powerful AI agents using an intuitive node-based interface that connects multiple LLMs and data... | license: Apache-2.0<br>⭐ Star: 534 | - | Coming soon | Coming soon |
@@ -233,17 +174,12 @@ These projects already have OpenAlternativeLearn detail pages and Codex architec
 
 | Project | Github Info | Alternative To | Codex | Classroom |
 | --- | --- | --- | --- | --- |
-| [Daytona](https://open.aiflowlearn.net/daytona) - Elastic sandbox infrastructure for running AI-generated code with sub-90ms environment creation, stateful... | license: AGPL-3.0<br>⭐ Star: 72K | Together Sandbox, Modal, Sprites | [Codex](https://www.aiflowlearn.net/en/codex/daytonaio-daytona) | [Codex](https://www.aiflowlearn.net/en/codex/daytonaio-daytona) |
-| [Mem0](https://open.aiflowlearn.net/mem0) - Adds persistent, searchable memory to AI agents and apps, so they remember user preferences and past... | license: Apache-2.0<br>⭐ Star: 58K | LangChain, Pinecone, Vertex AI | [Codex](https://www.aiflowlearn.net/en/codex/mem0-ai-memory-layer) | [Classroom](https://www.aiflowlearn.net/classrooms/7bed9716-ba55-4442-b3f3-3cbb22343d0a) |
 | [Chroma](https://open.aiflowlearn.net/chroma) - Open-source vector database designed for AI applications. | license: Apache-2.0<br>⭐ Star: 28K | Supabase, Pinecone, ElasticSearch | Coming soon | Coming soon |
 | [Supermemory](https://open.aiflowlearn.net/supermemory) - Add persistent memory to LLM apps with millisecond recall times. | license: MIT<br>⭐ Star: 27K | LangChain, Pinecone | Coming soon | Coming soon |
 | [Letta](https://open.aiflowlearn.net/letta) - Letta is an open-source platform for creating AI agents with built-in memory, reasoning, and support for... | license: Apache-2.0<br>⭐ Star: 23K | Perplexity, LangChain, Pinecone | Coming soon | Coming soon |
 | [Weaviate](https://open.aiflowlearn.net/weaviate) - Open-source vector database designed for building powerful, production-ready AI applications with hybrid... | license: BSD-3-Clause<br>⭐ Star: 16K | Supabase, Pinecone | Coming soon | Coming soon |
-| [Activeloop](https://open.aiflowlearn.net/activeloop) - Deep Lake is an open-source database for storing, querying and managing complex AI data like images,... | license: Apache-2.0<br>⭐ Star: 9.2K | Snowflake, Pinecone, BigQuery | Coming soon | Coming soon |
-| [Helicone](https://open.aiflowlearn.net/helicone) - Open-source platform for logging, monitoring, and debugging LLM applications. | license: Apache-2.0<br>⭐ Star: 5.8K | DataDog, LangSmith, LangChain | [Codex](https://www.aiflowlearn.net/zh/codex/helicone) | [Codex](https://www.aiflowlearn.net/en/codex/helicone) |
-| [Laminar](https://open.aiflowlearn.net/laminar) - Laminar is an open-source platform that helps collect, understand, and utilize data for building... | license: Apache-2.0<br>⭐ Star: 3K | LangChain, Pinecone | [Codex](https://www.aiflowlearn.net/zh/codex/laminar) | [Codex](https://www.aiflowlearn.net/en/codex/laminar) |
+| [Activeloop](https://open.aiflowlearn.net/activeloop) - Deep Lake is an open-source database for storing, querying and managing complex AI data like images,... | license: Apache-2.0<br>⭐ Star: 9.2K | Snowflake, Pinecone, BigQuery | [Codex](https://aiflowlearn.net/en/codex/activeloopai-deeplake) | Coming soon |
 | [Deepnote](https://open.aiflowlearn.net/deepnote) - Deepnote is an open-source collaborative notebook for data analysts and scientists, combining Python, SQL,... | license: Apache-2.0<br>⭐ Star: 2.9K | Snowflake, Tableau, Hex | Coming soon | Coming soon |
-| [OpenLIT](https://open.aiflowlearn.net/openlit) - Open-source observability platform for GenAI and LLM applications. | license: Apache-2.0<br>⭐ Star: 2.5K | LangSmith, Humanloop, Weights | [Codex](https://www.aiflowlearn.net/zh/codex/openlit) | [Codex](https://www.aiflowlearn.net/en/codex/openlit) |
 | [Beam](https://open.aiflowlearn.net/beam) - Run AI workloads with sub-second cold starts, elastic GPU scaling, and secure sandboxed environments. | license: AGPL-3.0<br>⭐ Star: 1.7K | Together Sandbox, Vertex AI, Modal | Coming soon | Coming soon |
 | [mlop](https://open.aiflowlearn.net/mlop) - Open source platform for ML engineers to track metrics, parameters, and gradients in real-time. | license: Apache-2.0<br>⭐ Star: 385 | - | Coming soon | Coming soon |
 
@@ -251,28 +187,16 @@ These projects already have OpenAlternativeLearn detail pages and Codex architec
 
 | Project | Github Info | Alternative To | Codex | Classroom |
 | --- | --- | --- | --- | --- |
-| [LiteLLM](https://open.aiflowlearn.net/litellm) - Acts as a unified proxy across 100+ LLMs, normalizing them to the OpenAI format while handling virtual... | license: Unknown<br>⭐ Star: 50K | LangChain, Eden AI, OpenRouter | [Codex](https://www.aiflowlearn.net/en/codex/berriai-litellm) | [Codex](https://www.aiflowlearn.net/en/codex/berriai-litellm) |
 | [Proxed AI](https://open.aiflowlearn.net/proxed-ai) - A secure proxy service that protects AI API keys using Apple DeviceCheck, enabling safe integration of... | license: AGPL-3.0<br>⭐ Star: 7 | - | Coming soon | Coming soon |
 
 ### AI Interaction & Interfaces
 
 | Project | Github Info | Alternative To | Codex | Classroom |
 | --- | --- | --- | --- | --- |
-| [OpenClaw](https://open.aiflowlearn.net/openclaw) - A personal AI assistant that connects to your existing chat apps and handles real tasks like email,... | license: MIT<br>⭐ Star: 379K | Zo Computer, Personal Computer | [Codex](https://www.aiflowlearn.net/zh/codex/openclaw-personal-ai-platform) | [Codex](https://www.aiflowlearn.net/en/codex/openclaw-personal-ai-platform) |
-| [Open WebUI](https://open.aiflowlearn.net/open-webui) - Self-hosted AI platform that connects local and cloud models, extends with Python, and keeps your data... | license: BSD-3-Clause<br>⭐ Star: 141K | Claude, Grok, ChatGPT | [Codex](https://www.aiflowlearn.net/en/codex/open-webui-open-webui) | [Codex](https://www.aiflowlearn.net/en/codex/open-webui-open-webui) |
-| [Browser Use](https://open.aiflowlearn.net/browser-use) - Python library that lets AI agents browse the web by giving them real browser control, DOM access, and the... | license: MIT<br>⭐ Star: 99K | Browserbase, Anchor Browser | [Codex](https://www.aiflowlearn.net/en/codex/browser-use-source-walkthrough) | [Codex](https://www.aiflowlearn.net/en/codex/browser-use-source-walkthrough) |
-| [LobeChat](https://open.aiflowlearn.net/lobechat) - A collaborative platform to create, schedule, and operate AI agents that handle long-running tasks, team... | license: Unknown<br>⭐ Star: 79K | Claude, Grok, ChatGPT | [Codex](https://www.aiflowlearn.net/en/codex/lobe-chat-multi-agent) | [Codex](https://www.aiflowlearn.net/en/codex/lobe-chat-multi-agent) |
-| [AnythingLLM](https://open.aiflowlearn.net/anythingllm) - A desktop and self-hostable AI app for chatting with documents, running local LLMs, and using AI agents... | license: MIT<br>⭐ Star: 62K | Claude, Grok, ChatGPT | [Codex](https://www.aiflowlearn.net/en/codex/mintplex-labs-anythingllm) | [Codex](https://www.aiflowlearn.net/en/codex/mintplex-labs-anythingllm) |
 | [Cherry Studio](https://open.aiflowlearn.net/cherry-studio) - Desktop AI client for Windows, macOS, and Linux that connects 300+ models from 50+ providers, with local... | license: AGPL-3.0<br>⭐ Star: 47K | Claude, Grok, ChatGPT | Coming soon | Coming soon |
-| [Jan](https://open.aiflowlearn.net/jan) - Jan runs open-source AI models on your own hardware or connects to cloud providers like OpenAI, Anthropic,... | license: Apache-2.0<br>⭐ Star: 43K | Claude, Grok, ChatGPT | [Codex](https://www.aiflowlearn.net/en/codex/janhq-jan) | [Codex](https://www.aiflowlearn.net/en/codex/janhq-jan) |
-| [LibreChat](https://open.aiflowlearn.net/librechat) - Chat with multiple AI providers through a single self-hostable interface, with support for custom agents,... | license: MIT<br>⭐ Star: 39K | Claude, Grok, ChatGPT | [Codex](https://www.aiflowlearn.net/en/codex/librechat) | [Codex](https://www.aiflowlearn.net/en/codex/librechat) |
 | [OpenAssistant](https://open.aiflowlearn.net/openassistant) - OpenAssistant is a chat-based assistant that understands tasks, can interact with third-party systems, and... | license: Apache-2.0<br>⭐ Star: 37K | ChatGPT, Claude | Coming soon | Coming soon |
-| [CopilotKit](https://open.aiflowlearn.net/copilotkit) - Integrate production-ready AI copilots into any product quickly and easily with CopilotKit's open-source... | license: MIT<br>⭐ Star: 35K | - | [Codex](https://www.aiflowlearn.net/en/codex/copilotkit-copilotkit) | [Codex](https://www.aiflowlearn.net/en/codex/copilotkit-copilotkit) |
-| [Khoj](https://open.aiflowlearn.net/khoj) - Self-hostable AI assistant that connects to your docs and the web, lets you build agents, schedule... | license: AGPL-3.0<br>⭐ Star: 35K | Claude, ChatGPT, Perplexity | [Codex](https://www.aiflowlearn.net/en/codex/khoj-ai-khoj) | [Codex](https://www.aiflowlearn.net/en/codex/khoj-ai-khoj) |
 | [Lightpanda](https://open.aiflowlearn.net/lightpanda) - Purpose-built headless browser that delivers 10x faster performance and 10x lower memory usage compared to... | license: AGPL-3.0<br>⭐ Star: 31K | Browserbase, Anchor Browser | Coming soon | Coming soon |
-| [Onyx](https://open.aiflowlearn.net/onyx) - An open-source platform that connects to 40+ apps to provide intelligent search and AI assistance across... | license: Unknown<br>⭐ Star: 30K | Algolia, ElasticSearch, Glean | [Codex](https://www.aiflowlearn.net/en/codex/onyx-dot-app-onyx) | [Codex](https://www.aiflowlearn.net/en/codex/onyx-dot-app-onyx) |
 | [Skyvern](https://open.aiflowlearn.net/skyvern) - Transform manual browser tasks into automated workflows using AI. | license: AGPL-3.0<br>⭐ Star: 22K | Browserbase, Anchor Browser | Coming soon | Coming soon |
-| [MaxKB](https://open.aiflowlearn.net/maxkb) - Open-source AI solution combining RAG pipelines, workflow automation, and multi-model support for... | license: GPL-3.0<br>⭐ Star: 21K | - | [Codex](https://www.aiflowlearn.net/zh/codex/maxkb) | [Codex](https://www.aiflowlearn.net/en/codex/maxkb) |
 | [screenpipe](https://open.aiflowlearn.net/screenpipe) - Records your screen and microphone locally, transcribes meetings automatically, and lets you query your... | license: MIT<br>⭐ Star: 19K | - | Coming soon | Coming soon |
 | [Parlant](https://open.aiflowlearn.net/parlant) - A conversational AI server that manages agent behavior through context-aware guidelines, keeping responses... | license: Apache-2.0<br>⭐ Star: 18K | Voiceflow, Chatbase, Uchat | Coming soon | Coming soon |
 | [Leon](https://open.aiflowlearn.net/leon) - Leon is an AI-powered virtual assistant that lives on your server, automating tasks and managing your... | license: MIT<br>⭐ Star: 17K | - | Coming soon | Coming soon |
@@ -284,8 +208,8 @@ These projects already have OpenAlternativeLearn detail pages and Codex architec
 | [Orama](https://open.aiflowlearn.net/orama) - Blend full-text and semantic search for unlimited queries across 300 global locations. | license: Unknown<br>⭐ Star: 10K | Algolia, ElasticSearch, Coveo | Coming soon | Coming soon |
 | [Typebot](https://open.aiflowlearn.net/typebot) - Design, build, and deploy interactive chatbots with a visual editor. | license: Unknown<br>⭐ Star: 10K | Manychat, Voiceflow, DocsBot | Coming soon | Coming soon |
 | [ChatRWKV](https://open.aiflowlearn.net/chatrwkv) - ChatRWKV is like ChatGPT but powered by RWKV (100% RNN) language model, and open source. | license: Apache-2.0<br>⭐ Star: 9.5K | ChatGPT, Claude | Coming soon | Coming soon |
-| [Morphic](https://open.aiflowlearn.net/morphic) - Open-source answer engine that dynamically generates UI components while providing AI-powered responses,... | license: Apache-2.0<br>⭐ Star: 8.9K | Claude, ChatGPT, Perplexity | Coming soon | Coming soon |
-| [Steel](https://open.aiflowlearn.net/steel) - Open-source browser API designed for AI agents. | license: Apache-2.0<br>⭐ Star: 7.2K | Browserbase, Anchor Browser | Coming soon | Coming soon |
+| [Morphic](https://open.aiflowlearn.net/morphic) - Open-source answer engine that dynamically generates UI components while providing AI-powered responses,... | license: Apache-2.0<br>⭐ Star: 8.9K | Claude, ChatGPT, Perplexity | [Codex](https://aiflowlearn.net/en/codex/miurla-morphic) | Coming soon |
+| [Steel](https://open.aiflowlearn.net/steel) - Open-source browser API designed for AI agents. | license: Apache-2.0<br>⭐ Star: 7.2K | Browserbase, Anchor Browser | [Codex](https://aiflowlearn.net/en/codex/steel-dev-steel-browser) | Coming soon |
 | [VoiceInk](https://open.aiflowlearn.net/voiceink) - Convert speech to text instantly with advanced AI voice recognition. | license: Unknown<br>⭐ Star: 5.3K | Wispr Flow, Superwhisper, Aqua Voice | Coming soon | Coming soon |
 | [5ire](https://open.aiflowlearn.net/5ire) - Cross-platform desktop AI assistant supporting multiple providers, local knowledge base, and custom prompts. | license: Unknown<br>⭐ Star: 5.2K | Claude, ChatGPT, TypingMind | Coming soon | Coming soon |
 | [OpenWispr](https://open.aiflowlearn.net/openwispr) - Dictation app powered by OpenAI Whisper and NVIDIA Parakeet. | license: MIT<br>⭐ Star: 3.7K | Wispr Flow, Superwhisper, Aqua Voice | Coming soon | Coming soon |
@@ -301,6 +225,120 @@ These projects already have OpenAlternativeLearn detail pages and Codex architec
 | [VoiceTypr](https://open.aiflowlearn.net/voicetypr) - AI-powered voice dictation tool for busy founders and developers. | license: Unknown<br>⭐ Star: 384 | Wispr Flow, Superwhisper, Aqua Voice | Coming soon | Coming soon |
 | [VT Chat](https://open.aiflowlearn.net/vt-chat) - A production-ready, privacy-focused AI chat application delivering AI capabilities through a dual-tier... | license: MIT<br>⭐ Star: 51 | Claude, Grok, ChatGPT | Coming soon | Coming soon |
 | [Prismical](https://open.aiflowlearn.net/prismical) - Free, open-source AI note-taker that transcribes meetings and voice notes locally using Whisper and Parakeet. | license: MIT<br>⭐ Star: 28 | Otter.ai, Granola, Jamie AI | Coming soon | Coming soon |
+
+### AI Assistants / Agent Platforms
+
+| Project | Github Info | Alternative To | Codex | Classroom |
+| --- | --- | --- | --- | --- |
+| [OpenClaw](https://open.aiflowlearn.net/openclaw) - A personal AI assistant that connects to your existing chat apps and handles real tasks like email,... | license: MIT<br>⭐ Star: 379K | Lindy, Zapier Agents, Rewind AI | [Codex](https://aiflowlearn.net/en/codex/openclaw) | Coming soon |
+
+### AI Chat Interfaces
+
+| Project | Github Info | Alternative To | Codex | Classroom |
+| --- | --- | --- | --- | --- |
+| [Open WebUI](https://open.aiflowlearn.net/open-webui) - Self-hosted AI platform that connects local and cloud models, extends with Python, and keeps your data... | license: BSD-3-Clause<br>⭐ Star: 141K | ChatGPT, Claude, Poe | [Codex](https://aiflowlearn.net/en/codex/open-webui) | Coming soon |
+| [LobeChat](https://open.aiflowlearn.net/lobechat) - A collaborative platform to create, schedule, and operate AI agents that handle long-running tasks, team... | license: Unknown<br>⭐ Star: 79K | ChatGPT, Claude, Poe | [Codex](https://aiflowlearn.net/en/codex/lobe-chat) | Coming soon |
+| [LibreChat](https://open.aiflowlearn.net/librechat) - Chat with multiple AI providers through a single self-hostable interface, with support for custom agents,... | license: MIT<br>⭐ Star: 39K | ChatGPT Team, Claude Team, Poe | [Codex](https://aiflowlearn.net/en/codex/librechat) | Coming soon |
+
+### Browser Automation / AI Agents
+
+| Project | Github Info | Alternative To | Codex | Classroom |
+| --- | --- | --- | --- | --- |
+| [Browser Use](https://open.aiflowlearn.net/browser-use) - Python library that lets AI agents browse the web by giving them real browser control, DOM access, and the... | license: MIT<br>⭐ Star: 99K | Browserbase, Anchor Browser, Apify | [Codex](https://aiflowlearn.net/en/codex/browser-use) | Coming soon |
+
+### AI Knowledge Base / Chat
+
+| Project | Github Info | Alternative To | Codex | Classroom |
+| --- | --- | --- | --- | --- |
+| [AnythingLLM](https://open.aiflowlearn.net/anythingllm) - A desktop and self-hostable AI app for chatting with documents, running local LLMs, and using AI agents... | license: MIT<br>⭐ Star: 62K | ChatGPT Team, Claude Team, Glean | [Codex](https://aiflowlearn.net/en/codex/anything-llm) | Coming soon |
+
+### AI Memory Infrastructure
+
+| Project | Github Info | Alternative To | Codex | Classroom |
+| --- | --- | --- | --- | --- |
+| [Mem0](https://open.aiflowlearn.net/mem0) - Adds persistent, searchable memory to AI agents and apps, so they remember user preferences and past... | license: Apache-2.0<br>⭐ Star: 58K | LangSmith, Pinecone, Zep Cloud | [Codex](https://aiflowlearn.net/en/codex/mem0) | [Classroom](https://aiflowlearn.net/classrooms/7bed9716-ba55-4442-b3f3-3cbb22343d0a) |
+
+### AI Workflow Builders
+
+| Project | Github Info | Alternative To | Codex | Classroom |
+| --- | --- | --- | --- | --- |
+| [Flowise AI](https://open.aiflowlearn.net/flowise-ai) - Open source platform for building AI agents, chatbots, and multi-agent systems using a drag-and-drop... | license: Apache-2.0<br>⭐ Star: 54K | Relevance AI, Zapier Agents, Vertex AI Agent Builder | [Codex](https://aiflowlearn.net/en/codex/flowise) | Coming soon |
+
+### AI Gateway
+
+| Project | Github Info | Alternative To | Codex | Classroom |
+| --- | --- | --- | --- | --- |
+| [LiteLLM](https://open.aiflowlearn.net/litellm) - Acts as a unified proxy across 100+ LLMs, normalizing them to the OpenAI format while handling virtual... | license: Unknown<br>⭐ Star: 50K | OpenRouter, Vercel AI Gateway, Eden AI | [Codex](https://aiflowlearn.net/en/codex/litellm) | Coming soon |
+| [Bifrost](https://open.aiflowlearn.net/bifrost) - Open-source AI gateway delivering 50x faster performance than alternatives. | license: Apache-2.0<br>⭐ Star: 5.7K | OpenRouter, Eden AI, Vercel AI Gateway | [Codex](https://aiflowlearn.net/en/codex/bifrost) | Coming soon |
+| [LLM Gateway](https://open.aiflowlearn.net/llm-gateway) - Route, manage, and analyze LLM requests across multiple providers with one API. | license: AGPL-3.0<br>⭐ Star: 1.3K | OpenRouter, Vercel AI Gateway, Eden AI | [Codex](https://aiflowlearn.net/en/codex/llmgateway) | Coming soon |
+
+### Local AI Chat
+
+| Project | Github Info | Alternative To | Codex | Classroom |
+| --- | --- | --- | --- | --- |
+| [Jan](https://open.aiflowlearn.net/jan) - Jan runs open-source AI models on your own hardware or connects to cloud providers like OpenAI, Anthropic,... | license: Apache-2.0<br>⭐ Star: 43K | ChatGPT, Claude, Poe | [Codex](https://aiflowlearn.net/en/codex/jan) | Coming soon |
+
+### AI Agent Frameworks
+
+| Project | Github Info | Alternative To | Codex | Classroom |
+| --- | --- | --- | --- | --- |
+| [Agno](https://open.aiflowlearn.net/agno) - Open-source platform that enables developers to create, deploy and monitor AI agents with built-in memory,... | license: Apache-2.0<br>⭐ Star: 41K | Relevance AI, LangSmith, CrewAI Enterprise | [Codex](https://aiflowlearn.net/en/codex/agno) | Coming soon |
+
+### In-app AI Copilots
+
+| Project | Github Info | Alternative To | Codex | Classroom |
+| --- | --- | --- | --- | --- |
+| [CopilotKit](https://open.aiflowlearn.net/copilotkit) - Integrate production-ready AI copilots into any product quickly and easily with CopilotKit's open-source... | license: MIT<br>⭐ Star: 35K | Intercom Fin, Salesforce Einstein, Zendesk AI | [Codex](https://aiflowlearn.net/en/codex/copilotkit) | Coming soon |
+
+### AI Search / Second Brain
+
+| Project | Github Info | Alternative To | Codex | Classroom |
+| --- | --- | --- | --- | --- |
+| [Khoj](https://open.aiflowlearn.net/khoj) - Self-hostable AI assistant that connects to your docs and the web, lets you build agents, schedule... | license: AGPL-3.0<br>⭐ Star: 35K | Glean, Perplexity Enterprise, Notion AI | [Codex](https://aiflowlearn.net/en/codex/khoj) | Coming soon |
+
+### Enterprise AI Search
+
+| Project | Github Info | Alternative To | Codex | Classroom |
+| --- | --- | --- | --- | --- |
+| [Onyx](https://open.aiflowlearn.net/onyx) - An open-source platform that connects to 40+ apps to provide intelligent search and AI assistance across... | license: Unknown<br>⭐ Star: 30K | Glean, Algolia, Elastic Cloud | [Codex](https://aiflowlearn.net/en/codex/onyx) | Coming soon |
+
+### RAG Knowledge Base
+
+| Project | Github Info | Alternative To | Codex | Classroom |
+| --- | --- | --- | --- | --- |
+| [MaxKB](https://open.aiflowlearn.net/maxkb) - Open-source AI solution combining RAG pipelines, workflow automation, and multi-model support for... | license: GPL-3.0<br>⭐ Star: 21K | Glean, NotebookLM, Pinecone Assistant | [Codex](https://aiflowlearn.net/en/codex/maxkb) | Coming soon |
+
+### AI Gateway / Observability
+
+| Project | Github Info | Alternative To | Codex | Classroom |
+| --- | --- | --- | --- | --- |
+| [Portkey AI Gateway](https://open.aiflowlearn.net/portkey-ai-gateway) - Comprehensive AI platform with gateway, observability, guardrails, and prompt management. | license: MIT<br>⭐ Star: 12K | Eden AI, Vercel AI Gateway, Cloudflare AI Gateway | [Codex](https://aiflowlearn.net/en/codex/gateway) | Coming soon |
+
+### LLM Observability
+
+| Project | Github Info | Alternative To | Codex | Classroom |
+| --- | --- | --- | --- | --- |
+| [OpenLLMetry](https://open.aiflowlearn.net/openllmetry) - Open-source observability platform for LLMs using OpenTelemetry. | license: Apache-2.0<br>⭐ Star: 7.2K | Datadog, LangSmith, New Relic | [Codex](https://aiflowlearn.net/en/codex/openllmetry) | Coming soon |
+| [Helicone](https://open.aiflowlearn.net/helicone) - Open-source platform for logging, monitoring, and debugging LLM applications. | license: Apache-2.0<br>⭐ Star: 5.8K | LangSmith, Datadog, New Relic | [Codex](https://aiflowlearn.net/en/codex/helicone) | Coming soon |
+| [OpenLIT](https://open.aiflowlearn.net/openlit) - Open-source observability platform for GenAI and LLM applications. | license: Apache-2.0<br>⭐ Star: 2.5K | LangSmith, Datadog, New Relic | [Codex](https://aiflowlearn.net/en/codex/openlit) | Coming soon |
+
+### AI Tool Integration
+
+| Project | Github Info | Alternative To | Codex | Classroom |
+| --- | --- | --- | --- | --- |
+| [ACI.dev](https://open.aiflowlearn.net/aci-dev) - Platform for connecting AI agents to 500+ tools with built-in multi-tenant auth management and granular... | license: Apache-2.0<br>⭐ Star: 4.8K | Pipedream, Zapier, Apideck | [Codex](https://aiflowlearn.net/en/codex/aci) | Coming soon |
+
+### LLMOps / Evaluation
+
+| Project | Github Info | Alternative To | Codex | Classroom |
+| --- | --- | --- | --- | --- |
+| [Agenta](https://open.aiflowlearn.net/agenta) - Open-source LLMOps platform providing prompt management, evaluation, and observability tools for building... | license: MIT<br>⭐ Star: 4.2K | Humanloop, LangSmith, PromptLayer | [Codex](https://aiflowlearn.net/en/codex/agenta) | Coming soon |
+
+### LLM Observability / Evaluation
+
+| Project | Github Info | Alternative To | Codex | Classroom |
+| --- | --- | --- | --- | --- |
+| [Laminar](https://open.aiflowlearn.net/laminar) - Laminar is an open-source platform that helps collect, understand, and utilize data for building... | license: Apache-2.0<br>⭐ Star: 3K | LangSmith, Humanloop, Braintrust | [Codex](https://aiflowlearn.net/en/codex/lmnr) | Coming soon |
 
 
 ## Business Software
@@ -340,11 +378,11 @@ These projects already have OpenAlternativeLearn detail pages and Codex architec
 | [Hyperswitch](https://open.aiflowlearn.net/hyperswitch) - A unified payment infrastructure that connects multiple payment processors through a single API... | license: Apache-2.0<br>⭐ Star: 43K | Stripe Billing, PayPal Braintree | Coming soon | Coming soon |
 | [ERPNext](https://open.aiflowlearn.net/erpnext) - Open-source ERP solution offering modules for accounting, inventory, HR, CRM, and more. | license: GPL-3.0<br>⭐ Star: 36K | HubSpot, SAP, Salesforce | Coming soon | Coming soon |
 | [Midday](https://open.aiflowlearn.net/midday) - All-in-one tool for freelancers and small businesses to manage finances, track time, store files, and send... | license: AGPL-3.0<br>⭐ Star: 14K | YNAB, Mint, Clockify | Coming soon | Coming soon |
-| [Akaunting](https://open.aiflowlearn.net/akaunting) - Self-hostable accounting software covering invoicing, expense tracking, cash flow, and client portals. | license: Unknown<br>⭐ Star: 9.9K | Quickbooks, Xero, Bench | Coming soon | Coming soon |
-| [Polar](https://open.aiflowlearn.net/polar) - Comprehensive payment solution with built-in tax handling, automated benefits, and seamless integrations... | license: Apache-2.0<br>⭐ Star: 9.9K | Stripe, Dodo Payments, FastSpring | Coming soon | Coming soon |
-| [Invoice Ninja](https://open.aiflowlearn.net/invoice-ninja) - Free invoicing software for freelancers and small businesses. | license: Unknown<br>⭐ Star: 9.8K | Quickbooks, Xero, Bench | Coming soon | Coming soon |
-| [Lago](https://open.aiflowlearn.net/lago) - Open-source billing system that handles metering, usage-based pricing, and invoicing at scale. | license: AGPL-3.0<br>⭐ Star: 9.8K | Stripe Billing, Recurly, Zuora | Coming soon | Coming soon |
-| [Gumroad](https://open.aiflowlearn.net/gumroad) - A digital marketplace platform where creators can sell digital products, from courses to software, with... | license: MIT<br>⭐ Star: 9.2K | Stripe, Dodo Payments, FastSpring | Coming soon | Coming soon |
+| [Akaunting](https://open.aiflowlearn.net/akaunting) - Self-hostable accounting software covering invoicing, expense tracking, cash flow, and client portals. | license: Unknown<br>⭐ Star: 9.9K | Quickbooks, Xero, Bench | [Codex](https://aiflowlearn.net/en/codex/akaunting-akaunting) | Coming soon |
+| [Polar](https://open.aiflowlearn.net/polar) - Comprehensive payment solution with built-in tax handling, automated benefits, and seamless integrations... | license: Apache-2.0<br>⭐ Star: 9.9K | Stripe, Dodo Payments, FastSpring | [Codex](https://aiflowlearn.net/en/codex/polarsource-polar) | Coming soon |
+| [Invoice Ninja](https://open.aiflowlearn.net/invoice-ninja) - Free invoicing software for freelancers and small businesses. | license: Unknown<br>⭐ Star: 9.8K | Quickbooks, Xero, Bench | [Codex](https://aiflowlearn.net/en/codex/invoiceninja-invoiceninja) | Coming soon |
+| [Lago](https://open.aiflowlearn.net/lago) - Open-source billing system that handles metering, usage-based pricing, and invoicing at scale. | license: AGPL-3.0<br>⭐ Star: 9.8K | Stripe Billing, Recurly, Zuora | [Codex](https://aiflowlearn.net/en/codex/getlago-lago) | Coming soon |
+| [Gumroad](https://open.aiflowlearn.net/gumroad) - A digital marketplace platform where creators can sell digital products, from courses to software, with... | license: MIT<br>⭐ Star: 9.2K | Stripe, Dodo Payments, FastSpring | [Codex](https://aiflowlearn.net/en/codex/antiwork-gumroad) | Coming soon |
 | [Crater](https://open.aiflowlearn.net/crater) - Crater offers AI-driven invoicing workflows, payments, and working capital tools to enhance your platform... | license: AGPL-3.0<br>⭐ Star: 8.3K | Quickbooks, Stripe Billing, Xero | Coming soon | Coming soon |
 | [ezBookkeeping](https://open.aiflowlearn.net/ezbookkeeping) - A privacy-first personal finance app with two-level accounts, multi-currency support, AI receipt... | license: MIT<br>⭐ Star: 5.1K | YNAB, Mint | Coming soon | Coming soon |
 | [Expensify](https://open.aiflowlearn.net/expensify) - Automate expense reporting, reimbursements, and corporate card management with real-time data sync and... | license: MIT<br>⭐ Star: 4.9K | - | Coming soon | Coming soon |
@@ -379,7 +417,7 @@ These projects already have OpenAlternativeLearn detail pages and Codex architec
 | --- | --- | --- | --- | --- |
 | [Novu](https://open.aiflowlearn.net/novu) - Open-source platform for building in-app, email, push, SMS, and chat notifications with a unified API,... | license: Unknown<br>⭐ Star: 39K | Customer.io, NotificationAPI, Knock | Coming soon | Coming soon |
 | [Postiz](https://open.aiflowlearn.net/postiz) - Open-source social media scheduling tool that plans, generates, and publishes posts across 30+ networks... | license: AGPL-3.0<br>⭐ Star: 32K | HootSuite, Buffer, Typefully | Coming soon | Coming soon |
-| [Chatwoot](https://open.aiflowlearn.net/chatwoot) - Manage customer conversations across live chat, email, WhatsApp, Instagram, and more from one inbox, with... | license: Unknown<br>⭐ Star: 31K | Manychat, Zendesk, Intercom | Coming soon | Coming soon |
+| [Chatwoot](https://open.aiflowlearn.net/chatwoot) - Manage customer conversations across live chat, email, WhatsApp, Instagram, and more from one inbox, with... | license: Unknown<br>⭐ Star: 31K | Manychat, Zendesk, Intercom | [Codex](https://aiflowlearn.net/en/codex/chatwoot-chatwoot) | Coming soon |
 | [Dub Links](https://open.aiflowlearn.net/dub-links) - Link management platform for marketing teams with custom domains, UTM builder, A/B testing, geo-targeting,... | license: AGPL-3.0<br>⭐ Star: 24K | TinyURL, Bitly, Short.io | Coming soon | Coming soon |
 | [Dub Partners](https://open.aiflowlearn.net/dub-partners) - Run affiliate, influencer, and referral programs with flexible reward structures, real-time attribution,... | license: Unknown<br>⭐ Star: 24K | Affonso, Tolt, PartnerStack | Coming soon | Coming soon |
 | [Krayin](https://open.aiflowlearn.net/krayin) - Open source customer relationship management platform with sales tracking, marketing automation, and... | license: MIT<br>⭐ Star: 23K | HubSpot, Salesforce, Attio | Coming soon | Coming soon |
@@ -387,9 +425,9 @@ These projects already have OpenAlternativeLearn detail pages and Codex architec
 | [Postal](https://open.aiflowlearn.net/postal) - Self-hosted email delivery platform with powerful features for transactional and bulk emails, offering... | license: MIT<br>⭐ Star: 17K | Resend, Mailchimp, SendGrid | Coming soon | Coming soon |
 | [Billion Mail](https://open.aiflowlearn.net/billion-mail) - Self-hosted email marketing platform with unlimited sending, AI-powered email creation, real-time... | license: AGPL-3.0<br>⭐ Star: 15K | Resend, Mailchimp, SendGrid | Coming soon | Coming soon |
 | [Kutt](https://open.aiflowlearn.net/kutt) - Kutt offers a free and open-source solution for shortening URLs, complete with custom domains and detailed... | license: MIT<br>⭐ Star: 11K | TinyURL, Bitly, Short.io | Coming soon | Coming soon |
-| [Mautic](https://open.aiflowlearn.net/mautic) - Mautic is a free and open source marketing automation platform that helps businesses manage leads, create... | license: Unknown<br>⭐ Star: 9.8K | HubSpot, Mailchimp, Customer.io | Coming soon | Coming soon |
-| [Fonoster](https://open.aiflowlearn.net/fonoster) - Build and deploy powerful voice and messaging applications with ease using Fonoster's flexible, scalable,... | license: MIT<br>⭐ Star: 8K | - | Coming soon | Coming soon |
-| [Sink](https://open.aiflowlearn.net/sink) - A serverless link shortener that runs entirely on Cloudflare, offering URL compression, analytics, and... | license: AGPL-3.0<br>⭐ Star: 6.8K | TinyURL, Bitly, Short.io | Coming soon | Coming soon |
+| [Mautic](https://open.aiflowlearn.net/mautic) - Mautic is a free and open source marketing automation platform that helps businesses manage leads, create... | license: Unknown<br>⭐ Star: 9.8K | HubSpot, Mailchimp, Customer.io | [Codex](https://aiflowlearn.net/en/codex/mautic-mautic) | Coming soon |
+| [Fonoster](https://open.aiflowlearn.net/fonoster) - Build and deploy powerful voice and messaging applications with ease using Fonoster's flexible, scalable,... | license: MIT<br>⭐ Star: 8K | - | [Codex](https://aiflowlearn.net/en/codex/fonoster-fonoster) | Coming soon |
+| [Sink](https://open.aiflowlearn.net/sink) - A serverless link shortener that runs entirely on Cloudflare, offering URL compression, analytics, and... | license: AGPL-3.0<br>⭐ Star: 6.8K | TinyURL, Bitly, Short.io | [Codex](https://aiflowlearn.net/en/codex/ccbikai-sink) | Coming soon |
 | [Zammad](https://open.aiflowlearn.net/zammad) - Zammad is an open-source helpdesk software that centralizes customer communications and helps deliver... | license: AGPL-3.0<br>⭐ Star: 5.7K | Zendesk, FreshDesk, Open | Coming soon | Coming soon |
 | [Plunk](https://open.aiflowlearn.net/plunk) - Plunk unifies marketing, transactional, and broadcast emails into a single, complete solution for... | license: AGPL-3.0<br>⭐ Star: 5.2K | Resend, Mailchimp, SendGrid | Coming soon | Coming soon |
 | [Shlink](https://open.aiflowlearn.net/shlink) - Keep control over all your shortened URLs by serving them under your own domains with this simple yet... | license: MIT<br>⭐ Star: 5.1K | TinyURL, Bitly, Short.io | Coming soon | Coming soon |
@@ -424,7 +462,7 @@ These projects already have OpenAlternativeLearn detail pages and Codex architec
 
 | Project | Github Info | Alternative To | Codex | Classroom |
 | --- | --- | --- | --- | --- |
-| [Chatwoot](https://open.aiflowlearn.net/chatwoot) - Manage customer conversations across live chat, email, WhatsApp, Instagram, and more from one inbox, with... | license: Unknown<br>⭐ Star: 31K | Manychat, Zendesk, Intercom | Coming soon | Coming soon |
+| [Chatwoot](https://open.aiflowlearn.net/chatwoot) - Manage customer conversations across live chat, email, WhatsApp, Instagram, and more from one inbox, with... | license: Unknown<br>⭐ Star: 31K | Manychat, Zendesk, Intercom | [Codex](https://aiflowlearn.net/en/codex/chatwoot-chatwoot) | Coming soon |
 | [Formbricks](https://open.aiflowlearn.net/formbricks) - Collect feedback across websites, apps, and emails with targeted surveys, user segmentation, and... | license: Unknown<br>⭐ Star: 12K | Google Forms, Tally, Typeform | Coming soon | Coming soon |
 | [Zammad](https://open.aiflowlearn.net/zammad) - Zammad is an open-source helpdesk software that centralizes customer communications and helps deliver... | license: AGPL-3.0<br>⭐ Star: 5.7K | Zendesk, FreshDesk, Open | Coming soon | Coming soon |
 | [Fider](https://open.aiflowlearn.net/fider) - A self-hosted community feedback tool that helps organizations gather, discuss, and prioritize user... | license: AGPL-3.0<br>⭐ Star: 4.4K | Featurebase, ProductBoard, Canny | Coming soon | Coming soon |
@@ -449,7 +487,7 @@ These projects already have OpenAlternativeLearn detail pages and Codex architec
 | [Saleor](https://open.aiflowlearn.net/saleor) - Headless, API-first e-commerce solution with powerful features for customization, scalability, and... | license: BSD-3-Clause<br>⭐ Star: 23K | Shopify, Adobe Commerce, Sellfy | Coming soon | Coming soon |
 | [Alokai](https://open.aiflowlearn.net/alokai) - A comprehensive Frontend as a Service solution that helps developers create, deploy and manage enterprise... | license: MIT<br>⭐ Star: 11K | Shopify, Adobe Commerce, Sellfy | Coming soon | Coming soon |
 | [WooCommerce](https://open.aiflowlearn.net/woocommerce) - Build and manage online stores with customizable features, extensions, and themes for businesses of all sizes. | license: Unknown<br>⭐ Star: 10K | Shopify, Adobe Commerce, Magento | Coming soon | Coming soon |
-| [Vendure](https://open.aiflowlearn.net/vendure) - A headless, API-first e-commerce framework built on Node.js with TypeScript, offering customization and... | license: MIT<br>⭐ Star: 8.2K | Adobe Commerce, Magento, WooCommerce | Coming soon | Coming soon |
+| [Vendure](https://open.aiflowlearn.net/vendure) - A headless, API-first e-commerce framework built on Node.js with TypeScript, offering customization and... | license: MIT<br>⭐ Star: 8.2K | Adobe Commerce, Magento, WooCommerce | [Codex](https://aiflowlearn.net/en/codex/vendure-ecommerce-vendure) | Coming soon |
 | [Your Next Store (YNS)](https://open.aiflowlearn.net/yournextstore) - Fast, modern e-commerce with instant setup and full customization. | license: MIT<br>⭐ Star: 5.4K | Shopify, WooCommerce, Magento | Coming soon | Coming soon |
 | [Solidus](https://open.aiflowlearn.net/solidus) - Open-source eCommerce platform offering customization, scalability and enterprise-grade features for... | license: Unknown<br>⭐ Star: 5.3K | Shopify, Adobe Commerce, Sellfy | Coming soon | Coming soon |
 | [Shopware](https://open.aiflowlearn.net/shopware) - A flexible and customizable ecommerce solution that enables businesses to build responsive online stores... | license: MIT<br>⭐ Star: 3.4K | Shopify, Adobe Commerce, Magento | Coming soon | Coming soon |
@@ -459,7 +497,7 @@ These projects already have OpenAlternativeLearn detail pages and Codex architec
 | Project | Github Info | Alternative To | Codex | Classroom |
 | --- | --- | --- | --- | --- |
 | [AppFlowy](https://open.aiflowlearn.net/appflowy) - Open source collaborative workspace combining notes, databases, and AI with full data ownership, offline... | license: AGPL-3.0<br>⭐ Star: 72K | Notion, Obsidian, OneNote | Coming soon | Coming soon |
-| [Plane](https://open.aiflowlearn.net/plane) - Open source project management platform combining issues, wikis, and AI agents in one workspace. | license: AGPL-3.0<br>⭐ Star: 51K | Linear, Monday, Jira | Coming soon | Coming soon |
+| [Plane](https://open.aiflowlearn.net/plane) - Open source project management platform combining issues, wikis, and AI agents in one workspace. | license: AGPL-3.0<br>⭐ Star: 51K | Linear, Monday, Jira | [Codex](https://aiflowlearn.net/en/codex/makeplane-plane) | Coming soon |
 | [Focalboard](https://open.aiflowlearn.net/focalboard) - Self-hostable project management tool with Kanban boards, calendars, and table views, built for teams... | license: Unknown<br>⭐ Star: 26K | Linear, Monday, Jira | Coming soon | Coming soon |
 | [Huly](https://open.aiflowlearn.net/huly) - Combines project management, team chat, virtual office, and collaborative docs into a single platform. | license: EPL-2.0<br>⭐ Star: 26K | Notion, Linear, Monday | Coming soon | Coming soon |
 | [GitLab](https://open.aiflowlearn.net/gitlab) - A comprehensive AI-powered DevSecOps platform that integrates development, security, and operations,... | license: Unknown<br>⭐ Star: 24K | GitHub, GitHub Actions, BitBucket | Coming soon | Coming soon |
@@ -468,7 +506,7 @@ These projects already have OpenAlternativeLearn detail pages and Codex architec
 | [OpenProject](https://open.aiflowlearn.net/openproject) - Full-featured project management platform with Gantt charts, agile boards, time tracking, and team... | license: GPL-3.0<br>⭐ Star: 15K | Linear, Monday, Jira | Coming soon | Coming soon |
 | [Planka](https://open.aiflowlearn.net/planka) - Self-hosted Kanban board for agile teams. | license: Unknown<br>⭐ Star: 12K | Monday, Jira, ClickUp | Coming soon | Coming soon |
 | [Leantime](https://open.aiflowlearn.net/leantime) - Open-source software designed to streamline tasks, boost productivity, and enhance collaboration for teams... | license: AGPL-3.0<br>⭐ Star: 10K | Monday, Jira, ClickUp | Coming soon | Coming soon |
-| [Fizzy](https://open.aiflowlearn.net/fizzy) - Track issues, ideas, and projects with a modern kanban board that's fast and straightforward. | license: Unknown<br>⭐ Star: 7.8K | Monday, Jira, ClickUp | Coming soon | Coming soon |
+| [Fizzy](https://open.aiflowlearn.net/fizzy) - Track issues, ideas, and projects with a modern kanban board that's fast and straightforward. | license: Unknown<br>⭐ Star: 7.8K | Monday, Jira, ClickUp | [Codex](https://aiflowlearn.net/en/codex/basecamp-fizzy) | Coming soon |
 | [Kan](https://open.aiflowlearn.net/kan) - Free kanban project management with unlimited boards, lists, and cards. | license: AGPL-3.0<br>⭐ Star: 5K | Monday, Jira, ClickUp | Coming soon | Coming soon |
 | [Colanode](https://open.aiflowlearn.net/colanode) - Local-first collaboration platform combining real-time chat, rich text pages, databases, and file... | license: Apache-2.0<br>⭐ Star: 4.9K | Notion, Microsoft Teams, Confluence | Coming soon | Coming soon |
 | [Vikunja](https://open.aiflowlearn.net/vikunja) - A powerful, open-source task management platform for teams and individuals, offering customizable... | license: AGPL-3.0<br>⭐ Star: 4.5K | Linear, Monday, Jira | Coming soon | Coming soon |
@@ -493,12 +531,12 @@ These projects already have OpenAlternativeLearn detail pages and Codex architec
 
 | Project | Github Info | Alternative To | Codex | Classroom |
 | --- | --- | --- | --- | --- |
-| [Excalidraw](https://open.aiflowlearn.net/excalidraw) - Virtual whiteboard for sketching diagrams, flowcharts, and wireframes with a distinctive hand-drawn look. | license: MIT<br>⭐ Star: 125K | Microsoft Visio, Miro, LucidChart | Coming soon | Coming soon |
+| [Excalidraw](https://open.aiflowlearn.net/excalidraw) - Virtual whiteboard for sketching diagrams, flowcharts, and wireframes with a distinctive hand-drawn look. | license: MIT<br>⭐ Star: 125K | Microsoft Visio, Miro, LucidChart | [Codex](https://aiflowlearn.net/en/codex/excalidraw-excalidraw) | Coming soon |
 | [Affine](https://open.aiflowlearn.net/affine) - An open-source, local-first knowledge base that merges structured docs, infinite whiteboards, databases,... | license: Unknown<br>⭐ Star: 69K | Notion, OneNote, Confluence | Coming soon | Coming soon |
-| [Plane](https://open.aiflowlearn.net/plane) - Open source project management platform combining issues, wikis, and AI agents in one workspace. | license: AGPL-3.0<br>⭐ Star: 51K | Linear, Monday, Jira | Coming soon | Coming soon |
+| [Plane](https://open.aiflowlearn.net/plane) - Open source project management platform combining issues, wikis, and AI agents in one workspace. | license: AGPL-3.0<br>⭐ Star: 51K | Linear, Monday, Jira | [Codex](https://aiflowlearn.net/en/codex/makeplane-plane) | Coming soon |
 | [Tldraw](https://open.aiflowlearn.net/tldraw) - Virtual whiteboard that works instantly on any device, no signup required, with real-time multiplayer... | license: Unknown<br>⭐ Star: 48K | Microsoft Visio, Miro, LucidChart | Coming soon | Coming soon |
 | [Rocket.Chat](https://open.aiflowlearn.net/rocket-chat) - Open source communication platform combining messaging, voice, video, and AI for organizations that need... | license: Unknown<br>⭐ Star: 45K | Discord, Microsoft Teams, Slack | Coming soon | Coming soon |
-| [Mattermost](https://open.aiflowlearn.net/mattermost) - Mattermost provides a flexible, open-source platform for secure team collaboration, designed for... | license: Unknown<br>⭐ Star: 38K | Microsoft Teams, Slack, Guilded | Coming soon | Coming soon |
+| [Mattermost](https://open.aiflowlearn.net/mattermost) - Mattermost provides a flexible, open-source platform for secure team collaboration, designed for... | license: Unknown<br>⭐ Star: 38K | Microsoft Teams, Slack, Guilded | [Codex](https://aiflowlearn.net/en/codex/mattermost-mattermost) | Coming soon |
 | [Nextcloud](https://open.aiflowlearn.net/nextcloud) - Nextcloud offers on-premises file sync, sharing and collaboration platform with advanced security and... | license: AGPL-3.0<br>⭐ Star: 36K | Google Drive, Microsoft Teams, Slack | Coming soon | Coming soon |
 | [Jitsi](https://open.aiflowlearn.net/jitsi) - Host encrypted video conferences directly in your browser, deploy on your own servers, or integrate into... | license: Apache-2.0<br>⭐ Star: 29K | Microsoft Teams, Zoom, Google Meet | Coming soon | Coming soon |
 | [Focalboard](https://open.aiflowlearn.net/focalboard) - Self-hostable project management tool with Kanban boards, calendars, and table views, built for teams... | license: Unknown<br>⭐ Star: 26K | Linear, Monday, Jira | Coming soon | Coming soon |
@@ -507,8 +545,8 @@ These projects already have OpenAlternativeLearn detail pages and Codex architec
 | [Teable](https://open.aiflowlearn.net/teable) - Open-source platform combining powerful database capabilities with a user-friendly spreadsheet interface... | license: AGPL-3.0<br>⭐ Star: 21K | Airtable, Microsoft Excel, Google Sheets | Coming soon | Coming soon |
 | [Docs](https://open.aiflowlearn.net/docs) - Transform document collaboration with real-time editing, version control, and secure sharing features that... | license: MIT<br>⭐ Star: 17K | Notion, Microsoft Word, Confluence | Coming soon | Coming soon |
 | [Element](https://open.aiflowlearn.net/element) - Open-source platform for encrypted communication, file sharing, and collaboration based on the Matrix... | license: AGPL-3.0<br>⭐ Star: 13K | Discord, Microsoft Teams, Slack | Coming soon | Coming soon |
-| [Fluxer](https://open.aiflowlearn.net/fluxer) - Free, open-source instant messaging and VoIP platform with full Markdown support, voice/video calls,... | license: AGPL-3.0<br>⭐ Star: 9K | Discord, Slack, Guilded | Coming soon | Coming soon |
-| [CryptPad](https://open.aiflowlearn.net/cryptpad) - Open-source collaboration suite offering encrypted document editing, file sharing, and team workspaces... | license: AGPL-3.0<br>⭐ Star: 7.7K | Microsoft 365, Microsoft Word, Microsoft Excel | Coming soon | Coming soon |
+| [Fluxer](https://open.aiflowlearn.net/fluxer) - Free, open-source instant messaging and VoIP platform with full Markdown support, voice/video calls,... | license: AGPL-3.0<br>⭐ Star: 9K | Discord, Slack, Guilded | [Codex](https://aiflowlearn.net/en/codex/fluxerapp-fluxer) | Coming soon |
+| [CryptPad](https://open.aiflowlearn.net/cryptpad) - Open-source collaboration suite offering encrypted document editing, file sharing, and team workspaces... | license: AGPL-3.0<br>⭐ Star: 7.7K | Microsoft 365, Microsoft Word, Microsoft Excel | [Codex](https://aiflowlearn.net/en/codex/cryptpad-cryptpad) | Coming soon |
 | [ONLYOFFICE Docs](https://open.aiflowlearn.net/onlyoffice-docs) - Open-source online editor for documents, spreadsheets, presentations, and PDFs. | license: AGPL-3.0<br>⭐ Star: 6.6K | Microsoft 365, Google Workspace, Zoho | Coming soon | Coming soon |
 | [Workadventure](https://open.aiflowlearn.net/workadventure) - Create customizable virtual workspaces for remote teams to interact naturally, host events, and... | license: Unknown<br>⭐ Star: 5.5K | Microsoft Teams, Zoom, Google Meet | Coming soon | Coming soon |
 | [Baserow](https://open.aiflowlearn.net/baserow) - Open-source platform for building databases, internal apps, and automated workflows without writing code. | license: Unknown<br>⭐ Star: 5K | Airtable, Microsoft Excel, Google Sheets | Coming soon | Coming soon |
@@ -542,11 +580,10 @@ These projects already have OpenAlternativeLearn detail pages and Codex architec
 | Project | Github Info | Alternative To | Codex | Classroom |
 | --- | --- | --- | --- | --- |
 | [Paperless-home](https://open.aiflowlearn.net/paperless-home) - A powerful open-source solution for managing, organizing, and searching your digital documents with ease... | license: GPL-3.0<br>⭐ Star: 42K | Google Workspace, DocSend, Docuware | Coming soon | Coming soon |
-| [Docuseal](https://open.aiflowlearn.net/docuseal) - DocuSeal is an open source e-signature platform that provides fast, easy document signing with... | license: AGPL-3.0<br>⭐ Star: 17K | DocuSign, PandaDoc | [Codex](https://www.aiflowlearn.net/en/codex/docusealco-docuseal) | [Codex](https://www.aiflowlearn.net/en/codex/docusealco-docuseal) |
 | [Seafile](https://open.aiflowlearn.net/seafile) - Open source file sync and sharing platform with custom properties, AI automation, collaborative editing,... | license: Unknown<br>⭐ Star: 15K | Google Drive, Microsoft OneDrive, Dropbox | Coming soon | Coming soon |
 | [Documenso](https://open.aiflowlearn.net/documenso) - Streamline your document workflows with a powerful, privacy-focused e-signature platform that puts you in... | license: AGPL-3.0<br>⭐ Star: 13K | DocuSign, PandaDoc, DocSend | Coming soon | Coming soon |
-| [Papermark](https://open.aiflowlearn.net/papermark) - Secure, customizable platform for sharing documents and tracking engagement. | license: AGPL-3.0<br>⭐ Star: 8.5K | PandaDoc, DocSend, Docuware | Coming soon | Coming soon |
-| [OpenSign](https://open.aiflowlearn.net/opensign) - A powerful, open-source e-signature solution offering customization, integration, and enhanced security... | license: AGPL-3.0<br>⭐ Star: 6.5K | DocuSign, PandaDoc | Coming soon | Coming soon |
+| [Papermark](https://open.aiflowlearn.net/papermark) - Secure, customizable platform for sharing documents and tracking engagement. | license: AGPL-3.0<br>⭐ Star: 8.5K | PandaDoc, DocSend, Docuware | [Codex](https://aiflowlearn.net/en/codex/mfts-papermark) | Coming soon |
+| [OpenSign](https://open.aiflowlearn.net/opensign) - A powerful, open-source e-signature solution offering customization, integration, and enhanced security... | license: AGPL-3.0<br>⭐ Star: 6.5K | DocuSign, PandaDoc | [Codex](https://aiflowlearn.net/en/codex/opensignlabs-opensign) | Coming soon |
 | [Papra](https://open.aiflowlearn.net/papra) - A document management platform that helps you archive, organize, and search files with email ingestion,... | license: AGPL-3.0<br>⭐ Star: 4.8K | Microsoft 365, Google Drive, Microsoft OneDrive | Coming soon | Coming soon |
 | [Sync-in](https://open.aiflowlearn.net/sync-in) - Secure, open-source platform for file storage, sharing, and collaboration. | license: AGPL-3.0<br>⭐ Star: 1.4K | Google Drive, Microsoft OneDrive, Dropbox | Coming soon | Coming soon |
 | [Wraft](https://open.aiflowlearn.net/wraft) - Complete document lifecycle management with automated generation, approval workflows, e-signatures, and... | license: AGPL-3.0<br>⭐ Star: 146 | DocuSign, PandaDoc | Coming soon | Coming soon |
@@ -556,7 +593,7 @@ These projects already have OpenAlternativeLearn detail pages and Codex architec
 | Project | Github Info | Alternative To | Codex | Classroom |
 | --- | --- | --- | --- | --- |
 | [Formbricks](https://open.aiflowlearn.net/formbricks) - Collect feedback across websites, apps, and emails with targeted surveys, user segmentation, and... | license: Unknown<br>⭐ Star: 12K | Google Forms, Tally, Typeform | Coming soon | Coming soon |
-| [HeyForm](https://open.aiflowlearn.net/heyform) - A versatile form builder for crafting custom surveys, quizzes, and data collection tools with advanced... | license: AGPL-3.0<br>⭐ Star: 8.8K | Google Forms, Tally, Typeform | Coming soon | Coming soon |
+| [HeyForm](https://open.aiflowlearn.net/heyform) - A versatile form builder for crafting custom surveys, quizzes, and data collection tools with advanced... | license: AGPL-3.0<br>⭐ Star: 8.8K | Google Forms, Tally, Typeform | [Codex](https://aiflowlearn.net/en/codex/heyform-heyform) | Coming soon |
 | [LimeSurvey](https://open.aiflowlearn.net/limesurvey) - LimeSurvey is a powerful open-source tool for creating customizable online surveys, polls, and questionnaires. | license: Unknown<br>⭐ Star: 3.6K | Google Forms, Tally, Typeform | Coming soon | Coming soon |
 | [OpnForm](https://open.aiflowlearn.net/opnform) - A versatile open-source form builder for collecting data, managing submissions, and integrating with your... | license: AGPL-3.0<br>⭐ Star: 3.5K | Google Forms, Tally, Typeform | Coming soon | Coming soon |
 | [Router.so](https://open.aiflowlearn.net/router-so) - Router.so simplifies form management and lead capture with custom endpoints, schema definition, and... | license: AGPL-3.0<br>⭐ Star: 375 | Google Forms, Tally, Typeform | Coming soon | Coming soon |
@@ -583,6 +620,12 @@ These projects already have OpenAlternativeLearn detail pages and Codex architec
 | --- | --- | --- | --- | --- |
 | [Mike](https://open.aiflowlearn.net/mike) - Self-hostable alternative to Harvey and Legora with document analysis, contract drafting, tabular review,... | license: AGPL-3.0<br>⭐ Star: 3.7K | Harvey, Legora | Coming soon | Coming soon |
 
+### E-signature / Document Workflow
+
+| Project | Github Info | Alternative To | Codex | Classroom |
+| --- | --- | --- | --- | --- |
+| [Docuseal](https://open.aiflowlearn.net/docuseal) - DocuSeal is an open source e-signature platform that provides fast, easy document signing with... | license: AGPL-3.0<br>⭐ Star: 17K | DocuSign, PandaDoc, Dropbox Sign | [Codex](https://aiflowlearn.net/en/codex/docuseal) | Coming soon |
+
 
 ## Community & Social
 
@@ -595,7 +638,7 @@ These projects already have OpenAlternativeLearn detail pages and Codex architec
 | [Bluesky](https://open.aiflowlearn.net/bluesky) - A decentralized social network focused on fostering meaningful interactions and giving users control over... | license: MIT<br>⭐ Star: 18K | Facebook, X (Twitter), Threads | Coming soon | Coming soon |
 | [PeerTube](https://open.aiflowlearn.net/peertube) - Create your own video hosting platform with PeerTube - a free, open-source alternative to YouTube. | license: AGPL-3.0<br>⭐ Star: 15K | - | Coming soon | Coming soon |
 | [Lemmy](https://open.aiflowlearn.net/lemmy) - Open-source forum and link aggregator that connects communities across the fediverse. | license: AGPL-3.0<br>⭐ Star: 14K | Reddit, Hacker News, Digg | Coming soon | Coming soon |
-| [Pixelfed](https://open.aiflowlearn.net/pixelfed) - Decentralized photo sharing platform with chronological feeds, privacy controls, and ActivityPub federation. | license: AGPL-3.0<br>⭐ Star: 7K | Instagram, Facebook, TikTok | Coming soon | Coming soon |
+| [Pixelfed](https://open.aiflowlearn.net/pixelfed) - Decentralized photo sharing platform with chronological feeds, privacy controls, and ActivityPub federation. | license: AGPL-3.0<br>⭐ Star: 7K | Instagram, Facebook, TikTok | [Codex](https://aiflowlearn.net/en/codex/pixelfed-pixelfed) | Coming soon |
 | [HumHub](https://open.aiflowlearn.net/humhub) - HumHub is an Open Source Enterprise Social Network. | license: NOASSERTION<br>⭐ Star: 6.7K | X, Facebook | Coming soon | Coming soon |
 | [Cinny](https://open.aiflowlearn.net/cinny) - Cinny offers a simple, elegant, and secure interface for Matrix-based conversations, protected by... | license: AGPL-3.0<br>⭐ Star: 3.7K | Discord, Microsoft Teams, Slack | Coming soon | Coming soon |
 | [Elgg](https://open.aiflowlearn.net/elgg) - A social networking engine in PHP/MySQL | license: NOASSERTION<br>⭐ Star: 1.7K | X, Facebook | Coming soon | Coming soon |
@@ -633,9 +676,9 @@ These projects already have OpenAlternativeLearn detail pages and Codex architec
 | [Directus](https://open.aiflowlearn.net/directus) - A versatile headless CMS and API engine that simplifies data management, content creation, and application... | license: Unknown<br>⭐ Star: 36K | WordPress, Sanity, Contentful | Coming soon | Coming soon |
 | [WordPress](https://open.aiflowlearn.net/wordpress) - A versatile, user-friendly platform for building and managing websites, from simple blogs to complex... | license: Unknown<br>⭐ Star: 21K | Substack, Framer, Squarespace | Coming soon | Coming soon |
 | [TinaCMS](https://open.aiflowlearn.net/tinacms) - A headless CMS that simplifies content management with real-time editing, Git-based workflows, and... | license: Apache-2.0<br>⭐ Star: 13K | WordPress, Sanity, Contentful | Coming soon | Coming soon |
-| [KeystoneJS](https://open.aiflowlearn.net/keystonejs) - A powerful, customizable content management system and application framework built on Node.js, GraphQL,... | license: MIT<br>⭐ Star: 9.9K | WordPress, Sanity, Contentful | Coming soon | Coming soon |
-| [Builder](https://open.aiflowlearn.net/builder) - Drag-and-drop interface for creating and optimizing digital experiences, with headless CMS and powerful... | license: MIT<br>⭐ Star: 8.7K | WordPress, Webflow, Wix | Coming soon | Coming soon |
-| [Webiny](https://open.aiflowlearn.net/webiny) - A powerful, scalable platform for building custom websites and apps with serverless architecture, offering... | license: Unknown<br>⭐ Star: 8K | WordPress, Webflow, Wix | Coming soon | Coming soon |
+| [KeystoneJS](https://open.aiflowlearn.net/keystonejs) - A powerful, customizable content management system and application framework built on Node.js, GraphQL,... | license: MIT<br>⭐ Star: 9.9K | WordPress, Sanity, Contentful | [Codex](https://aiflowlearn.net/en/codex/keystonejs-keystone) | Coming soon |
+| [Builder](https://open.aiflowlearn.net/builder) - Drag-and-drop interface for creating and optimizing digital experiences, with headless CMS and powerful... | license: MIT<br>⭐ Star: 8.7K | WordPress, Webflow, Wix | [Codex](https://aiflowlearn.net/en/codex/builderio-builder) | Coming soon |
+| [Webiny](https://open.aiflowlearn.net/webiny) - A powerful, scalable platform for building custom websites and apps with serverless architecture, offering... | license: Unknown<br>⭐ Star: 8K | WordPress, Webflow, Wix | [Codex](https://aiflowlearn.net/en/codex/webiny-webiny-js) | Coming soon |
 | [WriteFreely](https://open.aiflowlearn.net/writefreely) - A clean, Markdown-based publishing platform made for writers. | license: AGPL-3.0<br>⭐ Star: 5.2K | Medium, WordPress | Coming soon | Coming soon |
 | [Statamic](https://open.aiflowlearn.net/statamic) - A flat-file CMS that combines simplicity and flexibility, empowering developers to build custom websites... | license: Unknown<br>⭐ Star: 4.8K | WordPress, Sanity, Contentful | Coming soon | Coming soon |
 | [Drupal](https://open.aiflowlearn.net/drupal) - A flexible and extensible content management system for creating dynamic websites and digital experiences | license: Unknown<br>⭐ Star: 4.3K | WordPress, Shopify, Framer | Coming soon | Coming soon |
@@ -680,7 +723,7 @@ These projects already have OpenAlternativeLearn detail pages and Codex architec
 
 | Project | Github Info | Alternative To | Codex | Classroom |
 | --- | --- | --- | --- | --- |
-| [Gumroad](https://open.aiflowlearn.net/gumroad) - A digital marketplace platform where creators can sell digital products, from courses to software, with... | license: MIT<br>⭐ Star: 9.2K | Stripe, Dodo Payments, FastSpring | Coming soon | Coming soon |
+| [Gumroad](https://open.aiflowlearn.net/gumroad) - A digital marketplace platform where creators can sell digital products, from courses to software, with... | license: MIT<br>⭐ Star: 9.2K | Stripe, Dodo Payments, FastSpring | [Codex](https://aiflowlearn.net/en/codex/antiwork-gumroad) | Coming soon |
 | [LearnHouse](https://open.aiflowlearn.net/learnhouse) - Open-source LMS for building and selling courses with a block-based editor, built-in payments, AI tools,... | license: AGPL-3.0<br>⭐ Star: 1.7K | Miro, Udemy, Skool | Coming soon | Coming soon |
 | [ClassroomIO](https://open.aiflowlearn.net/classroomio) - Open source LMS designed for companies and training organizations. | license: AGPL-3.0<br>⭐ Star: 1.6K | Udemy, Skool, Coursera | Coming soon | Coming soon |
 | [CourseLit](https://open.aiflowlearn.net/courselit) - An open-source platform for building and selling online courses, featuring customizable themes, integrated... | license: AGPL-3.0<br>⭐ Star: 1.2K | Udemy, Skool, Coursera | Coming soon | Coming soon |
@@ -731,8 +774,8 @@ These projects already have OpenAlternativeLearn detail pages and Codex architec
 | [Matomo](https://open.aiflowlearn.net/matomo) - Comprehensive web analytics platform offering full data ownership, privacy protection, and customizable... | license: GPL-3.0<br>⭐ Star: 22K | Google Analytics, Cloudflare Analytics, Mixpanel | Coming soon | Coming soon |
 | [OpenReplay](https://open.aiflowlearn.net/openreplay) - Open-source session replay and product analytics platform you can self-host for complete control over data... | license: Unknown<br>⭐ Star: 12K | Mixpanel, Hotjar, Amplitude | Coming soon | Coming soon |
 | [Rybbit](https://open.aiflowlearn.net/rybbit) - Get next-gen, open-source, and cookieless web analytics. | license: AGPL-3.0<br>⭐ Star: 12K | Google Analytics, Cloudflare Analytics, Mixpanel | Coming soon | Coming soon |
-| [Fathom Lite](https://open.aiflowlearn.net/fathom) - A simple, privacy-first analytics platform that provides valuable website insights without compromising... | license: MIT<br>⭐ Star: 8K | Google Analytics, Cloudflare Analytics, Mixpanel | Coming soon | Coming soon |
-| [GrowthBook](https://open.aiflowlearn.net/growthbook) - Powerful, developer-friendly experimentation tool for data-driven product decisions. | license: Unknown<br>⭐ Star: 7.9K | LaunchDarkly, Hypertune, Statsig | Coming soon | Coming soon |
+| [Fathom Lite](https://open.aiflowlearn.net/fathom) - A simple, privacy-first analytics platform that provides valuable website insights without compromising... | license: MIT<br>⭐ Star: 8K | Google Analytics, Cloudflare Analytics, Mixpanel | [Codex](https://aiflowlearn.net/en/codex/usefathom-fathom) | Coming soon |
+| [GrowthBook](https://open.aiflowlearn.net/growthbook) - Powerful, developer-friendly experimentation tool for data-driven product decisions. | license: Unknown<br>⭐ Star: 7.9K | LaunchDarkly, Hypertune, Statsig | [Codex](https://aiflowlearn.net/en/codex/growthbook-growthbook) | Coming soon |
 | [Countly](https://open.aiflowlearn.net/countly) - All-in-one analytics platform for mobile, web, and desktop apps. | license: Unknown<br>⭐ Star: 5.9K | Google Analytics, Cloudflare Analytics, Mixpanel | Coming soon | Coming soon |
 | [OpenPanel](https://open.aiflowlearn.net/openpanel) - Open-source analytics platform covering web traffic, custom events, funnels, retention, session replay,... | license: AGPL-3.0<br>⭐ Star: 5.9K | Google Analytics, Cloudflare Analytics, Mixpanel | Coming soon | Coming soon |
 | [OpenWebAnalytics](https://open.aiflowlearn.net/openwebanalytics) - Open-source web analytics platform offering comprehensive visitor tracking, customizable dashboards, and... | license: GPL-2.0<br>⭐ Star: 2.7K | Google Analytics, Cloudflare Analytics, Mixpanel | Coming soon | Coming soon |
@@ -753,7 +796,6 @@ These projects already have OpenAlternativeLearn detail pages and Codex architec
 | --- | --- | --- | --- | --- |
 | [Mermaid](https://open.aiflowlearn.net/mermaid) - Generate flowcharts, sequence diagrams, and visualizations using intuitive markdown-like syntax without... | license: MIT<br>⭐ Star: 89K | Microsoft Visio, LucidChart | Coming soon | Coming soon |
 | [Grafana](https://open.aiflowlearn.net/grafana) - Grafana is a multi-platform open source analytics and interactive visualization web application that... | license: AGPL-3.0<br>⭐ Star: 74K | Power BI, Paessler PRTG, Splunk | Coming soon | Coming soon |
-| [Apache Superset](https://open.aiflowlearn.net/apache-superset) - Connect any SQL database, build charts with drag-and-drop or raw SQL, and publish interactive dashboards... | license: Apache-2.0<br>⭐ Star: 73K | Power BI, Splunk, Tableau | [Codex](https://www.aiflowlearn.net/en/codex/superset-sh-superset) | [Codex](https://www.aiflowlearn.net/en/codex/superset-sh-superset) |
 | [OpenBB](https://open.aiflowlearn.net/openbb) - Connects proprietary, licensed, and public financial data with AI agents in a self-hostable workspace for... | license: Unknown<br>⭐ Star: 69K | Power BI, Bloomberg Terminal, Tableau | Coming soon | Coming soon |
 | [Metabase](https://open.aiflowlearn.net/metabase) - Open-source business intelligence platform for data exploration, visualization, and sharing. | license: Unknown<br>⭐ Star: 48K | Power BI, Tableau, Databox | Coming soon | Coming soon |
 | [drawDB](https://open.aiflowlearn.net/drawdb) - Free online database diagram editor with SQL generation. | license: AGPL-3.0<br>⭐ Star: 37K | Microsoft Visio, LucidChart, Valentina Studio | Coming soon | Coming soon |
@@ -776,16 +818,15 @@ These projects already have OpenAlternativeLearn detail pages and Codex architec
 | [Kestra](https://open.aiflowlearn.net/kestra) - YAML-based orchestration platform with 1400+ plugins for running data pipelines, AI workflows, and... | license: Apache-2.0<br>⭐ Star: 27K | n8n, Make, Zapier | Coming soon | Coming soon |
 | [Airbyte](https://open.aiflowlearn.net/airbyte) - Seamlessly sync data from any source to any destination with a flexible, extensible platform that grows... | license: Unknown<br>⭐ Star: 21K | Supermetrics, Fivetran, Matillion | Coming soon | Coming soon |
 | [Cube](https://open.aiflowlearn.net/cube) - Cube is a universal semantic layer that connects data sources to analytics tools, providing consistent... | license: Unknown<br>⭐ Star: 20K | Snowflake, Hasura, Looker | Coming soon | Coming soon |
-| [Logstash](https://open.aiflowlearn.net/logstash) - Logstash is a free and open server-side data processing pipeline that ingests data from multiple sources,... | license: Unknown<br>⭐ Star: 15K | DataDog, Splunk, Tableau | Coming soon | Coming soon |
-| [CocoIndex](https://open.aiflowlearn.net/cocoindex) - Open-source ETL framework built in Rust for AI workloads. | license: Apache-2.0<br>⭐ Star: 10K | Pipedream, Amazon API Gateway, Segment | [Codex](https://www.aiflowlearn.net/en/codex/cocoindex-io-cocoindex) | [Codex](https://www.aiflowlearn.net/en/codex/cocoindex-io-cocoindex) |
-| [Mage](https://open.aiflowlearn.net/mage) - Open-source data pipeline platform for effortless data integration, transformation, and orchestration... | license: Apache-2.0<br>⭐ Star: 8.8K | Pipedream, Supermetrics, Amazon API Gateway | Coming soon | Coming soon |
+| [Logstash](https://open.aiflowlearn.net/logstash) - Logstash is a free and open server-side data processing pipeline that ingests data from multiple sources,... | license: Unknown<br>⭐ Star: 15K | Datadog, Splunk, Tableau | Coming soon | Coming soon |
+| [Mage](https://open.aiflowlearn.net/mage) - Open-source data pipeline platform for effortless data integration, transformation, and orchestration... | license: Apache-2.0<br>⭐ Star: 8.8K | Pipedream, Supermetrics, Amazon API Gateway | [Codex](https://aiflowlearn.net/en/codex/mage-ai-mage-ai) | Coming soon |
 | [CloudQuery](https://open.aiflowlearn.net/cloudquery) - CloudQuery is an open-source ELT platform that enables easy data integration from hundreds of cloud and... | license: MPL-2.0<br>⭐ Star: 6.4K | Snowflake, BigQuery, Supermetrics | Coming soon | Coming soon |
 | [Lightdash](https://open.aiflowlearn.net/lightdash) - Self-serve analytics platform that transforms dbt models into interactive dashboards, enabling data-driven... | license: MIT<br>⭐ Star: 5.9K | Power BI, Tableau, Databox | Coming soon | Coming soon |
 | [Jitsu](https://open.aiflowlearn.net/jitsu) - Collect, transform, and sync data across your entire infrastructure with a flexible, code-based approach... | license: MIT<br>⭐ Star: 4.8K | Supermetrics, Segment, Fivetran | Coming soon | Coming soon |
 | [Elementary Data](https://open.aiflowlearn.net/elementary-data) - Elementary provides dbt-native data observability to detect issues, understand root causes, and resolve... | license: Apache-2.0<br>⭐ Star: 2.4K | - | Coming soon | Coming soon |
 | [Timeplus](https://open.aiflowlearn.net/timeplus) - Timeplus is a lightweight, powerful, and cost-efficient stream processing platform for real-time... | license: Apache-2.0<br>⭐ Star: 2.2K | - | Coming soon | Coming soon |
 | [Open Wearables](https://open.aiflowlearn.net/open-wearables) - Self-hosted health intelligence platform with open algorithms, AI reasoning engine, and zero per-user fees. | license: MIT<br>⭐ Star: 1.9K | Terra API, Spike API, Junction | Coming soon | Coming soon |
-| [Gigapipe](https://open.aiflowlearn.net/gigapipe) - Unified platform for logs, metrics, traces and profiles with native compatibility for popular tools like... | license: AGPL-3.0<br>⭐ Star: 1.7K | DataDog, Splunk, ElasticSearch | Coming soon | Coming soon |
+| [Gigapipe](https://open.aiflowlearn.net/gigapipe) - Unified platform for logs, metrics, traces and profiles with native compatibility for popular tools like... | license: AGPL-3.0<br>⭐ Star: 1.7K | Datadog, Splunk, ElasticSearch | Coming soon | Coming soon |
 | [Orbital](https://open.aiflowlearn.net/orbital) - Automated data integration platform that connects APIs, databases, and event streams using semantic schemas. | license: Unknown<br>⭐ Star: 359 | Kong, Apollo GraphQL | Coming soon | Coming soon |
 | [Impler](https://open.aiflowlearn.net/impler) - Open-source solution for effortless data importing, mapping, and validation in web applications | license: MIT<br>⭐ Star: 284 | - | Coming soon | Coming soon |
 
@@ -794,8 +835,8 @@ These projects already have OpenAlternativeLearn detail pages and Codex architec
 | Project | Github Info | Alternative To | Codex | Classroom |
 | --- | --- | --- | --- | --- |
 | [ClickHouse](https://open.aiflowlearn.net/clickhouse) - High-performance columnar OLAP database system for real-time analytics on big data, with SQL support and... | license: Apache-2.0<br>⭐ Star: 48K | Snowflake, BigQuery, RedShift | Coming soon | Coming soon |
-| [Logstash](https://open.aiflowlearn.net/logstash) - Logstash is a free and open server-side data processing pipeline that ingests data from multiple sources,... | license: Unknown<br>⭐ Star: 15K | DataDog, Splunk, Tableau | Coming soon | Coming soon |
-| [Databend](https://open.aiflowlearn.net/databend) - Databend is an open-source, elastic cloud data warehouse built for high-performance analytics and seamless... | license: Unknown<br>⭐ Star: 9.3K | Snowflake, BigQuery, RedShift | Coming soon | Coming soon |
+| [Logstash](https://open.aiflowlearn.net/logstash) - Logstash is a free and open server-side data processing pipeline that ingests data from multiple sources,... | license: Unknown<br>⭐ Star: 15K | Datadog, Splunk, Tableau | Coming soon | Coming soon |
+| [Databend](https://open.aiflowlearn.net/databend) - Databend is an open-source, elastic cloud data warehouse built for high-performance analytics and seamless... | license: Unknown<br>⭐ Star: 9.3K | Snowflake, BigQuery, RedShift | [Codex](https://aiflowlearn.net/en/codex/datafuselabs-databend) | Coming soon |
 | [Hydra](https://open.aiflowlearn.net/hydra) - Hydra embeds DuckDB's state-of-the-art analytics engine into standard Postgres, offering millisecond... | license: Apache-2.0<br>⭐ Star: 3K | Supabase, Firebase, Snowflake | Coming soon | Coming soon |
 | [Timeplus](https://open.aiflowlearn.net/timeplus) - Timeplus is a lightweight, powerful, and cost-efficient stream processing platform for real-time... | license: Apache-2.0<br>⭐ Star: 2.2K | - | Coming soon | Coming soon |
 | [Trench](https://open.aiflowlearn.net/trench) - Open source analytics platform built on ClickHouse and Kafka, offering high-speed event tracking and... | license: MIT<br>⭐ Star: 1.6K | Mixpanel, Amplitude, June | Coming soon | Coming soon |
@@ -811,6 +852,24 @@ These projects already have OpenAlternativeLearn detail pages and Codex architec
 | [Maxun](https://open.aiflowlearn.net/maxun) - Train robots in 2 minutes to scrape web data automatically. | license: AGPL-3.0<br>⭐ Star: 16K | - | Coming soon | Coming soon |
 | [Documind](https://open.aiflowlearn.net/documind) - Documind uses advanced AI and LLMs to extract structured data from PDFs, images, and other documents,... | license: Unknown<br>⭐ Star: 1.5K | - | Coming soon | Coming soon |
 
+### Vector Databases
+
+| Project | Github Info | Alternative To | Codex | Classroom |
+| --- | --- | --- | --- | --- |
+| [Milvus](https://open.aiflowlearn.net/milvus) - Open-source vector database optimized for similarity search, scaling to billions of vectors with minimal... | license: Apache-2.0<br>⭐ Star: 45K | Pinecone, Weaviate Cloud, Zilliz Cloud | [Codex](https://aiflowlearn.net/en/codex/milvus) | Coming soon |
+
+### Data Engineering / RAG Pipelines
+
+| Project | Github Info | Alternative To | Codex | Classroom |
+| --- | --- | --- | --- | --- |
+| [CocoIndex](https://open.aiflowlearn.net/cocoindex) - Open-source ETL framework built in Rust for AI workloads. | license: Apache-2.0<br>⭐ Star: 10K | Airbyte Cloud, Fivetran, Databricks | [Codex](https://aiflowlearn.net/en/codex/cocoindex) | Coming soon |
+
+### Business Intelligence
+
+| Project | Github Info | Alternative To | Codex | Classroom |
+| --- | --- | --- | --- | --- |
+| [Apache Superset](https://open.aiflowlearn.net/apache-superset) - Connect any SQL database, build charts with drag-and-drop or raw SQL, and publish interactive dashboards... | license: Apache-2.0<br>⭐ Star: 73K | Tableau, Power BI, Looker | [Codex](https://aiflowlearn.net/en/codex/superset) | Coming soon |
+
 
 ## Developer Tools
 
@@ -819,8 +878,8 @@ These projects already have OpenAlternativeLearn detail pages and Codex architec
 | Project | Github Info | Alternative To | Codex | Classroom |
 | --- | --- | --- | --- | --- |
 | [WordPress](https://open.aiflowlearn.net/wordpress) - A versatile, user-friendly platform for building and managing websites, from simple blogs to complex... | license: Unknown<br>⭐ Star: 21K | Substack, Framer, Squarespace | Coming soon | Coming soon |
-| [Builder](https://open.aiflowlearn.net/builder) - Drag-and-drop interface for creating and optimizing digital experiences, with headless CMS and powerful... | license: MIT<br>⭐ Star: 8.7K | WordPress, Webflow, Wix | Coming soon | Coming soon |
-| [WebStudio](https://open.aiflowlearn.net/webstudio) - Powerful no-code platform for building responsive websites. | license: AGPL-3.0<br>⭐ Star: 8.6K | Framer, Webflow, Wix | Coming soon | Coming soon |
+| [Builder](https://open.aiflowlearn.net/builder) - Drag-and-drop interface for creating and optimizing digital experiences, with headless CMS and powerful... | license: MIT<br>⭐ Star: 8.7K | WordPress, Webflow, Wix | [Codex](https://aiflowlearn.net/en/codex/builderio-builder) | Coming soon |
+| [WebStudio](https://open.aiflowlearn.net/webstudio) - Powerful no-code platform for building responsive websites. | license: AGPL-3.0<br>⭐ Star: 8.6K | Framer, Webflow, Wix | [Codex](https://aiflowlearn.net/en/codex/webstudio-is-webstudio) | Coming soon |
 | [Silex](https://open.aiflowlearn.net/silex) - An online tool for visually creating static sites with dynamic data. | license: AGPL-3.0<br>⭐ Star: 2.8K | Framer, Webflow, Wix | Coming soon | Coming soon |
 | [Frappe Builder](https://open.aiflowlearn.net/frappe-builder) - Frappe Builder is an open-source, low-code website builder that enables users to create beautiful,... | license: AGPL-3.0<br>⭐ Star: 2K | WordPress, Framer, Webflow | Coming soon | Coming soon |
 | [Vvveb CMS](https://open.aiflowlearn.net/vvveb-cms) - Vvveb is a feature-rich open source CMS for building websites, blogs, and ecommerce stores with an... | license: AGPL-3.0<br>⭐ Star: 1.1K | WordPress, Webflow, Elementor | Coming soon | Coming soon |
@@ -841,8 +900,6 @@ These projects already have OpenAlternativeLearn detail pages and Codex architec
 
 | Project | Github Info | Alternative To | Codex | Classroom |
 | --- | --- | --- | --- | --- |
-| [n8n](https://open.aiflowlearn.net/n8n) - Build automated workflows connecting 500+ apps, write custom code, and deploy AI agents with full... | license: Unknown<br>⭐ Star: 192K | Make, Zapier, IFTTT | [Codex](https://www.aiflowlearn.net/en/codex/n8n-io-n8n) | [Codex](https://www.aiflowlearn.net/en/codex/n8n-io-n8n) |
-| [Langflow](https://open.aiflowlearn.net/langflow) - Build, deploy, and iterate on AI agents, RAG applications, and MCP servers using a drag-and-drop visual... | license: MIT<br>⭐ Star: 150K | - | [Codex](https://www.aiflowlearn.net/en/codex/langflow-ai-langflow) | [Codex](https://www.aiflowlearn.net/en/codex/langflow-ai-langflow) |
 | [Supabase](https://open.aiflowlearn.net/supabase) - Provides a full backend stack built on Postgres: authentication, auto-generated APIs, edge functions,... | license: Apache-2.0<br>⭐ Star: 104K | Firebase, Fauna, AppWrite | Coming soon | Coming soon |
 | [NocoDB](https://open.aiflowlearn.net/nocodb) - Convert any database into a no-code platform with spreadsheet interface. | license: AGPL-3.0<br>⭐ Star: 63K | Airtable, Google Sheets, Glide | Coming soon | Coming soon |
 | [PocketBase](https://open.aiflowlearn.net/pocketbase) - A lightweight, self-hosted backend solution with real-time database, authentication, and file storage... | license: MIT<br>⭐ Star: 59K | Supabase, Firebase, AppWrite | Coming soon | Coming soon |
@@ -868,17 +925,17 @@ These projects already have OpenAlternativeLearn detail pages and Codex architec
 | [Grist](https://open.aiflowlearn.net/grist) - A versatile data management platform combining spreadsheet simplicity with relational database... | license: Apache-2.0<br>⭐ Star: 11K | Airtable, Microsoft Excel, Google Sheets | Coming soon | Coming soon |
 | [Instant](https://open.aiflowlearn.net/instant) - Instant is a database solution for building real-time and offline-enabled applications, simplifying the... | license: Apache-2.0<br>⭐ Star: 10K | Supabase, Firebase, Fauna | Coming soon | Coming soon |
 | [Typebot](https://open.aiflowlearn.net/typebot) - Design, build, and deploy interactive chatbots with a visual editor. | license: Unknown<br>⭐ Star: 10K | Manychat, Voiceflow, DocsBot | Coming soon | Coming soon |
-| [KeystoneJS](https://open.aiflowlearn.net/keystonejs) - A powerful, customizable content management system and application framework built on Node.js, GraphQL,... | license: MIT<br>⭐ Star: 9.9K | WordPress, Sanity, Contentful | Coming soon | Coming soon |
-| [NHost](https://open.aiflowlearn.net/nhost) - Fully managed backend infrastructure with built-in authentication, database, storage, and serverless... | license: MIT<br>⭐ Star: 9.2K | Supabase, Firebase | Coming soon | Coming soon |
-| [HeyForm](https://open.aiflowlearn.net/heyform) - A versatile form builder for crafting custom surveys, quizzes, and data collection tools with advanced... | license: AGPL-3.0<br>⭐ Star: 8.8K | Google Forms, Tally, Typeform | Coming soon | Coming soon |
-| [Builder](https://open.aiflowlearn.net/builder) - Drag-and-drop interface for creating and optimizing digital experiences, with headless CMS and powerful... | license: MIT<br>⭐ Star: 8.7K | WordPress, Webflow, Wix | Coming soon | Coming soon |
-| [WebStudio](https://open.aiflowlearn.net/webstudio) - Powerful no-code platform for building responsive websites. | license: AGPL-3.0<br>⭐ Star: 8.6K | Framer, Webflow, Wix | Coming soon | Coming soon |
-| [Mockoon](https://open.aiflowlearn.net/mockoon) - Create, run, and share mock REST APIs without coding. | license: MIT<br>⭐ Star: 8.3K | Postman, Testfully | Coming soon | Coming soon |
-| [Vendure](https://open.aiflowlearn.net/vendure) - A headless, API-first e-commerce framework built on Node.js with TypeScript, offering customization and... | license: MIT<br>⭐ Star: 8.2K | Adobe Commerce, Magento, WooCommerce | Coming soon | Coming soon |
-| [Fonoster](https://open.aiflowlearn.net/fonoster) - Build and deploy powerful voice and messaging applications with ease using Fonoster's flexible, scalable,... | license: MIT<br>⭐ Star: 8K | - | Coming soon | Coming soon |
-| [Webiny](https://open.aiflowlearn.net/webiny) - A powerful, scalable platform for building custom websites and apps with serverless architecture, offering... | license: Unknown<br>⭐ Star: 8K | WordPress, Webflow, Wix | Coming soon | Coming soon |
-| [Hatchet](https://open.aiflowlearn.net/hatchet) - Durable orchestration platform for managing AI agents, scheduling background tasks, and running... | license: MIT<br>⭐ Star: 7.3K | Make, Zapier, IFTTT | Coming soon | Coming soon |
-| [Plasmic](https://open.aiflowlearn.net/plasmic) - Open-source visual editor for building websites and web apps. | license: MIT<br>⭐ Star: 6.9K | Framer, Webflow, Wix | Coming soon | Coming soon |
+| [KeystoneJS](https://open.aiflowlearn.net/keystonejs) - A powerful, customizable content management system and application framework built on Node.js, GraphQL,... | license: MIT<br>⭐ Star: 9.9K | WordPress, Sanity, Contentful | [Codex](https://aiflowlearn.net/en/codex/keystonejs-keystone) | Coming soon |
+| [NHost](https://open.aiflowlearn.net/nhost) - Fully managed backend infrastructure with built-in authentication, database, storage, and serverless... | license: MIT<br>⭐ Star: 9.2K | Supabase, Firebase | [Codex](https://aiflowlearn.net/en/codex/nhost-nhost) | Coming soon |
+| [HeyForm](https://open.aiflowlearn.net/heyform) - A versatile form builder for crafting custom surveys, quizzes, and data collection tools with advanced... | license: AGPL-3.0<br>⭐ Star: 8.8K | Google Forms, Tally, Typeform | [Codex](https://aiflowlearn.net/en/codex/heyform-heyform) | Coming soon |
+| [Builder](https://open.aiflowlearn.net/builder) - Drag-and-drop interface for creating and optimizing digital experiences, with headless CMS and powerful... | license: MIT<br>⭐ Star: 8.7K | WordPress, Webflow, Wix | [Codex](https://aiflowlearn.net/en/codex/builderio-builder) | Coming soon |
+| [WebStudio](https://open.aiflowlearn.net/webstudio) - Powerful no-code platform for building responsive websites. | license: AGPL-3.0<br>⭐ Star: 8.6K | Framer, Webflow, Wix | [Codex](https://aiflowlearn.net/en/codex/webstudio-is-webstudio) | Coming soon |
+| [Mockoon](https://open.aiflowlearn.net/mockoon) - Create, run, and share mock REST APIs without coding. | license: MIT<br>⭐ Star: 8.3K | Postman, Testfully | [Codex](https://aiflowlearn.net/en/codex/mockoon-mockoon) | Coming soon |
+| [Vendure](https://open.aiflowlearn.net/vendure) - A headless, API-first e-commerce framework built on Node.js with TypeScript, offering customization and... | license: MIT<br>⭐ Star: 8.2K | Adobe Commerce, Magento, WooCommerce | [Codex](https://aiflowlearn.net/en/codex/vendure-ecommerce-vendure) | Coming soon |
+| [Fonoster](https://open.aiflowlearn.net/fonoster) - Build and deploy powerful voice and messaging applications with ease using Fonoster's flexible, scalable,... | license: MIT<br>⭐ Star: 8K | - | [Codex](https://aiflowlearn.net/en/codex/fonoster-fonoster) | Coming soon |
+| [Webiny](https://open.aiflowlearn.net/webiny) - A powerful, scalable platform for building custom websites and apps with serverless architecture, offering... | license: Unknown<br>⭐ Star: 8K | WordPress, Webflow, Wix | [Codex](https://aiflowlearn.net/en/codex/webiny-webiny-js) | Coming soon |
+| [Hatchet](https://open.aiflowlearn.net/hatchet) - Durable orchestration platform for managing AI agents, scheduling background tasks, and running... | license: MIT<br>⭐ Star: 7.3K | Make, Zapier, IFTTT | [Codex](https://aiflowlearn.net/en/codex/hatchet-dev-hatchet) | Coming soon |
+| [Plasmic](https://open.aiflowlearn.net/plasmic) - Open-source visual editor for building websites and web apps. | license: MIT<br>⭐ Star: 6.9K | Framer, Webflow, Wix | [Codex](https://aiflowlearn.net/en/codex/plasmicapp-plasmic) | Coming soon |
 | [Rowy](https://open.aiflowlearn.net/rowy) - A low-code platform for creating robust backends, complete with a spreadsheet UI for easy data management... | license: Unknown<br>⭐ Star: 6.8K | Airtable, Glide, Retool | Coming soon | Coming soon |
 | [Inngest](https://open.aiflowlearn.net/inngest) - Simplify backend processes with event-driven functions, seamless integrations, and powerful debugging... | license: Unknown<br>⭐ Star: 5.5K | - | Coming soon | Coming soon |
 | [Baserow](https://open.aiflowlearn.net/baserow) - Open-source platform for building databases, internal apps, and automated workflows without writing code. | license: Unknown<br>⭐ Star: 5K | Airtable, Microsoft Excel, Google Sheets | Coming soon | Coming soon |
@@ -912,13 +969,13 @@ These projects already have OpenAlternativeLearn detail pages and Codex architec
 | --- | --- | --- | --- | --- |
 | [Hoppscotch](https://open.aiflowlearn.net/hoppscotch) - Lightweight, fast, and feature-rich API client for developers. | license: MIT<br>⭐ Star: 80K | Postman, Testfully | Coming soon | Coming soon |
 | [Bruno](https://open.aiflowlearn.net/bruno) - A modern, user-friendly API client that simplifies API testing and development with a clean interface and... | license: MIT<br>⭐ Star: 45K | Postman, Testfully | Coming soon | Coming soon |
-| [Insomnia](https://open.aiflowlearn.net/insomnia) - Intuitive API client for REST, GraphQL, and gRPC. | license: Apache-2.0<br>⭐ Star: 38K | Postman, Testfully | Coming soon | Coming soon |
+| [Insomnia](https://open.aiflowlearn.net/insomnia) - Intuitive API client for REST, GraphQL, and gRPC. | license: Apache-2.0<br>⭐ Star: 38K | Postman, Testfully | [Codex](https://aiflowlearn.net/en/codex/kong-insomnia) | Coming soon |
 | [LiveKit](https://open.aiflowlearn.net/livekit) - Scalable, customizable WebRTC SFU and server SDK for building real-time audio, video, and data... | license: Apache-2.0<br>⭐ Star: 19K | - | Coming soon | Coming soon |
 | [Yaak](https://open.aiflowlearn.net/yaak) - A modern API client offering local-only data storage, Git integration, plugin extensibility, and... | license: MIT<br>⭐ Star: 19K | Postman, Testfully | Coming soon | Coming soon |
 | [Scalar](https://open.aiflowlearn.net/scalar) - Scalar is an open-source tool for building, customizing, and hosting interactive API documentation with... | license: MIT<br>⭐ Star: 15K | Mintlify, Postman, Testfully | Coming soon | Coming soon |
 | [Tyk](https://open.aiflowlearn.net/tyk) - Fast, scalable API management platform with open source gateway, analytics, dev portal and dashboard. | license: Unknown<br>⭐ Star: 11K | Kong, Zuplo, Apigee | Coming soon | Coming soon |
-| [Mockoon](https://open.aiflowlearn.net/mockoon) - Create, run, and share mock REST APIs without coding. | license: MIT<br>⭐ Star: 8.3K | Postman, Testfully | Coming soon | Coming soon |
-| [Requestly](https://open.aiflowlearn.net/requestly) - A powerful browser extension and desktop app for developers to manipulate network requests, debug APIs,... | license: Unknown<br>⭐ Star: 6.7K | Postman, Testfully | Coming soon | Coming soon |
+| [Mockoon](https://open.aiflowlearn.net/mockoon) - Create, run, and share mock REST APIs without coding. | license: MIT<br>⭐ Star: 8.3K | Postman, Testfully | [Codex](https://aiflowlearn.net/en/codex/mockoon-mockoon) | Coming soon |
+| [Requestly](https://open.aiflowlearn.net/requestly) - A powerful browser extension and desktop app for developers to manipulate network requests, debug APIs,... | license: Unknown<br>⭐ Star: 6.7K | Postman, Testfully | [Codex](https://aiflowlearn.net/en/codex/requestly-requestly) | Coming soon |
 | [UnKey](https://open.aiflowlearn.net/unkey) - Streamline API authentication with UnKey's powerful, developer-friendly platform for creating, revoking,... | license: AGPL-3.0<br>⭐ Star: 5.3K | Kong, Amazon API Gateway, Zuplo | Coming soon | Coming soon |
 | [HTTPie](https://open.aiflowlearn.net/httpie) - Intuitive, user-friendly CLI tool for making HTTP requests, debugging APIs, and testing web services with... | license: BSD-3-Clause<br>⭐ Star: 4K | Postman, Testfully | Coming soon | Coming soon |
 | [Trieve](https://open.aiflowlearn.net/trieve) - Trieve offers an all-in-one solution for search, recommendations, and RAG with automatic continuous... | license: MIT<br>⭐ Star: 2.7K | Pinecone, Algolia, ElasticSearch | Coming soon | Coming soon |
@@ -943,7 +1000,6 @@ These projects already have OpenAlternativeLearn detail pages and Codex architec
 
 | Project | Github Info | Alternative To | Codex | Classroom |
 | --- | --- | --- | --- | --- |
-| [Daytona](https://open.aiflowlearn.net/daytona) - Elastic sandbox infrastructure for running AI-generated code with sub-90ms environment creation, stateful... | license: AGPL-3.0<br>⭐ Star: 72K | Together Sandbox, Modal, Sprites | [Codex](https://www.aiflowlearn.net/en/codex/daytonaio-daytona) | [Codex](https://www.aiflowlearn.net/en/codex/daytonaio-daytona) |
 | [Gitea](https://open.aiflowlearn.net/gitea) - A lightweight, fast, and customizable Git service that simplifies code hosting and collaboration for teams... | license: MIT<br>⭐ Star: 56K | GitHub, BitBucket, Upsource | Coming soon | Coming soon |
 | [Gogs](https://open.aiflowlearn.net/gogs) - Lightweight, cross-platform Git service for self-hosting. | license: MIT<br>⭐ Star: 48K | GitHub, BitBucket | Coming soon | Coming soon |
 | [Reflex](https://open.aiflowlearn.net/reflex) - Build, iterate, and deploy full-stack web apps entirely in Python. | license: Apache-2.0<br>⭐ Star: 28K | Lovable, Base44, Replit | Coming soon | Coming soon |
@@ -979,11 +1035,10 @@ These projects already have OpenAlternativeLearn detail pages and Codex architec
 | [Bytebase](https://open.aiflowlearn.net/bytebase) - Comprehensive platform for database schema migrations, security controls, and data masking with built-in... | license: Unknown<br>⭐ Star: 14K | - | Coming soon | Coming soon |
 | [Unleash](https://open.aiflowlearn.net/unleash) - A powerful feature management platform enabling gradual rollouts, A/B testing, and seamless integration... | license: AGPL-3.0<br>⭐ Star: 14K | LaunchDarkly, Hypertune, Statsig | Coming soon | Coming soon |
 | [Encore](https://open.aiflowlearn.net/encore) - A powerful platform for building cloud backends, automating infrastructure, and simplifying development... | license: MPL-2.0<br>⭐ Star: 12K | Supabase, Firebase, AppWrite | Coming soon | Coming soon |
-| [NHost](https://open.aiflowlearn.net/nhost) - Fully managed backend infrastructure with built-in authentication, database, storage, and serverless... | license: MIT<br>⭐ Star: 9.2K | Supabase, Firebase | Coming soon | Coming soon |
-| [Hatchet](https://open.aiflowlearn.net/hatchet) - Durable orchestration platform for managing AI agents, scheduling background tasks, and running... | license: MIT<br>⭐ Star: 7.3K | Make, Zapier, IFTTT | Coming soon | Coming soon |
-| [Woodpecker CI](https://open.aiflowlearn.net/woodpecker-ci) - Open-source CI/CD platform using Docker containers for pipeline execution. | license: Apache-2.0<br>⭐ Star: 7.3K | GitHub Actions, Jenkins, CircleCI | Coming soon | Coming soon |
+| [NHost](https://open.aiflowlearn.net/nhost) - Fully managed backend infrastructure with built-in authentication, database, storage, and serverless... | license: MIT<br>⭐ Star: 9.2K | Supabase, Firebase | [Codex](https://aiflowlearn.net/en/codex/nhost-nhost) | Coming soon |
+| [Hatchet](https://open.aiflowlearn.net/hatchet) - Durable orchestration platform for managing AI agents, scheduling background tasks, and running... | license: MIT<br>⭐ Star: 7.3K | Make, Zapier, IFTTT | [Codex](https://aiflowlearn.net/en/codex/hatchet-dev-hatchet) | Coming soon |
+| [Woodpecker CI](https://open.aiflowlearn.net/woodpecker-ci) - Open-source CI/CD platform using Docker containers for pipeline execution. | license: Apache-2.0<br>⭐ Star: 7.3K | GitHub Actions, Jenkins, CircleCI | [Codex](https://aiflowlearn.net/en/codex/woodpecker-ci-woodpecker) | Coming soon |
 | [Flagsmith](https://open.aiflowlearn.net/flagsmith) - Powerful feature management platform for seamless software releases, A/B testing, and personalized user... | license: BSD-3-Clause<br>⭐ Star: 6.4K | LaunchDarkly, Hypertune, Statsig | Coming soon | Coming soon |
-| [Rivet](https://open.aiflowlearn.net/rivet) - Open-source infrastructure for long-lived, in-memory processes called Actors. | license: Apache-2.0<br>⭐ Star: 5.6K | - | [Codex](https://www.aiflowlearn.net/zh/codex/rivet) | [Codex](https://www.aiflowlearn.net/en/codex/rivet) |
 | [Digger](https://open.aiflowlearn.net/digger) - Open-source CI/CD orchestrator for Terraform with pull request automation, drift detection, and... | license: MIT<br>⭐ Star: 5K | Red Hat Ansible, Terraform, Puppet | Coming soon | Coming soon |
 | [/dev/push](https://open.aiflowlearn.net/dev-push) - Open source deployment platform that deploys apps directly from GitHub with zero-downtime, real-time logs,... | license: MIT<br>⭐ Star: 4.7K | Vercel, Netlify, Heroku | Coming soon | Coming soon |
 | [Kubero](https://open.aiflowlearn.net/kubero) - A free and self-hosted PaaS alternative to Heroku / Netlify / Coolify / Vercel / Dokku / Portainer running... | license: GPL-3.0<br>⭐ Star: 4.3K | Heroku, Vercel | Coming soon | Coming soon |
@@ -1003,8 +1058,6 @@ These projects already have OpenAlternativeLearn detail pages and Codex architec
 | --- | --- | --- | --- | --- |
 | [ActivePieces](https://open.aiflowlearn.net/activepieces) - Open-source integration platform for seamless workflow automation. | license: Unknown<br>⭐ Star: 23K | n8n, Make, Zapier | Coming soon | Coming soon |
 | [Automatisch](https://open.aiflowlearn.net/automatisch) - Self-hosted automation tool that connects your apps and services, enabling powerful integrations and... | license: Unknown<br>⭐ Star: 14K | n8n, Make, Zapier | Coming soon | Coming soon |
-| [Nango](https://open.aiflowlearn.net/nango) - Complete integrations platform with 500+ pre-built APIs, code-first approach, unified data models, and... | license: ELv2 (source-available)<br>⭐ Star: 10K | Pipedream, Rube, Apideck | [Codex](https://www.aiflowlearn.net/zh/codex/nango) | [Codex](https://www.aiflowlearn.net/en/codex/nango) |
-| [ACI.dev](https://open.aiflowlearn.net/aci-dev) - Platform for connecting AI agents to 500+ tools with built-in multi-tenant auth management and granular... | license: Apache-2.0<br>⭐ Star: 4.8K | Pipedream, Eden AI, Rube | [Codex](https://www.aiflowlearn.net/zh/codex/aci-dev) | [Codex](https://www.aiflowlearn.net/en/codex/aci-dev) |
 | [Jitsu](https://open.aiflowlearn.net/jitsu) - Collect, transform, and sync data across your entire infrastructure with a flexible, code-based approach... | license: MIT<br>⭐ Star: 4.8K | Supermetrics, Segment, Fivetran | Coming soon | Coming soon |
 | [Krakend](https://open.aiflowlearn.net/krakend) - High-performance, stateless API gateway built for microservices. | license: Apache-2.0<br>⭐ Star: 2.6K | Kong, Zuplo, Apigee | Coming soon | Coming soon |
 | [Hook0](https://open.aiflowlearn.net/hook0) - Self-hosted webhook solution for effortless event-driven communication between applications, enhancing... | license: Unknown<br>⭐ Star: 1.4K | Zapier, IFTTT, Pipedream | Coming soon | Coming soon |
@@ -1018,20 +1071,17 @@ These projects already have OpenAlternativeLearn detail pages and Codex architec
 | --- | --- | --- | --- | --- |
 | [OpenCode](https://open.aiflowlearn.net/opencode) - Open source AI coding agent that works in your terminal, IDE, or desktop app, supporting 75+ LLM providers... | license: MIT<br>⭐ Star: 174K | Claude Code, Codex, Warp | Coming soon | Coming soon |
 | [OpenHands](https://open.aiflowlearn.net/openhands) - AI agent platform that runs autonomous coding agents to plan, write, and ship changes across codebases... | license: MIT<br>⭐ Star: 77K | Claude Code, Codex, Warp | [Codex](https://open.aiflowlearn.net/codex/openhands) | Coming soon |
-| [Cline](https://open.aiflowlearn.net/cline) - AI coding agent that runs inside VS Code and the terminal, supporting multi-file edits, bash execution,... | license: Apache-2.0<br>⭐ Star: 63K | Claude Code, Cursor, Codex | [Codex](https://www.aiflowlearn.net/en/codex/cline) | [Codex](https://www.aiflowlearn.net/en/codex/cline) |
 | [pi](https://open.aiflowlearn.net/pi) - Terminal-based coding agent with a minimal core, 15+ LLM providers, tree-structured session history, and a... | license: MIT<br>⭐ Star: 62K | Claude Code, Codex, Warp | Coming soon | Coming soon |
-| [Aider](https://open.aiflowlearn.net/aider) - Terminal-based AI coding tool that lets you edit existing codebases or start new projects using LLMs like... | license: Apache-2.0<br>⭐ Star: 46K | Claude Code, Cursor, Kiro | [Codex](https://www.aiflowlearn.net/en/codex/aider) | [Codex](https://www.aiflowlearn.net/en/codex/aider) |
 | [Continue](https://open.aiflowlearn.net/continue) - Runs source-controlled AI checks on every pull request, enforcing your engineering standards as native... | license: Apache-2.0<br>⭐ Star: 34K | CodeRabbit, Greptile, SonarCube | Coming soon | Coming soon |
 | [Pythagora](https://open.aiflowlearn.net/pythagora) - AI development platform that builds React and Node.js apps inside VS Code, with 14 specialized agents... | license: Unknown<br>⭐ Star: 34K | Lovable, Cursor, Kiro | Coming soon | Coming soon |
 | [Tabby](https://open.aiflowlearn.net/tabby) - Self-hosted AI coding assistant that enhances productivity with context-aware suggestions and... | license: Unknown<br>⭐ Star: 34K | Claude Code, Cursor, Kiro | Coming soon | Coming soon |
 | [Reflex](https://open.aiflowlearn.net/reflex) - Build, iterate, and deploy full-stack web apps entirely in Python. | license: Apache-2.0<br>⭐ Star: 28K | Lovable, Base44, Replit | Coming soon | Coming soon |
 | [Dyad](https://open.aiflowlearn.net/dyad) - Create full-stack AI applications using any model or tool. | license: Unknown<br>⭐ Star: 21K | Lovable, Base44, Replit | Coming soon | Coming soon |
 | [Kilo](https://open.aiflowlearn.net/kilocode) - Open source AI coding agent with 500+ models, bring-your-own-key support, and specialized modes for... | license: MIT<br>⭐ Star: 20K | Claude Code, Cursor, Kiro | Coming soon | Coming soon |
-| [SWE-agent](https://open.aiflowlearn.net/swe-agent) - State-of-the-art AI agent that uses language models like GPT-4o to autonomously solve GitHub issues, fix... | license: MIT<br>⭐ Star: 19K | Devin, Zencoder, Bugbot | [Codex](https://www.aiflowlearn.net/en/codex/swe-agent-swe-agent) | [Codex](https://www.aiflowlearn.net/en/codex/swe-agent-swe-agent) |
 | [Plandex](https://open.aiflowlearn.net/plandex) - Terminal-based AI coding assistant with 2M token context window, diff review sandbox, and smart context... | license: MIT<br>⭐ Star: 15K | Claude Code, Cursor, Kiro | Coming soon | Coming soon |
 | [T3 Code](https://open.aiflowlearn.net/t3-code) - Advanced AI coding assistant that enhances development workflow with intelligent code suggestions,... | license: MIT<br>⭐ Star: 13K | Claude Code, Kiro, Codex | Coming soon | Coming soon |
 | [Superset](https://open.aiflowlearn.net/superset) - Run 10+ parallel coding agents simultaneously on your machine. | license: Unknown<br>⭐ Star: 12K | Kiro, Warp, Zencoder | Coming soon | Coming soon |
-| [Forgecode](https://open.aiflowlearn.net/forgecode) - Non-intrusive, lightweight AI coding assistant that integrates seamlessly with your terminal workflow. | license: Apache-2.0<br>⭐ Star: 7.4K | Claude Code, Cursor, Codex | Coming soon | Coming soon |
+| [Forgecode](https://open.aiflowlearn.net/forgecode) - Non-intrusive, lightweight AI coding assistant that integrates seamlessly with your terminal workflow. | license: Apache-2.0<br>⭐ Star: 7.4K | Claude Code, Cursor, Codex | [Codex](https://aiflowlearn.net/en/codex/antinomyhq-forge) | Coming soon |
 | [Emdash](https://open.aiflowlearn.net/emdash) - Desktop app that runs 25+ coding agents simultaneously, each isolated in its own Git worktree, so you can... | license: Apache-2.0<br>⭐ Star: 4.8K | Kiro, Codex, Warp | Coming soon | Coming soon |
 | [Kodus](https://open.aiflowlearn.net/kodus) - Open source AI code reviewer that analyzes pull requests for quality, security, and performance while... | license: Unknown<br>⭐ Star: 1.2K | CodeRabbit, Greptile, SonarCube | Coming soon | Coming soon |
 | [Pullfrog](https://open.aiflowlearn.net/pullfrog) - An open-source GitHub bot that runs AI agents to review PRs, triage issues, fix CI failures, and ship code... | license: MIT<br>⭐ Star: 753 | CodeRabbit, Greptile, SonarCube | Coming soon | Coming soon |
@@ -1046,13 +1096,38 @@ These projects already have OpenAlternativeLearn detail pages and Codex architec
 | Project | Github Info | Alternative To | Codex | Classroom |
 | --- | --- | --- | --- | --- |
 | [Alacritty](https://open.aiflowlearn.net/alacritty) - Modern cross-platform terminal emulator with OpenGL acceleration, extensive configuration options, and vi... | license: Apache-2.0<br>⭐ Star: 65K | Warp, Terminal | Coming soon | Coming soon |
-| [Warp](https://open.aiflowlearn.net/warp) - Terminal built for running AI coding agents like Claude Code, Codex, and Gemini CLI, with shared context,... | license: AGPL-3.0<br>⭐ Star: 62K | - | [Codex](https://www.aiflowlearn.net/en/codex/warp-agentic-terminal) | [Codex](https://www.aiflowlearn.net/en/codex/warp-agentic-terminal) |
 | [Ghostty](https://open.aiflowlearn.net/ghostty) - Experience blazing-fast terminal performance with GPU acceleration and platform-native UI. | license: MIT<br>⭐ Star: 56K | Warp, Terminal | Coming soon | Coming soon |
 | [Zellij](https://open.aiflowlearn.net/zellij) - A terminal multiplexer that organizes your workflow with intuitive layouts, tabs, and panes. | license: MIT<br>⭐ Star: 34K | Warp, Terminal | Coming soon | Coming soon |
 | [Kitty](https://open.aiflowlearn.net/kitty) - High-performance terminal emulator with GPU acceleration, graphics support, and advanced scripting... | license: GPL-3.0<br>⭐ Star: 33K | Warp, Terminal | Coming soon | Coming soon |
 | [WezTerm](https://open.aiflowlearn.net/wezterm) - Cross-platform terminal emulator and multiplexer with GPU acceleration, true color support, and Lua... | license: Unknown<br>⭐ Star: 27K | Warp, Terminal | Coming soon | Coming soon |
 | [WaveTerm](https://open.aiflowlearn.net/waveterm) - Enhance your terminal with AI, file previews, and web browsing. | license: Apache-2.0<br>⭐ Star: 21K | Warp, Terminal | Coming soon | Coming soon |
 | [iTerm 2](https://open.aiflowlearn.net/iterm-2) - Feature-rich terminal replacement for macOS with split panes, search, autocomplete, and extensive... | license: GPL-2.0<br>⭐ Star: 18K | Warp, Terminal | Coming soon | Coming soon |
+
+### Cloud Dev Environments / Sandboxes
+
+| Project | Github Info | Alternative To | Codex | Classroom |
+| --- | --- | --- | --- | --- |
+| [Daytona](https://open.aiflowlearn.net/daytona) - Elastic sandbox infrastructure for running AI-generated code with sub-90ms environment creation, stateful... | license: AGPL-3.0<br>⭐ Star: 72K | E2B, Modal, Replit | [Codex](https://aiflowlearn.net/en/codex/daytona) | Coming soon |
+
+### AI Coding Agents
+
+| Project | Github Info | Alternative To | Codex | Classroom |
+| --- | --- | --- | --- | --- |
+| [Cline](https://open.aiflowlearn.net/cline) - AI coding agent that runs inside VS Code and the terminal, supporting multi-file edits, bash execution,... | license: Apache-2.0<br>⭐ Star: 63K | Cursor, GitHub Copilot, Claude Code | [Codex](https://aiflowlearn.net/en/codex/cline) | Coming soon |
+| [Aider](https://open.aiflowlearn.net/aider) - Terminal-based AI coding tool that lets you edit existing codebases or start new projects using LLMs like... | license: Apache-2.0<br>⭐ Star: 46K | Cursor, GitHub Copilot, Claude Code | [Codex](https://aiflowlearn.net/en/codex/aider) | Coming soon |
+| [SWE-agent](https://open.aiflowlearn.net/swe-agent) - State-of-the-art AI agent that uses language models like GPT-4o to autonomously solve GitHub issues, fix... | license: MIT<br>⭐ Star: 19K | Devin, Cursor, GitHub Copilot | [Codex](https://aiflowlearn.net/en/codex/swe-agent) | Coming soon |
+
+### Integrations / API Connectivity
+
+| Project | Github Info | Alternative To | Codex | Classroom |
+| --- | --- | --- | --- | --- |
+| [Nango](https://open.aiflowlearn.net/nango) - Complete integrations platform with 500+ pre-built APIs, code-first approach, unified data models, and... | license: ELv2 (source-available)<br>⭐ Star: 10K | Pipedream, Apideck, Merge | [Codex](https://aiflowlearn.net/en/codex/nango) | Coming soon |
+
+### AI Terminal / Developer Tools
+
+| Project | Github Info | Alternative To | Codex | Classroom |
+| --- | --- | --- | --- | --- |
+| [Warp](https://open.aiflowlearn.net/warp) - Terminal built for running AI coding agents like Claude Code, Codex, and Gemini CLI, with shared context,... | license: AGPL-3.0<br>⭐ Star: 62K | Cursor, GitHub Copilot, Claude Code | [Codex](https://aiflowlearn.net/en/codex/warp) | Coming soon |
 
 
 ## Infrastructure & Operations
@@ -1063,7 +1138,6 @@ These projects already have OpenAlternativeLearn detail pages and Codex architec
 | --- | --- | --- | --- | --- |
 | [Elasticsearch](https://open.aiflowlearn.net/elasticsearch) - Elasticsearch is an open-source, RESTful search engine designed for scalability, reliability, and easy... | license: Unknown<br>⭐ Star: 77K | Algolia, AWS Kendra, Coveo | Coming soon | Coming soon |
 | [Meilisearch](https://open.aiflowlearn.net/meilisearch) - A powerful, fast, and easy-to-use search engine that delivers instant and relevant results for your... | license: MIT<br>⭐ Star: 58K | Algolia, ElasticSearch, AWS Kendra | Coming soon | Coming soon |
-| [Onyx](https://open.aiflowlearn.net/onyx) - An open-source platform that connects to 40+ apps to provide intelligent search and AI assistance across... | license: Unknown<br>⭐ Star: 30K | Algolia, ElasticSearch, Glean | [Codex](https://www.aiflowlearn.net/en/codex/onyx-dot-app-onyx) | [Codex](https://www.aiflowlearn.net/en/codex/onyx-dot-app-onyx) |
 | [Typesense](https://open.aiflowlearn.net/typesense) - Open-source search solution offering blazing speed, typo tolerance, and effortless scalability for... | license: GPL-3.0<br>⭐ Star: 26K | Pinecone, Algolia, ElasticSearch | Coming soon | Coming soon |
 | [OpenSearch](https://open.aiflowlearn.net/opensearch) - Community-driven, Apache 2.0-licensed search and analytics suite for ingesting, searching, visualizing,... | license: Apache-2.0<br>⭐ Star: 13K | Algolia, ElasticSearch, AWS Kendra | Coming soon | Coming soon |
 | [Manticore Search](https://open.aiflowlearn.net/manticore) - Open source search database delivering 2.83x faster performance than Elasticsearch. | license: GPL-3.0<br>⭐ Star: 12K | Algolia, ElasticSearch, AWS Kendra | Coming soon | Coming soon |
@@ -1106,46 +1180,44 @@ These projects already have OpenAlternativeLearn detail pages and Codex architec
 | Project | Github Info | Alternative To | Codex | Classroom |
 | --- | --- | --- | --- | --- |
 | [Uptime Kuma](https://open.aiflowlearn.net/uptime-kuma) - Monitors websites, APIs, and services with real-time alerts, a status page, and support for dozens of... | license: MIT<br>⭐ Star: 88K | Opsgenie, BetterStack, Pagerduty | Coming soon | Coming soon |
-| [NetData](https://open.aiflowlearn.net/netdata) - Powerful, efficient, and user-friendly monitoring solution for servers, containers, and applications with... | license: GPL-3.0<br>⭐ Star: 79K | DataDog, Paessler PRTG, SolarWinds | Coming soon | Coming soon |
+| [NetData](https://open.aiflowlearn.net/netdata) - Powerful, efficient, and user-friendly monitoring solution for servers, containers, and applications with... | license: GPL-3.0<br>⭐ Star: 79K | Datadog, Paessler PRTG, SolarWinds | Coming soon | Coming soon |
 | [Elasticsearch](https://open.aiflowlearn.net/elasticsearch) - Elasticsearch is an open-source, RESTful search engine designed for scalability, reliability, and easy... | license: Unknown<br>⭐ Star: 77K | Algolia, AWS Kendra, Coveo | Coming soon | Coming soon |
 | [Grafana](https://open.aiflowlearn.net/grafana) - Grafana is a multi-platform open source analytics and interactive visualization web application that... | license: AGPL-3.0<br>⭐ Star: 74K | Power BI, Paessler PRTG, Splunk | Coming soon | Coming soon |
-| [Prometheus](https://open.aiflowlearn.net/prometheus) - The Prometheus monitoring system and time series database. | license: Apache-2.0<br>⭐ Star: 65K | Influxdb, DataDog | Coming soon | Coming soon |
-| [Sentry](https://open.aiflowlearn.net/sentry) - Detect, diagnose, and resolve software issues quickly with powerful error tracking, performance... | license: Unknown<br>⭐ Star: 44K | DataDog, BetterStack, Bugsnag | Coming soon | Coming soon |
-| [ProjectDiscovery](https://open.aiflowlearn.net/projectdiscovery) - Monitor infrastructure for exploitable vulnerabilities with real-time detection, automated workflows, and... | license: MIT<br>⭐ Star: 29K | DataDog, Splunk, New Relic | Coming soon | Coming soon |
-| [SigNoz](https://open.aiflowlearn.net/signoz) - Comprehensive monitoring and troubleshooting solution for microservices architectures, offering metrics,... | license: Unknown<br>⭐ Star: 27K | DataDog, Splunk, Bugsnag | Coming soon | Coming soon |
-| [OpenObserve](https://open.aiflowlearn.net/openobserve) - Monitor logs, metrics, and traces with an open-source observability platform. | license: AGPL-3.0<br>⭐ Star: 19K | DataDog, Paessler PRTG, Splunk | Coming soon | Coming soon |
-| [QuestDB](https://open.aiflowlearn.net/questdb) - QuestDB is a high performance, open-source, time-series database | license: Apache-2.0<br>⭐ Star: 17K | Influxdb, DataDog | Coming soon | Coming soon |
+| [Prometheus](https://open.aiflowlearn.net/prometheus) - The Prometheus monitoring system and time series database. | license: Apache-2.0<br>⭐ Star: 65K | Influxdb, Datadog | Coming soon | Coming soon |
+| [Sentry](https://open.aiflowlearn.net/sentry) - Detect, diagnose, and resolve software issues quickly with powerful error tracking, performance... | license: Unknown<br>⭐ Star: 44K | Datadog, BetterStack, Bugsnag | Coming soon | Coming soon |
+| [ProjectDiscovery](https://open.aiflowlearn.net/projectdiscovery) - Monitor infrastructure for exploitable vulnerabilities with real-time detection, automated workflows, and... | license: MIT<br>⭐ Star: 29K | Datadog, Splunk, New Relic | Coming soon | Coming soon |
+| [SigNoz](https://open.aiflowlearn.net/signoz) - Comprehensive monitoring and troubleshooting solution for microservices architectures, offering metrics,... | license: Unknown<br>⭐ Star: 27K | Datadog, Splunk, Bugsnag | Coming soon | Coming soon |
+| [OpenObserve](https://open.aiflowlearn.net/openobserve) - Monitor logs, metrics, and traces with an open-source observability platform. | license: AGPL-3.0<br>⭐ Star: 19K | Datadog, Paessler PRTG, Splunk | Coming soon | Coming soon |
+| [QuestDB](https://open.aiflowlearn.net/questdb) - QuestDB is a high performance, open-source, time-series database | license: Apache-2.0<br>⭐ Star: 17K | Influxdb, Datadog | Coming soon | Coming soon |
 | [Cachet](https://open.aiflowlearn.net/cachet) - Open-source status page platform that helps organizations communicate system status and incidents... | license: Unknown<br>⭐ Star: 15K | BetterStack, Rootly, UptimeRobot | Coming soon | Coming soon |
-| [Logstash](https://open.aiflowlearn.net/logstash) - Logstash is a free and open server-side data processing pipeline that ingests data from multiple sources,... | license: Unknown<br>⭐ Star: 15K | DataDog, Splunk, Tableau | Coming soon | Coming soon |
+| [Logstash](https://open.aiflowlearn.net/logstash) - Logstash is a free and open server-side data processing pipeline that ingests data from multiple sources,... | license: Unknown<br>⭐ Star: 15K | Datadog, Splunk, Tableau | Coming soon | Coming soon |
 | [Keep](https://open.aiflowlearn.net/keep) - Open-source platform for centralizing alerts, automating responses, and enhancing incident management... | license: MIT<br>⭐ Star: 12K | Opsgenie, BetterStack, Pagerduty | Coming soon | Coming soon |
 | [OpenReplay](https://open.aiflowlearn.net/openreplay) - Open-source session replay and product analytics platform you can self-host for complete control over data... | license: Unknown<br>⭐ Star: 12K | Mixpanel, Hotjar, Amplitude | Coming soon | Coming soon |
 | [Gatus](https://open.aiflowlearn.net/gatus) - A highly customizable monitoring solution that provides automated status pages, extensive alerting... | license: Apache-2.0<br>⭐ Star: 11K | Opsgenie, BetterStack, Pagerduty | Coming soon | Coming soon |
 | [Checkmate](https://open.aiflowlearn.net/checkmate) - Monitor servers, websites, Docker containers, and infrastructure with real-time insights, instant alerts,... | license: AGPL-3.0<br>⭐ Star: 10K | BetterStack, UptimeRobot, Rootly | Coming soon | Coming soon |
-| [HyperDX](https://open.aiflowlearn.net/hyperdx) - Open source observability platform unifying session replays, logs, traces, metrics and errors. | license: MIT<br>⭐ Star: 9.6K | DataDog, Splunk, BetterStack | Coming soon | Coming soon |
-| [Highlight](https://open.aiflowlearn.net/highlight) - Comprehensive monitoring solution offering error tracking, session replay, and performance insights for... | license: Unknown<br>⭐ Star: 9.3K | DataDog, BetterStack, Bugsnag | Coming soon | Coming soon |
-| [OpenStatus](https://open.aiflowlearn.net/openstatus) - Open-source status page and uptime monitor that tracks endpoints from 28 global regions, communicates... | license: AGPL-3.0<br>⭐ Star: 8.7K | Opsgenie, DataDog, BetterStack | Coming soon | Coming soon |
-| [Graylog](https://open.aiflowlearn.net/graylog) - Free and open log management | license: NOASSERTION<br>⭐ Star: 8.1K | DataDog, Splunk | Coming soon | Coming soon |
-| [Coroot](https://open.aiflowlearn.net/coroot) - Coroot simplifies system monitoring by providing metrics, logs, traces, and profiling with zero... | license: Apache-2.0<br>⭐ Star: 7.8K | Splunk, New Relic, Axiom | Coming soon | Coming soon |
-| [OpenLLMetry](https://open.aiflowlearn.net/openllmetry) - Open-source observability platform for LLMs using OpenTelemetry. | license: Apache-2.0<br>⭐ Star: 7.2K | DataDog, LangSmith, Splunk | [Codex](https://www.aiflowlearn.net/zh/codex/openllmetry) | [Codex](https://www.aiflowlearn.net/en/codex/openllmetry) |
-| [OneUptime](https://open.aiflowlearn.net/oneuptime) - All-in-one solution for uptime monitoring, incident management, and status pages to keep your services... | license: Apache-2.0<br>⭐ Star: 7.1K | Opsgenie, DataDog, BetterStack | Coming soon | Coming soon |
+| [HyperDX](https://open.aiflowlearn.net/hyperdx) - Open source observability platform unifying session replays, logs, traces, metrics and errors. | license: MIT<br>⭐ Star: 9.6K | Datadog, Splunk, BetterStack | [Codex](https://aiflowlearn.net/en/codex/hyperdxio-hyperdx) | Coming soon |
+| [Highlight](https://open.aiflowlearn.net/highlight) - Comprehensive monitoring solution offering error tracking, session replay, and performance insights for... | license: Unknown<br>⭐ Star: 9.3K | Datadog, BetterStack, Bugsnag | [Codex](https://aiflowlearn.net/en/codex/highlight-highlight) | Coming soon |
+| [OpenStatus](https://open.aiflowlearn.net/openstatus) - Open-source status page and uptime monitor that tracks endpoints from 28 global regions, communicates... | license: AGPL-3.0<br>⭐ Star: 8.7K | Opsgenie, Datadog, BetterStack | [Codex](https://aiflowlearn.net/en/codex/openstatushq-openstatus) | Coming soon |
+| [Graylog](https://open.aiflowlearn.net/graylog) - Free and open log management | license: NOASSERTION<br>⭐ Star: 8.1K | Datadog, Splunk | Coming soon | Coming soon |
+| [Coroot](https://open.aiflowlearn.net/coroot) - Coroot simplifies system monitoring by providing metrics, logs, traces, and profiling with zero... | license: Apache-2.0<br>⭐ Star: 7.8K | Splunk, New Relic, Axiom | [Codex](https://aiflowlearn.net/en/codex/coroot-coroot) | Coming soon |
+| [OneUptime](https://open.aiflowlearn.net/oneuptime) - All-in-one solution for uptime monitoring, incident management, and status pages to keep your services... | license: Apache-2.0<br>⭐ Star: 7.1K | Opsgenie, Datadog, BetterStack | [Codex](https://aiflowlearn.net/en/codex/oneuptime-oneuptime) | Coming soon |
 | [GreptimeDB](https://open.aiflowlearn.net/greptimedb) - Cloud-native observability database unifying metrics, logs, and traces with sub-second queries, 50x cost... | license: Apache-2.0<br>⭐ Star: 6.4K | - | Coming soon | Coming soon |
-| [Helicone](https://open.aiflowlearn.net/helicone) - Open-source platform for logging, monitoring, and debugging LLM applications. | license: Apache-2.0<br>⭐ Star: 5.8K | DataDog, LangSmith, LangChain | [Codex](https://www.aiflowlearn.net/zh/codex/helicone) | [Codex](https://www.aiflowlearn.net/en/codex/helicone) |
-| [OpenTSDB](https://open.aiflowlearn.net/opentsdb) - A scalable, distributed Time Series Database. | license: LGPL-2.1<br>⭐ Star: 5.1K | Influxdb, DataDog | Coming soon | Coming soon |
-| [Kener](https://open.aiflowlearn.net/kener) - Free, open-source status page and uptime monitor with Docker deployment. | license: MIT<br>⭐ Star: 5K | Opsgenie, DataDog, BetterStack | Coming soon | Coming soon |
-| [Logfire](https://open.aiflowlearn.net/logfire) - Logfire offers intuitive observability tools for Python applications, combining logs, profiling, and... | license: MIT<br>⭐ Star: 4.3K | DataDog, Splunk, New Relic | Coming soon | Coming soon |
-| [Uptrace](https://open.aiflowlearn.net/uptrace) - Uptrace is an OpenTelemetry-based platform that integrates traces, metrics, and logs to help monitor and... | license: AGPL-3.0<br>⭐ Star: 4.2K | DataDog, Splunk, BetterStack | Coming soon | Coming soon |
-| [Checkmk](https://open.aiflowlearn.net/checkmk) - Monitor your entire IT infrastructure with 2,000+ plugins, automated discovery, and scalable architecture. | license: GPL-2.0<br>⭐ Star: 2.3K | DataDog, Paessler PRTG, Splunk | Coming soon | Coming soon |
-| [Icinga](https://open.aiflowlearn.net/icinga) - Monitor networks, servers, and cloud environments with flexible open-source solution. | license: GPL-3.0<br>⭐ Star: 2.2K | DataDog, Paessler PRTG, SolarWinds | Coming soon | Coming soon |
-| [Nagios](https://open.aiflowlearn.net/nagios) - Free open source IT monitoring solution for servers, networks, and applications. | license: GPL-2.0<br>⭐ Star: 2K | Opsgenie, DataDog, Paessler PRTG | Coming soon | Coming soon |
-| [Bugsink](https://open.aiflowlearn.net/bugsink) - Bugsink offers real-time error tracking with self-hosting capabilities, allowing easy installation and... | license: Unknown<br>⭐ Star: 1.9K | DataDog, Bugsnag, New Relic | Coming soon | Coming soon |
-| [KairosDB](https://open.aiflowlearn.net/kairosdb) - Fast scalable time series database | license: Apache-2.0<br>⭐ Star: 1.8K | Influxdb, DataDog | Coming soon | Coming soon |
-| [Gigapipe](https://open.aiflowlearn.net/gigapipe) - Unified platform for logs, metrics, traces and profiles with native compatibility for popular tools like... | license: AGPL-3.0<br>⭐ Star: 1.7K | DataDog, Splunk, ElasticSearch | Coming soon | Coming soon |
+| [OpenTSDB](https://open.aiflowlearn.net/opentsdb) - A scalable, distributed Time Series Database. | license: LGPL-2.1<br>⭐ Star: 5.1K | Influxdb, Datadog | Coming soon | Coming soon |
+| [Kener](https://open.aiflowlearn.net/kener) - Free, open-source status page and uptime monitor with Docker deployment. | license: MIT<br>⭐ Star: 5K | Opsgenie, Datadog, BetterStack | Coming soon | Coming soon |
+| [Logfire](https://open.aiflowlearn.net/logfire) - Logfire offers intuitive observability tools for Python applications, combining logs, profiling, and... | license: MIT<br>⭐ Star: 4.3K | Datadog, Splunk, New Relic | Coming soon | Coming soon |
+| [Uptrace](https://open.aiflowlearn.net/uptrace) - Uptrace is an OpenTelemetry-based platform that integrates traces, metrics, and logs to help monitor and... | license: AGPL-3.0<br>⭐ Star: 4.2K | Datadog, Splunk, BetterStack | Coming soon | Coming soon |
+| [Checkmk](https://open.aiflowlearn.net/checkmk) - Monitor your entire IT infrastructure with 2,000+ plugins, automated discovery, and scalable architecture. | license: GPL-2.0<br>⭐ Star: 2.3K | Datadog, Paessler PRTG, Splunk | Coming soon | Coming soon |
+| [Icinga](https://open.aiflowlearn.net/icinga) - Monitor networks, servers, and cloud environments with flexible open-source solution. | license: GPL-3.0<br>⭐ Star: 2.2K | Datadog, Paessler PRTG, SolarWinds | Coming soon | Coming soon |
+| [Nagios](https://open.aiflowlearn.net/nagios) - Free open source IT monitoring solution for servers, networks, and applications. | license: GPL-2.0<br>⭐ Star: 2K | Opsgenie, Datadog, Paessler PRTG | Coming soon | Coming soon |
+| [Bugsink](https://open.aiflowlearn.net/bugsink) - Bugsink offers real-time error tracking with self-hosting capabilities, allowing easy installation and... | license: Unknown<br>⭐ Star: 1.9K | Datadog, Bugsnag, New Relic | Coming soon | Coming soon |
+| [KairosDB](https://open.aiflowlearn.net/kairosdb) - Fast scalable time series database | license: Apache-2.0<br>⭐ Star: 1.8K | Influxdb, Datadog | Coming soon | Coming soon |
+| [Gigapipe](https://open.aiflowlearn.net/gigapipe) - Unified platform for logs, metrics, traces and profiles with native compatibility for popular tools like... | license: AGPL-3.0<br>⭐ Star: 1.7K | Datadog, Splunk, ElasticSearch | Coming soon | Coming soon |
 | [Peekaping](https://open.aiflowlearn.net/peekaping) - Open-source uptime monitoring solution with real-time alerts, status pages, and comprehensive checks for... | license: MIT<br>⭐ Star: 1.1K | Opsgenie, BetterStack, Pagerduty | Coming soon | Coming soon |
-| [Statusnook](https://open.aiflowlearn.net/statusnook) - A powerful open-source status page system for real-time incident tracking, maintenance updates, and... | license: MIT<br>⭐ Star: 973 | Opsgenie, DataDog, BetterStack | Coming soon | Coming soon |
+| [Statusnook](https://open.aiflowlearn.net/statusnook) - A powerful open-source status page system for real-time incident tracking, maintenance updates, and... | license: MIT<br>⭐ Star: 973 | Opsgenie, Datadog, BetterStack | Coming soon | Coming soon |
 | [Bugzilla](https://open.aiflowlearn.net/bugzilla) - Official repository for the Bugzilla bug tracking system. | license: MPL-2.0<br>⭐ Star: 830 | Jira, Sentry | Coming soon | Coming soon |
 | [Operational](https://open.aiflowlearn.net/operational) - Track critical events, receive instant notifications, and respond to product activities with customizable... | license: AGPL-3.0<br>⭐ Star: 465 | Opsgenie, LogSnag | Coming soon | Coming soon |
 | [EasyMonitor](https://open.aiflowlearn.net/easymonitor) - Deploy your own uptime and performance monitoring with HTTP/ICMP checks, multi-region probes, and custom... | license: MIT<br>⭐ Star: 39 | Opsgenie, BetterStack, Pagerduty | Coming soon | Coming soon |
-| [Wachd](https://open.aiflowlearn.net/wachd) - Receive alerts from Grafana, Datadog, and Prometheus with AI-generated root cause analysis. | license: Unknown<br>⭐ Star: 30 | Opsgenie, DataDog, Pagerduty | Coming soon | Coming soon |
+| [Wachd](https://open.aiflowlearn.net/wachd) - Receive alerts from Grafana, Datadog, and Prometheus with AI-generated root cause analysis. | license: Unknown<br>⭐ Star: 30 | Opsgenie, Datadog, Pagerduty | Coming soon | Coming soon |
 | [StatusScout](https://open.aiflowlearn.net/statusscout) - Monitor website uptime, detect security vulnerabilities, find broken links, and simulate user flows. | license: Unknown<br>⭐ Star: 15 | Opsgenie, BetterStack, Pagerduty | Coming soon | Coming soon |
 
 ### Databases
@@ -1153,20 +1225,19 @@ These projects already have OpenAlternativeLearn detail pages and Codex architec
 | Project | Github Info | Alternative To | Codex | Classroom |
 | --- | --- | --- | --- | --- |
 | [Elasticsearch](https://open.aiflowlearn.net/elasticsearch) - Elasticsearch is an open-source, RESTful search engine designed for scalability, reliability, and easy... | license: Unknown<br>⭐ Star: 77K | Algolia, AWS Kendra, Coveo | Coming soon | Coming soon |
-| [Prometheus](https://open.aiflowlearn.net/prometheus) - The Prometheus monitoring system and time series database. | license: Apache-2.0<br>⭐ Star: 65K | Influxdb, DataDog | Coming soon | Coming soon |
+| [Prometheus](https://open.aiflowlearn.net/prometheus) - The Prometheus monitoring system and time series database. | license: Apache-2.0<br>⭐ Star: 65K | Influxdb, Datadog | Coming soon | Coming soon |
 | [NocoDB](https://open.aiflowlearn.net/nocodb) - Convert any database into a no-code platform with spreadsheet interface. | license: AGPL-3.0<br>⭐ Star: 63K | Airtable, Google Sheets, Glide | Coming soon | Coming soon |
-| [Milvus](https://open.aiflowlearn.net/milvus) - Open-source vector database optimized for similarity search, scaling to billions of vectors with minimal... | license: Apache-2.0<br>⭐ Star: 45K | Supabase, Pinecone, ElasticSearch | [Codex](https://www.aiflowlearn.net/en/codex/milvus-io-milvus) | [Codex](https://www.aiflowlearn.net/en/codex/milvus-io-milvus) |
 | [TiDB](https://open.aiflowlearn.net/tidb) - Distributed SQL database combining OLTP and OLAP capabilities, offering horizontal scalability, high... | license: Apache-2.0<br>⭐ Star: 40K | Fauna, AWS Aurora, PlanetScale | Coming soon | Coming soon |
 | [Spacedrive](https://open.aiflowlearn.net/spacedrive) - A cross-platform file manager that unifies your devices into a seamless, organized digital workspace. | license: AGPL-3.0<br>⭐ Star: 38K | Google Drive, Microsoft OneDrive, Dropbox | Coming soon | Coming soon |
 | [drawDB](https://open.aiflowlearn.net/drawdb) - Free online database diagram editor with SQL generation. | license: AGPL-3.0<br>⭐ Star: 37K | Microsoft Visio, LucidChart, Valentina Studio | Coming soon | Coming soon |
-| [Qdrant](https://open.aiflowlearn.net/qdrant) - Qdrant is an open-source vector database that provides high-performance similarity search for AI and... | license: Apache-2.0<br>⭐ Star: 32K | Supabase, Pinecone, Algolia | Coming soon | Coming soon |
+| [Qdrant](https://open.aiflowlearn.net/qdrant) - Qdrant is an open-source vector database that provides high-performance similarity search for AI and... | license: Apache-2.0<br>⭐ Star: 32K | Supabase, Pinecone, Algolia | [Codex](https://aiflowlearn.net/en/codex/qdrant-qdrant) | Coming soon |
 | [Dragonfly](https://open.aiflowlearn.net/dragonfly) - Dragonfly is a high-performance, Redis-compatible in-memory data store that delivers up to 25x more... | license: Unknown<br>⭐ Star: 31K | - | Coming soon | Coming soon |
 | [Chroma](https://open.aiflowlearn.net/chroma) - Open-source vector database designed for AI applications. | license: Apache-2.0<br>⭐ Star: 28K | Supabase, Pinecone, ElasticSearch | Coming soon | Coming soon |
 | [Chat2DB](https://open.aiflowlearn.net/chat2db) - AI-powered SQL client that converts natural language to SQL queries. | license: Apache-2.0<br>⭐ Star: 26K | DataGrip, Navicat, TablePlus | Coming soon | Coming soon |
 | [Beekeeper Studio](https://open.aiflowlearn.net/beekeeper-studio) - A user-friendly SQL editor and database manager supporting MySQL, PostgreSQL, SQLite, SQL Server and more... | license: Unknown<br>⭐ Star: 23K | DataGrip, Navicat, TablePlus | Coming soon | Coming soon |
 | [Timescale](https://open.aiflowlearn.net/timescale) - Extend PostgreSQL for time-series data with automatic partitioning, scalable ingestion, and advanced... | license: Unknown<br>⭐ Star: 23K | Snowflake, MongoDB, Kdb+ | Coming soon | Coming soon |
 | [Neon Postgres](https://open.aiflowlearn.net/neon-postgres) - Cloud-native, auto-scaling Postgres with instant branching, bottomless storage, and pay-per-use pricing | license: Apache-2.0<br>⭐ Star: 22K | Supabase, Amazon Neptune, AWS Aurora | Coming soon | Coming soon |
-| [QuestDB](https://open.aiflowlearn.net/questdb) - QuestDB is a high performance, open-source, time-series database | license: Apache-2.0<br>⭐ Star: 17K | Influxdb, DataDog | Coming soon | Coming soon |
+| [QuestDB](https://open.aiflowlearn.net/questdb) - QuestDB is a high performance, open-source, time-series database | license: Apache-2.0<br>⭐ Star: 17K | Influxdb, Datadog | Coming soon | Coming soon |
 | [Ceph](https://open.aiflowlearn.net/ceph) - Ceph provides unified object, block, and file storage from a single cluster built on commodity hardware. | license: Unknown<br>⭐ Star: 17K | Amazon S3, Azure Blob Storage, Google Cloud Storage | Coming soon | Coming soon |
 | [Turso](https://open.aiflowlearn.net/turso) - Turso provides a simple developer experience with SQLite compatibility, allowing you to build and scale... | license: MIT<br>⭐ Star: 17K | Supabase, Firebase, Hasura | Coming soon | Coming soon |
 | [Weaviate](https://open.aiflowlearn.net/weaviate) - Open-source vector database designed for building powerful, production-ready AI applications with hybrid... | license: BSD-3-Clause<br>⭐ Star: 16K | Supabase, Pinecone | Coming soon | Coming soon |
@@ -1177,12 +1248,12 @@ These projects already have OpenAlternativeLearn detail pages and Codex architec
 | [Instant](https://open.aiflowlearn.net/instant) - Instant is a database solution for building real-time and offline-enabled applications, simplifying the... | license: Apache-2.0<br>⭐ Star: 10K | Supabase, Firebase, Fauna | Coming soon | Coming soon |
 | [OceanBase](https://open.aiflowlearn.net/oceanbase) - Scalable, high-availability database system supporting OLTP, OLAP, and hybrid transactional/analytical... | license: Unknown<br>⭐ Star: 10K | Fauna, Amazon Neptune, AWS Aurora | Coming soon | Coming soon |
 | [Orama](https://open.aiflowlearn.net/orama) - Blend full-text and semantic search for unlimited queries across 300 global locations. | license: Unknown<br>⭐ Star: 10K | Algolia, ElasticSearch, Coveo | Coming soon | Coming soon |
-| [Databend](https://open.aiflowlearn.net/databend) - Databend is an open-source, elastic cloud data warehouse built for high-performance analytics and seamless... | license: Unknown<br>⭐ Star: 9.3K | Snowflake, BigQuery, RedShift | Coming soon | Coming soon |
-| [Activeloop](https://open.aiflowlearn.net/activeloop) - Deep Lake is an open-source database for storing, querying and managing complex AI data like images,... | license: Apache-2.0<br>⭐ Star: 9.2K | Snowflake, Pinecone, BigQuery | Coming soon | Coming soon |
+| [Databend](https://open.aiflowlearn.net/databend) - Databend is an open-source, elastic cloud data warehouse built for high-performance analytics and seamless... | license: Unknown<br>⭐ Star: 9.3K | Snowflake, BigQuery, RedShift | [Codex](https://aiflowlearn.net/en/codex/datafuselabs-databend) | Coming soon |
+| [Activeloop](https://open.aiflowlearn.net/activeloop) - Deep Lake is an open-source database for storing, querying and managing complex AI data like images,... | license: Apache-2.0<br>⭐ Star: 9.2K | Snowflake, Pinecone, BigQuery | [Codex](https://aiflowlearn.net/en/codex/activeloopai-deeplake) | Coming soon |
 | [GreptimeDB](https://open.aiflowlearn.net/greptimedb) - Cloud-native observability database unifying metrics, logs, and traces with sub-second queries, 50x cost... | license: Apache-2.0<br>⭐ Star: 6.4K | - | Coming soon | Coming soon |
 | [JanusGraph](https://open.aiflowlearn.net/janusgraph) - JanusGraph: an open-source, distributed graph database | license: NOASSERTION<br>⭐ Star: 5.8K | Neo4j | Coming soon | Coming soon |
 | [HelixDB](https://open.aiflowlearn.net/helixdb) - Rust-built native graph-vector database combining vector similarity search and graph traversals. | license: Apache-2.0<br>⭐ Star: 5.1K | Supabase, Pinecone, ElasticSearch | Coming soon | Coming soon |
-| [OpenTSDB](https://open.aiflowlearn.net/opentsdb) - A scalable, distributed Time Series Database. | license: LGPL-2.1<br>⭐ Star: 5.1K | Influxdb, DataDog | Coming soon | Coming soon |
+| [OpenTSDB](https://open.aiflowlearn.net/opentsdb) - A scalable, distributed Time Series Database. | license: LGPL-2.1<br>⭐ Star: 5.1K | Influxdb, Datadog | Coming soon | Coming soon |
 | [Baserow](https://open.aiflowlearn.net/baserow) - Open-source platform for building databases, internal apps, and automated workflows without writing code. | license: Unknown<br>⭐ Star: 5K | Airtable, Microsoft Excel, Google Sheets | Coming soon | Coming soon |
 | [Mathesar](https://open.aiflowlearn.net/mathesar) - A self-hosted tool that provides an intuitive, spreadsheet-style interface for viewing, editing, and... | license: GPL-3.0<br>⭐ Star: 5K | Airtable, Google Sheets, Glide | Coming soon | Coming soon |
 | [CrateDB](https://open.aiflowlearn.net/cratedb) - Distributed SQL database designed for high-speed ingestion and complex queries on massive datasets, ideal... | license: Apache-2.0<br>⭐ Star: 4.4K | Snowflake, BigQuery, RedShift | Coming soon | Coming soon |
@@ -1195,7 +1266,7 @@ These projects already have OpenAlternativeLearn detail pages and Codex architec
 | [undb](https://open.aiflowlearn.net/undb) - Build and manage custom databases with ease, create type-safe APIs, and develop applications quickly | license: AGPL-3.0<br>⭐ Star: 2.9K | Supabase, Airtable, Firebase | Coming soon | Coming soon |
 | [Peergos](https://open.aiflowlearn.net/peergos) - A peer-to-peer encrypted filesystem for secure file storage, sharing, and collaboration with end-to-end... | license: AGPL-3.0<br>⭐ Star: 2.4K | Dropbox, Mega, ownCloud | Coming soon | Coming soon |
 | [Azimutt](https://open.aiflowlearn.net/azimutt) - Azimutt is a powerful tool for seamlessly exploring, documenting, and optimizing large and complex databases. | license: MIT<br>⭐ Star: 2.1K | - | Coming soon | Coming soon |
-| [KairosDB](https://open.aiflowlearn.net/kairosdb) - Fast scalable time series database | license: Apache-2.0<br>⭐ Star: 1.8K | Influxdb, DataDog | Coming soon | Coming soon |
+| [KairosDB](https://open.aiflowlearn.net/kairosdb) - Fast scalable time series database | license: Apache-2.0<br>⭐ Star: 1.8K | Influxdb, Datadog | Coming soon | Coming soon |
 | [Conar](https://open.aiflowlearn.net/conar) - Modern PostgreSQL database management with AI-powered filtering, natural language queries, and cloud sync. | license: AGPL-3.0<br>⭐ Star: 1.4K | DataGrip, Navicat, TablePlus | Coming soon | Coming soon |
 | [Apache Cloudberry](https://open.aiflowlearn.net/cloudberry) - Leverage advanced analytics with a modern PostgreSQL kernel. | license: Apache-2.0<br>⭐ Star: 1.2K | - | Coming soon | Coming soon |
 
@@ -1207,7 +1278,7 @@ These projects already have OpenAlternativeLearn detail pages and Codex architec
 | [Netbird](https://open.aiflowlearn.net/netbird) - Open source platform combining WireGuard overlay networks with Zero Trust access controls. | license: Unknown<br>⭐ Star: 26K | Zerotier, Cloudflare Tunnel, Twingate | Coming soon | Coming soon |
 | [Pangolin](https://open.aiflowlearn.net/pangolin) - Deploy zero trust access to infrastructure, self-hosted apps, and SaaS tools in days. | license: Unknown<br>⭐ Star: 21K | Zerotier, Cloudflare Tunnel, Twingate | Coming soon | Coming soon |
 | [OpenVPN](https://open.aiflowlearn.net/openvpn) - Secure remote access VPN solutions with zero trust network access. | license: Unknown<br>⭐ Star: 14K | Teleport, Cloudflare Tunnel, Twingate | Coming soon | Coming soon |
-| [FireZone](https://open.aiflowlearn.net/firezone) - Replace your VPN with zero-trust access built on WireGuard. | license: Apache-2.0<br>⭐ Star: 8.7K | Zerotier, Teleport, Twingate | Coming soon | Coming soon |
+| [FireZone](https://open.aiflowlearn.net/firezone) - Replace your VPN with zero-trust access built on WireGuard. | license: Apache-2.0<br>⭐ Star: 8.7K | Zerotier, Teleport, Twingate | [Codex](https://aiflowlearn.net/en/codex/firezone-firezone) | Coming soon |
 | [Soketi](https://open.aiflowlearn.net/soketi) - Open-source, Pusher-compatible WebSockets server that's simple, fast, and resilient for building real-time... | license: AGPL-3.0<br>⭐ Star: 5.6K | - | Coming soon | Coming soon |
 | [Defguard](https://open.aiflowlearn.net/defguard) - Enterprise-grade open source VPN solution combining WireGuard with mandatory 2FA/MFA and integrated OpenID... | license: Unknown<br>⭐ Star: 2.7K | NordVPN, Zerotier, Okta | Coming soon | Coming soon |
 | [WR.DO](https://open.aiflowlearn.net/wr-do) - WR.DO offers free domain name distribution and short URL generation, built on Cloudflare's infrastructure... | license: MIT<br>⭐ Star: 2.3K | TinyURL, Bitly, Short.io | Coming soon | Coming soon |
@@ -1217,7 +1288,6 @@ These projects already have OpenAlternativeLearn detail pages and Codex architec
 
 | Project | Github Info | Alternative To | Codex | Classroom |
 | --- | --- | --- | --- | --- |
-| [n8n](https://open.aiflowlearn.net/n8n) - Build automated workflows connecting 500+ apps, write custom code, and deploy AI agents with full... | license: Unknown<br>⭐ Star: 192K | Make, Zapier, IFTTT | [Codex](https://www.aiflowlearn.net/en/codex/n8n-io-n8n) | [Codex](https://www.aiflowlearn.net/en/codex/n8n-io-n8n) |
 | [1Panel](https://open.aiflowlearn.net/1panel) - Comprehensive web-based tool for Linux server administration with integrated website, database, container,... | license: GPL-3.0<br>⭐ Star: 36K | cPanel, Plesk | Coming soon | Coming soon |
 | [Kestra](https://open.aiflowlearn.net/kestra) - YAML-based orchestration platform with 1400+ plugins for running data pipelines, AI workflows, and... | license: Apache-2.0<br>⭐ Star: 27K | n8n, Make, Zapier | Coming soon | Coming soon |
 | [Prefect](https://open.aiflowlearn.net/prefect) - Prefect offers modern tools to build, monitor, and react to data workflows efficiently and reliably. | license: Apache-2.0<br>⭐ Star: 23K | Supermetrics, Fivetran, Matillion | Coming soon | Coming soon |
@@ -1225,8 +1295,8 @@ These projects already have OpenAlternativeLearn detail pages and Codex architec
 | [Windmill](https://open.aiflowlearn.net/windmill) - Powerful, self-hosted platform for building and running workflows, scripts, and apps with code-first... | license: Unknown<br>⭐ Star: 17K | Make, Zapier, IFTTT | Coming soon | Coming soon |
 | [Trigger](https://open.aiflowlearn.net/trigger) - Open source TypeScript platform for building and deploying AI agents and background workflows with... | license: Apache-2.0<br>⭐ Star: 15K | Make, Zapier, Pipedream | Coming soon | Coming soon |
 | [Automatisch](https://open.aiflowlearn.net/automatisch) - Self-hosted automation tool that connects your apps and services, enabling powerful integrations and... | license: Unknown<br>⭐ Star: 14K | n8n, Make, Zapier | Coming soon | Coming soon |
-| [Mage](https://open.aiflowlearn.net/mage) - Open-source data pipeline platform for effortless data integration, transformation, and orchestration... | license: Apache-2.0<br>⭐ Star: 8.8K | Pipedream, Supermetrics, Amazon API Gateway | Coming soon | Coming soon |
-| [Hatchet](https://open.aiflowlearn.net/hatchet) - Durable orchestration platform for managing AI agents, scheduling background tasks, and running... | license: MIT<br>⭐ Star: 7.3K | Make, Zapier, IFTTT | Coming soon | Coming soon |
+| [Mage](https://open.aiflowlearn.net/mage) - Open-source data pipeline platform for effortless data integration, transformation, and orchestration... | license: Apache-2.0<br>⭐ Star: 8.8K | Pipedream, Supermetrics, Amazon API Gateway | [Codex](https://aiflowlearn.net/en/codex/mage-ai-mage-ai) | Coming soon |
+| [Hatchet](https://open.aiflowlearn.net/hatchet) - Durable orchestration platform for managing AI agents, scheduling background tasks, and running... | license: MIT<br>⭐ Star: 7.3K | Make, Zapier, IFTTT | [Codex](https://aiflowlearn.net/en/codex/hatchet-dev-hatchet) | Coming soon |
 | [Inngest](https://open.aiflowlearn.net/inngest) - Simplify backend processes with event-driven functions, seamless integrations, and powerful debugging... | license: Unknown<br>⭐ Star: 5.5K | - | Coming soon | Coming soon |
 | [Digger](https://open.aiflowlearn.net/digger) - Open-source CI/CD orchestrator for Terraform with pull request automation, drift detection, and... | license: MIT<br>⭐ Star: 5K | Red Hat Ansible, Terraform, Puppet | Coming soon | Coming soon |
 | [Tracecat](https://open.aiflowlearn.net/tracecat) - Tracecat is a scalable, self-hostable platform for automating security workflows and playbooks without limits. | license: AGPL-3.0<br>⭐ Star: 3.7K | Jira, Splunk | Coming soon | Coming soon |
@@ -1275,6 +1345,12 @@ These projects already have OpenAlternativeLearn detail pages and Codex architec
 | [Plakar](https://open.aiflowlearn.net/plakar) - Backup solution with CLI, API and UI interfaces. | license: ISC<br>⭐ Star: 1.8K | Comet Backup, Veeam, Duplicacy | Coming soon | Coming soon |
 | [Pluton](https://open.aiflowlearn.net/pluton) - Free, open-source backup solution with end-to-end encryption. | license: Apache-2.0<br>⭐ Star: 482 | Comet Backup, Veeam, Duplicacy | Coming soon | Coming soon |
 
+### Actor Runtime / Realtime Infra
+
+| Project | Github Info | Alternative To | Codex | Classroom |
+| --- | --- | --- | --- | --- |
+| [Rivet](https://open.aiflowlearn.net/rivet) - Open-source infrastructure for long-lived, in-memory processes called Actors. | license: Apache-2.0<br>⭐ Star: 5.6K | Cloudflare Durable Objects, Temporal Cloud, Modal | [Codex](https://aiflowlearn.net/en/codex/rivet) | Coming soon |
+
 
 ## Miscellaneous
 
@@ -1284,11 +1360,10 @@ These projects already have OpenAlternativeLearn detail pages and Codex architec
 | --- | --- | --- | --- | --- |
 | [OpenBB](https://open.aiflowlearn.net/openbb) - Connects proprietary, licensed, and public financial data with AI agents in a self-hostable workspace for... | license: Unknown<br>⭐ Star: 69K | Power BI, Bloomberg Terminal, Tableau | Coming soon | Coming soon |
 | [Hyperswitch](https://open.aiflowlearn.net/hyperswitch) - A unified payment infrastructure that connects multiple payment processors through a single API... | license: Apache-2.0<br>⭐ Star: 43K | Stripe Billing, PayPal Braintree | Coming soon | Coming soon |
-| [Fincept Terminal](https://open.aiflowlearn.net/fincept-terminal) - Comprehensive financial data platform offering economic insights, market analysis, and portfolio... | license: Unknown<br>⭐ Star: 27K | - | [Codex](https://www.aiflowlearn.net/en/codex/fincept-corporation-finceptterminal) | [Codex](https://www.aiflowlearn.net/en/codex/fincept-corporation-finceptterminal) |
 | [Hummingbot](https://open.aiflowlearn.net/hummingbot) - Automate crypto trading strategies with a powerful, customizable platform. | license: Apache-2.0<br>⭐ Star: 19K | - | Coming soon | Coming soon |
-| [Ghostfolio](https://open.aiflowlearn.net/ghostfolio) - Open-source wealth management software for tracking stocks, ETFs, and cryptocurrencies across multiple... | license: AGPL-3.0<br>⭐ Star: 8.7K | YNAB, Mint | Coming soon | Coming soon |
+| [Ghostfolio](https://open.aiflowlearn.net/ghostfolio) - Open-source wealth management software for tracking stocks, ETFs, and cryptocurrencies across multiple... | license: AGPL-3.0<br>⭐ Star: 8.7K | YNAB, Mint | [Codex](https://aiflowlearn.net/en/codex/ghostfolio-ghostfolio) | Coming soon |
 | [Crater](https://open.aiflowlearn.net/crater) - Crater offers AI-driven invoicing workflows, payments, and working capital tools to enhance your platform... | license: AGPL-3.0<br>⭐ Star: 8.3K | Quickbooks, Stripe Billing, Xero | Coming soon | Coming soon |
-| [Wealthfolio](https://open.aiflowlearn.net/wealthfolio) - Wealthfolio is a simple, secure desktop app for tracking investments and managing your wealth without... | license: AGPL-3.0<br>⭐ Star: 7.6K | Quickbooks, YNAB, Mint | Coming soon | Coming soon |
+| [Wealthfolio](https://open.aiflowlearn.net/wealthfolio) - Wealthfolio is a simple, secure desktop app for tracking investments and managing your wealth without... | license: AGPL-3.0<br>⭐ Star: 7.6K | Quickbooks, YNAB, Mint | [Codex](https://aiflowlearn.net/en/codex/afadil-wealthfolio) | Coming soon |
 | [Ballerine](https://open.aiflowlearn.net/ballerine) - Reduce fraud, accelerate underwriting, and maintain compliance with AI-driven merchant risk intelligence... | license: Unknown<br>⭐ Star: 2.4K | Seon, SumSub, Feedzai | Coming soon | Coming soon |
 | [Formance](https://open.aiflowlearn.net/formance) - Build custom financial flows and integrate with any provider using Formance's agnostic platform | license: Unknown<br>⭐ Star: 514 | Stripe Billing, PayPal Braintree | Coming soon | Coming soon |
 | [0 Finance](https://open.aiflowlearn.net/0-finance) - High-yield treasury management for startups earning 8% APY with insurance coverage up to $1M. | license: MIT<br>⭐ Star: 230 | - | Coming soon | Coming soon |
@@ -1297,9 +1372,9 @@ These projects already have OpenAlternativeLearn detail pages and Codex architec
 
 | Project | Github Info | Alternative To | Codex | Classroom |
 | --- | --- | --- | --- | --- |
-| [Penpot](https://open.aiflowlearn.net/penpot) - Design, prototype, and hand off to developers in one platform. | license: MPL-2.0<br>⭐ Star: 50K | Canva, Figma, Miro | Coming soon | Coming soon |
-| [Krita](https://open.aiflowlearn.net/krita) - Free and open source painting program built by artists for artists. | license: GPL-3.0<br>⭐ Star: 9.9K | - | Coming soon | Coming soon |
-| [Plasmic](https://open.aiflowlearn.net/plasmic) - Open-source visual editor for building websites and web apps. | license: MIT<br>⭐ Star: 6.9K | Framer, Webflow, Wix | Coming soon | Coming soon |
+| [Penpot](https://open.aiflowlearn.net/penpot) - Design, prototype, and hand off to developers in one platform. | license: MPL-2.0<br>⭐ Star: 50K | Canva, Figma, Miro | [Codex](https://aiflowlearn.net/en/codex/penpot-penpot) | Coming soon |
+| [Krita](https://open.aiflowlearn.net/krita) - Free and open source painting program built by artists for artists. | license: GPL-3.0<br>⭐ Star: 9.9K | - | [Codex](https://aiflowlearn.net/en/codex/kde-krita) | Coming soon |
+| [Plasmic](https://open.aiflowlearn.net/plasmic) - Open-source visual editor for building websites and web apps. | license: MIT<br>⭐ Star: 6.9K | Framer, Webflow, Wix | [Codex](https://aiflowlearn.net/en/codex/plasmicapp-plasmic) | Coming soon |
 | [GIMP](https://open.aiflowlearn.net/gimp) - Free, open-source image editor with professional tools for photo manipulation, digital art creation, and... | license: Unknown<br>⭐ Star: 6.2K | Photoshop, Affinity Photo | Coming soon | Coming soon |
 | [draw.io](https://open.aiflowlearn.net/draw-io) - Create professional diagrams online or offline with security-first approach. | license: Apache-2.0<br>⭐ Star: 6.1K | Microsoft Visio, Miro, LucidChart | Coming soon | Coming soon |
 | [OpenPencil](https://open.aiflowlearn.net/openpencil) - A Figma-compatible design editor with built-in AI chat, headless CLI, real-time P2P collaboration, and a... | license: MIT<br>⭐ Star: 5.6K | Figma, Paper, Adobe XD | Coming soon | Coming soon |
@@ -1341,7 +1416,7 @@ These projects already have OpenAlternativeLearn detail pages and Codex architec
 
 | Project | Github Info | Alternative To | Codex | Classroom |
 | --- | --- | --- | --- | --- |
-| [Jellyfin](https://open.aiflowlearn.net/jellyfin) - Free, open source media server that lets you collect, manage, and stream your personal library to any... | license: GPL-2.0<br>⭐ Star: 53K | Netflix, Plex, Streamio | Coming soon | Coming soon |
+| [Jellyfin](https://open.aiflowlearn.net/jellyfin) - Free, open source media server that lets you collect, manage, and stream your personal library to any... | license: GPL-2.0<br>⭐ Star: 53K | Netflix, Plex, Streamio | [Codex](https://aiflowlearn.net/en/codex/jellyfin-jellyfin) | Coming soon |
 | [Navidrome](https://open.aiflowlearn.net/navidrome) - Open source music server that streams your personal library via a web player or any Subsonic-compatible... | license: GPL-3.0<br>⭐ Star: 22K | Spotify, YouTube, SoundCloud | Coming soon | Coming soon |
 | [Invidious](https://open.aiflowlearn.net/invidious) - Open source front-end for YouTube that strips out ads, tracking, and algorithmic distractions while... | license: AGPL-3.0<br>⭐ Star: 20K | - | Coming soon | Coming soon |
 | [Nuclear](https://open.aiflowlearn.net/nuclear) - Open-source desktop music player for Windows, macOS, and Linux. | license: AGPL-3.0<br>⭐ Star: 18K | Spotify, YouTube, SoundCloud | Coming soon | Coming soon |
@@ -1354,7 +1429,7 @@ These projects already have OpenAlternativeLearn detail pages and Codex architec
 
 | Project | Github Info | Alternative To | Codex | Classroom |
 | --- | --- | --- | --- | --- |
-| [OpenCut](https://open.aiflowlearn.net/opencut) - Browser-based, open source video editor built for privacy. | license: MIT<br>⭐ Star: 56K | CapCut, Adobe Premiere Pro, DaVinci Resolve | Coming soon | Coming soon |
+| [OpenCut](https://open.aiflowlearn.net/opencut) - Browser-based, open source video editor built for privacy. | license: MIT<br>⭐ Star: 56K | CapCut, Adobe Premiere Pro, DaVinci Resolve | [Codex](https://aiflowlearn.net/en/codex/opencut-app-opencut) | Coming soon |
 | [LosslessCut](https://open.aiflowlearn.net/losslesscut) - Desktop app for lossless video and audio editing. | license: GPL-2.0<br>⭐ Star: 41K | CapCut, Adobe Premiere Pro, DaVinci Resolve | Coming soon | Coming soon |
 | [Audacity](https://open.aiflowlearn.net/audacity) - Free, open-source audio editor and recorder for all platforms. | license: Unknown<br>⭐ Star: 17K | Ableton Live, Logic Pro, Adobe Audition | Coming soon | Coming soon |
 | [Shotcut](https://open.aiflowlearn.net/shotcut) - Free, open-source video editor supporting 4K resolution, hundreds of formats, and professional features... | license: GPL-3.0<br>⭐ Star: 14K | CapCut, Adobe Premiere Pro, DaVinci Resolve | Coming soon | Coming soon |
@@ -1362,6 +1437,12 @@ These projects already have OpenAlternativeLearn detail pages and Codex architec
 | [OpenShot](https://open.aiflowlearn.net/openshot) - A free, open-source video editor for Linux, Mac, and Windows with animation, effects, multi-track editing,... | license: Unknown<br>⭐ Star: 5.9K | CapCut, Adobe Premiere Pro, DaVinci Resolve | Coming soon | Coming soon |
 | [Kdenlive](https://open.aiflowlearn.net/kdenlive) - Cross-platform non-linear video editor offering professional features for free. | license: GPL-3.0<br>⭐ Star: 5.2K | CapCut, Adobe Premiere Pro, DaVinci Resolve | Coming soon | Coming soon |
 | [RawTherapee](https://open.aiflowlearn.net/rawtherapee) - Free, cross-platform raw image processor with 32-bit floating point engine, advanced demosaicing... | license: GPL-3.0<br>⭐ Star: 4K | Adobe Lightroom, Affinity Photo | Coming soon | Coming soon |
+
+### Financial Terminal
+
+| Project | Github Info | Alternative To | Codex | Classroom |
+| --- | --- | --- | --- | --- |
+| [Fincept Terminal](https://open.aiflowlearn.net/fincept-terminal) - Comprehensive financial data platform offering economic insights, market analysis, and portfolio... | license: Unknown<br>⭐ Star: 27K | Bloomberg Terminal, FactSet, AlphaSense | [Codex](https://aiflowlearn.net/en/codex/finceptterminal) | Coming soon |
 
 
 ## Productivity & Utilities
@@ -1377,17 +1458,16 @@ These projects already have OpenAlternativeLearn detail pages and Codex architec
 | [SiYuan](https://open.aiflowlearn.net/siyuan) - Personal knowledge management system with WYSIWYG block editing, bidirectional links, spaced repetition... | license: AGPL-3.0<br>⭐ Star: 44K | Notion, Obsidian, OneNote | Coming soon | Coming soon |
 | [Logseq](https://open.aiflowlearn.net/logseq) - Local-first, open-source knowledge management tool with bidirectional linking, outlines, flashcards, PDF... | license: AGPL-3.0<br>⭐ Star: 43K | Notion, Obsidian, Google Keep | Coming soon | Coming soon |
 | [Outline](https://open.aiflowlearn.net/outline) - Team knowledge base with real-time collaboration, AI-powered search, Slack integration, and self-hosting... | license: Unknown<br>⭐ Star: 39K | Notion, Confluence, Craft | Coming soon | Coming soon |
-| [Khoj](https://open.aiflowlearn.net/khoj) - Self-hostable AI assistant that connects to your docs and the web, lets you build agents, schedule... | license: AGPL-3.0<br>⭐ Star: 35K | Claude, ChatGPT, Perplexity | [Codex](https://www.aiflowlearn.net/en/codex/khoj-ai-khoj) | [Codex](https://www.aiflowlearn.net/en/codex/khoj-ai-khoj) |
-| [Open-Notebook](https://open.aiflowlearn.net/open-notebook) - Combines AI summarization, podcast generation, and multi-format content ingestion for researchers and... | license: MIT<br>⭐ Star: 30K | NotebookLM, Roam Research | Coming soon | Coming soon |
+| [Open-Notebook](https://open.aiflowlearn.net/open-notebook) - Combines AI summarization, podcast generation, and multi-format content ingestion for researchers and... | license: MIT<br>⭐ Star: 30K | NotebookLM, Roam Research | [Codex](https://aiflowlearn.net/en/codex/lfnovo-open-notebook) | Coming soon |
 | [KeePassXC](https://open.aiflowlearn.net/keepassxc) - KeePassXC is an open-source password manager that securely stores and manages sensitive information across... | license: Unknown<br>⭐ Star: 28K | 1Password, Proton Pass, Keeper | Coming soon | Coming soon |
 | [Docmost](https://open.aiflowlearn.net/docmost) - Self-hosted wiki platform for enterprise teams with real-time collaboration, built-in AI, SSO, RBAC... | license: AGPL-3.0<br>⭐ Star: 21K | Notion, Obsidian, Confluence | Coming soon | Coming soon |
-| [Tolaria](https://open.aiflowlearn.net/tolaria) - A free, open source note-taking app built on plain Markdown files, Git version control, and direct AI... | license: AGPL-3.0<br>⭐ Star: 16K | Obsidian, OneNote, Google Keep | Coming soon | Coming soon |
+| [Tolaria](https://open.aiflowlearn.net/tolaria) - A free, open source note-taking app built on plain Markdown files, Git version control, and direct AI... | license: AGPL-3.0<br>⭐ Star: 16K | Obsidian, OneNote, Google Keep | [Codex](https://aiflowlearn.net/en/codex/refactoringhq-tolaria) | Coming soon |
 | [Notesnook](https://open.aiflowlearn.net/notesnook) - End-to-end encrypted note-taking app with zero-knowledge architecture, cross-device sync, web clipper, and... | license: GPL-3.0<br>⭐ Star: 14K | Notion, Obsidian, OneNote | Coming soon | Coming soon |
 | [SurfSense](https://open.aiflowlearn.net/surfsense) - Self-hostable NotebookLM alternative that lets teams build searchable knowledge bases from diverse... | license: Apache-2.0<br>⭐ Star: 14K | NotebookLM, Perplexity | Coming soon | Coming soon |
 | [Meetily](https://open.aiflowlearn.net/meetily) - Records, transcribes, and summarizes meetings entirely on your device using local AI. | license: MIT<br>⭐ Star: 13K | Otter.ai, Granola, Jamie AI | Coming soon | Coming soon |
 | [Blinko](https://open.aiflowlearn.net/blinko) - The next generation of open-source AI-powered card notes designed to help you quickly capture and organize... | license: GPL-3.0<br>⭐ Star: 11K | Notion, Obsidian, Logseq | Coming soon | Coming soon |
-| [Anarlog](https://open.aiflowlearn.net/anarlog) - Records system audio without joining your call, then turns rough notes into editable summaries. | license: MIT<br>⭐ Star: 8.6K | Otter.ai, Granola, Jamie AI | Coming soon | Coming soon |
-| [AnyType](https://open.aiflowlearn.net/anytype) - A local-first, encrypted workspace for notes, tasks, databases, and chats. | license: Unknown<br>⭐ Star: 8.1K | Notion, Obsidian, Google Keep | Coming soon | Coming soon |
+| [Anarlog](https://open.aiflowlearn.net/anarlog) - Records system audio without joining your call, then turns rough notes into editable summaries. | license: MIT<br>⭐ Star: 8.6K | Otter.ai, Granola, Jamie AI | [Codex](https://aiflowlearn.net/en/codex/fastrepl-anarlog) | Coming soon |
+| [AnyType](https://open.aiflowlearn.net/anytype) - A local-first, encrypted workspace for notes, tasks, databases, and chats. | license: Unknown<br>⭐ Star: 8.1K | Notion, Obsidian, Google Keep | [Codex](https://aiflowlearn.net/en/codex/anyproto-anytype-ts) | Coming soon |
 | [Standard Notes](https://open.aiflowlearn.net/standard-notes) - Cross-platform note-taking app with end-to-end encryption, offline access, and powerful organization... | license: AGPL-3.0<br>⭐ Star: 6.5K | Obsidian, OneNote, Google Keep | Coming soon | Coming soon |
 | [Deta Surf](https://open.aiflowlearn.net/deta-surf) - A browser that doubles as a personal notebook, letting you research, summarize, and take notes on web... | license: Apache-2.0<br>⭐ Star: 3.4K | NotebookLM, Comet Browser, Roam Research | Coming soon | Coming soon |
 | [Vrite](https://open.aiflowlearn.net/vrite) - A powerful platform for technical writing, offering real-time collaboration, version control, and seamless... | license: Unknown<br>⭐ Star: 2K | Mintlify, Gitbook | Coming soon | Coming soon |
@@ -1447,7 +1527,7 @@ These projects already have OpenAlternativeLearn detail pages and Codex architec
 | [Postal](https://open.aiflowlearn.net/postal) - Self-hosted email delivery platform with powerful features for transactional and bulk emails, offering... | license: MIT<br>⭐ Star: 17K | Resend, Mailchimp, SendGrid | Coming soon | Coming soon |
 | [Inbox Zero](https://open.aiflowlearn.net/inboxzero) - Automates Gmail and Outlook with AI-drafted replies, bulk unsubscribe, cold email blocking, attachment... | license: AGPL-3.0<br>⭐ Star: 11K | Lindy, Cora, Fyxer | Coming soon | Coming soon |
 | [Zero](https://open.aiflowlearn.net/zero) - Self-hostable email client that connects to your existing accounts and gives you full control over your... | license: MIT<br>⭐ Star: 11K | Gmail, Apple Mail, Lindy | Coming soon | Coming soon |
-| [Tuta](https://open.aiflowlearn.net/tuta) - Tuta offers encrypted email, calendar and contacts with quantum-resistant security, protecting your... | license: GPL-3.0<br>⭐ Star: 7.7K | Microsoft 365, Gmail, Google Workspace | Coming soon | Coming soon |
+| [Tuta](https://open.aiflowlearn.net/tuta) - Tuta offers encrypted email, calendar and contacts with quantum-resistant security, protecting your... | license: GPL-3.0<br>⭐ Star: 7.7K | Microsoft 365, Gmail, Google Workspace | [Codex](https://aiflowlearn.net/en/codex/tutao-tutanota) | Coming soon |
 | [Plunk](https://open.aiflowlearn.net/plunk) - Plunk unifies marketing, transactional, and broadcast emails into a single, complete solution for... | license: AGPL-3.0<br>⭐ Star: 5.2K | Resend, Mailchimp, SendGrid | Coming soon | Coming soon |
 | [useSend](https://open.aiflowlearn.net/usesend) - Open source email platform for transactional and marketing emails. | license: AGPL-3.0<br>⭐ Star: 4.4K | Resend, Mailchimp, SendGrid | Coming soon | Coming soon |
 | [Freescout](https://open.aiflowlearn.net/freescout) - Self-hosted email management system with shared inboxes, automation, and powerful collaboration features... | license: AGPL-3.0<br>⭐ Star: 4.3K | Zendesk, FreshDesk, Hiver | Coming soon | Coming soon |
@@ -1464,14 +1544,11 @@ These projects already have OpenAlternativeLearn detail pages and Codex architec
 
 | Project | Github Info | Alternative To | Codex | Classroom |
 | --- | --- | --- | --- | --- |
-| [n8n](https://open.aiflowlearn.net/n8n) - Build automated workflows connecting 500+ apps, write custom code, and deploy AI agents with full... | license: Unknown<br>⭐ Star: 192K | Make, Zapier, IFTTT | [Codex](https://www.aiflowlearn.net/en/codex/n8n-io-n8n) | [Codex](https://www.aiflowlearn.net/en/codex/n8n-io-n8n) |
-| [Browser Use](https://open.aiflowlearn.net/browser-use) - Python library that lets AI agents browse the web by giving them real browser control, DOM access, and the... | license: MIT<br>⭐ Star: 99K | Browserbase, Anchor Browser | [Codex](https://www.aiflowlearn.net/en/codex/browser-use-source-walkthrough) | [Codex](https://www.aiflowlearn.net/en/codex/browser-use-source-walkthrough) |
 | [Home Assistant](https://open.aiflowlearn.net/home-assistant) - Open source home automation platform supporting 1000+ devices with local control, powerful automations,... | license: Apache-2.0<br>⭐ Star: 88K | Amazon Alexa, HomeKit, Google Assistant | Coming soon | Coming soon |
 | [Lightpanda](https://open.aiflowlearn.net/lightpanda) - Purpose-built headless browser that delivers 10x faster performance and 10x lower memory usage compared to... | license: AGPL-3.0<br>⭐ Star: 31K | Browserbase, Anchor Browser | Coming soon | Coming soon |
 | [ActivePieces](https://open.aiflowlearn.net/activepieces) - Open-source integration platform for seamless workflow automation. | license: Unknown<br>⭐ Star: 23K | n8n, Make, Zapier | Coming soon | Coming soon |
 | [Skyvern](https://open.aiflowlearn.net/skyvern) - Transform manual browser tasks into automated workflows using AI. | license: AGPL-3.0<br>⭐ Star: 22K | Browserbase, Anchor Browser | Coming soon | Coming soon |
 | [Automa](https://open.aiflowlearn.net/automa) - No-code platform for building AI agents and RPA workflows that automate repetitive business tasks across... | license: Unknown<br>⭐ Star: 21K | n8n, Make, Zapier | Coming soon | Coming soon |
-| [MaxKB](https://open.aiflowlearn.net/maxkb) - Open-source AI solution combining RAG pipelines, workflow automation, and multi-model support for... | license: GPL-3.0<br>⭐ Star: 21K | - | [Codex](https://www.aiflowlearn.net/zh/codex/maxkb) | [Codex](https://www.aiflowlearn.net/en/codex/maxkb) |
 | [Parlant](https://open.aiflowlearn.net/parlant) - A conversational AI server that manages agent behavior through context-aware guidelines, keeping responses... | license: Apache-2.0<br>⭐ Star: 18K | Voiceflow, Chatbase, Uchat | Coming soon | Coming soon |
 | [Leon](https://open.aiflowlearn.net/leon) - Leon is an AI-powered virtual assistant that lives on your server, automating tasks and managing your... | license: MIT<br>⭐ Star: 17K | - | Coming soon | Coming soon |
 | [Windmill](https://open.aiflowlearn.net/windmill) - Powerful, self-hosted platform for building and running workflows, scripts, and apps with code-first... | license: Unknown<br>⭐ Star: 17K | Make, Zapier, IFTTT | Coming soon | Coming soon |
@@ -1481,8 +1558,8 @@ These projects already have OpenAlternativeLearn detail pages and Codex architec
 | [Automatisch](https://open.aiflowlearn.net/automatisch) - Self-hosted automation tool that connects your apps and services, enabling powerful integrations and... | license: Unknown<br>⭐ Star: 14K | n8n, Make, Zapier | Coming soon | Coming soon |
 | [Keep](https://open.aiflowlearn.net/keep) - Open-source platform for centralizing alerts, automating responses, and enhancing incident management... | license: MIT<br>⭐ Star: 12K | Opsgenie, BetterStack, Pagerduty | Coming soon | Coming soon |
 | [Typebot](https://open.aiflowlearn.net/typebot) - Design, build, and deploy interactive chatbots with a visual editor. | license: Unknown<br>⭐ Star: 10K | Manychat, Voiceflow, DocsBot | Coming soon | Coming soon |
-| [Hatchet](https://open.aiflowlearn.net/hatchet) - Durable orchestration platform for managing AI agents, scheduling background tasks, and running... | license: MIT<br>⭐ Star: 7.3K | Make, Zapier, IFTTT | Coming soon | Coming soon |
-| [Steel](https://open.aiflowlearn.net/steel) - Open-source browser API designed for AI agents. | license: Apache-2.0<br>⭐ Star: 7.2K | Browserbase, Anchor Browser | Coming soon | Coming soon |
+| [Hatchet](https://open.aiflowlearn.net/hatchet) - Durable orchestration platform for managing AI agents, scheduling background tasks, and running... | license: MIT<br>⭐ Star: 7.3K | Make, Zapier, IFTTT | [Codex](https://aiflowlearn.net/en/codex/hatchet-dev-hatchet) | Coming soon |
+| [Steel](https://open.aiflowlearn.net/steel) - Open-source browser API designed for AI agents. | license: Apache-2.0<br>⭐ Star: 7.2K | Browserbase, Anchor Browser | [Codex](https://aiflowlearn.net/en/codex/steel-dev-steel-browser) | Coming soon |
 | [Pipeshub](https://open.aiflowlearn.net/pipeshub) - Self-hostable enterprise AI platform that unifies business data across apps, powers a knowledge graph for... | license: Apache-2.0<br>⭐ Star: 3K | - | Coming soon | Coming soon |
 | [Revert](https://open.aiflowlearn.net/revert) - Revert makes it incredibly easy to build integrations with any third party API | license: AGPL-3.0<br>⭐ Star: 1K | Merge, Tray IO | Coming soon | Coming soon |
 | [Hexabot](https://open.aiflowlearn.net/hexabot) - Hexabot is an open-source platform for creating intelligent, multilingual chatbots without coding complexity. | license: AGPL-3.0<br>⭐ Star: 974 | Manychat, Voiceflow, Chatbase | Coming soon | Coming soon |
@@ -1499,7 +1576,7 @@ These projects already have OpenAlternativeLearn detail pages and Codex architec
 | --- | --- | --- | --- | --- |
 | [Super Productivity](https://open.aiflowlearn.net/super-productivity) - Combines task management, time tracking, Pomodoro focus sessions, and GitHub/Jira integration in a... | license: MIT<br>⭐ Star: 20K | Monday, ClickUp, Todoist | Coming soon | Coming soon |
 | [ActivityWatch](https://open.aiflowlearn.net/activitywatch) - Free open-source time tracker that automatically monitors your device usage. | license: MPL-2.0<br>⭐ Star: 18K | RescueTime, WakaTime, Code Time | Coming soon | Coming soon |
-| [SolidTime](https://open.aiflowlearn.net/solidtime) - Seamlessly track time across multiple projects, generate insightful reports, and optimize your open source... | license: AGPL-3.0<br>⭐ Star: 8.7K | Clockify, Toggl, TimeCamp | Coming soon | Coming soon |
+| [SolidTime](https://open.aiflowlearn.net/solidtime) - Seamlessly track time across multiple projects, generate insightful reports, and optimize your open source... | license: AGPL-3.0<br>⭐ Star: 8.7K | Clockify, Toggl, TimeCamp | [Codex](https://aiflowlearn.net/en/codex/solidtime-io-solidtime) | Coming soon |
 | [Kimai](https://open.aiflowlearn.net/kimai) - Open-source time tracking solution for businesses of all sizes. | license: AGPL-3.0<br>⭐ Star: 4.7K | Clockify, Toggl, TimeCamp | Coming soon | Coming soon |
 | [Ueli](https://open.aiflowlearn.net/ueli) - A keyboard-driven launcher that helps you quickly find and open applications, files, and bookmarks across... | license: MIT<br>⭐ Star: 4.5K | Raycast, Alfred | Coming soon | Coming soon |
 | [Wakapi](https://open.aiflowlearn.net/wakapi) - Open-source, self-hosted time tracking solution for developers. | license: MIT<br>⭐ Star: 4.3K | Clockify, Toggl, TimeCamp | Coming soon | Coming soon |
@@ -1516,11 +1593,10 @@ These projects already have OpenAlternativeLearn detail pages and Codex architec
 | Project | Github Info | Alternative To | Codex | Classroom |
 | --- | --- | --- | --- | --- |
 | [Actual](https://open.aiflowlearn.net/actual) - Privacy-focused personal finance app using envelope budgeting, multi-device sync, optional end-to-end... | license: MIT<br>⭐ Star: 27K | YNAB, Mint, Rocket Money | Coming soon | Coming soon |
-| [Fincept Terminal](https://open.aiflowlearn.net/fincept-terminal) - Comprehensive financial data platform offering economic insights, market analysis, and portfolio... | license: Unknown<br>⭐ Star: 27K | - | [Codex](https://www.aiflowlearn.net/en/codex/fincept-corporation-finceptterminal) | [Codex](https://www.aiflowlearn.net/en/codex/fincept-corporation-finceptterminal) |
 | [Firefly III](https://open.aiflowlearn.net/firefly-iii) - Track transactions, budgets, and accounts with a double-entry system, multi-currency support, rule engine,... | license: AGPL-3.0<br>⭐ Star: 24K | YNAB, PocketGuard | Coming soon | Coming soon |
-| [Ghostfolio](https://open.aiflowlearn.net/ghostfolio) - Open-source wealth management software for tracking stocks, ETFs, and cryptocurrencies across multiple... | license: AGPL-3.0<br>⭐ Star: 8.7K | YNAB, Mint | Coming soon | Coming soon |
-| [Sure.am](https://open.aiflowlearn.net/sure-am) - An all-in-one personal finance platform. | license: AGPL-3.0<br>⭐ Star: 8.7K | YNAB, Mint, Rocket Money | Coming soon | Coming soon |
-| [Wealthfolio](https://open.aiflowlearn.net/wealthfolio) - Wealthfolio is a simple, secure desktop app for tracking investments and managing your wealth without... | license: AGPL-3.0<br>⭐ Star: 7.6K | Quickbooks, YNAB, Mint | Coming soon | Coming soon |
+| [Ghostfolio](https://open.aiflowlearn.net/ghostfolio) - Open-source wealth management software for tracking stocks, ETFs, and cryptocurrencies across multiple... | license: AGPL-3.0<br>⭐ Star: 8.7K | YNAB, Mint | [Codex](https://aiflowlearn.net/en/codex/ghostfolio-ghostfolio) | Coming soon |
+| [Sure.am](https://open.aiflowlearn.net/sure-am) - An all-in-one personal finance platform. | license: AGPL-3.0<br>⭐ Star: 8.7K | YNAB, Mint, Rocket Money | [Codex](https://aiflowlearn.net/en/codex/we-promise-sure) | Coming soon |
+| [Wealthfolio](https://open.aiflowlearn.net/wealthfolio) - Wealthfolio is a simple, secure desktop app for tracking investments and managing your wealth without... | license: AGPL-3.0<br>⭐ Star: 7.6K | Quickbooks, YNAB, Mint | [Codex](https://aiflowlearn.net/en/codex/afadil-wealthfolio) | Coming soon |
 | [ezBookkeeping](https://open.aiflowlearn.net/ezbookkeeping) - A privacy-first personal finance app with two-level accounts, multi-currency support, AI receipt... | license: MIT<br>⭐ Star: 5.1K | YNAB, Mint | Coming soon | Coming soon |
 | [Financial Freedom](https://open.aiflowlearn.net/financial-freedom) - Self-hosted alternative to Mint and YNAB for budgeting and building wealth while maintaining full control... | license: GPL-3.0<br>⭐ Star: 2.9K | YNAB, Mint, PocketGuard | Coming soon | Coming soon |
 | [Spliit](https://open.aiflowlearn.net/spliit) - A user-friendly app for tracking shared expenses, settling debts, and managing group finances with ease... | license: MIT<br>⭐ Star: 2.8K | - | Coming soon | Coming soon |
@@ -1532,9 +1608,9 @@ These projects already have OpenAlternativeLearn detail pages and Codex architec
 
 | Project | Github Info | Alternative To | Codex | Classroom |
 | --- | --- | --- | --- | --- |
-| [Excalidraw](https://open.aiflowlearn.net/excalidraw) - Virtual whiteboard for sketching diagrams, flowcharts, and wireframes with a distinctive hand-drawn look. | license: MIT<br>⭐ Star: 125K | Microsoft Visio, Miro, LucidChart | Coming soon | Coming soon |
+| [Excalidraw](https://open.aiflowlearn.net/excalidraw) - Virtual whiteboard for sketching diagrams, flowcharts, and wireframes with a distinctive hand-drawn look. | license: MIT<br>⭐ Star: 125K | Microsoft Visio, Miro, LucidChart | [Codex](https://aiflowlearn.net/en/codex/excalidraw-excalidraw) | Coming soon |
 | [Affine](https://open.aiflowlearn.net/affine) - An open-source, local-first knowledge base that merges structured docs, infinite whiteboards, databases,... | license: Unknown<br>⭐ Star: 69K | Notion, OneNote, Confluence | Coming soon | Coming soon |
-| [Penpot](https://open.aiflowlearn.net/penpot) - Design, prototype, and hand off to developers in one platform. | license: MPL-2.0<br>⭐ Star: 50K | Canva, Figma, Miro | Coming soon | Coming soon |
+| [Penpot](https://open.aiflowlearn.net/penpot) - Design, prototype, and hand off to developers in one platform. | license: MPL-2.0<br>⭐ Star: 50K | Canva, Figma, Miro | [Codex](https://aiflowlearn.net/en/codex/penpot-penpot) | Coming soon |
 | [Tldraw](https://open.aiflowlearn.net/tldraw) - Virtual whiteboard that works instantly on any device, no signup required, with real-time multiplayer... | license: Unknown<br>⭐ Star: 48K | Microsoft Visio, Miro, LucidChart | Coming soon | Coming soon |
 | [Graphite](https://open.aiflowlearn.net/graphite) - A free, open source vector graphics editor built around nondestructive, node-based design. | license: Apache-2.0<br>⭐ Star: 26K | Canva, Photoshop, Figma | Coming soon | Coming soon |
 | [Ray.so](https://open.aiflowlearn.net/ray-so) - Turn your code into beautiful images. | license: MIT<br>⭐ Star: 2.3K | - | Coming soon | Coming soon |
@@ -1571,8 +1647,8 @@ These projects already have OpenAlternativeLearn detail pages and Codex architec
 | [Screenity](https://open.aiflowlearn.net/screenity) - Capture, annotate, and edit screen recordings with no limits or sign-up required. | license: GPL-3.0<br>⭐ Star: 18K | Screen Studio, Loom, CleanShot | Coming soon | Coming soon |
 | [Helium](https://open.aiflowlearn.net/helium) - Open-source Chromium-based browser offering best-in-class privacy protection, unbiased ad-blocking, split... | license: GPL-3.0<br>⭐ Star: 17K | Firefox, Comet Browser, Google Chrome | Coming soon | Coming soon |
 | [LanguageTool](https://open.aiflowlearn.net/languagetool) - Check grammar, punctuation, and spelling errors instantly with AI-powered technology. | license: LGPL-2.1<br>⭐ Star: 15K | - | Coming soon | Coming soon |
-| [Harper](https://open.aiflowlearn.net/harper) - Open source grammar checker that analyzes your writing quickly while keeping your data completely private... | license: Apache-2.0<br>⭐ Star: 11K | - | Coming soon | Coming soon |
-| [Requestly](https://open.aiflowlearn.net/requestly) - A powerful browser extension and desktop app for developers to manipulate network requests, debug APIs,... | license: Unknown<br>⭐ Star: 6.7K | Postman, Testfully | Coming soon | Coming soon |
+| [Harper](https://open.aiflowlearn.net/harper) - Open source grammar checker that analyzes your writing quickly while keeping your data completely private... | license: Apache-2.0<br>⭐ Star: 11K | - | [Codex](https://aiflowlearn.net/en/codex/automattic-harper) | Coming soon |
+| [Requestly](https://open.aiflowlearn.net/requestly) - A powerful browser extension and desktop app for developers to manipulate network requests, debug APIs,... | license: Unknown<br>⭐ Star: 6.7K | Postman, Testfully | [Codex](https://aiflowlearn.net/en/codex/requestly-requestly) | Coming soon |
 | [Zen](https://open.aiflowlearn.net/zen-privacy) - Free, open-source desktop app that blocks ads, trackers, and surveillance scripts across all browsers and... | license: MIT<br>⭐ Star: 4K | AdGuard, NextDNS | Coming soon | Coming soon |
 | [Deta Surf](https://open.aiflowlearn.net/deta-surf) - A browser that doubles as a personal notebook, letting you research, summarize, and take notes on web... | license: Apache-2.0<br>⭐ Star: 3.4K | NotebookLM, Comet Browser, Roam Research | Coming soon | Coming soon |
 | [Linguist](https://open.aiflowlearn.net/linguist) - Full-featured browser extension for translating web pages, text, and subtitles with offline mode, personal... | license: BSD-3-Clause<br>⭐ Star: 1K | - | Coming soon | Coming soon |
@@ -1598,6 +1674,12 @@ These projects already have OpenAlternativeLearn detail pages and Codex architec
 | --- | --- | --- | --- | --- |
 | [IronCalc](https://open.aiflowlearn.net/ironcalc) - IronCalc is an open-source, Rust-powered spreadsheet engine with .xlsx support, 300+ functions, and... | license: Apache-2.0<br>⭐ Star: 4K | Microsoft Excel, Google Sheets | Coming soon | Coming soon |
 
+### Workflow Automation
+
+| Project | Github Info | Alternative To | Codex | Classroom |
+| --- | --- | --- | --- | --- |
+| [n8n](https://open.aiflowlearn.net/n8n) - Build automated workflows connecting 500+ apps, write custom code, and deploy AI agents with full... | license: Unknown<br>⭐ Star: 192K | Zapier, Make, Workato | [Codex](https://aiflowlearn.net/en/codex/n8n) | Coming soon |
+
 
 ## Security & Privacy
 
@@ -1613,8 +1695,8 @@ These projects already have OpenAlternativeLearn detail pages and Codex architec
 | [SuperTokens](https://open.aiflowlearn.net/supertokens) - Open-source authentication solution offering flexible, self-hosted user management with advanced features... | license: Unknown<br>⭐ Star: 15K | Clerk, WorkOS, Auth0 | Coming soon | Coming soon |
 | [Ory](https://open.aiflowlearn.net/ory) - Ory is a certified and battle-tested identity solution backed by a large open source community and trusted... | license: Apache-2.0<br>⭐ Star: 14K | Clerk, Firebase, WorkOS | Coming soon | Coming soon |
 | [Zitadel](https://open.aiflowlearn.net/zitadel) - ZITADEL provides a comprehensive identity management solution with easy APIs, customizable workflows, and... | license: AGPL-3.0<br>⭐ Star: 14K | Supabase, Clerk, Firebase | Coming soon | Coming soon |
-| [Logto](https://open.aiflowlearn.net/logto) - An open-source identity solution offering customizable login experiences, multi-tenant support, and... | license: MPL-2.0<br>⭐ Star: 12K | Clerk, Auth0, Okta | Coming soon | Coming soon |
-| [Hanko](https://open.aiflowlearn.net/hanko) - Open source authentication platform supporting passkeys, 2FA, SSO, and social login. | license: Unknown<br>⭐ Star: 8.9K | Clerk, WorkOS, Auth0 | Coming soon | Coming soon |
+| [Logto](https://open.aiflowlearn.net/logto) - An open-source identity solution offering customizable login experiences, multi-tenant support, and... | license: MPL-2.0<br>⭐ Star: 12K | Clerk, Auth0, Okta | [Codex](https://aiflowlearn.net/en/codex/logto-io-logto) | Coming soon |
+| [Hanko](https://open.aiflowlearn.net/hanko) - Open source authentication platform supporting passkeys, 2FA, SSO, and social login. | license: Unknown<br>⭐ Star: 8.9K | Clerk, WorkOS, Auth0 | [Codex](https://aiflowlearn.net/en/codex/teamhanko-hanko) | Coming soon |
 | [Stack Auth](https://open.aiflowlearn.net/stack-auth) - Stack Auth provides secure authentication, authorization, and user management for developers in just 5... | license: Unknown<br>⭐ Star: 6.8K | Clerk, WorkOS, Auth0 | Coming soon | Coming soon |
 | [Permify](https://open.aiflowlearn.net/permify) - Open-source authorization service for implementing fine-grained access controls. | license: AGPL-3.0<br>⭐ Star: 5.9K | WorkOS, Auth0, Okta | Coming soon | Coming soon |
 | [Cerbos](https://open.aiflowlearn.net/cerbos) - A scalable authorization layer that provides fine-grained access control through externalized policies,... | license: Apache-2.0<br>⭐ Star: 4.5K | WorkOS, Auth0, Okta | Coming soon | Coming soon |
@@ -1640,13 +1722,13 @@ These projects already have OpenAlternativeLearn detail pages and Codex architec
 
 | Project | Github Info | Alternative To | Codex | Classroom |
 | --- | --- | --- | --- | --- |
-| [Sentry](https://open.aiflowlearn.net/sentry) - Detect, diagnose, and resolve software issues quickly with powerful error tracking, performance... | license: Unknown<br>⭐ Star: 44K | DataDog, BetterStack, Bugsnag | Coming soon | Coming soon |
-| [ProjectDiscovery](https://open.aiflowlearn.net/projectdiscovery) - Monitor infrastructure for exploitable vulnerabilities with real-time detection, automated workflows, and... | license: MIT<br>⭐ Star: 29K | DataDog, Splunk, New Relic | Coming soon | Coming soon |
-| [HyperDX](https://open.aiflowlearn.net/hyperdx) - Open source observability platform unifying session replays, logs, traces, metrics and errors. | license: MIT<br>⭐ Star: 9.6K | DataDog, Splunk, BetterStack | Coming soon | Coming soon |
-| [Highlight](https://open.aiflowlearn.net/highlight) - Comprehensive monitoring solution offering error tracking, session replay, and performance insights for... | license: Unknown<br>⭐ Star: 9.3K | DataDog, BetterStack, Bugsnag | Coming soon | Coming soon |
+| [Sentry](https://open.aiflowlearn.net/sentry) - Detect, diagnose, and resolve software issues quickly with powerful error tracking, performance... | license: Unknown<br>⭐ Star: 44K | Datadog, BetterStack, Bugsnag | Coming soon | Coming soon |
+| [ProjectDiscovery](https://open.aiflowlearn.net/projectdiscovery) - Monitor infrastructure for exploitable vulnerabilities with real-time detection, automated workflows, and... | license: MIT<br>⭐ Star: 29K | Datadog, Splunk, New Relic | Coming soon | Coming soon |
+| [HyperDX](https://open.aiflowlearn.net/hyperdx) - Open source observability platform unifying session replays, logs, traces, metrics and errors. | license: MIT<br>⭐ Star: 9.6K | Datadog, Splunk, BetterStack | [Codex](https://aiflowlearn.net/en/codex/hyperdxio-hyperdx) | Coming soon |
+| [Highlight](https://open.aiflowlearn.net/highlight) - Comprehensive monitoring solution offering error tracking, session replay, and performance insights for... | license: Unknown<br>⭐ Star: 9.3K | Datadog, BetterStack, Bugsnag | [Codex](https://aiflowlearn.net/en/codex/highlight-highlight) | Coming soon |
 | [Tracecat](https://open.aiflowlearn.net/tracecat) - Tracecat is a scalable, self-hostable platform for automating security workflows and playbooks without limits. | license: AGPL-3.0<br>⭐ Star: 3.7K | Jira, Splunk | Coming soon | Coming soon |
 | [Opengrep](https://open.aiflowlearn.net/opengrep) - Opengrep is a community-driven fork of SemgrepCE, providing accessible static code analysis and security... | license: LGPL-2.1<br>⭐ Star: 2.7K | - | Coming soon | Coming soon |
-| [Bugsink](https://open.aiflowlearn.net/bugsink) - Bugsink offers real-time error tracking with self-hosting capabilities, allowing easy installation and... | license: Unknown<br>⭐ Star: 1.9K | DataDog, Bugsnag, New Relic | Coming soon | Coming soon |
+| [Bugsink](https://open.aiflowlearn.net/bugsink) - Bugsink offers real-time error tracking with self-hosting capabilities, allowing easy installation and... | license: Unknown<br>⭐ Star: 1.9K | Datadog, Bugsnag, New Relic | Coming soon | Coming soon |
 | [Tirreno](https://open.aiflowlearn.net/tirreno) - Open-source security framework for threat detection, fraud prevention, and abuse monitoring. | license: AGPL-3.0<br>⭐ Star: 1.4K | - | Coming soon | Coming soon |
 | [Temps](https://open.aiflowlearn.net/temps) - Self-hosted platform for small dev teams combining deployments, error tracking, analytics, session replay,... | license: Apache-2.0<br>⭐ Star: 476 | Vercel, Netlify, Heroku | Coming soon | Coming soon |
 
@@ -1657,7 +1739,7 @@ These projects already have OpenAlternativeLearn detail pages and Codex architec
 | [Tailscale](https://open.aiflowlearn.net/tailscale) - Deploy a modern WireGuard-based VPN with zero configuration. | license: BSD-3-Clause<br>⭐ Star: 33K | Zerotier, Cloudflare Tunnel, Twingate | Coming soon | Coming soon |
 | [Netbird](https://open.aiflowlearn.net/netbird) - Open source platform combining WireGuard overlay networks with Zero Trust access controls. | license: Unknown<br>⭐ Star: 26K | Zerotier, Cloudflare Tunnel, Twingate | Coming soon | Coming soon |
 | [Pangolin](https://open.aiflowlearn.net/pangolin) - Deploy zero trust access to infrastructure, self-hosted apps, and SaaS tools in days. | license: Unknown<br>⭐ Star: 21K | Zerotier, Cloudflare Tunnel, Twingate | Coming soon | Coming soon |
-| [FireZone](https://open.aiflowlearn.net/firezone) - Replace your VPN with zero-trust access built on WireGuard. | license: Apache-2.0<br>⭐ Star: 8.7K | Zerotier, Teleport, Twingate | Coming soon | Coming soon |
+| [FireZone](https://open.aiflowlearn.net/firezone) - Replace your VPN with zero-trust access built on WireGuard. | license: Apache-2.0<br>⭐ Star: 8.7K | Zerotier, Teleport, Twingate | [Codex](https://aiflowlearn.net/en/codex/firezone-firezone) | Coming soon |
 | [Defguard](https://open.aiflowlearn.net/defguard) - Enterprise-grade open source VPN solution combining WireGuard with mandatory 2FA/MFA and integrated OpenID... | license: Unknown<br>⭐ Star: 2.7K | NordVPN, Zerotier, Okta | Coming soon | Coming soon |
 | [Werbot](https://open.aiflowlearn.net/werbot) - Centralized platform for managing SSH access, enhancing security, and streamlining server administration... | license: Unknown<br>⭐ Star: 169 | - | Coming soon | Coming soon |
 
@@ -1666,13 +1748,13 @@ These projects already have OpenAlternativeLearn detail pages and Codex architec
 | Project | Github Info | Alternative To | Codex | Classroom |
 | --- | --- | --- | --- | --- |
 | [Puter](https://open.aiflowlearn.net/puter) - Puter is a cloud-based desktop OS you run in the browser, with built-in apps, file storage, and support... | license: AGPL-3.0<br>⭐ Star: 42K | Google Drive, Microsoft OneDrive, Dropbox | Coming soon | Coming soon |
-| [Mattermost](https://open.aiflowlearn.net/mattermost) - Mattermost provides a flexible, open-source platform for secure team collaboration, designed for... | license: Unknown<br>⭐ Star: 38K | Microsoft Teams, Slack, Guilded | Coming soon | Coming soon |
+| [Mattermost](https://open.aiflowlearn.net/mattermost) - Mattermost provides a flexible, open-source platform for secure team collaboration, designed for... | license: Unknown<br>⭐ Star: 38K | Microsoft Teams, Slack, Guilded | [Codex](https://aiflowlearn.net/en/codex/mattermost-mattermost) | Coming soon |
 | [Signal](https://open.aiflowlearn.net/signal) - Secure messaging app with state-of-the-art encryption, voice/video calls, group chats, and file sharing. | license: AGPL-3.0<br>⭐ Star: 29K | WhatsApp, Telegram, Session | Coming soon | Coming soon |
 | [Ente](https://open.aiflowlearn.net/ente) - End-to-end encrypted cloud storage for photos and videos, offering privacy, security, and seamless... | license: AGPL-3.0<br>⭐ Star: 27K | Google Drive, Microsoft OneDrive, Dropbox | Coming soon | Coming soon |
 | [Bitwarden](https://open.aiflowlearn.net/bitwarden-clients) - Bitwarden client apps (web, browser extension, desktop, and cli). | license: NOASSERTION<br>⭐ Star: 13K | 1Password, Lastpass | Coming soon | Coming soon |
 | [Element](https://open.aiflowlearn.net/element) - Open-source platform for encrypted communication, file sharing, and collaboration based on the Matrix... | license: AGPL-3.0<br>⭐ Star: 13K | Discord, Microsoft Teams, Slack | Coming soon | Coming soon |
-| [Fluxer](https://open.aiflowlearn.net/fluxer) - Free, open-source instant messaging and VoIP platform with full Markdown support, voice/video calls,... | license: AGPL-3.0<br>⭐ Star: 9K | Discord, Slack, Guilded | Coming soon | Coming soon |
-| [Tuta](https://open.aiflowlearn.net/tuta) - Tuta offers encrypted email, calendar and contacts with quantum-resistant security, protecting your... | license: GPL-3.0<br>⭐ Star: 7.7K | Microsoft 365, Gmail, Google Workspace | Coming soon | Coming soon |
+| [Fluxer](https://open.aiflowlearn.net/fluxer) - Free, open-source instant messaging and VoIP platform with full Markdown support, voice/video calls,... | license: AGPL-3.0<br>⭐ Star: 9K | Discord, Slack, Guilded | [Codex](https://aiflowlearn.net/en/codex/fluxerapp-fluxer) | Coming soon |
+| [Tuta](https://open.aiflowlearn.net/tuta) - Tuta offers encrypted email, calendar and contacts with quantum-resistant security, protecting your... | license: GPL-3.0<br>⭐ Star: 7.7K | Microsoft 365, Gmail, Google Workspace | [Codex](https://aiflowlearn.net/en/codex/tutao-tutanota) | Coming soon |
 | [Zen](https://open.aiflowlearn.net/zen-privacy) - Free, open-source desktop app that blocks ads, trackers, and surveillance scripts across all browsers and... | license: MIT<br>⭐ Star: 4K | AdGuard, NextDNS | Coming soon | Coming soon |
 | [Cinny](https://open.aiflowlearn.net/cinny) - Cinny offers a simple, elegant, and secure interface for Matrix-based conversations, protected by... | license: AGPL-3.0<br>⭐ Star: 3.7K | Discord, Microsoft Teams, Slack | Coming soon | Coming soon |
 | [Stoat](https://open.aiflowlearn.net/stoat) - Self-hostable group chat with servers, channels, voice, and moderation tools. | license: Unknown<br>⭐ Star: 3.1K | Discord, Slack, Telegram | Coming soon | Coming soon |
@@ -1687,8 +1769,8 @@ These projects already have OpenAlternativeLearn detail pages and Codex architec
 | --- | --- | --- | --- | --- |
 | [Infisical](https://open.aiflowlearn.net/infisical) - End-to-end encrypted secret management platform for seamless integration and enhanced security in... | license: Unknown<br>⭐ Star: 27K | Doppler, Keeper | Coming soon | Coming soon |
 | [Unleash](https://open.aiflowlearn.net/unleash) - A powerful feature management platform enabling gradual rollouts, A/B testing, and seamless integration... | license: AGPL-3.0<br>⭐ Star: 14K | LaunchDarkly, Hypertune, Statsig | Coming soon | Coming soon |
-| [GrowthBook](https://open.aiflowlearn.net/growthbook) - Powerful, developer-friendly experimentation tool for data-driven product decisions. | license: Unknown<br>⭐ Star: 7.9K | LaunchDarkly, Hypertune, Statsig | Coming soon | Coming soon |
-| [Cap](https://open.aiflowlearn.net/capjs) - Lightweight open-source CAPTCHA solution using SHA-256 proof-of-work. | license: Unknown<br>⭐ Star: 6.8K | hCaptcha, reCAPTCHA, Cloudflare Turnstile | Coming soon | Coming soon |
+| [GrowthBook](https://open.aiflowlearn.net/growthbook) - Powerful, developer-friendly experimentation tool for data-driven product decisions. | license: Unknown<br>⭐ Star: 7.9K | LaunchDarkly, Hypertune, Statsig | [Codex](https://aiflowlearn.net/en/codex/growthbook-growthbook) | Coming soon |
+| [Cap](https://open.aiflowlearn.net/capjs) - Lightweight open-source CAPTCHA solution using SHA-256 proof-of-work. | license: Unknown<br>⭐ Star: 6.8K | hCaptcha, reCAPTCHA, Cloudflare Turnstile | [Codex](https://aiflowlearn.net/en/codex/tiagozip-cap) | Coming soon |
 | [Flagsmith](https://open.aiflowlearn.net/flagsmith) - Powerful feature management platform for seamless software releases, A/B testing, and personalized user... | license: BSD-3-Clause<br>⭐ Star: 6.4K | LaunchDarkly, Hypertune, Statsig | Coming soon | Coming soon |
 | [BleachBit](https://open.aiflowlearn.net/bleachbit) - BleachBit frees disk space & protects privacy by deleting cache, cookies, history & temp files from... | license: GPL-3.0<br>⭐ Star: 5.9K | CCleaner, MacKeeper | Coming soon | Coming soon |
 | [Flipt](https://open.aiflowlearn.net/flipt) - A feature flag platform that integrates with Git workflows, enabling developers to manage features... | license: GPL-3.0<br>⭐ Star: 4.8K | LaunchDarkly, Bucket, Tggl | Coming soon | Coming soon |
@@ -1721,7 +1803,7 @@ These entries are included in the directory table above and default to coming-so
 | Project | Github Info | Alternative To | Codex | Classroom |
 | --- | --- | --- | --- | --- |
 | [Hugo](https://open.aiflowlearn.net/hugo) - The world’s fastest framework for building websites. | license: Apache-2.0<br>⭐ Star: 89K | Webflow, Wix | Coming soon | Coming soon |
-| [Prometheus](https://open.aiflowlearn.net/prometheus) - The Prometheus monitoring system and time series database. | license: Apache-2.0<br>⭐ Star: 65K | Influxdb, DataDog | Coming soon | Coming soon |
+| [Prometheus](https://open.aiflowlearn.net/prometheus) - The Prometheus monitoring system and time series database. | license: Apache-2.0<br>⭐ Star: 65K | Influxdb, Datadog | Coming soon | Coming soon |
 | [Astro](https://open.aiflowlearn.net/astro) - The web framework for content-driven websites. | license: NOASSERTION<br>⭐ Star: 60K | Webflow, Wix | Coming soon | Coming soon |
 | [Jekyll](https://open.aiflowlearn.net/jekyll) - :globe_with_meridians: Jekyll is a blog-aware static site generator in Ruby | license: MIT<br>⭐ Star: 51K | Webflow, Wix | Coming soon | Coming soon |
 | [Remotion](https://open.aiflowlearn.net/remotion) - 🎥 Make videos programmatically with React | license: NOASSERTION<br>⭐ Star: 50K | Canva | Coming soon | Coming soon |
@@ -1731,12 +1813,12 @@ These entries are included in the directory table above and default to coming-so
 | [Dub](https://open.aiflowlearn.net/dub) - The modern link attribution platform. | license: NOASSERTION<br>⭐ Star: 24K | Bitly | Coming soon | Coming soon |
 | [11ty](https://open.aiflowlearn.net/eleventy) - A simpler site generator. | license: MIT<br>⭐ Star: 20K | Webflow, Wix | Coming soon | Coming soon |
 | [Zola](https://open.aiflowlearn.net/zola) - A fast static site generator in a single binary with everything built-in. | license: EUPL-1.2<br>⭐ Star: 17K | Webflow, Wix | Coming soon | Coming soon |
-| [QuestDB](https://open.aiflowlearn.net/questdb) - QuestDB is a high performance, open-source, time-series database | license: Apache-2.0<br>⭐ Star: 17K | Influxdb, DataDog | Coming soon | Coming soon |
+| [QuestDB](https://open.aiflowlearn.net/questdb) - QuestDB is a high performance, open-source, time-series database | license: Apache-2.0<br>⭐ Star: 17K | Influxdb, Datadog | Coming soon | Coming soon |
 | [Apprise](https://open.aiflowlearn.net/apprise) - Apprise - Push Notifications that work with just about every platform! | license: BSD-2-Clause<br>⭐ Star: 17K | Pusher, Twilio | Coming soon | Coming soon |
 | [Luckysheet](https://open.aiflowlearn.net/luckysheet) - Luckysheet upgraded to Univer | license: MIT<br>⭐ Star: 17K | Google Sheets, Airtable | Coming soon | Coming soon |
 | [Gotify](https://open.aiflowlearn.net/gotify) - A simple server for sending and receiving messages in real-time per WebSocket. | license: NOASSERTION<br>⭐ Star: 15K | Pusher, Twilio | Coming soon | Coming soon |
 | [CapRover](https://open.aiflowlearn.net/caprover) - Scalable PaaS (automated Docker+nginx) - aka Heroku on Steroids | license: NOASSERTION<br>⭐ Star: 15K | Heroku, Vercel | Coming soon | Coming soon |
-| [FauxPilot](https://open.aiflowlearn.net/fauxpilot) - FauxPilot - an open-source alternative to GitHub Copilot server | license: MIT<br>⭐ Star: 15K | Github Copilot, Cursor | Coming soon | Coming soon |
+| [FauxPilot](https://open.aiflowlearn.net/fauxpilot) - FauxPilot - an open-source alternative to GitHub Copilot server | license: MIT<br>⭐ Star: 15K | GitHub Copilot, Cursor | Coming soon | Coming soon |
 | [Element](https://open.aiflowlearn.net/element-web) - A glossy Matrix collaboration client for the web. | license: AGPL-3.0<br>⭐ Star: 13K | Slack, Discord | Coming soon | Coming soon |
 | [Bitwarden](https://open.aiflowlearn.net/bitwarden-clients) - Bitwarden client apps (web, browser extension, desktop, and cli). | license: NOASSERTION<br>⭐ Star: 13K | 1Password, Lastpass | Coming soon | Coming soon |
 | [ILLA](https://open.aiflowlearn.net/illa) - Low-code platform allows you to build business apps, enables you to quickly create internal tools such as... | license: Apache-2.0<br>⭐ Star: 12K | Retool, Appsmith | Coming soon | Coming soon |
@@ -1745,13 +1827,13 @@ These entries are included in the directory table above and default to coming-so
 | [ChatRWKV](https://open.aiflowlearn.net/chatrwkv) - ChatRWKV is like ChatGPT but powered by RWKV (100% RNN) language model, and open source. | license: Apache-2.0<br>⭐ Star: 9.5K | ChatGPT, Claude | Coming soon | Coming soon |
 | [PrestaShop](https://open.aiflowlearn.net/prestashop) - PrestaShop is the universal open-source software platform to build your e-commerce solution. | license: NOASSERTION<br>⭐ Star: 9.1K | Shopify, Bigcommerce | Coming soon | Coming soon |
 | [Sylius](https://open.aiflowlearn.net/sylius) - Headless open-source eCommerce platform on top of PHP/Symfony/API Platform | license: MIT<br>⭐ Star: 8.5K | Shopify, Bigcommerce | Coming soon | Coming soon |
-| [Graylog](https://open.aiflowlearn.net/graylog) - Free and open log management | license: NOASSERTION<br>⭐ Star: 8.1K | DataDog, Splunk | Coming soon | Coming soon |
+| [Graylog](https://open.aiflowlearn.net/graylog) - Free and open log management | license: NOASSERTION<br>⭐ Star: 8.1K | Datadog, Splunk | Coming soon | Coming soon |
 | [HumHub](https://open.aiflowlearn.net/humhub) - HumHub is an Open Source Enterprise Social Network. | license: NOASSERTION<br>⭐ Star: 6.7K | X, Facebook | Coming soon | Coming soon |
 | [Spacebar](https://open.aiflowlearn.net/spacebar) - 📬 Spacebar is a free open source selfhostable discord compatible communication platform | license: AGPL-3.0<br>⭐ Star: 6.7K | Slack, Discord | Coming soon | Coming soon |
 | [Openblocks](https://open.aiflowlearn.net/openblocks) - 🔥 🔥 🔥 The Open Source Retool Alternative | license: AGPL-3.0<br>⭐ Star: 6.2K | Retool, Appsmith | Coming soon | Coming soon |
 | [JanusGraph](https://open.aiflowlearn.net/janusgraph) - JanusGraph: an open-source, distributed graph database | license: NOASSERTION<br>⭐ Star: 5.8K | Neo4j | Coming soon | Coming soon |
 | [WriteFreely](https://open.aiflowlearn.net/writefreely) - A clean, Markdown-based publishing platform made for writers. | license: AGPL-3.0<br>⭐ Star: 5.2K | Medium, WordPress | Coming soon | Coming soon |
-| [OpenTSDB](https://open.aiflowlearn.net/opentsdb) - A scalable, distributed Time Series Database. | license: LGPL-2.1<br>⭐ Star: 5.1K | Influxdb, DataDog | Coming soon | Coming soon |
+| [OpenTSDB](https://open.aiflowlearn.net/opentsdb) - A scalable, distributed Time Series Database. | license: LGPL-2.1<br>⭐ Star: 5.1K | Influxdb, Datadog | Coming soon | Coming soon |
 | [RelatedChat](https://open.aiflowlearn.net/relatedchat) - Messenger | license: Unknown<br>⭐ Star: 4.8K | Slack, Discord | Coming soon | Coming soon |
 | [Kubero](https://open.aiflowlearn.net/kubero) - A free and self-hosted PaaS alternative to Heroku / Netlify / Coolify / Vercel / Dokku / Portainer running... | license: GPL-3.0<br>⭐ Star: 4.3K | Heroku, Vercel | Coming soon | Coming soon |
 | [CozoDB](https://open.aiflowlearn.net/cozodb) - A transactional, relational-graph-vector database that uses Datalog for query. | license: MPL-2.0<br>⭐ Star: 4K | Pinecone, Weaviate | Coming soon | Coming soon |
@@ -1760,8 +1842,8 @@ These entries are included in the directory table above and default to coming-so
 | [Flagr](https://open.aiflowlearn.net/flagr) - Flagr is a feature flagging, A/B testing and dynamic configuration microservice | license: Apache-2.0<br>⭐ Star: 2.6K | LaunchDarkly, Statsig | Coming soon | Coming soon |
 | [DashPress](https://open.aiflowlearn.net/dashpress) - Generate powerful admin apps without writing a single line of code - Run `npx dashpress` to see some magic! | license: AGPL-3.0<br>⭐ Star: 1.9K | Retool, Appsmith | Coming soon | Coming soon |
 | [Litekart](https://open.aiflowlearn.net/litekart) - The open-source storefront for any ecommerce. | license: MIT<br>⭐ Star: 1.8K | Shopify, Bigcommerce | Coming soon | Coming soon |
-| [KairosDB](https://open.aiflowlearn.net/kairosdb) - Fast scalable time series database | license: Apache-2.0<br>⭐ Star: 1.8K | Influxdb, DataDog | Coming soon | Coming soon |
-| [YouCompleteMe](https://open.aiflowlearn.net/youcompleteme) - A code-completion & code-comprehension server | license: GPL-3.0<br>⭐ Star: 1.7K | Github Copilot, Cursor | Coming soon | Coming soon |
+| [KairosDB](https://open.aiflowlearn.net/kairosdb) - Fast scalable time series database | license: Apache-2.0<br>⭐ Star: 1.8K | Influxdb, Datadog | Coming soon | Coming soon |
+| [YouCompleteMe](https://open.aiflowlearn.net/youcompleteme) - A code-completion & code-comprehension server | license: GPL-3.0<br>⭐ Star: 1.7K | GitHub Copilot, Cursor | Coming soon | Coming soon |
 | [Elgg](https://open.aiflowlearn.net/elgg) - A social networking engine in PHP/MySQL | license: NOASSERTION<br>⭐ Star: 1.7K | X, Facebook | Coming soon | Coming soon |
 | [btw](https://open.aiflowlearn.net/btw) - Open source Medium alternative- set up your personal blog in minutes. | license: GPL-3.0<br>⭐ Star: 1.1K | Medium, WordPress | Coming soon | Coming soon |
 | [Revert](https://open.aiflowlearn.net/revert) - Revert makes it incredibly easy to build integrations with any third party API | license: AGPL-3.0<br>⭐ Star: 1K | Merge, Tray IO | Coming soon | Coming soon |
